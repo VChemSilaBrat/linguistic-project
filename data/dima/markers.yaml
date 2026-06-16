@@ -1,0 +1,1652 @@
+version: markers_v0_1
+language: ru
+task: math_span_detection
+
+defaults:
+  lowercase: true
+  replace_yo_with_e: true
+  match_phrases_before_words: true
+  position_scale:
+    min: 0
+    max: 3
+  negative_scale:
+    min: 0
+    max: 3
+
+enums:
+  roles:
+    - VARIABLE
+    - CONSTANT
+    - RELATION
+    - OPERATOR
+    - STRUCTURE
+    - OBJECT
+    - QUANTIFIER
+    - CONNECTIVE
+    - DISCOURSE_START
+    - BOUNDARY
+    - BOUNDARY_AMBIGUOUS
+    - NEGATIVE_CONTEXT
+    - END_CONTEXT
+  match_types:
+    - exact
+    - phrase
+    - lemma
+    - regex
+  confidences:
+    - low
+    - medium
+    - high
+
+entries:
+  - id: discourse_let
+    patterns:
+      - "пусть"
+    role: DISCOURSE_START
+    match_type: phrase
+    position: {start: 3, inside: 0, end: 0}
+    domains: [general_math]
+    confidence: high
+    negative: 0
+    notes: "Часто открывает математическое высказывание, но может быть обычным текстовым 'пусть теперь'."
+
+  - id: discourse_consider
+    patterns:
+      - "рассмотрим"
+      - "рассмотрим функцию"
+      - "рассмотрим множество"
+      - "рассмотрим матрицу"
+    role: DISCOURSE_START
+    match_type: phrase
+    position: {start: 3, inside: 0, end: 0}
+    domains: [general_math]
+    confidence: high
+    negative: 0
+    notes: "Сильный стартовый маркер для лекционной математики."
+
+  - id: discourse_denote
+    patterns:
+      - "обозначим"
+      - "обозначим через"
+      - "будем обозначать"
+    role: DISCOURSE_START
+    match_type: phrase
+    position: {start: 3, inside: 1, end: 0}
+    domains: [general_math]
+    confidence: high
+    negative: 0
+    notes: "Вводит обозначение; после него часто идет переменная или объект."
+
+  - id: discourse_get
+    patterns:
+      - "получаем"
+      - "получим"
+      - "получается"
+    role: DISCOURSE_START
+    match_type: phrase
+    position: {start: 3, inside: 0, end: 1}
+    domains: [general_math]
+    confidence: high
+    negative: 0
+    notes: "Часто вводит итоговую формулу или отношение."
+
+  - id: discourse_prove
+    patterns:
+      - "докажем"
+      - "покажем"
+      - "требуется доказать"
+      - "нужно доказать"
+      - "надо доказать"
+    role: DISCOURSE_START
+    match_type: phrase
+    position: {start: 2, inside: 0, end: 1}
+    domains: [general_math, logic]
+    confidence: medium
+    negative: 0
+    notes: "Открывает доказательное рассуждение; не всегда сразу открывает формулу."
+
+  - id: discourse_proof_context
+    patterns:
+      - "доказательство"
+      - "предположим противное"
+      - "от противного"
+      - "по индукции"
+      - "шаг индукции"
+      - "индукционное предположение"
+      - "по определению"
+      - "по теореме"
+      - "по лемме"
+      - "по условию"
+      - "из условия"
+      - "из определения"
+      - "из теоремы"
+      - "из леммы"
+    role: DISCOURSE_START
+    match_type: phrase
+    position: {start: 2, inside: 1, end: 1}
+    domains: [general_math, logic]
+    confidence: medium
+    negative: 0
+    notes: "Доказательные маркеры из suppl.yaml; часто задают контекст для следующего утверждения или формулы."
+
+  - id: discourse_assume
+    patterns:
+      - "предположим"
+      - "допустим"
+      - "зафиксируем"
+      - "возьмем"
+      - "выберем"
+      - "будем считать"
+    role: DISCOURSE_START
+    match_type: phrase
+    position: {start: 2, inside: 0, end: 0}
+    domains: [general_math]
+    confidence: medium
+    negative: 0
+    notes: "Часто вводит объект или условие, но требует соседних математических маркеров."
+
+  - id: discourse_therefore
+    patterns:
+      - "следовательно"
+      - "значит"
+      - "отсюда"
+      - "откуда"
+      - "таким образом"
+    role: DISCOURSE_START
+    match_type: phrase
+    position: {start: 2, inside: 0, end: 1}
+    domains: [general_math, logic]
+    confidence: medium
+    negative: 0
+    notes: "Может закрывать предыдущий фрагмент и начинать новый вывод."
+
+  - id: discourse_substitute
+    patterns:
+      - "подставим"
+      - "заменим"
+      - "раскроем скобки"
+      - "приведем подобные"
+      - "перенесем"
+      - "сократим"
+      - "упростим"
+      - "домножим"
+      - "поделим"
+      - "умножим"
+      - "прибавим"
+      - "вычтем"
+      - "разложим"
+      - "сгруппируем"
+      - "нормируем"
+      - "ортогонализуем"
+      - "диагонализуем"
+    role: DISCOURSE_START
+    match_type: phrase
+    position: {start: 2, inside: 1, end: 0}
+    domains: [general_math]
+    confidence: medium
+    negative: 0
+    notes: "Операции преобразования выражений; полезны в вычислительных фрагментах."
+
+  - id: discourse_compute_write
+    patterns:
+      - "вычислим"
+      - "найдем"
+      - "запишем"
+      - "перепишем"
+      - "посчитаем"
+      - "выразим"
+      - "проверим"
+      - "можно записать"
+      - "можно переписать"
+      - "можно представить"
+      - "требуется найти"
+      - "нужно найти"
+      - "надо найти"
+    role: DISCOURSE_START
+    match_type: phrase
+    position: {start: 3, inside: 0, end: 0}
+    domains: [general_math]
+    confidence: high
+    negative: 0
+    notes: "Часто стоит прямо перед размеченным math-span в dataset_clean.csv."
+
+  - id: discourse_given_show
+    patterns:
+      - "дано что"
+      - "дано"
+      - "дана"
+      - "дан"
+      - "задано"
+      - "известно что"
+      - "показать что"
+      - "покажем что"
+      - "заметим что"
+      - "следует что"
+      - "имеем"
+      - "имеется"
+      - "будет равно"
+      - "в результате"
+      - "получится"
+    role: DISCOURSE_START
+    match_type: phrase
+    position: {start: 2, inside: 0, end: 1}
+    domains: [general_math, logic]
+    confidence: medium
+    negative: 0
+    notes: "Повторяющиеся вводные конструкции перед формулами и утверждениями в датасете."
+
+  - id: discourse_define_assign
+    patterns:
+      - "введем обозначение"
+      - "введем"
+      - "зададим"
+      - "определим"
+      - "положим"
+    role: DISCOURSE_START
+    match_type: phrase
+    position: {start: 3, inside: 0, end: 0}
+    domains: [general_math]
+    confidence: high
+    negative: 0
+    notes: "Сильные маркеры ввода объекта, обозначения или определения из suppl.yaml."
+
+  - id: boundary_where
+    patterns:
+      - "где"
+    role: BOUNDARY_AMBIGUOUS
+    match_type: exact
+    position: {start: 1, inside: 0, end: 1}
+    domains: [general_math]
+    confidence: medium
+    negative: 0
+    notes: "Может отделять формулу от пояснения или начинать пояснение переменных."
+
+  - id: boundary_that_is
+    patterns:
+      - "то есть"
+      - "иначе говоря"
+    role: BOUNDARY_AMBIGUOUS
+    match_type: phrase
+    position: {start: 1, inside: 0, end: 1}
+    domains: [general_math]
+    confidence: medium
+    negative: 0
+    notes: "Переформулировка: иногда продолжает math-span, иногда возвращает в обычный текст."
+
+  - id: boundary_condition_if
+    patterns:
+      - "если"
+      - "то"
+      - "тогда"
+      - "при условии что"
+      - "в случае если"
+      - "когда"
+    role: BOUNDARY_AMBIGUOUS
+    match_type: phrase
+    position: {start: 1, inside: 0, end: 1}
+    domains: [general_math, logic]
+    confidence: low
+    negative: 0
+    notes: "Сильная зависимость от контекста: может быть обычной речью или частью теоремы/условия."
+
+  - id: boundary_explanation
+    patterns:
+      - "при этом"
+      - "причем"
+      - "здесь"
+      - "в этом случае"
+      - "а именно"
+      - "далее"
+      - "теперь"
+      - "после этого"
+      - "в таком случае"
+      - "для этого"
+      - "с другой стороны"
+      - "с одной стороны"
+    role: BOUNDARY_AMBIGUOUS
+    match_type: phrase
+    position: {start: 1, inside: 0, end: 1}
+    domains: [general_math]
+    confidence: medium
+    negative: 0
+    notes: "Часто вводит поясняющий кусок после формулы или условия."
+
+  - id: end_proof
+    patterns:
+      - "что и требовалось доказать"
+      - "чтд"
+      - "доказано"
+      - "получили ответ"
+      - "это и есть ответ"
+      - "на этом доказательство закончено"
+      - "на этом закончим"
+      - "закончили"
+      - "готово"
+      - "противоречие"
+      - "получили противоречие"
+    role: END_CONTEXT
+    match_type: phrase
+    position: {start: 0, inside: 0, end: 3}
+    domains: [general_math, logic]
+    confidence: high
+    negative: 1
+    notes: "Маркер конца доказательного блока, не формула сам по себе."
+
+  - id: relation_equal
+    patterns:
+      - "равно"
+      - "равен"
+      - "равна"
+      - "равны"
+      - "равняется"
+      - "равняться"
+      - "знак равно"
+      - "тождественно равно"
+    role: RELATION
+    match_type: phrase
+    position: {start: 0, inside: 3, end: 0}
+    domains: [general_math]
+    confidence: high
+    negative: 0
+    notes: "Сильный inside-маркер. Сам по себе редко начинает span."
+
+  - id: relation_not_equal
+    patterns:
+      - "не равно"
+      - "не равен"
+      - "не равна"
+      - "не равны"
+      - "не равняется"
+    role: RELATION
+    match_type: phrase
+    position: {start: 0, inside: 3, end: 0}
+    domains: [general_math]
+    confidence: high
+    negative: 0
+    notes: "Сильное отношение внутри формульного выражения."
+
+  - id: relation_compare
+    patterns:
+      - "больше"
+      - "меньше"
+      - "больше либо равно"
+      - "меньше либо равно"
+      - "больше или равно"
+      - "меньше или равно"
+      - "строго больше"
+      - "строго меньше"
+      - "отличен от"
+      - "отлична от"
+      - "отличные от"
+      - "отличается от"
+    role: RELATION
+    match_type: phrase
+    position: {start: 0, inside: 3, end: 0}
+    domains: [general_math, order_theory]
+    confidence: high
+    negative: 0
+    notes: "Фразы сравнения; многословные варианты должны матчиться раньше одиночных слов."
+
+  - id: relation_membership
+    patterns:
+      - "принадлежит"
+      - "принадлежат"
+      - "не принадлежит"
+      - "не принадлежит множеству"
+      - "лежит в"
+      - "из множества"
+      - "является элементом"
+      - "принадлежит множеству"
+      - "принадлежат множеству"
+    role: RELATION
+    match_type: phrase
+    position: {start: 0, inside: 3, end: 0}
+    domains: [set_theory, general_math]
+    confidence: high
+    negative: 0
+    notes: "Сильный маркер отношения элемента и множества."
+
+  - id: relation_subset
+    patterns:
+      - "подмножество"
+      - "является подмножеством"
+      - "является надмножеством"
+      - "содержится в"
+      - "включается в"
+      - "содержит"
+    role: RELATION
+    match_type: phrase
+    position: {start: 0, inside: 3, end: 0}
+    domains: [set_theory, general_math]
+    confidence: high
+    negative: 0
+    notes: "Отношение между множествами."
+
+  - id: relation_tends_to
+    patterns:
+      - "стремится к"
+      - "стремится"
+      - "стремящемся к"
+      - "стремящейся к"
+      - "при икс стремящемся к"
+      - "при стремлении"
+      - "устремляется к"
+      - "устремляю"
+    role: RELATION
+    match_type: phrase
+    position: {start: 0, inside: 3, end: 0}
+    domains: [calculus, general_math]
+    confidence: high
+    negative: 0
+    notes: "Типичный маркер предела."
+
+  - id: relation_approx
+    patterns:
+      - "приблизительно равно"
+      - "примерно равно"
+      - "асимптотически равно"
+      - "эквивалентно"
+      - "эквивалентен"
+      - "эквивалентна"
+      - "пропорционально"
+    role: RELATION
+    match_type: phrase
+    position: {start: 0, inside: 3, end: 0}
+    domains: [general_math, asymptotic_analysis]
+    confidence: high
+    negative: 0
+    notes: "Отношения приближения и эквивалентности."
+
+  - id: relation_divisibility
+    patterns:
+      - "делится на"
+      - "кратно"
+      - "сравнимо по модулю"
+      - "по модулю"
+      - "конгруэнтно"
+    role: RELATION
+    match_type: phrase
+    position: {start: 0, inside: 3, end: 0}
+    domains: [number_theory, algebra]
+    confidence: high
+    negative: 0
+    notes: "Числовые отношения и сравнения по модулю."
+
+  - id: relation_defined_as
+    patterns:
+      - "по определению равно"
+      - "определяется как"
+      - "задается формулой"
+      - "имеет вид"
+      - "выражается через"
+      - "представляет собой"
+    role: RELATION
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [general_math]
+    confidence: high
+    negative: 0
+    notes: "Часто соединяет объект и формульное определение."
+
+  - id: relation_transform_result
+    patterns:
+      - "совпадает с"
+      - "не совпадает с"
+      - "сводится к"
+      - "распадается в"
+      - "раскладывается в"
+      - "дает нам"
+      - "задает"
+      - "задают"
+      - "вытекает из"
+    role: RELATION
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 1}
+    domains: [general_math]
+    confidence: medium
+    negative: 0
+    notes: "Связки между обычным текстом и формульным выражением, часто вокруг MATH-тегов в датасете."
+
+  - id: relation_geometric_algebraic
+    patterns:
+      - "по отношению к"
+      - "ортогонален"
+      - "ортогональна"
+      - "ортогонально"
+      - "параллелен"
+      - "параллельна"
+      - "коллинеарен"
+    role: RELATION
+    match_type: phrase
+    position: {start: 0, inside: 3, end: 0}
+    domains: [geometry, linear_algebra]
+    confidence: medium
+    negative: 0
+    notes: "Отношения в геометрии и линейной алгебре; часть форм может быть текстовой без соседних объектов."
+
+  - id: connective_logic_strong
+    patterns:
+      - "если и только если"
+      - "тогда и только тогда"
+      - "необходимо и достаточно"
+      - "из этого следует"
+      - "следует из"
+      - "эквивалентно тому что"
+      - "верно что"
+      - "истинно что"
+      - "ложно что"
+    role: CONNECTIVE
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 1}
+    domains: [logic, general_math]
+    confidence: high
+    negative: 0
+    notes: "Логические связки внутри утверждений и доказательств."
+
+  - id: connective_logic_weak
+    patterns:
+      - "и"
+      - "или"
+      - "не"
+      - "либо"
+    role: CONNECTIVE
+    match_type: exact
+    position: {start: 0, inside: 1, end: 0}
+    domains: [logic, general_math]
+    confidence: low
+    negative: 0
+    notes: "Очень частые слова; учитывать только при уже активном математическом контексте."
+
+  - id: operator_arithmetic_add_subtract
+    patterns:
+      - "плюс"
+      - "минус"
+      - "знак плюс"
+      - "знак минус"
+      - "сложить"
+      - "вычесть"
+      - "прибавить"
+      - "отнять"
+    role: OPERATOR
+    match_type: phrase
+    position: {start: 0, inside: 3, end: 0}
+    domains: [general_math, arithmetic]
+    confidence: high
+    negative: 0
+    notes: "Короткие внутренние маркеры арифметического выражения."
+
+  - id: operator_arithmetic_multiply_divide
+    patterns:
+      - "умножить на"
+      - "умноженное на"
+      - "умноженного на"
+      - "произведение"
+      - "произведения"
+      - "произведению"
+      - "делить на"
+      - "деленное на"
+      - "деленного на"
+      - "деленной на"
+      - "поделить на"
+      - "частное"
+    role: OPERATOR
+    match_type: phrase
+    position: {start: 0, inside: 3, end: 0}
+    domains: [general_math, arithmetic]
+    confidence: high
+    negative: 0
+    notes: "Арифметические операции внутри формульной речи."
+
+  - id: operator_min_max
+    patterns:
+      - "минимум"
+      - "максимум"
+      - "инфимум"
+      - "супремум"
+      - "аргумент минимума"
+      - "аргумент максимума"
+    role: OPERATOR
+    match_type: phrase
+    position: {start: 1, inside: 3, end: 0}
+    domains: [analysis, optimization, general_math]
+    confidence: high
+    negative: 0
+    notes: "Операторы экстремума и оптимизации."
+
+  - id: operator_trig
+    patterns:
+      - "синус"
+      - "синуса"
+      - "sin"
+      - "косинус"
+      - "косинуса"
+      - "cos"
+      - "тангенс"
+      - "тангенса"
+      - "котангенс"
+      - "котангенса"
+      - "арксинус"
+      - "арккосинус"
+      - "арктангенс"
+    role: OPERATOR
+    match_type: exact
+    position: {start: 1, inside: 3, end: 0}
+    domains: [calculus, trigonometry]
+    confidence: high
+    negative: 0
+    notes: "Имена функций; часто продолжаются аргументом."
+
+  - id: operator_log_exp
+    patterns:
+      - "логарифм"
+      - "логарифма"
+      - "лагарифм"
+      - "лагарифма"
+      - "логарифм от"
+      - "логарифм по основанию"
+      - "логарифма по основанию"
+      - "натуральный логарифм"
+      - "десятичный логарифм"
+      - "экспонента"
+      - "экспоненты"
+      - "экспонента от"
+      - "экспоненциальная функция"
+      - "сигмоида"
+      - "софтмакс"
+      - "индикатор"
+      - "характеристическая функция"
+    role: OPERATOR
+    match_type: phrase
+    position: {start: 1, inside: 3, end: 0}
+    domains: [calculus, general_math]
+    confidence: high
+    negative: 0
+    notes: "Функции и операторы, обычно внутри выражения."
+
+  - id: operator_integral
+    patterns:
+      - "интеграл"
+      - "интеграла"
+      - "интегралом"
+      - "integral"
+      - "интеграл от"
+      - "двойной интеграл"
+      - "кратный интеграл"
+    role: OPERATOR
+    match_type: phrase
+    position: {start: 1, inside: 3, end: 0}
+    domains: [calculus]
+    confidence: high
+    negative: 0
+    notes: "Оператор может начинать фрагмент, но особенно силен внутри выражения."
+
+  - id: operator_derivative
+    patterns:
+      - "производная"
+      - "производную"
+      - "производной"
+      - "первая производная"
+      - "вторая производная"
+      - "частная производная"
+      - "производная по"
+      - "производная по икс"
+      - "первообразная"
+      - "дифференцируем"
+      - "продифференцируем"
+      - "интегрируем"
+      - "проинтегрируем"
+      - "разложение тейлора"
+      - "ряд тейлора"
+      - "остаточный член"
+      - "асимптотика"
+      - "о малое"
+      - "о большое"
+    role: OPERATOR
+    match_type: phrase
+    position: {start: 1, inside: 3, end: 0}
+    domains: [calculus]
+    confidence: high
+    negative: 0
+    notes: "Оператор или объект вычисления, обычно рядом с переменными и отношениями."
+
+  - id: operator_limit
+    patterns:
+      - "предел"
+      - "предел при"
+      - "предел при икс стремящемся к"
+      - "предел от"
+      - "лимит"
+    role: OPERATOR
+    match_type: phrase
+    position: {start: 1, inside: 3, end: 0}
+    domains: [calculus]
+    confidence: high
+    negative: 0
+    notes: "Сильный математический маркер; 'предел' может быть и обычным словом, но в лекциях часто математический."
+
+  - id: operator_sum
+    patterns:
+      - "сумма"
+      - "сумму"
+      - "суммы"
+      - "сумма по"
+      - "сумма от"
+      - "сумма от i равного одному до n"
+    role: OPERATOR
+    match_type: phrase
+    position: {start: 1, inside: 3, end: 0}
+    domains: [general_math, discrete_math]
+    confidence: high
+    negative: 0
+    notes: "Может быть оператором или обычным существительным; контекст важен."
+
+  - id: operator_product
+    patterns:
+      - "произведение по"
+      - "произведение от"
+      - "большое произведение"
+    role: OPERATOR
+    match_type: phrase
+    position: {start: 1, inside: 3, end: 0}
+    domains: [general_math, discrete_math]
+    confidence: high
+    negative: 0
+    notes: "Оператор произведения по индексу."
+
+  - id: operator_set_operations
+    patterns:
+      - "объединение"
+      - "объединением"
+      - "пересечение"
+      - "пересечения"
+      - "дополнение"
+      - "дополнении"
+      - "разность"
+      - "разности"
+      - "разность множеств"
+      - "собственное подмножество"
+      - "декартово произведение"
+      - "множество всех"
+      - "множество таких что"
+      - "множество всех подмножеств"
+    role: OPERATOR
+    match_type: phrase
+    position: {start: 1, inside: 3, end: 0}
+    domains: [set_theory, general_math]
+    confidence: high
+    negative: 0
+    notes: "Операции над множествами часто встречаются как самостоятельные MATH-span'ы в датасете."
+
+  - id: operator_linear_algebra_products
+    patterns:
+      - "тензорное произведение"
+      - "скалярное произведение"
+      - "векторное произведение"
+      - "композиция"
+      - "транспонированный"
+      - "транспонированная"
+      - "транспонированное"
+      - "транспонирование"
+    role: OPERATOR
+    match_type: phrase
+    position: {start: 1, inside: 3, end: 0}
+    domains: [linear_algebra, general_math]
+    confidence: high
+    negative: 0
+    notes: "Датасет содержит тензорные/скалярные произведения и транспонирование как формульные фрагменты."
+
+  - id: operator_gradient
+    patterns:
+      - "градиент"
+      - "дивергенция"
+      - "ротор"
+      - "лапласиан"
+    role: OPERATOR
+    match_type: exact
+    position: {start: 1, inside: 3, end: 0}
+    domains: [vector_analysis, differential_equations]
+    confidence: high
+    negative: 0
+    notes: "Операторы векторного анализа и дифференциальных уравнений."
+
+  - id: structure_power
+    patterns:
+      - "в степени"
+      - "степени"
+      - "степень"
+      - "квадрат"
+      - "квадрата"
+      - "квадрате"
+      - "в квадрате"
+      - "куб"
+      - "в кубе"
+      - "в четвертой степени"
+      - "четвертой степени"
+      - "в пятой степени"
+      - "пятой степени"
+      - "возведенный в степень"
+      - "возведенная в степень"
+    role: STRUCTURE
+    match_type: phrase
+    position: {start: 0, inside: 3, end: 0}
+    domains: [general_math]
+    confidence: high
+    negative: 0
+    notes: "Структура выражения; почти всегда продолжает уже открытый math-span."
+
+  - id: structure_index
+    patterns:
+      - "нижний индекс"
+      - "верхний индекс"
+      - "с индексом"
+      - "с индексом i"
+      - "индекс"
+      - "икс один"
+      - "икс два"
+      - "эн плюс один"
+      - "от i равного"
+      - "равного одному до"
+      - "и так далее до"
+    role: STRUCTURE
+    match_type: phrase
+    position: {start: 0, inside: 3, end: 0}
+    domains: [general_math]
+    confidence: medium
+    negative: 0
+    notes: "Устные индексы и типичные индексированные переменные."
+
+  - id: structure_prime
+    patterns:
+      - "штрих"
+      - "два штриха"
+      - "двойной штрих"
+      - "прайм"
+      - "с чертой"
+      - "среднее значение"
+      - "с крышкой"
+      - "с волной"
+    role: STRUCTURE
+    match_type: phrase
+    position: {start: 0, inside: 3, end: 0}
+    domains: [general_math]
+    confidence: high
+    negative: 0
+    notes: "Модификаторы обозначений."
+
+  - id: structure_root
+    patterns:
+      - "корень"
+      - "под корнем"
+      - "квадратный корень"
+      - "корень из"
+    role: STRUCTURE
+    match_type: phrase
+    position: {start: 1, inside: 3, end: 0}
+    domains: [general_math]
+    confidence: high
+    negative: 0
+    notes: "Оператор/структура выражения; слово 'корень' омонимично."
+
+  - id: structure_fraction
+    patterns:
+      - "дробь"
+      - "числитель"
+      - "знаменатель"
+      - "над"
+      - "под"
+      - "разделить на"
+      - "деленый на"
+      - "пополам"
+    role: STRUCTURE
+    match_type: phrase
+    position: {start: 1, inside: 3, end: 0}
+    domains: [general_math]
+    confidence: high
+    negative: 0
+    notes: "Формульная структура, особенно полезна для продолжения span'а."
+
+  - id: structure_differential
+    patterns:
+      - "д икс"
+      - "дэ икс"
+      - "dx"
+      - "dt"
+      - "dy"
+      - "по икс"
+      - "по дэ икс"
+      - "по dy"
+      - "дифференциал"
+      - "дифференциал икс"
+      - "дифференциал по икс"
+    role: STRUCTURE
+    match_type: phrase
+    position: {start: 0, inside: 3, end: 1}
+    domains: [calculus]
+    confidence: high
+    negative: 0
+    notes: "Дифференциалы и переменная интегрирования часто закрывают интегральный span."
+
+  - id: structure_function_application
+    patterns:
+      - "(f|g|h|p|q|c|sin|cos|эф|дэ|цэ|аш)\\s+от"
+    role: STRUCTURE
+    match_type: regex
+    position: {start: 0, inside: 3, end: 0}
+    domains: [general_math]
+    confidence: medium
+    negative: 0
+    notes: "Функциональное применение вида 'f от икс' и 'эф от икс', часто встречается в датасете."
+
+  - id: structure_parentheses
+    patterns:
+      - "скобка"
+      - "открывающая скобка"
+      - "закрывающая скобка"
+      - "открываем скобку"
+      - "закрываем скобку"
+      - "в скобках"
+    role: STRUCTURE
+    match_type: phrase
+    position: {start: 0, inside: 3, end: 1}
+    domains: [general_math]
+    confidence: high
+    negative: 0
+    notes: "Устное управление структурой выражения."
+
+  - id: structure_absolute_value
+    patterns:
+      - "модуль"
+      - "модуль от"
+      - "абсолютное значение"
+      - "норма от"
+    role: STRUCTURE
+    match_type: phrase
+    position: {start: 1, inside: 3, end: 0}
+    domains: [general_math, analysis, linear_algebra]
+    confidence: high
+    negative: 0
+    notes: "Структура выражения; 'модуль' и 'норма' омонимичны, но сильны рядом с переменными."
+
+  - id: structure_interval
+    patterns:
+      - "отрезок от"
+      - "интервал от"
+      - "полуинтервал"
+      - "открытый интервал"
+      - "замкнутый интервал"
+      - "на отрезке"
+      - "на интервале"
+      - "на полуинтервале"
+      - "на промежутке"
+      - "от нуля до единицы"
+      - "от минус бесконечности до плюс бесконечности"
+      - "на всей прямой"
+      - "на действительной прямой"
+    role: STRUCTURE
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [analysis, general_math]
+    confidence: high
+    negative: 0
+    notes: "Интервальные конструкции часто содержат границы выражения."
+
+  - id: object_function
+    patterns:
+      - "функция"
+      - "функцию"
+      - "функции"
+      - "функция от"
+    role: OBJECT
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [general_math, calculus]
+    confidence: high
+    negative: 0
+    notes: "Математический объект; часто следует за 'рассмотрим' или 'пусть'."
+
+  - id: object_matrix
+    patterns:
+      - "матрица"
+      - "матрицу"
+      - "матрицы"
+    role: OBJECT
+    match_type: lemma
+    position: {start: 1, inside: 2, end: 0}
+    domains: [linear_algebra]
+    confidence: high
+    negative: 0
+    notes: "Объект линейной алгебры; может начинать описание, но границу не задает."
+
+  - id: object_vector
+    patterns:
+      - "вектор"
+      - "вектора"
+      - "векторное пространство"
+    role: OBJECT
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [linear_algebra, general_math]
+    confidence: high
+    negative: 0
+    notes: "Объект, часто рядом с координатами, нормами и отношениями."
+
+  - id: object_set
+    patterns:
+      - "множество"
+      - "множества"
+      - "пустое множество"
+      - "элементы"
+      - "элементы множества"
+      - "содержащий элементы"
+    role: OBJECT
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [set_theory, general_math]
+    confidence: high
+    negative: 0
+    notes: "Математический объект; полезен вместе с отношениями принадлежности."
+
+  - id: object_equation
+    patterns:
+      - "уравнение"
+      - "неравенство"
+      - "тождество"
+      - "система"
+      - "система уравнений"
+    role: OBJECT
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [general_math]
+    confidence: high
+    negative: 0
+    notes: "Объект, который часто предвещает формульный фрагмент."
+
+  - id: object_polynomial
+    patterns:
+      - "многочлен"
+      - "полином"
+      - "одночлен"
+      - "корень многочлена"
+      - "коэффициент"
+      - "свободный член"
+    role: OBJECT
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [algebra, general_math]
+    confidence: high
+    negative: 0
+    notes: "Алгебраические объекты и части выражений."
+
+  - id: object_sequence_series
+    patterns:
+      - "последовательность"
+      - "ряд"
+      - "числовой ряд"
+      - "функциональный ряд"
+      - "частичная сумма"
+    role: OBJECT
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [analysis, general_math]
+    confidence: high
+    negative: 0
+    notes: "Объекты анализа; 'ряд' омонимичен, учитывать контекст."
+
+  - id: object_mapping
+    patterns:
+      - "отображение"
+      - "инъекция"
+      - "сюръекция"
+      - "биекция"
+      - "изоморфизм"
+      - "гомоморфизм"
+      - "автоморфизм"
+    role: OBJECT
+    match_type: exact
+    position: {start: 1, inside: 2, end: 0}
+    domains: [algebra, set_theory, general_math]
+    confidence: high
+    negative: 0
+    notes: "Объекты и свойства отображений."
+
+  - id: object_linear_algebra_matrix_ops
+    patterns:
+      - "определитель"
+      - "детерминант"
+      - "след матрицы"
+      - "ранг"
+      - "транспонированная матрица"
+      - "обратная матрица"
+      - "обратный элемент"
+      - "обратима"
+      - "невырожденная"
+      - "сингулярная"
+    role: OBJECT
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [linear_algebra]
+    confidence: high
+    negative: 0
+    notes: "Линейная алгебра; часть слов омонимична вне домена."
+
+  - id: object_linear_algebra_spectrum
+    patterns:
+      - "собственное значение"
+      - "собственный вектор"
+      - "собственное пространство"
+      - "характеристический многочлен"
+      - "жорданова клетка"
+    role: OBJECT
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [linear_algebra]
+    confidence: high
+    negative: 0
+    notes: "Спектральная терминология, обычно сильный доменный сигнал."
+
+  - id: object_general_abstract
+    patterns:
+      - "число"
+      - "переменная"
+      - "константа"
+      - "параметр"
+      - "выражение"
+      - "формула"
+      - "элемент"
+      - "класс"
+      - "семейство"
+      - "пространство"
+      - "тензор"
+      - "координата"
+      - "базис"
+      - "размерность"
+    role: OBJECT
+    match_type: exact
+    position: {start: 1, inside: 1, end: 0}
+    domains: [general_math]
+    confidence: medium
+    negative: 0
+    notes: "Общие математические существительные из suppl.yaml; слабее доменных терминов."
+
+  - id: object_algebra_structures
+    patterns:
+      - "группа"
+      - "идеал"
+      - "подгруппа"
+      - "нормальная подгруппа"
+      - "факторгруппа"
+    role: OBJECT
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [algebra]
+    confidence: medium
+    negative: 0
+    notes: "Алгебраические структуры; часть терминов доменно сильна, но не всегда формульна."
+
+  - id: object_discrete_math
+    patterns:
+      - "вершина"
+      - "ребро"
+      - "степень вершины"
+      - "путь"
+      - "цикл"
+      - "дерево"
+      - "связный"
+      - "компонента связности"
+      - "перестановка"
+      - "сочетание"
+      - "размещение"
+      - "биномиальный коэффициент"
+      - "факториал"
+      - "индукция"
+      - "база индукции"
+      - "переход индукции"
+      - "рекурсия"
+      - "рекуррентное соотношение"
+    role: OBJECT
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [discrete_math, graph_theory, combinatorics]
+    confidence: medium
+    negative: 0
+    notes: "Дискретная математика и комбинаторика из suppl.yaml."
+
+  - id: object_number_sets
+    patterns:
+      - "натуральные числа"
+      - "целые числа"
+      - "рациональные числа"
+      - "действительные числа"
+      - "вещественные числа"
+      - "комплексные числа"
+      - "в действительных числах"
+      - "в натуральных числах"
+      - "в целых числах"
+      - "в комплексных числах"
+    role: OBJECT
+    match_type: phrase
+    position: {start: 0, inside: 3, end: 0}
+    domains: [general_math, number_theory]
+    confidence: high
+    negative: 0
+    notes: "Числовые множества и домены определения."
+
+  - id: object_geometry
+    patterns:
+      - "точка"
+      - "прямая"
+      - "плоскость"
+      - "угол"
+      - "отрезок"
+      - "луч"
+      - "треугольник"
+      - "окружность"
+      - "радиус"
+      - "диаметр"
+    role: OBJECT
+    match_type: exact
+    position: {start: 1, inside: 1, end: 0}
+    domains: [geometry]
+    confidence: medium
+    negative: 0
+    notes: "Геометрические объекты; часть слов часто встречается в обычной речи."
+
+  - id: object_topology
+    patterns:
+      - "окрестность"
+      - "открытое множество"
+      - "замкнутое множество"
+      - "компакт"
+      - "связное множество"
+      - "граница множества"
+    role: OBJECT
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [topology, analysis]
+    confidence: medium
+    negative: 0
+    notes: "Топологические термины, полезные в курсах анализа."
+
+  - id: variable_latin_spoken_common
+    patterns:
+      - "икс"
+      - "игрек"
+      - "грек"
+      - "зет"
+      - "эн"
+      - "эм"
+      - "альфа"
+      - "бета"
+      - "гамма"
+      - "лямбда"
+      - "эпсилон"
+      - "эпселен"
+      - "эф"
+      - "дэ"
+      - "аш"
+      - "зэд"
+      - "цэ"
+    role: VARIABLE
+    match_type: exact
+    position: {start: 0, inside: 3, end: 0}
+    domains: [general_math]
+    confidence: high
+    negative: 0
+    notes: "Устные имена переменных; сами по себе обычно середина или часть короткого span'а."
+
+  - id: variable_latin_spoken_extended
+    patterns:
+      - "а"
+      - "бэ"
+      - "вэ"
+      - "тэ"
+      - "ка"
+      - "эль"
+      - "пэ"
+      - "эр"
+      - "эс"
+      - "жэ"
+    role: VARIABLE
+    match_type: exact
+    position: {start: 0, inside: 2, end: 0}
+    domains: [general_math]
+    confidence: low
+    negative: 0
+    notes: "Произнесенные буквы очень неоднозначны; использовать только в сильном математическом контексте."
+
+  - id: variable_greek_spoken_extended
+    patterns:
+      - "дельта"
+      - "дзета"
+      - "эта"
+      - "ита"
+      - "тета"
+      - "сигма"
+      - "омега"
+      - "мю"
+      - "ню"
+      - "кси"
+      - "фи"
+      - "пси"
+      - "ро"
+      - "каппа"
+    role: VARIABLE
+    match_type: exact
+    position: {start: 0, inside: 3, end: 0}
+    domains: [general_math]
+    confidence: high
+    negative: 0
+    notes: "Греческие буквы обычно сильнее латинских односложных букв."
+
+  - id: variable_latin_written
+    patterns:
+      - "[a-zA-Z]"
+      - "[a-zA-Z]_[0-9a-zA-Z]+"
+    role: VARIABLE
+    match_type: regex
+    position: {start: 0, inside: 3, end: 0}
+    domains: [general_math]
+    confidence: medium
+    negative: 0
+    notes: "Для письменных транскриптов с латинскими переменными; требует аккуратного regex-матчинга."
+
+  - id: constant_numbers_common
+    patterns:
+      - "ноль"
+      - "нуль"
+      - "нулю"
+      - "нуля"
+      - "один"
+      - "единица"
+      - "единицы"
+      - "одному"
+      - "два"
+      - "двух"
+      - "три"
+      - "четыре"
+      - "четырех"
+      - "пять"
+      - "шесть"
+      - "семь"
+      - "десять"
+      - "сорок"
+      - "минус один"
+      - "плюс один"
+      - "половина"
+      - "одна вторая"
+      - "треть"
+      - "четверть"
+    role: CONSTANT
+    match_type: phrase
+    position: {start: 0, inside: 2, end: 1}
+    domains: [general_math, arithmetic]
+    confidence: medium
+    negative: 0
+    notes: "Числа часто закрывают выражение, но слишком обычны для самостоятельного старта."
+
+  - id: constant_math_special
+    patterns:
+      - "пи"
+      - "число пи"
+      - "экспонента единица"
+      - "число е"
+      - "бесконечность"
+      - "бесконечности"
+      - "к бесконечности"
+      - "до бесконечности"
+      - "минус бесконечность"
+      - "минус бесконечности"
+      - "плюс бесконечность"
+      - "плюс бесконечности"
+    role: CONSTANT
+    match_type: phrase
+    position: {start: 0, inside: 3, end: 1}
+    domains: [general_math, calculus]
+    confidence: high
+    negative: 0
+    notes: "Специальные константы и бесконечность."
+
+  - id: constant_written_number
+    patterns:
+      - "[+-]?[0-9]+"
+      - "[+-]?[0-9]+[.,][0-9]+"
+    role: CONSTANT
+    match_type: regex
+    position: {start: 0, inside: 2, end: 1}
+    domains: [general_math]
+    confidence: high
+    negative: 0
+    notes: "Цифры в транскрипте; часто часть или конец короткого выражения."
+
+  - id: quantifier_for_any
+    patterns:
+      - "для любого"
+      - "для всякого"
+      - "такой что"
+      - "такая что"
+      - "такие что"
+      - "при любом"
+    role: QUANTIFIER
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [general_math, logic]
+    confidence: high
+    negative: 0
+    notes: "Кванторная конструкция, часто начинается после стартового дискурсивного маркера."
+
+  - id: quantifier_exists
+    patterns:
+      - "существует"
+      - "найдется"
+    role: QUANTIFIER
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [general_math, logic]
+    confidence: high
+    negative: 0
+    notes: "Квантор существования; 'найдется' нормализуется через replace_yo_with_e."
+
+  - id: quantifier_uniqueness
+    patterns:
+      - "существует единственный"
+      - "единственный"
+      - "ровно один"
+      - "не более одного"
+      - "не менее одного"
+    role: QUANTIFIER
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [general_math, logic]
+    confidence: high
+    negative: 0
+    notes: "Кванторы единственности и мощности."
+
+  - id: quantifier_bounds
+    patterns:
+      - "для всех"
+      - "при всех"
+      - "начиная с"
+      - "от нуля до"
+      - "от одного до"
+      - "от и до"
+    role: QUANTIFIER
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [general_math]
+    confidence: medium
+    negative: 0
+    notes: "Диапазоны и области действия; могут быть обычной речью без математического контекста."
+
+  - id: ambiguous_domain_terms
+    patterns:
+      - "ядро"
+      - "поле"
+      - "кольцо"
+      - "образ"
+      - "граф"
+      - "мера"
+      - "норма"
+      - "оператор"
+      - "ку"
+      - "це"
+    role: OBJECT
+    match_type: exact
+    position: {start: 1, inside: 1, end: 0}
+    domains: [general_math, algebra, linear_algebra, probability, graph_theory]
+    confidence: low
+    negative: 0
+    notes: "Омонимичные математические термины; лучше усиливать их доменным контекстом."
+
+  - id: probability_objects
+    patterns:
+      - "вероятность"
+      - "случайная величина"
+      - "математическое ожидание"
+      - "матожидание"
+      - "дисперсия"
+      - "распределение"
+      - "плотность"
+      - "функция распределения"
+      - "условная вероятность"
+      - "условное ожидание"
+      - "независимые"
+      - "независимость"
+      - "сходимость по вероятности"
+      - "почти наверное"
+      - "почти всюду"
+    role: OBJECT
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [probability]
+    confidence: high
+    negative: 0
+    notes: "Доменный блок для вероятности; полезен для усиления контекста лекции."
+
+  - id: probability_relations_events
+    patterns:
+      - "вероятность события"
+      - "независимые события"
+      - "условно независимы"
+      - "почти достоверно"
+      - "с вероятностью один"
+    role: OBJECT
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [probability]
+    confidence: high
+    negative: 0
+    notes: "Вероятностные конструкции, часто рядом с формульными обозначениями P и E."
+
+  - id: probability_statistics
+    patterns:
+      - "ковариация"
+      - "корреляция"
+      - "выборочное среднее"
+      - "выборка"
+      - "оценка"
+      - "несмещенная оценка"
+      - "правдоподобие"
+      - "логарифм правдоподобия"
+      - "информация фишера"
+      - "доверительный интервал"
+      - "гипотеза"
+      - "статистика"
+    role: OBJECT
+    match_type: phrase
+    position: {start: 1, inside: 2, end: 0}
+    domains: [probability, statistics]
+    confidence: medium
+    negative: 0
+    notes: "Статистические объекты; 'оценка' особенно неоднозначна."
+
+  - id: negative_plain_lecture_navigation
+    patterns:
+      - "сейчас посмотрим"
+      - "давайте перейдем"
+      - "вернемся к вопросу"
+      - "это важный момент"
+      - "обратите внимание"
+      - "это важно понимать"
+      - "здесь идея такая"
+      - "интуитивно"
+      - "смысл в том что"
+      - "в реальной жизни"
+      - "на практике"
+      - "исторически"
+      - "как мы уже говорили"
+      - "не будем подробно"
+      - "оставим без доказательства"
+      - "это несложно"
+      - "очевидно"
+      - "понятно"
+      - "тривиально"
+    role: NEGATIVE_CONTEXT
+    match_type: phrase
+    position: {start: 0, inside: 0, end: 0}
+    domains: [non_math]
+    confidence: medium
+    negative: 1
+    notes: "Лекционная навигация: сама по себе не математический span, но может стоять рядом с ним."
+
+  - id: discourse_task_markers
+    patterns:
+      - "пример"
+      - "рассмотрим пример"
+      - "задача"
+      - "решение"
+      - "найти"
+      - "вычислить"
+      - "доказать"
+      - "проверить"
+      - "показать"
+      - "решить уравнение"
+      - "решить систему"
+      - "найти предел"
+      - "найти производную"
+      - "найти интеграл"
+      - "найти вероятность"
+    role: DISCOURSE_START
+    match_type: phrase
+    position: {start: 2, inside: 0, end: 0}
+    domains: [general_math]
+    confidence: medium
+    negative: 0
+    notes: "Маркеры задач и примеров из suppl.yaml; часто предшествуют целевому math-span, но не являются формулой."
+
+  - id: discourse_weak_academic
+    patterns:
+      - "теорема"
+      - "лемма"
+      - "следствие"
+      - "утверждение"
+      - "определение"
+      - "свойство"
+      - "замечание"
+      - "метод"
+      - "алгоритм"
+      - "подход"
+      - "случай"
+      - "частный случай"
+      - "общий случай"
+    role: DISCOURSE_START
+    match_type: phrase
+    position: {start: 1, inside: 0, end: 0}
+    domains: [general_math]
+    confidence: low
+    negative: 0
+    notes: "Слабые академические маркеры: полезны как контекст, но не должны сами открывать сильный span."
+
+  - id: negative_lecture_intro
+    patterns:
+      - "сегодня мы поговорим"
+      - "на прошлой лекции"
+      - "на следующей лекции"
+      - "давайте вспомним"
+      - "перейдем к следующему примеру"
+    role: NEGATIVE_CONTEXT
+    match_type: phrase
+    position: {start: 0, inside: 0, end: 0}
+    domains: [non_math]
+    confidence: medium
+    negative: 2
+    notes: "Обычная лекционная навигация; снижает вероятность math-span без сильных соседних маркеров."

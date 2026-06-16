@@ -1,0 +1,359 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Math_entities|Name|ROLE_webanno.custom.Math_entities:args_webanno.custom.Math_entitiesArgsLink|webanno.custom.MathArgs|math_tag|reference|ROLE_webanno.custom.Math_entities:specifier_webanno.custom.Math_entitiesSpecifierLink|webanno.custom.Math_entities
+
+
+#Text=title: "КВАДРАТНЫЙ КОРЕНЬ 8 класс РЕШЕНИЕ ПРИМЕРОВ"
+#Text=yb_link: "https://youtu.be/WrsXGQmMhLM"
+#Text=branch: "элементарная математика"
+#Text=level: "школьная программа"
+#Text=timecode_start: "0:03"
+#Text=timecode_end: "2:06"
+#Text=text: "Тема урока арифметический квадратный корень.
+1-1	0-5	title	_	_	_	_	_	_	_	
+1-2	5-6	:	_	_	_	_	_	_	_	
+1-3	7-8	"	_	_	_	_	_	_	_	
+1-4	8-18	КВАДРАТНЫЙ	_	_	_	_	_	_	_	
+1-5	19-25	КОРЕНЬ	_	_	_	_	_	_	_	
+1-6	26-27	8	_	_	_	_	_	_	_	
+1-7	28-33	класс	_	_	_	_	_	_	_	
+1-8	34-41	РЕШЕНИЕ	_	_	_	_	_	_	_	
+1-9	42-50	ПРИМЕРОВ	_	_	_	_	_	_	_	
+1-10	50-51	"	_	_	_	_	_	_	_	
+1-11	52-59	yb_link	_	_	_	_	_	_	_	
+1-12	59-60	:	_	_	_	_	_	_	_	
+1-13	61-62	"	_	_	_	_	_	_	_	
+1-14	62-67	https	_	_	_	_	_	_	_	
+1-15	67-68	:	_	_	_	_	_	_	_	
+1-16	68-69	/	_	_	_	_	_	_	_	
+1-17	69-70	/	_	_	_	_	_	_	_	
+1-18	70-78	youtu.be	_	_	_	_	_	_	_	
+1-19	78-79	/	_	_	_	_	_	_	_	
+1-20	79-90	WrsXGQmMhLM	_	_	_	_	_	_	_	
+1-21	90-91	"	_	_	_	_	_	_	_	
+1-22	92-98	branch	_	_	_	_	_	_	_	
+1-23	98-99	:	_	_	_	_	_	_	_	
+1-24	100-101	"	_	_	_	_	_	_	_	
+1-25	101-113	элементарная	_	_	_	_	_	_	_	
+1-26	114-124	математика	_	_	_	_	_	_	_	
+1-27	124-125	"	_	_	_	_	_	_	_	
+1-28	126-131	level	_	_	_	_	_	_	_	
+1-29	131-132	:	_	_	_	_	_	_	_	
+1-30	133-134	"	_	_	_	_	_	_	_	
+1-31	134-142	школьная	_	_	_	_	_	_	_	
+1-32	143-152	программа	_	_	_	_	_	_	_	
+1-33	152-153	"	_	_	_	_	_	_	_	
+1-34	154-168	timecode_start	_	_	_	_	_	_	_	
+1-35	168-169	:	_	_	_	_	_	_	_	
+1-36	170-171	"	_	_	_	_	_	_	_	
+1-37	171-172	0	_	_	_	_	_	_	_	
+1-38	172-173	:	_	_	_	_	_	_	_	
+1-39	173-175	03	_	_	_	_	_	_	_	
+1-40	175-176	"	_	_	_	_	_	_	_	
+1-41	177-189	timecode_end	_	_	_	_	_	_	_	
+1-42	189-190	:	_	_	_	_	_	_	_	
+1-43	191-192	"	_	_	_	_	_	_	_	
+1-44	192-193	2	_	_	_	_	_	_	_	
+1-45	193-194	:	_	_	_	_	_	_	_	
+1-46	194-196	06	_	_	_	_	_	_	_	
+1-47	196-197	"	_	_	_	_	_	_	_	
+1-48	198-202	text	_	_	_	_	_	_	_	
+1-49	202-203	:	_	_	_	_	_	_	_	
+1-50	204-205	"	_	_	_	_	_	_	_	
+1-51	205-209	Тема	_	_	_	_	_	_	_	
+1-52	210-215	урока	_	_	_	_	_	_	_	
+1-53	216-230	арифметический	_	_	_	_	_	_	_	
+1-54	231-241	квадратный	*[1]	_[1]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9271[1]	*[1]	_[1]	*	
+1-55	242-248	корень	*[1]	_[1]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9271[1]	*[1]	_[1]	*	
+1-56	248-249	.	_	_	_	_	_	_	_	
+
+#Text=Пример номер один: найдите значение выражений.
+2-1	250-256	Пример	_	_	_	_	_	_	_	
+2-2	257-262	номер	_	_	_	_	_	_	_	
+2-3	263-267	один	_	_	_	_	_	_	_	
+2-4	267-268	:	_	_	_	_	_	_	_	
+2-5	269-276	найдите	_	_	_	_	_	_	_	
+2-6	277-285	значение	_	_	_	_	_	_	_	
+2-7	286-295	выражений	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51654	*	_	*	
+2-8	295-296	.	_	_	_	_	_	_	_	
+
+#Text=Сорок девять – это семь в квадрате.
+3-1	297-302	Сорок	49[2]	_[2]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[2]	*[2]	_[2]	*	
+3-2	303-309	девять	49[2]	_[2]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[2]	*[2]	_[2]	*	
+3-3	310-311	–	_	_	_	_	_	_	_	
+3-4	312-315	это	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+3-5	316-320	семь	7	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+3-6	321-322	в	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b51	*	_	*	
+3-7	323-331	квадрате	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#08daba7ec97f44f58065397fbcbf525353	*	_	*	
+3-8	331-332	.	_	_	_	_	_	_	_	
+
+#Text=Квадрат и квадратный корень сократятся, и мы получим минус четыре.
+4-1	333-340	Квадрат	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#08daba7ec97f44f58065397fbcbf525353	*	_	*	
+4-2	341-342	и	_	_	_	_	_	_	_	
+4-3	343-353	квадратный	*[3]	_[3]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9271[3]	*[3]	_[3]	*	
+4-4	354-360	корень	*[3]	_[3]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9271[3]	*[3]	_[3]	*	
+4-5	361-371	сократятся	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172725	*	_	*	
+4-6	371-372	,	_	_	_	_	_	_	_	
+4-7	373-374	и	_	_	_	_	_	_	_	
+4-8	375-377	мы	_	_	_	_	_	_	_	
+4-9	378-385	получим	_	_	_	_	_	_	_	
+4-10	386-391	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#95b051b0cac145c2a619143bb347cb2d92	*	_	*	
+4-11	392-398	четыре	4	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+4-12	398-399	.	_	_	_	_	_	_	_	
+
+#Text=Шестьдесят четыре – это восемь в квадрате, также квадрат и квадратный корень сократятся, мы получим четыре.
+5-1	400-410	Шестьдесят	64[4]	_[4]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[4]	*[4]	_[4]	*	
+5-2	411-417	четыре	64[4]	_[4]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[4]	*[4]	_[4]	*	
+5-3	418-419	–	_	_	_	_	_	_	_	
+5-4	420-423	это	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+5-5	424-430	восемь	8	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+5-6	431-432	в	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b51	*	_	*	
+5-7	433-441	квадрате	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#08daba7ec97f44f58065397fbcbf525353	*	_	*	
+5-8	441-442	,	_	_	_	_	_	_	_	
+5-9	443-448	также	_	_	_	_	_	_	_	
+5-10	449-456	квадрат	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#08daba7ec97f44f58065397fbcbf525353	*	_	*	
+5-11	457-458	и	_	_	_	_	_	_	_	
+5-12	459-469	квадратный	*[5]	_[5]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9271[5]	*[5]	_[5]	*	
+5-13	470-476	корень	*[5]	_[5]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9271[5]	*[5]	_[5]	*	
+5-14	477-487	сократятся	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172725	*	_	*	
+5-15	487-488	,	_	_	_	_	_	_	_	
+5-16	489-491	мы	_	_	_	_	_	_	_	
+5-17	492-499	получим	_	_	_	_	_	_	_	
+5-18	500-506	четыре	4	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+5-19	506-507	.	_	_	_	_	_	_	_	
+
+#Text=Сто двадцать один – это одиннадцать в квадрате, и получится пятнадцать.
+6-1	508-511	Сто	121[6]	_[6]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[6]	*[6]	_[6]	*	
+6-2	512-520	двадцать	121[6]	_[6]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[6]	*[6]	_[6]	*	
+6-3	521-525	один	121[6]	_[6]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[6]	*[6]	_[6]	*	
+6-4	526-527	–	_	_	_	_	_	_	_	
+6-5	528-531	это	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+6-6	532-543	одиннадцать	11	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+6-7	544-545	в	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b51	*	_	*	
+6-8	546-554	квадрате	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#08daba7ec97f44f58065397fbcbf525353	*	_	*	
+6-9	554-555	,	_	_	_	_	_	_	_	
+6-10	556-557	и	_	_	_	_	_	_	_	
+6-11	558-567	получится	_	_	_	_	_	_	_	
+6-12	568-578	пятнадцать	15	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+6-13	578-579	.	_	_	_	_	_	_	_	
+
+#Text=Пример номер два: при каких значениях икс выражение имеет смысл.
+7-1	580-586	Пример	_	_	_	_	_	_	_	
+7-2	587-592	номер	_	_	_	_	_	_	_	
+7-3	593-596	два	_	_	_	_	_	_	_	
+7-4	596-597	:	_	_	_	_	_	_	_	
+7-5	598-601	при	_	_	_	_	_	_	_	
+7-6	602-607	каких	_	_	_	_	_	_	_	
+7-7	608-617	значениях	_	_	_	_	_	_	_	
+7-8	618-621	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+7-9	622-631	выражение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51654	*	_	*	
+7-10	632-637	имеет	_	_	_	_	_	_	_	
+7-11	638-643	смысл	_	_	_	_	_	_	_	
+7-12	643-644	.	_	_	_	_	_	_	_	
+
+#Text=У нас подкоренное выражение – это три минус а должно, быть больше либо равно нуля.
+8-1	645-646	У	_	_	_	_	_	_	_	
+8-2	647-650	нас	_	_	_	_	_	_	_	
+8-3	651-662	подкоренное	_	_	_	_	_	_	_	
+8-4	663-672	выражение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51654	*	_	*	
+8-5	673-674	–	_	_	_	_	_	_	_	
+8-6	675-678	это	_	_	_	_	_	_	_	
+8-7	679-682	три	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+8-8	683-688	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	
+8-9	689-690	а	a	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+8-10	691-697	должно	_	_	_	_	_	_	_	
+8-11	697-698	,	_	_	_	_	_	_	_	
+8-12	699-703	быть	_	_	_	_	_	_	_	
+8-13	704-710	больше	*[7]	_[7]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b44[7]	*[7]	_[7]	*	
+8-14	711-715	либо	*[7]	_[7]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b44[7]	*[7]	_[7]	*	
+8-15	716-721	равно	*[7]	_[7]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b44[7]	*[7]	_[7]	*	
+8-16	722-726	нуля	0	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+8-17	726-727	.	_	_	_	_	_	_	_	
+
+#Text=Переносим минус а в правую часть, получим три будет больше либо равняться а, и только при таких значениях а выражение будет иметь смысл, так как подкоренное выражение у нас всегда положительное либо равно нулю.
+9-1	728-737	Переносим	_	_	_	_	_	_	_	
+9-2	738-743	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#95b051b0cac145c2a619143bb347cb2d92	*	_	*	
+9-3	744-745	а	a	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+9-4	746-747	в	_	_	_	_	_	_	_	
+9-5	748-754	правую	_	_	_	_	_	_	_	
+9-6	755-760	часть	_	_	_	_	_	_	_	
+9-7	760-761	,	_	_	_	_	_	_	_	
+9-8	762-769	получим	_	_	_	_	_	_	_	
+9-9	770-773	три	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+9-10	774-779	будет	_	_	_	_	_	_	_	
+9-11	780-786	больше	*[8]	_[8]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b44[8]	*[8]	_[8]	*	
+9-12	787-791	либо	*[8]	_[8]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b44[8]	*[8]	_[8]	*	
+9-13	792-801	равняться	*[8]	_[8]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b44[8]	*[8]	_[8]	*	
+9-14	802-803	а	a	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+9-15	803-804	,	_	_	_	_	_	_	_	
+9-16	805-806	и	_	_	_	_	_	_	_	
+9-17	807-813	только	_	_	_	_	_	_	_	
+9-18	814-817	при	_	_	_	_	_	_	_	
+9-19	818-823	таких	_	_	_	_	_	_	_	
+9-20	824-833	значениях	_	_	_	_	_	_	_	
+9-21	834-835	а	a	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+9-22	836-845	выражение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51654	*	_	*	
+9-23	846-851	будет	_	_	_	_	_	_	_	
+9-24	852-857	иметь	_	_	_	_	_	_	_	
+9-25	858-863	смысл	_	_	_	_	_	_	_	
+9-26	863-864	,	_	_	_	_	_	_	_	
+9-27	865-868	так	_	_	_	_	_	_	_	
+9-28	869-872	как	_	_	_	_	_	_	_	
+9-29	873-884	подкоренное	_	_	_	_	_	_	_	
+9-30	885-894	выражение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51654	*	_	*	
+9-31	895-896	у	_	_	_	_	_	_	_	
+9-32	897-900	нас	_	_	_	_	_	_	_	
+9-33	901-907	всегда	_	_	_	_	_	_	_	
+9-34	908-921	положительное	_	_	_	_	_	_	_	
+9-35	922-926	либо	_	_	_	_	_	_	_	
+9-36	927-932	равно	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+9-37	933-937	нулю	0	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+9-38	937-938	.	_	_	_	_	_	_	_	
+
+#Text=Пример номер три: решите уравнение.
+10-1	939-945	Пример	_	_	_	_	_	_	_	
+10-2	946-951	номер	_	_	_	_	_	_	_	
+10-3	952-955	три	_	_	_	_	_	_	_	
+10-4	955-956	:	_	_	_	_	_	_	_	
+10-5	957-963	решите	_	_	_	_	_	_	_	
+10-6	964-973	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	
+10-7	973-974	.	_	_	_	_	_	_	_	
+
+#Text=Чтобы избавиться от квадратного корня, давайте возведём в квадрат и левую часть уравнения, и правую.
+11-1	975-980	Чтобы	_	_	_	_	_	_	_	
+11-2	981-991	избавиться	_	_	_	_	_	_	_	
+11-3	992-994	от	_	_	_	_	_	_	_	
+11-4	995-1006	квадратного	*[9]	_[9]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9271[9]	*[9]	_[9]	*	
+11-5	1007-1012	корня	*[9]	_[9]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9271[9]	*[9]	_[9]	*	
+11-6	1012-1013	,	_	_	_	_	_	_	_	
+11-7	1014-1021	давайте	_	_	_	_	_	_	_	
+11-8	1022-1030	возведём	*[10]	_[10]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b51[10]	*[10]	_[10]	*	
+11-9	1031-1032	в	*[10]	_[10]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b51[10]	*[10]	_[10]	*	
+11-10	1033-1040	квадрат	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#08daba7ec97f44f58065397fbcbf525353	*	_	*	
+11-11	1041-1042	и	_	_	_	_	_	_	_	
+11-12	1043-1048	левую	_	_	_	_	_	_	_	
+11-13	1049-1054	часть	_	_	_	_	_	_	_	
+11-14	1055-1064	уравнения	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	
+11-15	1064-1065	,	_	_	_	_	_	_	_	
+11-16	1066-1067	и	_	_	_	_	_	_	_	
+11-17	1068-1074	правую	_	_	_	_	_	_	_	
+11-18	1074-1075	.	_	_	_	_	_	_	_	
+
+#Text=В левой части квадратный корень и квадрат сократятся, и икс будет равняться ноль целым четырём сотым.
+12-1	1076-1077	В	_	_	_	_	_	_	_	
+12-2	1078-1083	левой	_	_	_	_	_	_	_	
+12-3	1084-1089	части	_	_	_	_	_	_	_	
+12-4	1090-1100	квадратный	*[11]	_[11]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9271[11]	*[11]	_[11]	*	
+12-5	1101-1107	корень	*[11]	_[11]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9271[11]	*[11]	_[11]	*	
+12-6	1108-1109	и	_	_	_	_	_	_	_	
+12-7	1110-1117	квадрат	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#08daba7ec97f44f58065397fbcbf525353	*	_	*	
+12-8	1118-1128	сократятся	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172725	*	_	*	
+12-9	1128-1129	,	_	_	_	_	_	_	_	
+12-10	1130-1131	и	_	_	_	_	_	_	_	
+12-11	1132-1135	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+12-12	1136-1141	будет	_	_	_	_	_	_	_	
+12-13	1142-1151	равняться	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+12-14	1152-1156	ноль	0,04[12]	_[12]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[12]	*[12]	_[12]	*	
+12-15	1157-1162	целым	0,04[12]	_[12]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[12]	*[12]	_[12]	*	
+12-16	1163-1170	четырём	0,04[12]	_[12]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[12]	*[12]	_[12]	*	
+12-17	1171-1176	сотым	0,04[12]	_[12]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[12]	*[12]	_[12]	*	
+12-18	1176-1177	.	_	_	_	_	_	_	_	
+
+#Text=Пример номер четыре: сравните числа.
+13-1	1178-1184	Пример	_	_	_	_	_	_	_	
+13-2	1185-1190	номер	_	_	_	_	_	_	_	
+13-3	1191-1197	четыре	_	_	_	_	_	_	_	
+13-4	1197-1198	:	_	_	_	_	_	_	_	
+13-5	1199-1207	сравните	_	_	_	_	_	_	_	
+13-6	1208-1213	числа	_	_	_	_	_	_	_	
+13-7	1213-1214	.	_	_	_	_	_	_	_	
+
+#Text=Квадратный корень из нуля целых четырёх сотых – это ноль целых две десятых.
+14-1	1215-1225	Квадратный	*[13]	_[13]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9271[13]	*[13]	_[13]	*	
+14-2	1226-1232	корень	*[13]	_[13]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9271[13]	*[13]	_[13]	*	
+14-3	1233-1235	из	_	_	_	_	_	_	_	
+14-4	1236-1240	нуля	0,04[14]	_[14]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[14]	*[14]	_[14]	*	
+14-5	1241-1246	целых	0,04[14]	_[14]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[14]	*[14]	_[14]	*	
+14-6	1247-1254	четырёх	0,04[14]	_[14]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[14]	*[14]	_[14]	*	
+14-7	1255-1260	сотых	0,04[14]	_[14]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[14]	*[14]	_[14]	*	
+14-8	1261-1262	–	_	_	_	_	_	_	_	
+14-9	1263-1266	это	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+14-10	1267-1271	ноль	0,2[15]	_[15]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[15]	*[15]	_[15]	*	
+14-11	1272-1277	целых	0,2[15]	_[15]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[15]	*[15]	_[15]	*	
+14-12	1278-1281	две	0,2[15]	_[15]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[15]	*[15]	_[15]	*	
+14-13	1282-1289	десятых	0,2[15]	_[15]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[15]	*[15]	_[15]	*	
+14-14	1289-1290	.	_	_	_	_	_	_	_	
+
+#Text=А квадратный корень из нуля целых девяти сотых – это ноль целых три десятых.
+15-1	1291-1292	А	_	_	_	_	_	_	_	
+15-2	1293-1303	квадратный	*[16]	_[16]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9271[16]	*[16]	_[16]	*	
+15-3	1304-1310	корень	*[16]	_[16]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9271[16]	*[16]	_[16]	*	
+15-4	1311-1313	из	_	_	_	_	_	_	_	
+15-5	1314-1318	нуля	0,09[17]	_[17]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[17]	*[17]	_[17]	*	
+15-6	1319-1324	целых	0,09[17]	_[17]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[17]	*[17]	_[17]	*	
+15-7	1325-1331	девяти	0,09[17]	_[17]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[17]	*[17]	_[17]	*	
+15-8	1332-1337	сотых	0,09[17]	_[17]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[17]	*[17]	_[17]	*	
+15-9	1338-1339	–	_	_	_	_	_	_	_	
+15-10	1340-1343	это	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+15-11	1344-1348	ноль	0,3[18]	_[18]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[18]	*[18]	_[18]	*	
+15-12	1349-1354	целых	0,3[18]	_[18]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[18]	*[18]	_[18]	*	
+15-13	1355-1358	три	0,3[18]	_[18]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[18]	*[18]	_[18]	*	
+15-14	1359-1366	десятых	0,3[18]	_[18]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[18]	*[18]	_[18]	*	
+15-15	1366-1367	.	_	_	_	_	_	_	_	
+
+#Text=Ноль целых три десятых будет больше.
+16-1	1368-1372	Ноль	0,3[19]	_[19]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[19]	*[19]	_[19]	*	
+16-2	1373-1378	целых	0,3[19]	_[19]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[19]	*[19]	_[19]	*	
+16-3	1379-1382	три	0,3[19]	_[19]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[19]	*[19]	_[19]	*	
+16-4	1383-1390	десятых	0,3[19]	_[19]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[19]	*[19]	_[19]	*	
+16-5	1391-1396	будет	_	_	_	_	_	_	_	
+16-6	1397-1403	больше	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b42	*	_	*	
+16-7	1403-1404	.	_	_	_	_	_	_	_	
+
+#Text=И, следовательно, квадратный корень из нуля целых девяти сотых также будет больше.
+17-1	1405-1406	И	_	_	_	_	_	_	_	
+17-2	1406-1407	,	_	_	_	_	_	_	_	
+17-3	1408-1421	следовательно	_	_	_	_	_	_	_	
+17-4	1421-1422	,	_	_	_	_	_	_	_	
+17-5	1423-1433	квадратный	*[20]	_[20]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9271[20]	*[20]	_[20]	*	
+17-6	1434-1440	корень	*[20]	_[20]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9271[20]	*[20]	_[20]	*	
+17-7	1441-1443	из	_	_	_	_	_	_	_	
+17-8	1444-1448	нуля	0,09[21]	_[21]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[21]	*[21]	_[21]	*	
+17-9	1449-1454	целых	0,09[21]	_[21]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[21]	*[21]	_[21]	*	
+17-10	1455-1461	девяти	0,09[21]	_[21]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[21]	*[21]	_[21]	*	
+17-11	1462-1467	сотых	0,09[21]	_[21]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[21]	*[21]	_[21]	*	
+17-12	1468-1473	также	_	_	_	_	_	_	_	
+17-13	1474-1479	будет	_	_	_	_	_	_	_	
+17-14	1480-1486	больше	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b42	*	_	*	
+17-15	1486-1487	.	_	_	_	_	_	_	_	
+
+#Text=Как вы видите, мы могли просто сравнить подкоренные выражения – это ноль целых девять десятых и ноль целых четыре десятых, результат получился бы тот же самый."
+18-1	1488-1491	Как	_	_	_	_	_	_	_	
+18-2	1492-1494	вы	_	_	_	_	_	_	_	
+18-3	1495-1501	видите	_	_	_	_	_	_	_	
+18-4	1501-1502	,	_	_	_	_	_	_	_	
+18-5	1503-1505	мы	_	_	_	_	_	_	_	
+18-6	1506-1511	могли	_	_	_	_	_	_	_	
+18-7	1512-1518	просто	_	_	_	_	_	_	_	
+18-8	1519-1527	сравнить	_	_	_	_	_	_	_	
+18-9	1528-1539	подкоренные	_	_	_	_	_	_	_	
+18-10	1540-1549	выражения	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51654	*	_	*	
+18-11	1550-1551	–	_	_	_	_	_	_	_	
+18-12	1552-1555	это	_	_	_	_	_	_	_	
+18-13	1556-1560	ноль	0,9[22]	_[22]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[22]	*[22]	_[22]	*	
+18-14	1561-1566	целых	0,9[22]	_[22]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[22]	*[22]	_[22]	*	
+18-15	1567-1573	девять	0,9[22]	_[22]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[22]	*[22]	_[22]	*	
+18-16	1574-1581	десятых	0,9[22]	_[22]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[22]	*[22]	_[22]	*	
+18-17	1582-1583	и	_	_	_	_	_	_	_	
+18-18	1584-1588	ноль	0,4[23]	_[23]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[23]	*[23]	_[23]	*	
+18-19	1589-1594	целых	0,4[23]	_[23]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[23]	*[23]	_[23]	*	
+18-20	1595-1601	четыре	0,4[23]	_[23]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[23]	*[23]	_[23]	*	
+18-21	1602-1609	десятых	0,4[23]	_[23]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473[23]	*[23]	_[23]	*	
+18-22	1609-1610	,	_	_	_	_	_	_	_	
+18-23	1611-1620	результат	_	_	_	_	_	_	_	
+18-24	1621-1630	получился	_	_	_	_	_	_	_	
+18-25	1631-1633	бы	_	_	_	_	_	_	_	
+18-26	1634-1637	тот	_	_	_	_	_	_	_	
+18-27	1638-1640	же	_	_	_	_	_	_	_	
+18-28	1641-1646	самый	_	_	_	_	_	_	_	
+18-29	1646-1647	.	_	_	_	_	_	_	_	
+18-30	1647-1648	"	_	_	_	_	_	_	_	

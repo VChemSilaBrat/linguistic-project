@@ -1,0 +1,1636 @@
+# sent_id = 1
+# text = Разобрав с вами тему многочлены, мы вроде бы как забыли про неё и переключились на квадратное уравнение, но алгебра тема интересная: никто ничего не забывает.
+1	Разобрав	разобрать	VERB	VERB	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	11	advcl	_	_
+2	с	с	ADP	ADP	_	3	case	_	_
+3	вами	вами	PRON	PRON	Case=Ins|Number=Plur|Person=Second	1	obl	_	_
+4	тему	тема	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+5	многочлены	многочлены	VERB	VERB	Aspect=Perf|Number=Plur|StyleVariant=Short|Tense=Past|VerbForm=Part|Voice=Pass	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	1	punct	_	_
+7	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	11	nsubj	_	_
+8	вроде	вроде	ADV	ADV	Degree=Pos	11	advmod	_	_
+9	бы	бы	PART	PART	_	8	fixed	_	_
+10	как	как	SCONJ	SCONJ	_	11	advmod	_	_
+11	забыли	забыть	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+12	про	про	ADP	ADP	_	13	case	_	_
+13	неё	неё	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+14	и	и	CCONJ	CCONJ	_	15	cc	_	_
+15	переключились	переключиться	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	11	conj	_	_
+16	на	на	ADP	ADP	_	18	case	_	_
+17	квадратное	квадратный	ADJ	ADJ	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	уравнение	уравнение	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	23	punct	_	_
+20	но	но	CCONJ	CCONJ	_	23	cc	_	_
+21	алгебра	алгебра	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+22	тема	тема	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	appos	_	_
+23	интересная	интересный	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+24	:	:	PUNCT	PUNCT	_	28	punct	_	_
+25	никто	никто	PRON	PRON	Case=Nom	28	nsubj	_	_
+26	ничего	ничто	PRON	PRON	Case=Gen	28	obj	_	_
+27	не	не	PART	PART	Polarity=Neg	28	advmod	_	_
+28	забывает	забывать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	23	parataxis	_	SpaceAfter=No
+29	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# sent_id = 2
+# text = Сегодня мы квадратное уравнение используем для того, чтобы преобразовывать многочлены.
+1	Сегодня	сегодня	ADV	ADV	Degree=Pos	5	advmod	_	_
+2	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	5	nsubj	_	_
+3	квадратное	квадратный	ADJ	ADJ	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	уравнение	уравнение	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+5	используем	использовать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+6	для	для	ADP	ADP	_	7	case	_	_
+7	того	того	PRON	PRON	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9	чтобы	чтобы	SCONJ	SCONJ	_	10	mark	_	_
+10	преобразовывать	преобразовывать	VERB	VERB	Aspect=Imp|VerbForm=Inf|Voice=Act	7	advcl	_	_
+11	многочлены	многочлен	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ну, в данном случае мы пока преобразуем трёхчлен, причём у нас трёхчлен стандартного вида.
+1	Ну	ну	PART	PART	_	8	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	в	в	ADP	ADP	_	5	case	_	_
+4	данном	данном	ADJ	ADJ	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	случае	случай	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+6	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	8	nsubj	_	_
+7	пока	пока	ADV	ADV	Degree=Pos	8	advmod	_	_
+8	преобразуем	преобразуем	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+9	трёхчлен	трёхчлен	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	причём	причём	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	_
+12	у	у	ADP	ADP	_	13	case	_	_
+13	нас	нас	PRON	PRON	Case=Gen|Number=Plur|Person=First	14	obl	_	_
+14	трёхчлен	трёхчлен	VERB	VERB	Aspect=Perf|Gender=Masc|Number=Sing|StyleVariant=Short|Tense=Past|VerbForm=Part|Voice=Pass	8	conj	_	_
+15	стандартного	стандартный	ADJ	ADJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	вида	вид	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = 4
+# text = И выглядит он очень похожим на квадратное уравнение.
+1	И	и	CCONJ	CCONJ	_	2	cc	_	_
+2	выглядит	выглядеть	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+3	он	он	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=Third	2	nsubj	_	_
+4	очень	очень	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	похожим	похожий	ADJ	ADJ	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	xcomp	_	_
+6	на	на	ADP	ADP	_	8	case	_	_
+7	квадратное	квадратный	ADJ	ADJ	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	уравнение	уравнение	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 5
+# text = То есть, если бы вот здесь вот стоял знак равенство и после равенства нолик, то было бы квадратного уравнения.
+1	То	То	SCONJ	SCONJ	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	mark	_	_
+2	есть	быть	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	1	punct	_	_
+4	если	если	SCONJ	SCONJ	_	9	mark	_	_
+5	бы	бы	AUX	AUX	Mood=Cnd	7	aux	_	_
+6	вот	вот	PART	PART	_	7	advmod	_	_
+7	здесь	здесь	ADV	ADV	Degree=Pos	9	advmod	_	_
+8	вот	вот	PART	PART	_	9	advmod	_	_
+9	стоял	стоять	VERB	VERB	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	advcl	_	_
+10	знак	знак	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	равенство	равенство	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nmod	_	_
+12	и	и	PART	PART	_	14	advmod	_	_
+13	после	после	ADP	ADP	_	14	case	_	_
+14	равенства	равенство	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	conj	_	_
+15	нолик	нолик	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	9	punct	_	_
+17	то	то	SCONJ	SCONJ	_	18	nsubj	_	_
+18	было	было	AUX	AUX	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	21	cop	_	_
+19	бы	бы	AUX	AUX	Mood=Cnd	21	aux	_	_
+20	квадратного	квадратный	ADJ	ADJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	уравнения	уравнение	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	ROOT	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	21	punct	_	_
+
+# sent_id = 6
+# text = Но у нас трёхчлен и алгебра уверяет, что этот трёхчлен, да, собственно говоря, и любой, можно разложить на множители.
+1	Но	но	CCONJ	CCONJ	_	4	cc	_	_
+2	у	у	ADP	ADP	_	3	case	_	_
+3	нас	нас	PRON	PRON	Case=Gen|Number=Plur|Person=First	4	obl	_	_
+4	трёхчлен	трёхчлен	ADJ	ADJ	Degree=Pos|Gender=Masc|Number=Sing|StyleVariant=Short	0	ROOT	_	_
+5	и	и	CCONJ	CCONJ	_	6	cc	_	_
+6	алгебра	алгебра	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	уверяет	уверять	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	11	punct	_	_
+9	что	что	SCONJ	SCONJ	_	11	mark	_	_
+10	этот	этот	DET	DET	Case=Nom|Gender=Masc|Number=Sing	11	det	_	_
+11	трёхчлен	трёхчлен	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	13	punct	_	_
+13	да	да	PART	PART	_	16	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	13	punct	_	_
+15	собственно	собственно	ADV	ADV	Degree=Pos	16	advmod	_	_
+16	говоря	говорить	VERB	VERB	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	11	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	16	punct	_	_
+18	и	и	CCONJ	CCONJ	_	19	cc	_	_
+19	любой	любой	DET	DET	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	11	punct	_	_
+21	можно	можно	ADV	ADV	Degree=Pos	11	conj	_	_
+22	разложить	разложить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	21	csubj	_	_
+23	на	на	ADP	ADP	_	24	case	_	_
+24	множители	множитель	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = 7
+# text = Давайте сделаем несколько шагов и научимся это делать.
+1	Давайте	давать	VERB	VERB	Aspect=Imp|Mood=Imp|Number=Plur|Person=Second|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	сделаем	сделать	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act	1	xcomp	_	_
+3	несколько	несколько	NUM	NUM	Animacy=Inan|Case=Acc	4	nummod:gov	_	_
+4	шагов	шаг	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obj	_	_
+5	и	и	CCONJ	CCONJ	_	6	cc	_	_
+6	научимся	научимся	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+7	это	это	PRON	PRON	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+8	делать	делать	VERB	VERB	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = 8
+# text = По этому трёхчлену первое, на что стоит обратить внимание, мы троечку можем вынести за скобку, как один из множителей.
+1	По	по	ADP	ADP	_	3	case	_	_
+2	этому	этот	DET	DET	Case=Dat|Gender=Masc|Number=Sing	3	det	_	_
+3	трёхчлену	трёхчлен	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+4	первое	первый	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	ROOT	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	8	punct	_	_
+6	на	на	ADP	ADP	_	7	case	_	_
+7	что	что	PRON	PRON	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
+8	стоит	стоить	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+9	обратить	обратить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	8	csubj	_	_
+10	внимание	внимание	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	4	punct	_	_
+12	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	14	nsubj	_	_
+13	троечку	троечка	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+14	можем	мочь	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+15	вынести	вынести	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	за	за	ADP	ADP	_	17	case	_	_
+17	скобку	скобка	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	20	punct	_	_
+19	как	как	SCONJ	SCONJ	_	20	case	_	_
+20	один	один	NUM	NUM	Case=Nom|Gender=Masc|Number=Sing	15	obl	_	_
+21	из	из	ADP	ADP	_	22	case	_	_
+22	множителей	множитель	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = 9
+# text = Первый – множитель три, второй – икс в квадрате минус семь икс плюс десять.
+1	Первый	первый	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	–	–	PUNCT	PUNCT	_	3	punct	_	_
+3	множитель	множитель	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+4	три	три	NUM	NUM	Case=Nom	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	6	punct	_	_
+6	второй	второй	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	_
+7	–	–	PUNCT	PUNCT	_	8	punct	_	_
+8	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+9	в	в	ADP	ADP	_	10	case	_	_
+10	квадрате	квадрат	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+11	минус	минус	ADP	ADP	_	13	case	_	_
+12	семь	семь	NUM	NUM	Case=Acc	13	nummod:gov	_	_
+13	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+14	плюс	плюс	ADP	ADP	_	15	case	_	_
+15	десять	десять	NUM	NUM	Case=Nom	3	nummod:gov	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = 10
+# text = Ну, а дальше могли бы мы раскладывать?
+1	Ну	ну	PART	PART	_	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	а	а	CCONJ	CCONJ	_	5	cc	_	_
+4	дальше	далёкий	ADV	ADV	Degree=Cmp	5	advmod	_	_
+5	могли	мочь	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+6	бы	бы	AUX	AUX	Mood=Cnd	5	aux	_	_
+7	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	5	nsubj	_	_
+8	раскладывать	раскладывать	VERB	VERB	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	SpaceAfter=No
+9	?	?	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 11
+# text = Давайте семь икс мы заменим на два слагаемых: два икс и пять икс.
+1	Давайте	давать	VERB	VERB	Aspect=Imp|Mood=Imp|Number=Plur|Person=Second|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	семь	семь	NUM	NUM	Case=Acc	3	nummod:gov	_	_
+3	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	obj	_	_
+4	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	5	nsubj	_	_
+5	заменим	заменить	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act	1	xcomp	_	_
+6	на	на	ADP	ADP	_	8	case	_	_
+7	два	два	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	8	nummod:gov	_	_
+8	слагаемых	слагать	VERB	VERB	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	5	obl	_	SpaceAfter=No
+9	:	:	PUNCT	PUNCT	_	11	punct	_	_
+10	два	два	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	11	nummod:gov	_	_
+11	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	parataxis	_	_
+12	и	и	CCONJ	CCONJ	_	14	cc	_	_
+13	пять	пять	NUM	NUM	Case=Nom	14	nummod:gov	_	_
+14	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = 12
+# text = Почему именно на эти?
+1	Почему	почему	ADV	ADV	Degree=Pos	0	ROOT	_	_
+2	именно	именно	PART	PART	_	4	advmod	_	_
+3	на	на	ADP	ADP	_	4	case	_	_
+4	эти	этот	DET	DET	Animacy=Inan|Case=Acc|Number=Plur	1	det	_	SpaceAfter=No
+5	?	?	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = 13
+# text = Ну, будем предполагать, что я знаю чуть больше, чем вы.
+1	Ну	ну	PART	PART	_	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	будем	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+4	предполагать	предполагать	VERB	VERB	Aspect=Imp|VerbForm=Inf|Voice=Act	0	ROOT	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	8	punct	_	_
+6	что	что	SCONJ	SCONJ	_	8	mark	_	_
+7	я	я	PRON	PRON	Case=Nom|Number=Sing|Person=First	8	nsubj	_	_
+8	знаю	знать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+9	чуть	чуть	ADV	ADV	Degree=Pos	10	advmod	_	_
+10	больше	больше	ADV	ADV	Degree=Cmp	8	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	13	punct	_	_
+12	чем	чем	SCONJ	SCONJ	_	13	mark	_	_
+13	вы	вы	PRON	PRON	Case=Nom|Number=Plur|Person=Second	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = 14
+# text = То есть я знаю, чем всё это закончится, поэтому на эти.
+1	То	То	SCONJ	SCONJ	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	mark	_	_
+2	есть	быть	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	1	fixed	_	_
+3	я	я	PRON	PRON	Case=Nom|Number=Sing|Person=First	4	nsubj	_	_
+4	знаю	знать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	9	punct	_	_
+6	чем	что	PRON	PRON	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	mark	_	_
+7	всё	весь	DET	DET	Case=Nom|Gender=Neut|Number=Sing	8	det	_	_
+8	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+9	закончится	закончиться	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Mid	4	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	13	punct	_	_
+11	поэтому	поэтому	ADV	ADV	Degree=Pos	13	advmod	_	_
+12	на	на	ADP	ADP	_	13	case	_	_
+13	эти	этот	DET	DET	Animacy=Inan|Case=Acc|Number=Plur	4	det	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = 15
+# text = Пока оставим тройку, не будем про неё говорить, перепишем: икс в квадрате минус…
+1	Пока	пока	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	оставим	оставить	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+3	тройку	тройка	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	9	punct	_	_
+5	не	не	PART	PART	Polarity=Neg	9	advmod	_	_
+6	будем	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
+7	про	про	ADP	ADP	_	8	case	_	_
+8	неё	неё	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+9	говорить	говорить	VERB	VERB	Aspect=Imp|VerbForm=Inf|Voice=Act	2	conj	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	перепишем	переписавший|переписать	VERB	PTCP|VERB	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	advcl	_	SpaceAfter=No
+12	:	:	PUNCT	PUNCT	_	13	punct	_	_
+13	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	parataxis	_	_
+14	в	в	ADP	ADP	_	15	case	_	_
+15	квадрате	квадрат	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
+16	минус	минус	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	SpaceAfter=No
+17	…	…	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 16
+# text = Если у нас здесь минус, то и здесь минус.
+1	Если	если	SCONJ	SCONJ	_	10	mark	_	_
+2	у	у	ADP	ADP	_	3	case	_	_
+3	нас	нас	PRON	PRON	Case=Gen|Number=Plur|Person=First	10	obl	_	_
+4	здесь	здесь	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	минус	минус	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	3	punct	_	_
+7	то	то	SCONJ	SCONJ	_	9	mark	_	_
+8	и	и	PART	PART	_	9	advmod	_	_
+9	здесь	здесь	ADV	ADV	Degree=Pos	3	conj	_	_
+10	минус	минус	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# sent_id = 17
+# text = Ну, а раскрывая скобки, мы получаем минусы везде.
+1	Ну	ну	PART	PART	_	8	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	а	а	CCONJ	CCONJ	_	8	cc	_	_
+4	раскрывая	раскрывать	VERB	VERB	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+5	скобки	скобка	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	4	punct	_	_
+7	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	8	nsubj	_	_
+8	получаем	получать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+9	минусы	минус	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+10	везде	везде	ADV	ADV	Degree=Pos	8	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = 18
+# text = Не забывайте.
+1	Не	не	PART	PART	Polarity=Neg	2	advmod	_	_
+2	забывайте	забывать	VERB	VERB	Aspect=Imp|Mood=Imp|Number=Plur|Person=Second|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 19
+# text = Минус два икс минус пять икс плюс десять.
+1	Минус	минус	ADP	ADP	_	3	case	_	_
+2	два	два	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	3	nummod:gov	_	_
+3	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nsubj	_	_
+4	минус	минус	ADP	ADP	_	6	case	_	_
+5	пять	пять	NUM	NUM	Case=Nom	6	nummod:gov	_	_
+6	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	ROOT	_	_
+7	плюс	плюс	ADP	ADP	_	8	case	_	_
+8	десять	десять	NUM	NUM	Case=Nom	6	nummod:gov	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = 20
+# text = А теперь группируем наши слагаемые, и выносим общий множитель для каждой пары.
+1	А	а	CCONJ	CCONJ	_	3	cc	_	_
+2	теперь	теперь	ADV	ADV	Degree=Pos	3	advmod	_	_
+3	группируем	группировать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	наши	наш	DET	DET	Animacy=Inan|Case=Acc|Number=Plur	5	det	_	_
+5	слагаемые	слагаемые	ADJ	ADJ	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	8	punct	_	_
+7	и	и	CCONJ	CCONJ	_	8	cc	_	_
+8	выносим	выносить	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+9	общий	общий	ADJ	ADJ	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	множитель	множитель	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+11	для	для	ADP	ADP	_	13	case	_	_
+12	каждой	каждый	DET	DET	Case=Gen|Gender=Fem|Number=Sing	13	det	_	_
+13	пары	пара	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 21
+# text = Здесь у нас общий множитель икс, и тогда у нас будет икс минус два, а здесь у нас общий множитель пять, и снова, так как минус пять, здесь у нас икс, минус уже ушел сюда, значит икс положительное.
+1	Здесь	здесь	ADV	ADV	Degree=Pos	3	advmod	_	_
+2	у	у	ADP	ADP	_	3	case	_	_
+3	нас	нас	PRON	PRON	Case=Gen|Number=Plur|Person=First	0	ROOT	_	_
+4	общий	общий	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	множитель	множитель	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+6	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	12	punct	_	_
+8	и	и	CCONJ	CCONJ	_	12	cc	_	_
+9	тогда	тогда	ADV	ADV	Degree=Pos	12	advmod	_	_
+10	у	у	ADP	ADP	_	11	case	_	_
+11	нас	нас	PRON	PRON	Case=Gen|Number=Plur|Person=First	12	obl	_	_
+12	будет	будет	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
+13	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+14	минус	минус	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	advmod	_	_
+15	два	два	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	3	conj	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	20	punct	_	_
+17	а	а	CCONJ	CCONJ	_	20	cc	_	_
+18	здесь	здесь	ADV	ADV	Degree=Pos	20	advmod	_	_
+19	у	у	ADP	ADP	_	20	case	_	_
+20	нас	нас	PRON	PRON	Case=Gen|Number=Plur|Person=First	15	conj	_	_
+21	общий	общий	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	множитель	множитель	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+23	пять	пять	NUM	NUM	Case=Nom	22	appos	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	26	punct	_	_
+25	и	и	CCONJ	CCONJ	_	26	cc	_	_
+26	снова	снова	ADV	ADV	Degree=Pos	15	conj	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	31	punct	_	_
+28	так	так	ADV	ADV	Degree=Pos	31	mark	_	_
+29	как	как	SCONJ	SCONJ	_	28	fixed	_	_
+30	минус	минус	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
+31	пять	пять	NUM	NUM	Case=Nom	15	advcl	_	SpaceAfter=No
+32	,	,	PUNCT	PUNCT	_	33	punct	_	_
+33	здесь	здесь	ADV	ADV	Degree=Pos	40	advmod	_	_
+34	у	у	ADP	ADP	_	35	case	_	_
+35	нас	нас	PRON	PRON	Case=Gen|Number=Plur|Person=First	33	obl	_	_
+36	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	SpaceAfter=No
+37	,	,	PUNCT	PUNCT	_	33	punct	_	_
+38	минус	минус	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	40	nsubj	_	_
+39	уже	уже	ADV	ADV	Degree=Pos	40	advmod	_	_
+40	ушел	уйти	VERB	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+41	сюда	сюда	ADV	ADV	Degree=Pos	40	advmod	_	SpaceAfter=No
+42	,	,	PUNCT	PUNCT	_	43	punct	_	_
+43	значит	значить	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	40	conj	_	_
+44	икс	икс	ADV	ADV	Degree=Pos	43	obj	_	_
+45	положительное	положительный	ADJ	ADJ	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	43	obj	_	SpaceAfter=No
+46	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 22
+# text = А вот от этой десяточки мы вытаскиваем множитель минус пять, получаем минус два.
+1	А	а	CCONJ	CCONJ	_	7	cc	_	_
+2	вот	вот	PART	PART	_	5	advmod	_	_
+3	от	от	ADP	ADP	_	5	case	_	_
+4	этой	этот	DET	DET	Case=Gen|Gender=Fem|Number=Sing	5	det	_	_
+5	десяточки	десяточка	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+6	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	7	nsubj	_	_
+7	вытаскиваем	вытаскивать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+8	множитель	множитель	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	минус	минус	ADP	ADP	_	10	case	_	_
+10	пять	пять	NUM	NUM	Case=Acc	7	nummod:gov	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	12	punct	_	_
+12	получаем	получать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+13	минус	минус	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	advmod	_	_
+14	два	два	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	12	nummod:gov	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# sent_id = 23
+# text = В результате у нас получилось два одинаковых множителя, которые позволяют нам переписать это выражение несколько иначе.
+1	В	в	ADP	ADP	_	2	case	_	_
+2	результате	результат	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	у	у	ADP	ADP	_	4	case	_	_
+4	нас	нас	PRON	PRON	Case=Gen|Number=Plur|Person=First	5	obl	_	_
+5	получилось	получиться	VERB	VERB	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+6	два	два	NUM	NUM	Case=Nom|Gender=Masc	8	nummod:gov	_	_
+7	одинаковых	одинаковый	ADJ	ADJ	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	множителя	множитель	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	11	punct	_	_
+10	которые	которые	PRON	PRON	Case=Nom|Number=Plur	11	nsubj	_	_
+11	позволяют	позволять	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	нам	нам	PRON	PRON	Case=Dat|Number=Plur|Person=First	11	iobj	_	_
+13	переписать	переписать	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+14	это	это	DET	DET	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	det	_	_
+15	выражение	выражение	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+16	несколько	несколько	NUM	NUM	Animacy=Inan|Case=Acc	17	nummod:gov	_	_
+17	иначе	иначе	ADV	ADV	Degree=Pos	13	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 24
+# text = Выносим икс минус два за скобку, а в скобках у нас получится икс минус пять.
+1	Выносим	выносить	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+3	минус	минус	ADP	ADP	_	4	case	_	_
+4	два	два	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	1	nummod:gov	_	_
+5	за	за	ADP	ADP	_	6	case	_	_
+6	скобку	скобка	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	13	punct	_	_
+8	а	а	CCONJ	CCONJ	_	13	cc	_	_
+9	в	в	ADP	ADP	_	10	case	_	_
+10	скобках	скобка	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	13	obl	_	_
+11	у	у	ADP	ADP	_	12	case	_	_
+12	нас	нас	PRON	PRON	Case=Gen|Number=Plur|Person=First	13	obl	_	_
+13	получится	получиться	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Mid	1	conj	_	_
+14	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+15	минус	минус	ADP	ADP	_	16	case	_	_
+16	пять	пять	NUM	NUM	Case=Nom	13	nummod:gov	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = 25
+# text = Так, и тогда всё это выражение с учётом троечки будет выглядеть таким образом: три умножить на икс минус два умножить на икс минус пять.
+1	Так	так	ADV	ADV	Degree=Pos	12	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	и	и	CCONJ	CCONJ	_	12	cc	_	_
+4	тогда	тогда	ADV	ADV	Degree=Pos	12	advmod	_	_
+5	всё	весь	DET	DET	Case=Nom|Gender=Neut|Number=Sing	7	det	_	_
+6	это	это	DET	DET	Case=Nom|Gender=Neut|Number=Sing	7	det	_	_
+7	выражение	выражение	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+8	с	с	ADP	ADP	_	9	case	_	_
+9	учётом	учёт	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	_
+10	троечки	троечка	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	будет	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
+12	выглядеть	выглядеть	VERB	VERB	Aspect=Imp|VerbForm=Inf|Voice=Act	0	ROOT	_	_
+13	таким	такой	DET	DET	Case=Ins|Gender=Masc|Number=Sing	14	det	_	_
+14	образом	образ	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	:	:	PUNCT	PUNCT	_	17	punct	_	_
+16	три	три	NUM	NUM	Animacy=Inan|Case=Acc	17	obj	_	_
+17	умножить	умножить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	14	parataxis	_	_
+18	на	на	ADP	ADP	_	19	case	_	_
+19	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
+20	минус	минус	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	advmod	_	_
+21	два	два	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	22	nummod:gov	_	_
+22	умножить	умножить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+23	на	на	ADP	ADP	_	24	case	_	_
+24	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obl	_	_
+25	минус	минус	ADP	ADP	_	26	case	_	_
+26	пять	пять	NUM	NUM	Case=Acc	22	nummod:gov	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# sent_id = 26
+# text = Это и есть результат разложения нашего трёхчлена на множители.
+1	Это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	и	и	PART	PART	_	3	advmod	_	_
+3	есть	есть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	результат	результат	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+5	разложения	разложение	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	нашего	наш	DET	DET	Case=Gen|Gender=Masc|Number=Sing	7	det	_	_
+7	трёхчлена	трёхчлен	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	на	на	ADP	ADP	_	9	case	_	_
+9	множители	множитель	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = 27
+# text = И первый множитель здесь – коэффициент при икс в квадрате, а вот этими вот множителями является разность икса и неких чисел.
+1	И	и	CCONJ	CCONJ	_	6	cc	_	_
+2	первый	первый	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	множитель	множитель	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	здесь	здесь	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	–	–	PUNCT	PUNCT	_	6	punct	_	_
+6	коэффициент	коэффициент	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+7	при	при	ADP	ADP	_	8	case	_	_
+8	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
+9	в	в	ADP	ADP	_	10	case	_	_
+10	квадрате	квадрат	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	17	punct	_	_
+12	а	а	CCONJ	CCONJ	_	17	cc	_	_
+13	вот	вот	PART	PART	_	14	advmod	_	_
+14	этими	этот	DET	DET	Case=Ins|Number=Plur	16	det	_	_
+15	вот	вот	PART	PART	_	16	advmod	_	_
+16	множителями	множителями	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	17	xcomp	_	_
+17	является	являться	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid	6	conj	_	_
+18	разность	разность	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+19	икса	икс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	и	и	CCONJ	CCONJ	_	22	cc	_	_
+21	неких	некий	DET	DET	Case=Gen|Number=Plur	22	det	_	_
+22	чисел	число	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	conj	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = 28
+# text = А что это за числа, откуда они взялись?
+1	А	а	CCONJ	CCONJ	_	2	cc	_	_
+2	что	что	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	mark	_	_
+3	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+4	за	за	ADP	ADP	_	5	case	_	_
+5	числа	число	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	0	ROOT	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	9	punct	_	_
+7	откуда	откуда	ADV	ADV	Degree=Pos	9	advmod	_	_
+8	они	они	PRON	PRON	Case=Nom|Number=Plur|Person=Third	9	nsubj	_	_
+9	взялись	взяться	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	5	acl:relcl	_	SpaceAfter=No
+10	?	?	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 29
+# text = Ну ладно, для семёрки мы подобрали, там минус два и минус пять – очень удобно.
+1	Ну	ну	PART	PART	_	2	discourse	_	_
+2	ладно	ладно	PART	PART	_	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	для	для	ADP	ADP	_	5	case	_	_
+5	семёрки	семёрка	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+6	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	7	nsubj	_	_
+7	подобрали	подобрать	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	9	punct	_	_
+9	там	там	ADV	ADV	Degree=Pos	7	advmod	_	_
+10	минус	минус	ADP	ADP	_	11	case	_	_
+11	два	два	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	7	nummod	_	_
+12	и	и	CCONJ	CCONJ	_	14	cc	_	_
+13	минус	минус	ADP	ADP	_	14	case	_	_
+14	пять	пять	NUM	NUM	Case=Nom	11	conj	_	_
+15	–	–	PUNCT	PUNCT	_	17	punct	_	_
+16	очень	очень	ADV	ADV	Degree=Pos	17	advmod	_	_
+17	удобно	удобный	ADJ	ADJ	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	7	parataxis	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# sent_id = 30
+# text = А как дальше подбирать?
+1	А	а	CCONJ	CCONJ	_	4	cc	_	_
+2	как	как	ADV	ADV	Degree=Pos	3	advmod	_	_
+3	дальше	далёкий	ADV	ADV	Degree=Cmp	4	advmod	_	_
+4	подбирать	подбирать	VERB	VERB	Aspect=Imp|VerbForm=Inf|Voice=Act	0	ROOT	_	SpaceAfter=No
+5	?	?	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = 31
+# text = Давайте сейчас сотру наш код, и мы тут чуть-чуть поэкспериментируем дальше.
+1	Давайте	давать	VERB	VERB	Aspect=Imp|Mood=Imp|Number=Plur|Person=Second|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	сейчас	сейчас	ADV	ADV	Degree=Pos	1	advmod	_	_
+3	сотру	стереть	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act	1	nsubj	_	_
+4	наш	наш	DET	DET	Case=Acc|Gender=Masc|Number=Sing	5	det	_	_
+5	код	код	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	13	punct	_	_
+7	и	и	CCONJ	CCONJ	_	13	cc	_	_
+8	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	13	nsubj	_	_
+9	тут	тут	ADV	ADV	Degree=Pos	13	advmod	_	_
+10	чуть	чуть	ADV	ADV	Degree=Pos	13	advmod	_	SpaceAfter=No
+11	-	-	PART	PART	_	13	advmod	_	SpaceAfter=No
+12	чуть	чуть	PART	PART	_	13	advmod	_	_
+13	поэкспериментируем	поэкспериментируем	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+14	дальше	далёкий	ADV	ADV	Degree=Cmp	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = 32
+# text = Что станет с этим многочленом, вот именно с этим, если икс будет равен двум?
+1	Что	что	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	станет	стать	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+3	с	с	ADP	ADP	_	5	case	_	_
+4	этим	этот	DET	DET	Case=Ins|Gender=Masc|Number=Sing	5	det	_	_
+5	многочленом	многочлен	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	10	punct	_	_
+7	вот	вот	PART	PART	_	10	advmod	_	_
+8	именно	именно	PART	PART	_	10	advmod	_	_
+9	с	с	ADP	ADP	_	10	case	_	_
+10	этим	это	PRON	PRON	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	15	punct	_	_
+12	если	если	SCONJ	SCONJ	_	15	mark	_	_
+13	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+14	будет	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
+15	равен	равный	ADJ	ADJ	Degree=Pos|Gender=Masc|Number=Sing|StyleVariant=Short	10	advcl	_	_
+16	двум	два	NUM	NUM	Case=Dat	15	iobj	_	SpaceAfter=No
+17	?	?	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 33
+# text = Ну, мы уже приняли, что вот этот многочлен раскладывается на множители и при икс, равном двум, мы получаем один из множителей равных нулю.
+1	Ну	ну	PART	PART	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	5	nsubj	_	_
+4	уже	уже	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	приняли	принять	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	11	punct	_	_
+7	что	что	SCONJ	SCONJ	_	11	mark	_	_
+8	вот	вот	PART	PART	_	9	advmod	_	_
+9	этот	этот	DET	DET	Case=Nom|Gender=Masc|Number=Sing	10	det	_	_
+10	многочлен	многочлен	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	раскладывается	раскладывается	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Mid	5	ccomp	_	_
+12	на	на	ADP	ADP	_	13	case	_	_
+13	множители	множитель	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obl	_	_
+14	и	и	CCONJ	CCONJ	_	16	cc	_	_
+15	при	при	ADP	ADP	_	16	case	_	_
+16	икс	икс	PROPN	PROPN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	18	punct	_	_
+18	равном	равный	ADJ	ADJ	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	acl	_	_
+19	двум	два	NUM	NUM	Case=Dat	18	iobj	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	18	punct	_	_
+21	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	22	nsubj	_	_
+22	получаем	получать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+23	один	один	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	22	obj	_	_
+24	из	из	ADP	ADP	_	25	case	_	_
+25	множителей	множитель	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+26	равных	равный	ADJ	ADJ	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	нулю	нуль	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 34
+# text = Я думаю, с этим спорить не будете, да?
+1	Я	я	PRON	PRON	Case=Nom|Number=Sing|Person=First	2	nsubj	_	_
+2	думаю	думать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	6	punct	_	_
+4	с	с	ADP	ADP	_	5	case	_	_
+5	этим	это	PRON	PRON	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+6	спорить	спорить	VERB	VERB	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+7	не	не	PART	PART	Polarity=Neg	8	advmod	_	_
+8	будете	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=Second|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	10	punct	_	_
+10	да	да	PART	PART	_	2	parataxis	_	SpaceAfter=No
+11	?	?	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 35
+# text = Ну, а если один из множителей равен нулю, значит всё это равно нулю.
+1	Ну	ну	PART	PART	_	11	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	а	а	CCONJ	CCONJ	_	11	cc	_	_
+4	если	если	SCONJ	SCONJ	_	8	mark	_	_
+5	один	один	NUM	NUM	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+6	из	из	ADP	ADP	_	7	case	_	_
+7	множителей	множитель	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	равен	равный	ADJ	ADJ	Degree=Pos|Gender=Masc|Number=Sing|StyleVariant=Short	11	advcl	_	_
+9	нулю	нуль	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	iobj	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	8	punct	_	_
+11	значит	значить	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+12	всё	весь	DET	DET	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	det	_	_
+13	это	это	PRON	PRON	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+14	равно	равный	ADJ	ADJ	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	11	fixed	_	_
+15	нулю	нуль	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	aux	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# sent_id = 36
+# text = Если это всё равно нулю, значит вот это всё равно нулю при икс равном двум.
+1	Если	если	SCONJ	SCONJ	_	5	mark	_	_
+2	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	всё	всё	PART	PART	_	5	advmod	_	_
+4	равно	равный	ADJ	ADJ	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	3	fixed	_	_
+5	нулю	нуль	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	значит	значить	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	12	discourse	_	_
+8	вот	вот	PART	PART	_	9	advmod	_	_
+9	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+10	всё	весь	DET	DET	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	advmod	_	_
+11	равно	равный	ADJ	ADJ	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	10	fixed	_	_
+12	нулю	нуль	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	0	ROOT	_	_
+13	при	при	ADP	ADP	_	14	case	_	_
+14	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
+15	равном	равном	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+16	двум	два	NUM	NUM	Case=Dat	15	appos	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# sent_id = 37
+# text = Хорошо.
+1	Хорошо	хороший	ADJ	ADJ	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	0	ROOT	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = 38
+# text = Ну а если икс будет равен пяти?
+1	Ну	ну	PART	PART	_	6	discourse	_	_
+2	а	а	CCONJ	CCONJ	_	6	advmod	_	_
+3	если	если	SCONJ	SCONJ	_	6	mark	_	_
+4	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	будет	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+6	равен	равный	ADJ	ADJ	Degree=Pos|Gender=Masc|Number=Sing|StyleVariant=Short	0	ROOT	_	_
+7	пяти	пять	NUM	NUM	Case=Dat	6	cop	_	SpaceAfter=No
+8	?	?	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = 39
+# text = Мы получим тот же результат, только переставив.
+1	Мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	2	nsubj	_	_
+2	получим	получить	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+3	тот	тот	DET	DET	Case=Acc|Gender=Masc|Number=Sing	5	det	_	_
+4	же	же	PART	PART	_	3	advmod	_	_
+5	результат	результат	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	8	punct	_	_
+7	только	только	PART	PART	_	8	advmod	_	_
+8	переставив	переставить	VERB	VERB	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	2	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 40
+# text = Первый множитель у нас останется три, второй уже будет пять минус два, но в ответе всё равно ноль.
+1	Первый	первый	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	множитель	множитель	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	у	у	ADP	ADP	_	4	case	_	_
+4	нас	нас	PRON	PRON	Case=Gen|Number=Plur|Person=First	5	obl	_	_
+5	останется	остаться	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+6	три	три	NUM	NUM	Case=Nom	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	второй	второй	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+9	уже	уже	ADV	ADV	Degree=Pos	8	advmod	_	_
+10	будет	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+11	пять	пять	NUM	NUM	Case=Nom	13	nsubj	_	_
+12	минус	минус	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	advmod	_	_
+13	два	два	NUM	NUM	Case=Nom|Gender=Masc	5	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	20	punct	_	_
+15	но	но	CCONJ	CCONJ	_	17	cc	_	_
+16	в	в	ADP	ADP	_	17	case	_	_
+17	ответе	ответ	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	case	_	_
+18	всё	всё	PART	PART	_	20	advmod	_	_
+19	равно	равный	ADJ	ADJ	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	18	fixed	_	_
+20	ноль	ноль	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 41
+# text = Снова мы получаем, что при таком значение икса наш трёхчлен будет равен нулю.
+1	Снова	снова	ADV	ADV	Degree=Pos	3	advmod	_	_
+2	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	3	nsubj	_	_
+3	получаем	получать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	13	punct	_	_
+5	что	что	SCONJ	SCONJ	_	13	mark	_	_
+6	при	при	ADP	ADP	_	8	case	_	_
+7	таком	такой	DET	DET	Case=Loc|Gender=Neut|Number=Sing	8	det	_	_
+8	значение	значение	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obl	_	_
+9	икса	икс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	наш	наш	DET	DET	Case=Nom|Gender=Masc|Number=Sing	11	det	_	_
+11	трёхчлен	трёхчлен	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+12	будет	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	_
+13	равен	равный	ADJ	ADJ	Degree=Pos|Gender=Masc|Number=Sing|StyleVariant=Short	3	ccomp	_	_
+14	нулю	нуль	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	iobj	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 42
+# text = По сути получается, что это уравнение, при этом пять и два являются корнями этого квадратного уравнения.
+1	По	по	ADP	ADP	_	2	case	_	_
+2	сути	суть	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+3	получается	получаться	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	7	punct	_	_
+5	что	что	SCONJ	SCONJ	_	7	mark	_	_
+6	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	уравнение	уравнение	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	14	punct	_	_
+9	при	при	ADP	ADP	_	10	case	_	_
+10	этом	это	PRON	PRON	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_
+11	пять	пять	NUM	NUM	Case=Nom	14	nsubj	_	_
+12	и	и	CCONJ	CCONJ	_	13	cc	_	_
+13	два	два	NUM	NUM	Case=Nom|Gender=Masc	11	conj	_	_
+14	являются	являться	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid	7	conj	_	_
+15	корнями	корень	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	xcomp	_	_
+16	этого	это	DET	DET	Case=Gen|Gender=Neut|Number=Sing	18	det	_	_
+17	квадратного	квадратный	ADJ	ADJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	уравнения	уравнение	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 43
+# text = Ну, у нас трёхчлен, равный нулю – это и есть уравнение.
+1	Ну	ну	PART	PART	_	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	у	у	ADP	ADP	_	4	case	_	_
+4	нас	нас	PRON	PRON	Case=Gen|Number=Plur|Person=First	5	obl	_	_
+5	трёхчлен	трёхчлен	VERB	VERB	Aspect=Perf|Gender=Masc|Number=Sing|StyleVariant=Short|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	8	punct	_	_
+7	равный	равный	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	нулю	нуль	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	nsubj	_	_
+9	–	–	PUNCT	PUNCT	_	13	punct	_	_
+10	это	это	PART	PART	_	13	nsubj	_	_
+11	и	и	PART	PART	_	13	advmod	_	_
+12	есть	есть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	_
+13	уравнение	уравнение	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 44
+# text = А если при икс равном двум и икс равном пяти это уравнение истинно, значит это корни этого уравнения.
+1	А	а	CCONJ	CCONJ	_	15	cc	_	_
+2	если	если	SCONJ	SCONJ	_	9	mark	_	_
+3	при	при	ADP	ADP	_	4	case	_	_
+4	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+5	равном	равном	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	amod	_	_
+6	двум	два	NUM	NUM	Case=Dat	9	nummod	_	_
+7	и	и	CCONJ	CCONJ	_	8	cc	_	_
+8	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+9	равном	равном	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	advcl	_	_
+10	пяти	пять	NUM	NUM	Case=Gen	9	cop	_	_
+11	это	это	DET	DET	Case=Nom|Gender=Neut|Number=Sing	12	det	_	_
+12	уравнение	уравнение	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+13	истинно	истинно	ADV	ADV	Degree=Pos	9	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	9	punct	_	_
+15	значит	значить	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+16	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	obj	_	_
+17	корни	корень	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	nsubj	_	_
+18	этого	это	DET	DET	Case=Gen|Gender=Neut|Number=Sing	19	det	_	_
+19	уравнения	уравнение	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# sent_id = 45
+# text = И вот теперь интересный вопрос.
+1	И	и	CCONJ	CCONJ	_	5	cc	_	_
+2	вот	вот	PART	PART	_	3	advmod	_	_
+3	теперь	теперь	ADV	ADV	Degree=Pos	5	advmod	_	_
+4	интересный	интересный	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	вопрос	вопрос	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 46
+# text = Это для любого квадратного трёхчлена или только для этого, вот для мною подобранного?
+1	Это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	для	для	ADP	ADP	_	5	case	_	_
+3	любого	любой	DET	DET	Case=Gen|Gender=Masc|Number=Sing	5	det	_	_
+4	квадратного	квадратный	ADJ	ADJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	трёхчлена	трёхчлен	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+6	или	или	CCONJ	CCONJ	_	9	cc	_	_
+7	только	только	PART	PART	_	9	advmod	_	_
+8	для	для	ADP	ADP	_	9	case	_	_
+9	этого	это	PRON	PRON	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	13	punct	_	_
+11	вот	вот	PART	PART	_	13	advmod	_	_
+12	для	для	ADP	ADP	_	13	case	_	_
+13	мною	мною	PRON	PRON	Case=Ins|Number=Sing|Person=First	14	obl	_	_
+14	подобранного	подобранного	ADJ	ADJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No
+15	?	?	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 47
+# text = На самом деле любой квадратный трёхчлен можно разложить на множители, причём на три множителя.
+1	На	на	ADP	ADP	_	3	case	_	_
+2	самом	самом	ADJ	ADJ	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	деле	дело	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+4	любой	любой	DET	DET	Case=Nom|Gender=Masc|Number=Sing	6	det	_	_
+5	квадратный	квадратный	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	трёхчлен	трёхчлен	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	можно	можно	ADV	ADV	Degree=Pos	0	ROOT	_	_
+8	разложить	разложить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	7	csubj	_	_
+9	на	на	ADP	ADP	_	10	case	_	_
+10	множители	множитель	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	12	punct	_	_
+12	причём	причём	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	conj	_	_
+13	на	на	ADP	ADP	_	15	case	_	_
+14	три	три	NUM	NUM	Animacy=Inan|Case=Acc	15	nummod:gov	_	_
+15	множителя	множитель	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# sent_id = 48
+# text = При этом первым множителем будет коэффициент при икс в квадрате, и если мы берём приведенное квадратное уравнение, вы помните, приведенное – это у которого три икс в квадрате коэффициент равен единице, всё равно будет первый множитель, просто он будет равен единице.
+1	При	При	ADP	ADP	_	2	case	_	_
+2	этом	это	PRON	PRON	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_
+3	первым	первый	ADJ	ADJ	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	множителем	множитель	NOUN	NOUN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	33	obl	_	_
+5	будет	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+6	коэффициент	коэффициент	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+7	при	при	ADP	ADP	_	8	case	_	_
+8	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
+9	в	в	ADP	ADP	_	10	case	_	_
+10	квадрате	квадрат	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	21	punct	_	_
+12	и	и	CCONJ	CCONJ	_	21	cc	_	_
+13	если	если	SCONJ	SCONJ	_	15	mark	_	_
+14	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	15	nsubj	_	_
+15	берём	берём	ADJ	ADJ	Degree=Pos|Gender=Fem|Number=Sing|StyleVariant=Short	21	advcl	_	_
+16	приведенное	приведенное	ADJ	ADJ	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+17	квадратное	квадратный	ADJ	ADJ	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	уравнение	уравнение	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	15	punct	_	_
+20	вы	вы	PRON	PRON	Case=Nom|Number=Plur|Person=Second	21	nsubj	_	_
+21	помните	помнить	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=Second|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	23	punct	_	_
+23	приведенное	приведенное	ADJ	ADJ	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	appos	_	_
+24	–	–	PUNCT	PUNCT	_	27	punct	_	_
+25	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	_
+26	у	у	ADP	ADP	_	27	case	_	_
+27	которого	которого	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing	4	parataxis	_	_
+28	три	три	NUM	NUM	Case=Nom	29	nummod:gov	_	_
+29	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	33	nsubj	_	_
+30	в	в	ADP	ADP	_	31	case	_	_
+31	квадрате	квадрат	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	nmod	_	_
+32	коэффициент	коэффициент	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	_
+33	равен	равный	ADJ	ADJ	Degree=Pos|Gender=Masc|Number=Sing|StyleVariant=Short	0	ROOT	_	_
+34	единице	единица	NOUN	NOUN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	33	iobj	_	SpaceAfter=No
+35	,	,	PUNCT	PUNCT	_	38	punct	_	_
+36	всё	всё	ADV	ADV	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	38	advmod	_	_
+37	равно	равный	ADJ	ADJ	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	36	fixed	_	_
+38	будет	будет	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	33	cop	_	_
+39	первый	первый	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
+40	множитель	множитель	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	38	nsubj	_	SpaceAfter=No
+41	,	,	PUNCT	PUNCT	_	45	punct	_	_
+42	просто	просто	PART	PART	_	45	advmod	_	_
+43	он	он	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=Third	45	nsubj	_	_
+44	будет	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	45	cop	_	_
+45	равен	равный	ADJ	ADJ	Degree=Pos|Gender=Masc|Number=Sing|StyleVariant=Short	33	conj	_	_
+46	единице	единица	NOUN	NOUN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	45	iobj	_	SpaceAfter=No
+47	.	.	PUNCT	PUNCT	_	33	punct	_	_
+
+# sent_id = 49
+# text = Но множителей будет три.
+1	Но	но	CCONJ	CCONJ	_	4	cc	_	_
+2	множителей	множитель	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	будет	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	три	три	NUM	NUM	Case=Nom	0	ROOT	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = 50
+# text = Ну, а вторым и третьим множителем будут выражения икс минус икс один икс минус икс два, в котором икс один и икс два – это корни квадратного уравнения.
+1	Ну	ну	PART	PART	_	7	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	а	а	CCONJ	CCONJ	_	7	cc	_	_
+4	вторым	второй	ADJ	ADJ	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+5	и	и	CCONJ	CCONJ	_	6	cc	_	_
+6	третьим	третий	ADJ	ADJ	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	conj	_	_
+7	множителем	множитель	NOUN	NOUN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	ROOT	_	_
+8	будут	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+9	выражения	выражение	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+10	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	минус	минус	ADP	ADP	_	12	case	_	_
+12	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+13	один	один	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	14	nummod	_	_
+14	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
+15	минус	минус	ADP	ADP	_	16	case	_	_
+16	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	_
+17	два	два	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	7	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	22	punct	_	_
+19	в	в	ADP	ADP	_	20	case	_	_
+20	котором	котором	PRON	PRON	Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_
+21	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+22	один	один	DET	DET	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	acl:relcl	_	_
+23	и	и	CCONJ	CCONJ	_	24	cc	_	_
+24	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	conj	_	_
+25	два	два	NUM	NUM	Case=Nom|Gender=Masc	22	nummod:gov	_	_
+26	–	–	PUNCT	PUNCT	_	28	punct	_	_
+27	это	это	PART	PART	_	28	expl	_	_
+28	корни	корень	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	parataxis	_	_
+29	квадратного	квадратный	ADJ	ADJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
+30	уравнения	уравнение	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# sent_id = 51
+# text = Вы помните, что икс один может быть равен икс два.
+1	Вы	вы	PRON	PRON	Case=Nom|Number=Plur|Person=Second	2	nsubj	_	_
+2	помните	помнить	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=Second|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	7	punct	_	_
+4	что	что	SCONJ	SCONJ	_	7	mark	_	_
+5	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+6	один	один	NUM	NUM	Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+7	может	мочь	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+8	быть	быть	AUX	AUX	Aspect=Imp|VerbForm=Inf|Voice=Act	9	cop	_	_
+9	равен	равный	ADJ	ADJ	Degree=Pos|Gender=Masc|Number=Sing|StyleVariant=Short	7	xcomp	_	_
+10	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	iobj	_	_
+11	два	два	NUM	NUM	Case=Nom|Gender=Masc	7	nummod:gov	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 52
+# text = Ну, то есть, есть уравнение, у которых всего лишь один корень.
+1	Ну	ну	PART	PART	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	то	то	SCONJ	SCONJ	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	mark	_	_
+4	есть	быть	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	3	fixed	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	3	punct	_	_
+6	есть	быть	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+7	уравнение	уравнение	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9	у	у	ADP	ADP	_	10	case	_	_
+10	которых	которых	PRON	PRON	Case=Gen|Number=Plur	7	acl:relcl	_	_
+11	всего	всего	PART	PART	_	12	advmod	_	_
+12	лишь	лишь	PART	PART	_	13	advmod	_	_
+13	один	один	NUM	NUM	Case=Nom|Gender=Masc|Number=Sing	14	nummod	_	_
+14	корень	корень	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = 53
+# text = Так вот всё равно будут три множителя, но тогда икс один будет равен икс два и выглядеть это будет так: а умножить на икс минус икс один умножить на икс минус икс один, или а умножить на икс минус икс один в квадрате.
+1	Так	так	ADV	ADV	Degree=Pos	3	advmod	_	_
+2	вот	вот	PART	PART	_	3	advmod	_	_
+3	всё	всё	PART	PART	_	0	ROOT	_	_
+4	равно	равный	ADJ	ADJ	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	3	fixed	_	_
+5	будут	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+6	три	три	NUM	NUM	Case=Nom	7	nummod:gov	_	_
+7	множителя	множитель	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	14	punct	_	_
+9	но	но	CCONJ	CCONJ	_	14	cc	_	_
+10	тогда	тогда	ADV	ADV	Degree=Pos	14	advmod	_	_
+11	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+12	один	один	DET	DET	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	appos	_	_
+13	будет	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
+14	равен	равный	ADJ	ADJ	Degree=Pos|Gender=Masc|Number=Sing|StyleVariant=Short	5	conj	_	_
+15	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	14	iobj	_	_
+16	два	два	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	14	iobj	_	_
+17	и	и	CCONJ	CCONJ	_	18	cc	_	_
+18	выглядеть	выглядеть	VERB	VERB	Aspect=Imp|VerbForm=Inf|Voice=Act	5	conj	_	_
+19	это	это	PRON	PRON	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+20	будет	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	_
+21	так	так	ADV	ADV	Degree=Pos	18	advmod	_	SpaceAfter=No
+22	:	:	PUNCT	PUNCT	_	24	punct	_	_
+23	а	а	CCONJ	CCONJ	_	24	cc	_	_
+24	умножить	умножить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	21	parataxis	_	_
+25	на	на	ADP	ADP	_	26	case	_	_
+26	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	_
+27	минус	минус	ADP	ADP	_	28	case	_	_
+28	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	_
+29	один	один	DET	DET	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	obj	_	_
+30	умножить	умножить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+31	на	на	ADP	ADP	_	32	case	_	_
+32	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obl	_	_
+33	минус	минус	ADP	ADP	_	34	case	_	_
+34	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obl	_	_
+35	один	один	DET	DET	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	30	obj	_	SpaceAfter=No
+36	,	,	PUNCT	PUNCT	_	39	punct	_	_
+37	или	или	CCONJ	CCONJ	_	39	cc	_	_
+38	а	а	CCONJ	CCONJ	_	39	cc	_	_
+39	умножить	умножить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	30	conj	_	_
+40	на	на	ADP	ADP	_	41	case	_	_
+41	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	39	obl	_	_
+42	минус	минус	ADP	ADP	_	43	case	_	_
+43	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	39	obl	_	_
+44	один	один	NUM	NUM	Case=Nom|Gender=Masc|Number=Sing	43	appos	_	_
+45	в	в	ADP	ADP	_	46	case	_	_
+46	квадрате	квадрат	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	39	obl	_	SpaceAfter=No
+47	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 54
+# text = И для доказательства этого мы снова прибегаем к теореме Виета.
+1	И	и	CCONJ	CCONJ	_	7	cc	_	_
+2	для	для	ADP	ADP	_	3	case	_	_
+3	доказательства	доказательство	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+4	этого	это	PRON	PRON	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	7	nsubj	_	_
+6	снова	снова	ADV	ADV	Degree=Pos	7	advmod	_	_
+7	прибегаем	прибегать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+8	к	к	ADP	ADP	_	9	case	_	_
+9	теореме	теорема	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+10	Виета	виета	PROPN	PROPN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# sent_id = 55
+# text = Если кто-то не помнит, зайдите посмотрите по ссылочке, а мы уже пользуемся её результатом.
+1	Если	если	SCONJ	SCONJ	_	6	mark	_	_
+2	кто	кто	PRON	PRON	Case=Nom	6	nsubj	_	SpaceAfter=No
+3	-	-	PRON	PRON	Case=Nom	6	nsubj	_	SpaceAfter=No
+4	то	то	PRON	PRON	Case=Nom	6	nsubj	_	_
+5	не	не	PART	PART	Polarity=Neg	6	advmod	_	_
+6	помнит	помнить	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	зайдите	зайти	VERB	VERB	Aspect=Perf|Mood=Imp|Number=Plur|Person=Second|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+9	посмотрите	посмотреть	VERB	VERB	Aspect=Perf|Mood=Imp|Number=Plur|Person=Second|VerbForm=Fin|Voice=Act	8	obj	_	_
+10	по	по	ADP	ADP	_	11	case	_	_
+11	ссылочке	ссылочка	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	16	punct	_	_
+13	а	а	CCONJ	CCONJ	_	16	cc	_	_
+14	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	16	nsubj	_	_
+15	уже	уже	ADV	ADV	Degree=Pos	16	advmod	_	_
+16	пользуемся	пользоваться	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Mid	8	conj	_	_
+17	её	её	DET	DET	_	16	obj	_	_
+18	результатом	результат	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = 56
+# text = Разделим весь многочлен на коэффициент а и получим следующее: икс квадрат плюс бэ, делённое на а, умножить на икс плюс цэ, делённое на а.
+1	Разделим	разделим	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	3	nsubj:pass	_	_
+2	весь	весь	DET	DET	Case=Acc|Gender=Masc|Number=Sing	3	det	_	_
+3	многочлен	многочлен	VERB	VERB	Aspect=Perf|Gender=Masc|Number=Sing|StyleVariant=Short|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+4	на	на	ADP	ADP	_	5	case	_	_
+5	коэффициент	коэффициент	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+6	а	а	CCONJ	CCONJ	_	5	appos	_	_
+7	и	и	CCONJ	CCONJ	_	8	cc	_	_
+8	получим	получить	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act	6	conj	_	_
+9	следующее	следующий	ADJ	ADJ	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No
+10	:	:	PUNCT	PUNCT	_	11	punct	_	_
+11	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	parataxis	_	_
+12	квадрат	квадрат	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
+13	плюс	плюс	ADP	ADP	_	14	case	_	_
+14	бэ	бэ	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	16	punct	_	_
+16	делённое	делённое	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	acl	_	_
+17	на	на	ADP	ADP	_	18	case	_	_
+18	а	а	CCONJ	CCONJ	_	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	20	punct	_	_
+20	умножить	умножить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	11	conj	_	_
+21	на	на	ADP	ADP	_	22	case	_	_
+22	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
+23	плюс	плюс	ADP	ADP	_	24	case	_	_
+24	цэ	цэ	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	26	punct	_	_
+26	делённое	делённый|делить	VERB	PTCP|VERB	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	_
+27	на	на	ADP	ADP	_	28	case	_	_
+28	а	а	CCONJ	CCONJ	_	11	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 57
+# text = Если мы такой трёхчлен приравняем к нулю, то мы получим что икс один и икс два – это корни квадратного уравнения, причём по теореме Виета икс один плюс иск два равно минус бэ а, ну там по теореме Виета там стоял пэ, но пэ – это на самом деле это тоже самое бэ, делённое на а.
+1	Если	если	SCONJ	SCONJ	_	4	mark	_	_
+2	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	4	nsubj	_	_
+3	такой	такой	DET	DET	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
+4	трёхчлен	трёхчлен	VERB	VERB	Aspect=Perf|Gender=Masc|Number=Sing|StyleVariant=Short|Tense=Past|VerbForm=Part|Voice=Pass	5	advcl	_	_
+5	приравняем	приравняем	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
+6	к	к	ADP	ADP	_	7	case	_	_
+7	нулю	нуль	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	5	punct	_	_
+9	то	то	SCONJ	SCONJ	_	11	mark	_	_
+10	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	11	nsubj	_	_
+11	получим	получить	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+12	что	что	SCONJ	SCONJ	_	14	mark	_	_
+13	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+14	один	один	DET	DET	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	nummod	_	_
+15	и	и	CCONJ	CCONJ	_	16	cc	_	_
+16	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+17	два	два	NUM	NUM	Case=Nom|Gender=Masc	14	conj	_	_
+18	–	–	PUNCT	PUNCT	_	20	punct	_	_
+19	это	это	PART	PART	_	20	expl	_	_
+20	корни	корень	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	parataxis	_	_
+21	квадратного	квадратный	ADJ	ADJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	уравнения	уравнение	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	24	punct	_	_
+24	причём	причём	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	conj	_	_
+25	по	по	ADP	ADP	_	26	case	_	_
+26	теореме	теорема	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	24	nmod	_	_
+27	Виета	виета	PROPN	PROPN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nmod	_	_
+29	один	один	NUM	NUM	Case=Nom|Gender=Masc|Number=Sing	31	nummod	_	_
+30	плюс	плюс	ADP	ADP	_	31	case	_	_
+31	иск	иск	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	nmod	_	_
+32	два	два	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	31	nmod	_	_
+33	равно	равный	ADJ	ADJ	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	32	fixed	_	_
+34	минус	минус	ADP	ADP	_	35	case	_	_
+35	бэ	бэ	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	obl	_	_
+36	а	а	CCONJ	CCONJ	_	35	appos	_	SpaceAfter=No
+37	,	,	PUNCT	PUNCT	_	44	punct	_	_
+38	ну	ну	PART	PART	_	44	discourse	_	_
+39	там	там	ADV	ADV	Degree=Pos	44	advmod	_	_
+40	по	по	ADP	ADP	_	41	case	_	_
+41	теореме	теорема	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	44	obl	_	_
+42	Виета	виета	PROPN	PROPN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	_
+43	там	там	ADV	ADV	Degree=Pos	44	advmod	_	_
+44	стоял	стоять	VERB	VERB	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
+45	пэ	пэ	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	44	nsubj	_	SpaceAfter=No
+46	,	,	PUNCT	PUNCT	_	57	punct	_	_
+47	но	но	CCONJ	CCONJ	_	57	cc	_	_
+48	пэ	пэ	PROPN	PROPN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	57	nsubj	_	_
+49	–	–	PUNCT	PUNCT	_	48	punct	_	_
+50	это	это	PART	PART	_	57	expl	_	_
+51	на	на	ADP	ADP	_	53	case	_	_
+52	самом	самом	ADJ	ADJ	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	53	amod	_	_
+53	деле	дело	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	57	nmod	_	_
+54	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	57	nsubj	_	_
+55	тоже	тоже	ADV	ADV	Degree=Pos	56	advmod	_	_
+56	самое	самое	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	57	amod	_	_
+57	бэ	бэ	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	44	conj	_	SpaceAfter=No
+58	,	,	PUNCT	PUNCT	_	59	punct	_	_
+59	делённое	делённое	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	57	acl	_	_
+60	на	на	ADP	ADP	_	61	case	_	_
+61	а	а	CCONJ	CCONJ	_	59	obl	_	SpaceAfter=No
+62	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# sent_id = 58
+# text = А произведение икс один и икс два равно цэ, делённое на а.
+1	А	а	CCONJ	CCONJ	_	4	cc	_	_
+2	произведение	произведение	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	один	один	DET	DET	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	nummod	_	_
+5	и	и	CCONJ	CCONJ	_	6	cc	_	_
+6	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+7	два	два	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	9	nummod:gov	_	_
+8	равно	равный	ADJ	ADJ	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	7	flat	_	_
+9	цэ	цэ	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	0	ROOT	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	делённое	делённый|делить	VERB	PTCP|VERB	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	_
+12	на	на	ADP	ADP	_	13	case	_	_
+13	а	а	CCONJ	CCONJ	_	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# sent_id = 59
+# text = Вот и подставим эти значения, вот эти вот, вместо бэ на а – икс один плюс икс два, но только со знаками не запутайтесь, и вместо цэ, делённое на а – икс один умножить на два.
+1	Вот	вот	PART	PART	_	3	advmod	_	_
+2	и	и	PART	PART	_	3	advmod	_	_
+3	подставим	подставить	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	эти	этот	DET	DET	Animacy=Inan|Case=Acc|Number=Plur	5	det	_	_
+5	значения	значение	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	8	punct	_	_
+7	вот	вот	PART	PART	_	8	advmod	_	_
+8	эти	этот	DET	DET	Case=Nom|Number=Plur	16	det	_	_
+9	вот	вот	PART	PART	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
+11	вместо	вместо	ADP	ADP	_	12	case	_	_
+12	бэ	бэ	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+13	на	на	ADP	ADP	_	14	case	_	_
+14	а	а	CCONJ	CCONJ	_	12	nmod	_	_
+15	–	–	PUNCT	PUNCT	_	14	punct	_	_
+16	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+17	один	один	NUM	NUM	Case=Nom|Gender=Masc|Number=Sing	20	nummod	_	_
+18	плюс	плюс	ADP	ADP	_	19	case	_	_
+19	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_
+20	два	два	NUM	NUM	Case=Nom|Gender=Masc	3	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	27	punct	_	_
+22	но	но	CCONJ	CCONJ	_	27	cc	_	_
+23	только	только	PART	PART	_	25	advmod	_	_
+24	со	со	ADP	ADP	_	25	case	_	_
+25	знаками	знак	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	27	obl	_	_
+26	не	не	PART	PART	Polarity=Neg	27	advmod	_	_
+27	запутайтесь	запутайтесь	VERB	VERB	Aspect=Imp|Mood=Imp|Number=Plur|Person=Second|VerbForm=Fin|Voice=Mid	3	conj	_	SpaceAfter=No
+28	,	,	PUNCT	PUNCT	_	37	punct	_	_
+29	и	и	CCONJ	CCONJ	_	31	cc	_	_
+30	вместо	вместо	ADP	ADP	_	31	case	_	_
+31	цэ	цэ	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	28	case	_	SpaceAfter=No
+32	,	,	PUNCT	PUNCT	_	33	punct	_	_
+33	делённое	делённый|делить	VERB	PTCP|VERB	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	31	amod	_	_
+34	на	на	ADP	ADP	_	35	case	_	_
+35	а	а	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	33	obl	_	_
+36	–	–	PUNCT	PUNCT	_	35	punct	_	_
+37	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	conj	_	_
+38	один	один	DET	DET	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	39	obj	_	_
+39	умножить	умножить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	37	xcomp	_	_
+40	на	на	ADP	ADP	_	41	case	_	_
+41	два	два	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	39	nummod:gov	_	SpaceAfter=No
+42	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 60
+# text = Я думаю, не запутаетесь, потому что я же рядом с вами, да.
+1	Я	я	PRON	PRON	Case=Nom|Number=Sing|Person=First	2	nsubj	_	_
+2	думаю	думать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
+4	не	не	PART	PART	Polarity=Neg	5	advmod	_	_
+5	запутаетесь	запутаетесь	VERB	VERB	Aspect=Imp|Mood=Imp|Number=Plur|Person=Second|VerbForm=Fin|Voice=Mid	2	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	11	punct	_	_
+7	потому	потому	ADV	ADV	Degree=Pos	11	mark	_	_
+8	что	что	SCONJ	SCONJ	_	7	fixed	_	_
+9	я	я	PRON	PRON	Case=Nom|Number=Sing|Person=First	11	nsubj	_	_
+10	же	же	PART	PART	_	9	advmod	_	_
+11	рядом	рядом	ADV	ADV	Degree=Pos	5	advcl	_	_
+12	с	с	ADP	ADP	_	13	case	_	_
+13	вами	вами	PRON	PRON	Case=Ins|Number=Plur|Person=Second	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	15	punct	_	_
+15	да	да	PART	PART	_	2	conj	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 61
+# text = И вот вместо бэ вы подставили сумму икс один плюс икс два, получилось икс в квадрате минус икс один плюс икс два умножить на икс, плюс произведение икс один и икс два.
+1	И	и	CCONJ	CCONJ	_	6	cc	_	_
+2	вот	вот	PART	PART	_	4	advmod	_	_
+3	вместо	вместо	ADP	ADP	_	4	case	_	_
+4	бэ	бэ	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+5	вы	вы	PRON	PRON	Case=Nom|Number=Plur|Person=Second	6	nsubj	_	_
+6	подставили	подставить	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+7	сумму	сумма	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	один	один	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	12	nummod	_	_
+10	плюс	плюс	ADP	ADP	_	11	case	_	_
+11	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+12	два	два	NUM	NUM	Case=Nom|Gender=Masc	6	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	14	punct	_	_
+14	получилось	получиться	VERB	VERB	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	_
+15	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+16	в	в	ADP	ADP	_	17	case	_	_
+17	квадрате	квадрат	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+18	минус	минус	ADP	ADP	_	19	case	_	_
+19	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_
+20	один	один	NUM	NUM	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+21	плюс	плюс	ADP	ADP	_	22	case	_	_
+22	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	nmod	_	_
+23	два	два	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	24	nummod:gov	_	_
+24	умножить	умножить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	14	csubj	_	_
+25	на	на	ADP	ADP	_	26	case	_	_
+26	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	29	punct	_	_
+28	плюс	плюс	ADP	ADP	_	29	case	_	_
+29	произведение	произведение	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	conj	_	_
+30	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	_
+31	один	один	DET	DET	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	29	appos	_	_
+32	и	и	CCONJ	CCONJ	_	33	cc	_	_
+33	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	conj	_	_
+34	два	два	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	24	obj	_	SpaceAfter=No
+35	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = 62
+# text = Раскрываем скобки, сохраняем знаки.
+1	Раскрываем	раскрывать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	скобки	скобка	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	сохраняем	сохранять	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+5	знаки	знак	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = 63
+# text = Я взял другой фломастер, но, надеюсь, вам видно.
+1	Я	я	PRON	PRON	Case=Nom|Number=Sing|Person=First	2	nsubj	_	_
+2	взял	взять	VERB	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+3	другой	другой	ADJ	ADJ	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	фломастер	фломастер	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	11	punct	_	_
+6	но	но	CCONJ	CCONJ	_	11	cc	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	надеюсь	надеяться	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Mid	11	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	8	punct	_	_
+10	вам	вам	PRON	PRON	Case=Dat|Number=Plur|Person=Second	11	iobj	_	_
+11	видно	видно	ADV	ADV	Degree=Pos	2	conj	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 64
+# text = Он чуть светлее, просто для того, чтобы отделить эту часть.
+1	Он	он	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=Third	3	nsubj	_	_
+2	чуть	чуть	ADV	ADV	Degree=Pos	3	advmod	_	_
+3	светлее	светлый	ADJ	ADJ	Degree=Cmp	0	ROOT	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	7	punct	_	_
+5	просто	просто	PART	PART	_	7	advmod	_	_
+6	для	для	ADP	ADP	_	7	case	_	_
+7	того	того	PRON	PRON	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9	чтобы	чтобы	SCONJ	SCONJ	_	10	mark	_	_
+10	отделить	отделить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	7	advcl	_	_
+11	эту	этот	DET	DET	Case=Acc|Gender=Fem|Number=Sing	12	det	_	_
+12	часть	часть	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 65
+# text = Теперь снова группируем и выносим за скобочки общий множитель.
+1	Теперь	теперь	ADV	ADV	Degree=Pos	3	advmod	_	_
+2	снова	снова	ADV	ADV	Degree=Pos	3	advmod	_	_
+3	группируем	группировать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	и	и	CCONJ	CCONJ	_	5	cc	_	_
+5	выносим	выносить	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+6	за	за	ADP	ADP	_	7	case	_	_
+7	скобочки	скобочка	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obl	_	_
+8	общий	общий	ADJ	ADJ	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	множитель	множитель	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 66
+# text = Здесь мы выносим за скобочки икс и получаем икс умножить на икс минус один.
+1	Здесь	здесь	ADV	ADV	Degree=Pos	3	advmod	_	_
+2	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	3	nsubj	_	_
+3	выносим	выносить	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	за	за	ADP	ADP	_	5	case	_	_
+5	скобочки	скобочка	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obl	_	_
+6	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	и	и	CCONJ	CCONJ	_	8	cc	_	_
+8	получаем	получать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+9	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	умножить	умножить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+11	на	на	ADP	ADP	_	12	case	_	_
+12	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+13	минус	минус	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	case	_	_
+14	один	один	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	10	nummod	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 67
+# text = Здесь у нас икс квадрат минус икс…
+1	Здесь	здесь	ADV	ADV	Degree=Pos	3	advmod	_	_
+2	у	у	ADP	ADP	_	3	case	_	_
+3	нас	нас	PRON	PRON	Case=Gen|Number=Plur|Person=First	0	ROOT	_	_
+4	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	квадрат	квадрат	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	минус	минус	ADP	ADP	_	7	case	_	_
+7	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+8	…	…	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 68
+# text = икс один, выносим за скобки икс, получаем икс умножить на в скобках икс минус один.
+1	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	один	один	DET	DET	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	выносим	выносить	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+5	за	за	ADP	ADP	_	6	case	_	_
+6	скобки	скобка	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obl	_	_
+7	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	9	punct	_	_
+9	получаем	получать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+10	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	умножить	умножить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+12	на	на	ADP	ADP	_	14	case	_	_
+13	в	в	ADP	ADP	_	14	case	_	_
+14	скобках	скобка	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	obl	_	_
+15	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+16	минус	минус	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	case	_	_
+17	один	один	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	11	nummod	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 69
+# text = Здесь мы за скобки выносим икс два.
+1	Здесь	здесь	ADV	ADV	Degree=Pos	5	advmod	_	_
+2	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	5	nsubj	_	_
+3	за	за	ADP	ADP	_	4	case	_	_
+4	скобки	скобка	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obl	_	_
+5	выносим	выносить	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+6	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	два	два	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	5	nummod	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 70
+# text = Минус икс два, а в скобках у нас снова икс и, так как у нас здесь был минус, то и здесь меняется знак на минус, икс один.
+1	Минус	минус	ADP	ADP	_	2	case	_	_
+2	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	два	два	NUM	NUM	Case=Nom|Gender=Masc	0	ROOT	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	9	punct	_	_
+5	а	а	CCONJ	CCONJ	_	9	cc	_	_
+6	в	в	ADP	ADP	_	7	case	_	_
+7	скобках	скобка	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	nmod	_	_
+8	у	у	ADP	ADP	_	9	case	_	_
+9	нас	нас	PRON	PRON	Case=Gen|Number=Plur|Person=First	3	conj	_	_
+10	снова	снова	ADV	ADV	Degree=Pos	9	advmod	_	_
+11	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+12	и	и	CCONJ	CCONJ	_	25	cc	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	20	punct	_	_
+14	так	так	ADV	ADV	Degree=Pos	20	mark	_	_
+15	как	как	SCONJ	SCONJ	_	14	fixed	_	_
+16	у	у	ADP	ADP	_	17	case	_	_
+17	нас	нас	PRON	PRON	Case=Gen|Number=Plur|Person=First	20	obl	_	_
+18	здесь	здесь	ADV	ADV	Degree=Pos	17	advmod	_	_
+19	был	быть	AUX	AUX	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	cop	_	_
+20	минус	минус	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	20	punct	_	_
+22	то	то	SCONJ	SCONJ	_	25	mark	_	_
+23	и	и	PART	PART	_	24	advmod	_	_
+24	здесь	здесь	ADV	ADV	Degree=Pos	25	advmod	_	_
+25	меняется	меняться	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	_
+26	знак	знак	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+27	на	на	ADP	ADP	_	28	case	_	_
+28	минус	минус	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	PUNCT	_	30	punct	_	_
+30	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	conj	_	_
+31	один	один	DET	DET	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	nsubj	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 71
+# text = Снова у нас получились две одинаковые скобки: икс минус один и икс минус один.
+1	Снова	снова	ADV	ADV	Degree=Pos	4	advmod	_	_
+2	у	у	ADP	ADP	_	3	case	_	_
+3	нас	нас	PRON	PRON	Case=Gen|Number=Plur|Person=First	4	obl	_	_
+4	получились	получиться	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+5	две	два	NUM	NUM	Case=Nom|Gender=Fem	7	nummod:gov	_	_
+6	одинаковые	одинаковый	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	скобки	скобка	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+8	:	:	PUNCT	PUNCT	_	9	punct	_	_
+9	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+10	минус	минус	ADP	ADP	_	11	case	_	_
+11	один	один	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	9	nummod	_	_
+12	и	и	CCONJ	CCONJ	_	13	cc	_	_
+13	икс	икс	PROPN	PROPN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
+14	минус	минус	ADP	ADP	_	15	case	_	_
+15	один	один	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	7	parataxis	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = 72
+# text = Снова возвращаемся к чёрному и уже выносим за скобки общую скобочку икс минус икс один умножить на икс минус икс два.
+1	Снова	снова	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	возвращаемся	возвращаться	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+3	к	к	ADP	ADP	_	4	case	_	_
+4	чёрному	чёрный	ADJ	ADJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	2	obl	_	_
+5	и	и	CCONJ	CCONJ	_	7	cc	_	_
+6	уже	уже	ADV	ADV	Degree=Pos	7	advmod	_	_
+7	выносим	выносить	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	за	за	ADP	ADP	_	9	case	_	_
+9	скобки	скобка	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obl	_	_
+10	общую	общий	ADJ	ADJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	скобочку	скобочка	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+12	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+13	минус	минус	ADP	ADP	_	14	case	_	_
+14	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
+15	один	один	DET	DET	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	obj	_	_
+16	умножить	умножить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+17	на	на	ADP	ADP	_	18	case	_	_
+18	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
+19	минус	минус	ADP	ADP	_	20	case	_	_
+20	икс	икс	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
+21	два	два	NUM	NUM	Animacy=Inan|Case=Acc|Gender=Masc	16	nummod:gov	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 73
+# text = Ну, этот результат мы получили для приведенного квадратного трёхчлена, а если у нас не приведенный, то есть возле икс квадрате стоит некий коэффициент, то тогда и получается вот это выражение.
+1	Ну	ну	PART	PART	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	этот	этот	DET	DET	Case=Acc|Gender=Masc|Number=Sing	4	det	_	_
+4	результат	результат	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+5	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	6	nsubj	_	_
+6	получили	получить	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+7	для	для	ADP	ADP	_	10	case	_	_
+8	приведенного	приведенного	ADJ	ADJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	квадратного	квадратный	ADJ	ADJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	трёхчлена	трёхчлен	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	17	punct	_	_
+12	а	а	CCONJ	CCONJ	_	17	cc	_	_
+13	если	если	SCONJ	SCONJ	_	17	mark	_	_
+14	у	у	ADP	ADP	_	15	case	_	_
+15	нас	нас	PRON	PRON	Case=Gen|Number=Plur|Person=First	17	obl	_	_
+16	не	не	PART	PART	Polarity=Neg	17	advmod	_	_
+17	приведенный	приведенный	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	acl	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	22	punct	_	_
+19	то	то	SCONJ	SCONJ	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	mark	_	_
+20	есть	быть	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	19	fixed	_	_
+21	возле	возле	ADP	ADP	_	22	case	_	_
+22	икс	икс	PROPN	PROPN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	parataxis	_	_
+23	квадрате	квадрате	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	iobj	_	_
+24	стоит	стоить	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+25	некий	некий	DET	DET	Case=Nom|Gender=Masc|Number=Sing	26	det	_	_
+26	коэффициент	коэффициент	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	31	punct	_	_
+28	то	то	SCONJ	SCONJ	_	31	mark	_	_
+29	тогда	тогда	ADV	ADV	Degree=Pos	31	advmod	_	_
+30	и	и	PART	PART	_	31	advmod	_	_
+31	получается	получаться	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid	6	conj	_	_
+32	вот	вот	PART	PART	_	33	advmod	_	_
+33	это	это	DET	DET	Case=Nom|Gender=Neut|Number=Sing	34	det	_	_
+34	выражение	выражение	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	31	nsubj	_	SpaceAfter=No
+35	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = 74
+# text = Это есть доказательство.
+1	Это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	есть	есть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	доказательство	доказательство	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	ROOT	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 75
+# text = Не знаю, понадобится вам или нет доказательство, но то, что вам понадобится эта формула – это однозначно.
+1	Не	не	PART	PART	Polarity=Neg	2	advmod	_	_
+2	знаю	знать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	понадобится	понадобиться	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Mid	2	conj	_	_
+5	вам	вам	PRON	PRON	Case=Dat|Number=Plur|Person=Second	4	iobj	_	_
+6	или	или	CCONJ	CCONJ	_	7	cc	_	_
+7	нет	нет	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	доказательство	доказательство	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	20	punct	_	_
+10	но	но	CCONJ	CCONJ	_	20	cc	_	_
+11	то	то	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	15	punct	_	_
+13	что	что	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	mark	_	_
+14	вам	вам	PRON	PRON	Case=Dat|Number=Plur|Person=Second	15	iobj	_	_
+15	понадобится	понадобиться	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Mid	11	acl	_	_
+16	эта	этот	DET	DET	Case=Nom|Gender=Fem|Number=Sing	17	det	_	_
+17	формула	формула	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+18	–	–	PUNCT	PUNCT	_	11	punct	_	_
+19	это	это	PART	PART	_	20	expl	_	_
+20	однозначно	однозначный	ADJ	ADJ	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	2	conj	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 76
+# text = Ну и здесь стоит заметить только одно: если квадратный трёхчлен приравняем к нулю, мы не получаем его корней, то есть невозможно его приравнять к нулю, то такой трёхчлен и не раскладывается на множители.
+1	Ну	ну	PART	PART	_	4	discourse	_	_
+2	и	и	PART	PART	_	3	advmod	_	_
+3	здесь	здесь	ADV	ADV	Degree=Pos	4	advmod	_	_
+4	стоит	стоить	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+5	заметить	заметить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	4	csubj	_	_
+6	только	только	PART	PART	_	7	advmod	_	_
+7	одно	одно	NUM	NUM	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No
+8	:	:	PUNCT	PUNCT	_	18	punct	_	_
+9	если	если	SCONJ	SCONJ	_	12	mark	_	_
+10	квадратный	квадратный	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	трёхчлен	трёхчлен	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+12	приравняем	приравняем	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	_
+13	к	к	ADP	ADP	_	14	case	_	_
+14	нулю	нуль	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	12	punct	_	_
+16	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	18	nsubj	_	_
+17	не	не	PART	PART	Polarity=Neg	18	advmod	_	_
+18	получаем	получать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+19	его	его	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=Third	18	obj	_	_
+20	корней	корней	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	24	punct	_	_
+22	то	то	SCONJ	SCONJ	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	24	mark	_	_
+23	есть	быть	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	22	fixed	_	_
+24	невозможно	невозможный	ADJ	ADJ	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	18	parataxis	_	_
+25	его	его	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=Third	26	obj	_	_
+26	приравнять	приравнять	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	24	csubj	_	_
+27	к	к	ADP	ADP	_	28	case	_	_
+28	нулю	нуль	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+29	,	,	PUNCT	PUNCT	_	24	punct	_	_
+30	то	то	SCONJ	SCONJ	_	32	mark	_	_
+31	такой	такой	DET	DET	Case=Nom|Gender=Masc|Number=Sing	32	det	_	_
+32	трёхчлен	трёхчлен	ADJ	ADJ	Degree=Pos|Gender=Masc|Number=Sing|StyleVariant=Short	18	conj	_	_
+33	и	и	CCONJ	CCONJ	_	35	cc	_	_
+34	не	не	PART	PART	Polarity=Neg	35	advmod	_	_
+35	раскладывается	раскладывается	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Pass	32	conj	_	_
+36	на	на	ADP	ADP	_	37	case	_	_
+37	множители	множитель	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	35	obl	_	SpaceAfter=No
+38	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = 77
+# text = Вот именно для этого нам теперь и понадобятся наши знания в квадратных уравнениях, о дискриминантах и обо всем, что мы до этого прошли.
+1	Вот	вот	PART	PART	_	4	advmod	_	_
+2	именно	именно	PART	PART	_	4	advmod	_	_
+3	для	для	ADP	ADP	_	4	case	_	_
+4	этого	это	PRON	PRON	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+5	нам	нам	PRON	PRON	Case=Dat|Number=Plur|Person=First	8	iobj	_	_
+6	теперь	теперь	ADV	ADV	Degree=Pos	8	advmod	_	_
+7	и	и	PART	PART	_	8	advmod	_	_
+8	понадобятся	понадобиться	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+9	наши	наш	DET	DET	Case=Nom|Number=Plur	10	det	_	_
+10	знания	знание	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+11	в	в	ADP	ADP	_	13	case	_	_
+12	квадратных	квадратный	ADJ	ADJ	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	уравнениях	уравнение	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	16	punct	_	_
+15	о	о	ADP	ADP	_	16	case	_	_
+16	дискриминантах	дискриминант	NOUN	NOUN	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	13	conj	_	_
+17	и	и	CCONJ	CCONJ	_	19	cc	_	_
+18	обо	обо	ADP	ADP	_	19	case	_	_
+19	всем	всем	PRON	PRON	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	conj	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	25	punct	_	_
+21	что	что	SCONJ	SCONJ	_	25	mark	_	_
+22	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=First	25	nsubj	_	_
+23	до	до	ADP	ADP	_	24	case	_	_
+24	этого	это	PRON	PRON	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl	_	_
+25	прошли	пройти	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	acl:relcl	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = 78
+# text = Но как это использовать на практике, разберём в следующих видео.
+1	Но	но	CCONJ	CCONJ	_	4	cc	_	_
+2	как	как	SCONJ	SCONJ	_	4	advmod	_	_
+3	это	это	PRON	PRON	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+4	использовать	использовать	VERB	VERB	Aspect=Imp|VerbForm=Inf|Voice=Act	0	ROOT	_	_
+5	на	на	ADP	ADP	_	6	case	_	_
+6	практике	практика	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	разберём	разберём	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	acl	_	_
+9	в	в	ADP	ADP	_	11	case	_	_
+10	следующих	следующий	ADJ	ADJ	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	видео	видео	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No

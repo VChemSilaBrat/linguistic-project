@@ -1,0 +1,1343 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Math_entities|Name|ROLE_webanno.custom.Math_entities:args_webanno.custom.Math_entitiesArgsLink|webanno.custom.MathArgs|math_tag|reference|ROLE_webanno.custom.Math_entities:specifier_webanno.custom.Math_entitiesSpecifierLink|webanno.custom.Math_entities
+
+
+#Text=title: "Сложение и вычитание натуральных чисел.
+1-1	0-5	title	_	_	_	_	_	_	_	
+1-2	5-6	:	_	_	_	_	_	_	_	
+1-3	7-8	"	_	_	_	_	_	_	_	
+1-4	8-16	Сложение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+1-5	17-18	и	_	_	_	_	_	_	_	
+1-6	19-28	вычитание	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	
+1-7	29-40	натуральных	_	_	_	_	_	_	_	
+1-8	41-46	чисел	_	_	_	_	_	_	_	
+1-9	46-47	.	_	_	_	_	_	_	_	
+
+#Text=Математика 5–6 классы #2"\r
+#Text=yb_link: "https://youtu.be/9FM9NarGNWw"\r
+#Text=branch: "элементарная математика"\r
+#Text=level: "школьная программа"\r
+#Text=timecode_start: "0:20"\r
+#Text=timecode_end: "13:15"\r
+#Text=text: "Сложение и вычитание натуральных чисел, переместительный и сочетательный закон и сложения.
+2-1	48-58	Математика	_	_	_	_	_	_	_	
+2-2	59-60	5	_	_	_	_	_	_	_	
+2-3	60-61	–	_	_	_	_	_	_	_	
+2-4	61-62	6	_	_	_	_	_	_	_	
+2-5	63-69	классы	_	_	_	_	_	_	_	
+2-6	70-72	#2	_	_	_	_	_	_	_	
+2-7	72-73	"	_	_	_	_	_	_	_	
+2-8	75-82	yb_link	_	_	_	_	_	_	_	
+2-9	82-83	:	_	_	_	_	_	_	_	
+2-10	84-85	"	_	_	_	_	_	_	_	
+2-11	85-90	https	_	_	_	_	_	_	_	
+2-12	90-91	:	_	_	_	_	_	_	_	
+2-13	91-92	/	_	_	_	_	_	_	_	
+2-14	92-93	/	_	_	_	_	_	_	_	
+2-15	93-101	youtu.be	_	_	_	_	_	_	_	
+2-16	101-102	/	_	_	_	_	_	_	_	
+2-17	102-113	9FM9NarGNWw	_	_	_	_	_	_	_	
+2-18	113-114	"	_	_	_	_	_	_	_	
+2-19	116-122	branch	_	_	_	_	_	_	_	
+2-20	122-123	:	_	_	_	_	_	_	_	
+2-21	124-125	"	_	_	_	_	_	_	_	
+2-22	125-137	элементарная	_	_	_	_	_	_	_	
+2-23	138-148	математика	_	_	_	_	_	_	_	
+2-24	148-149	"	_	_	_	_	_	_	_	
+2-25	151-156	level	_	_	_	_	_	_	_	
+2-26	156-157	:	_	_	_	_	_	_	_	
+2-27	158-159	"	_	_	_	_	_	_	_	
+2-28	159-167	школьная	_	_	_	_	_	_	_	
+2-29	168-177	программа	_	_	_	_	_	_	_	
+2-30	177-178	"	_	_	_	_	_	_	_	
+2-31	180-194	timecode_start	_	_	_	_	_	_	_	
+2-32	194-195	:	_	_	_	_	_	_	_	
+2-33	196-197	"	_	_	_	_	_	_	_	
+2-34	197-198	0	_	_	_	_	_	_	_	
+2-35	198-199	:	_	_	_	_	_	_	_	
+2-36	199-201	20	_	_	_	_	_	_	_	
+2-37	201-202	"	_	_	_	_	_	_	_	
+2-38	204-216	timecode_end	_	_	_	_	_	_	_	
+2-39	216-217	:	_	_	_	_	_	_	_	
+2-40	218-219	"	_	_	_	_	_	_	_	
+2-41	219-221	13	_	_	_	_	_	_	_	
+2-42	221-222	:	_	_	_	_	_	_	_	
+2-43	222-224	15	_	_	_	_	_	_	_	
+2-44	224-225	"	_	_	_	_	_	_	_	
+2-45	227-231	text	_	_	_	_	_	_	_	
+2-46	231-232	:	_	_	_	_	_	_	_	
+2-47	233-234	"	_	_	_	_	_	_	_	
+2-48	234-242	Сложение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+2-49	243-244	и	_	_	_	_	_	_	_	
+2-50	245-254	вычитание	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	
+2-51	255-266	натуральных	_	_	_	_	_	_	_	
+2-52	267-272	чисел	_	_	_	_	_	_	_	
+2-53	272-273	,	_	_	_	_	_	_	_	
+2-54	274-290	переместительный	_	_	_	_	_	_	_	
+2-55	291-292	и	_	_	_	_	_	_	_	
+2-56	293-306	сочетательный	_	_	_	_	_	_	_	
+2-57	307-312	закон	_	_	_	_	_	_	_	
+2-58	313-314	и	_	_	_	_	_	_	_	
+2-59	315-323	сложения	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+2-60	323-324	.	_	_	_	_	_	_	_	
+
+#Text=Пусть a плюс бэ равняется цэ, где а, бэ и цэ некоторые числа.
+3-1	325-330	Пусть	_	_	_	_	_	_	_	
+3-2	331-332	a	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+3-3	333-337	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+3-4	338-340	бэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+3-5	341-350	равняется	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+3-6	351-353	цэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+3-7	353-354	,	_	_	_	_	_	_	_	
+3-8	355-358	где	_	_	_	_	_	_	_	
+3-9	359-360	а	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+3-10	360-361	,	_	_	_	_	_	_	_	
+3-11	362-364	бэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+3-12	365-366	и	_	_	_	_	_	_	_	
+3-13	367-369	цэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+3-14	370-379	некоторые	_	_	_	_	_	_	_	
+3-15	380-385	числа	_	_	_	_	_	_	_	
+3-16	385-386	.	_	_	_	_	_	_	_	
+
+#Text=Числа а и бэ называют слагаемыми, число цэ, а также выражение a плюс бэ называют суммой чисел а и бэ.
+4-1	387-392	Числа	_	_	_	_	_	_	_	
+4-2	393-394	а	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+4-3	395-396	и	_	_	_	_	_	_	_	
+4-4	397-399	бэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+4-5	400-408	называют	_	_	_	_	_	_	_	
+4-6	409-419	слагаемыми	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9279	*	_	*	
+4-7	419-420	,	_	_	_	_	_	_	_	
+4-8	421-426	число	_	_	_	_	_	_	_	
+4-9	427-429	цэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+4-10	429-430	,	_	_	_	_	_	_	_	
+4-11	431-432	а	_	_	_	_	_	_	_	
+4-12	433-438	также	_	_	_	_	_	_	_	
+4-13	439-448	выражение	_	_	_	_	_	_	_	
+4-14	449-450	a	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+4-15	451-455	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+4-16	456-458	бэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+4-17	459-467	называют	_	_	_	_	_	_	_	
+4-18	468-474	суммой	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+4-19	475-480	чисел	_	_	_	_	_	_	_	
+4-20	481-482	а	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+4-21	483-484	и	_	_	_	_	_	_	_	
+4-22	485-487	бэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+4-23	487-488	.	_	_	_	_	_	_	_	
+
+#Text=Действие, с помощью которого определяется сумма, называется сложением.
+5-1	489-497	Действие	_	_	_	_	_	_	_	
+5-2	497-498	,	_	_	_	_	_	_	_	
+5-3	499-500	с	_	_	_	_	_	_	_	
+5-4	501-508	помощью	_	_	_	_	_	_	_	
+5-5	509-517	которого	_	_	_	_	_	_	_	
+5-6	518-530	определяется	_	_	_	_	_	_	_	
+5-7	531-536	сумма	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+5-8	536-537	,	_	_	_	_	_	_	_	
+5-9	538-548	называется	_	_	_	_	_	_	_	
+5-10	549-558	сложением	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+5-11	558-559	.	_	_	_	_	_	_	_	
+
+#Text=Например, восемнадцать плюс двенадцать равняется тридцать.
+6-1	560-568	Например	_	_	_	_	_	_	_	
+6-2	568-569	,	_	_	_	_	_	_	_	
+6-3	570-582	восемнадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+6-4	583-587	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+6-5	588-598	двенадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+6-6	599-608	равняется	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+6-7	609-617	тридцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+6-8	617-618	.	_	_	_	_	_	_	_	
+
+#Text=В этой записи числа восемнадцать и двенадцать являются слагаемыми, число тридцать является суммой.
+7-1	619-620	В	_	_	_	_	_	_	_	
+7-2	621-625	этой	_	_	_	_	_	_	_	
+7-3	626-632	записи	_	_	_	_	_	_	_	
+7-4	633-638	числа	_	_	_	_	_	_	_	
+7-5	639-651	восемнадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+7-6	652-653	и	_	_	_	_	_	_	_	
+7-7	654-664	двенадцать	*[1]|*[2]	_[1]|_[2]	*|*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[1]|http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[2]	*[1]|*[2]	_[1]|_[2]	*|*	
+7-8	665-673	являются	_	_	_	_	_	_	_	
+7-9	674-684	слагаемыми	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9279	*	_	*	
+7-10	684-685	,	_	_	_	_	_	_	_	
+7-11	686-691	число	_	_	_	_	_	_	_	
+7-12	692-700	тридцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+7-13	701-709	является	_	_	_	_	_	_	_	
+7-14	710-716	суммой	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+7-15	716-717	.	_	_	_	_	_	_	_	
+
+#Text=Переместительный закон сложения гласит о следующем: a плюс бэ равняется бэ плюс a, то есть от перестановки слагаемых сумма не изменяется.
+8-1	718-734	Переместительный	_	_	_	_	_	_	_	
+8-2	735-740	закон	_	_	_	_	_	_	_	
+8-3	741-749	сложения	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+8-4	750-756	гласит	_	_	_	_	_	_	_	
+8-5	757-758	о	_	_	_	_	_	_	_	
+8-6	759-768	следующем	_	_	_	_	_	_	_	
+8-7	768-769	:	_	_	_	_	_	_	_	
+8-8	770-771	a	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+8-9	772-776	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+8-10	777-779	бэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+8-11	780-789	равняется	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+8-12	790-792	бэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+8-13	793-797	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+8-14	798-799	a	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+8-15	799-800	,	_	_	_	_	_	_	_	
+8-16	801-803	то	_	_	_	_	_	_	_	
+8-17	804-808	есть	_	_	_	_	_	_	_	
+8-18	809-811	от	_	_	_	_	_	_	_	
+8-19	812-824	перестановки	_	_	_	_	_	_	_	
+8-20	825-834	слагаемых	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9279	*	_	*	
+8-21	835-840	сумма	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+8-22	841-843	не	_	_	_	_	_	_	_	
+8-23	844-854	изменяется	_	_	_	_	_	_	_	
+8-24	854-855	.	_	_	_	_	_	_	_	
+
+#Text=Например, двенадцать плюс тринадцать равняется двадцать пять или тринадцать плюс двенадцать также равняется двадцать пять.
+9-1	856-864	Например	_	_	_	_	_	_	_	
+9-2	864-865	,	_	_	_	_	_	_	_	
+9-3	866-876	двенадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+9-4	877-881	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+9-5	882-892	тринадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+9-6	893-902	равняется	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+9-7	903-911	двадцать	*[3]	_[3]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[3]	*[3]	_[3]	*	
+9-8	912-916	пять	*[3]	_[3]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[3]	*[3]	_[3]	*	
+9-9	917-920	или	_	_	_	_	_	_	_	
+9-10	921-931	тринадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+9-11	932-936	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+9-12	937-947	двенадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+9-13	948-953	также	_	_	_	_	_	_	_	
+9-14	954-963	равняется	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+9-15	964-972	двадцать	*[4]	_[4]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[4]	*[4]	_[4]	*	
+9-16	973-977	пять	*[4]	_[4]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[4]	*[4]	_[4]	*	
+9-17	977-978	.	_	_	_	_	_	_	_	
+
+#Text=То есть двенадцать плюс тринадцать и тринадцать плюс двенадцать, эти две суммы дают одинаковый результат.
+10-1	979-981	То	_	_	_	_	_	_	_	
+10-2	982-986	есть	_	_	_	_	_	_	_	
+10-3	987-997	двенадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+10-4	998-1002	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+10-5	1003-1013	тринадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+10-6	1014-1015	и	_	_	_	_	_	_	_	
+10-7	1016-1026	тринадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+10-8	1027-1031	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+10-9	1032-1042	двенадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+10-10	1042-1043	,	_	_	_	_	_	_	_	
+10-11	1044-1047	эти	_	_	_	_	_	_	_	
+10-12	1048-1051	две	_	_	_	_	_	_	_	
+10-13	1052-1057	суммы	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+10-14	1058-1062	дают	_	_	_	_	_	_	_	
+10-15	1063-1073	одинаковый	_	_	_	_	_	_	_	
+10-16	1074-1083	результат	_	_	_	_	_	_	_	
+10-17	1083-1084	.	_	_	_	_	_	_	_	
+
+#Text=Сочетательный закон сложения записывается в виде a плюс бэ в скобочках плюс цэ равняется a плюс сумма в скобках бэ плюс цэ.
+11-1	1085-1098	Сочетательный	_	_	_	_	_	_	_	
+11-2	1099-1104	закон	_	_	_	_	_	_	_	
+11-3	1105-1113	сложения	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+11-4	1114-1126	записывается	_	_	_	_	_	_	_	
+11-5	1127-1128	в	_	_	_	_	_	_	_	
+11-6	1129-1133	виде	_	_	_	_	_	_	_	
+11-7	1134-1135	a	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+11-8	1136-1140	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+11-9	1141-1143	бэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+11-10	1144-1145	в	_	_	_	_	_	_	_	
+11-11	1146-1155	скобочках	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172720	*	_	*	
+11-12	1156-1160	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+11-13	1161-1163	цэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+11-14	1164-1173	равняется	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+11-15	1174-1175	a	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+11-16	1176-1180	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+11-17	1181-1186	сумма	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+11-18	1187-1188	в	_	_	_	_	_	_	_	
+11-19	1189-1196	скобках	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172720	*	_	*	
+11-20	1197-1199	бэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+11-21	1200-1204	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+11-22	1205-1207	цэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+11-23	1207-1208	.	_	_	_	_	_	_	_	
+
+#Text=Для того чтобы к сумме двух слагаемых прибавить третье, нужно к первому слагаемому прибавить сумму второго и третьего.
+12-1	1209-1212	Для	_	_	_	_	_	_	_	
+12-2	1213-1217	того	_	_	_	_	_	_	_	
+12-3	1218-1223	чтобы	_	_	_	_	_	_	_	
+12-4	1224-1225	к	_	_	_	_	_	_	_	
+12-5	1226-1231	сумме	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+12-6	1232-1236	двух	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+12-7	1237-1246	слагаемых	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9279	*	_	*	
+12-8	1247-1256	прибавить	_	_	_	_	_	_	_	
+12-9	1257-1263	третье	_	_	_	_	_	_	_	
+12-10	1263-1264	,	_	_	_	_	_	_	_	
+12-11	1265-1270	нужно	_	_	_	_	_	_	_	
+12-12	1271-1272	к	_	_	_	_	_	_	_	
+12-13	1273-1280	первому	_	_	_	_	_	_	_	
+12-14	1281-1291	слагаемому	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9279	*	_	*	
+12-15	1292-1301	прибавить	_	_	_	_	_	_	_	
+12-16	1302-1307	сумму	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+12-17	1308-1315	второго	_	_	_	_	_	_	_	
+12-18	1316-1317	и	_	_	_	_	_	_	_	
+12-19	1318-1326	третьего	_	_	_	_	_	_	_	
+12-20	1326-1327	.	_	_	_	_	_	_	_	
+
+#Text=Например, восемнадцать плюс двенадцать и плюс десять равняется...
+13-1	1328-1336	Например	_	_	_	_	_	_	_	
+13-2	1336-1337	,	_	_	_	_	_	_	_	
+13-3	1338-1350	восемнадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+13-4	1351-1355	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+13-5	1356-1366	двенадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+13-6	1367-1368	и	_	_	_	_	_	_	_	
+13-7	1369-1373	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+13-8	1374-1380	десять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+13-9	1381-1390	равняется	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+13-10	1390-1391	.	_	_	_	_	_	_	_	
+13-11	1391-1392	.	_	_	_	_	_	_	_	
+13-12	1392-1393	.	_	_	_	_	_	_	_	
+
+#Text=Если найти сумму скобках получаем тридцать, тридцать плюс десять равняется сорока.
+14-1	1394-1398	Если	_	_	_	_	_	_	_	
+14-2	1399-1404	найти	_	_	_	_	_	_	_	
+14-3	1405-1410	сумму	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+14-4	1411-1418	скобках	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172720	*	_	*	
+14-5	1419-1427	получаем	_	_	_	_	_	_	_	
+14-6	1428-1436	тридцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+14-7	1436-1437	,	_	_	_	_	_	_	_	
+14-8	1438-1446	тридцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+14-9	1447-1451	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+14-10	1452-1458	десять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+14-11	1459-1468	равняется	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+14-12	1469-1475	сорока	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+14-13	1475-1476	.	_	_	_	_	_	_	_	
+
+#Text=Или восемнадцать плюс, в скобках записываем сумму двенадцать плюс десять, и выполняем сложение в таком порядке: находим сумму в скобках двенадцать плюс десять получаем двадцать два, к восемнадцати прибавляем число двадцать два, получаем также в ответе сорок.
+15-1	1477-1480	Или	_	_	_	_	_	_	_	
+15-2	1481-1493	восемнадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+15-3	1494-1498	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+15-4	1498-1499	,	_	_	_	_	_	_	_	
+15-5	1500-1501	в	_	_	_	_	_	_	_	
+15-6	1502-1509	скобках	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172720	*	_	*	
+15-7	1510-1520	записываем	_	_	_	_	_	_	_	
+15-8	1521-1526	сумму	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+15-9	1527-1537	двенадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+15-10	1538-1542	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+15-11	1543-1549	десять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+15-12	1549-1550	,	_	_	_	_	_	_	_	
+15-13	1551-1552	и	_	_	_	_	_	_	_	
+15-14	1553-1562	выполняем	_	_	_	_	_	_	_	
+15-15	1563-1571	сложение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+15-16	1572-1573	в	_	_	_	_	_	_	_	
+15-17	1574-1579	таком	_	_	_	_	_	_	_	
+15-18	1580-1587	порядке	_	_	_	_	_	_	_	
+15-19	1587-1588	:	_	_	_	_	_	_	_	
+15-20	1589-1596	находим	_	_	_	_	_	_	_	
+15-21	1597-1602	сумму	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+15-22	1603-1604	в	_	_	_	_	_	_	_	
+15-23	1605-1612	скобках	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172720	*	_	*	
+15-24	1613-1623	двенадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+15-25	1624-1628	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+15-26	1629-1635	десять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+15-27	1636-1644	получаем	_	_	_	_	_	_	_	
+15-28	1645-1653	двадцать	*[5]	_[5]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[5]	*[5]	_[5]	*	
+15-29	1654-1657	два	*[5]	_[5]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[5]	*[5]	_[5]	*	
+15-30	1657-1658	,	_	_	_	_	_	_	_	
+15-31	1659-1660	к	_	_	_	_	_	_	_	
+15-32	1661-1673	восемнадцати	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+15-33	1674-1684	прибавляем	_	_	_	_	_	_	_	
+15-34	1685-1690	число	_	_	_	_	_	_	_	
+15-35	1691-1699	двадцать	*[6]	_[6]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[6]	*[6]	_[6]	*	
+15-36	1700-1703	два	*[6]	_[6]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[6]	*[6]	_[6]	*	
+15-37	1703-1704	,	_	_	_	_	_	_	_	
+15-38	1705-1713	получаем	_	_	_	_	_	_	_	
+15-39	1714-1719	также	_	_	_	_	_	_	_	
+15-40	1720-1721	в	_	_	_	_	_	_	_	
+15-41	1722-1728	ответе	_	_	_	_	_	_	_	
+15-42	1729-1734	сорок	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+15-43	1734-1735	.	_	_	_	_	_	_	_	
+
+#Text=Из этих свойств следует, что сложение нескольких чисел можно выполнять в любой последовательности: слагаемые группируются обычно так, чтобы вычисления были как можно простейшими, как можно проще.
+16-1	1736-1738	Из	_	_	_	_	_	_	_	
+16-2	1739-1743	этих	_	_	_	_	_	_	_	
+16-3	1744-1751	свойств	_	_	_	_	_	_	_	
+16-4	1752-1759	следует	_	_	_	_	_	_	_	
+16-5	1759-1760	,	_	_	_	_	_	_	_	
+16-6	1761-1764	что	_	_	_	_	_	_	_	
+16-7	1765-1773	сложение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+16-8	1774-1784	нескольких	_	_	_	_	_	_	_	
+16-9	1785-1790	чисел	_	_	_	_	_	_	_	
+16-10	1791-1796	можно	_	_	_	_	_	_	_	
+16-11	1797-1806	выполнять	_	_	_	_	_	_	_	
+16-12	1807-1808	в	_	_	_	_	_	_	_	
+16-13	1809-1814	любой	_	_	_	_	_	_	_	
+16-14	1815-1833	последовательности	_	_	_	_	_	_	_	
+16-15	1833-1834	:	_	_	_	_	_	_	_	
+16-16	1835-1844	слагаемые	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9279	*	_	*	
+16-17	1845-1857	группируются	_	_	_	_	_	_	_	
+16-18	1858-1864	обычно	_	_	_	_	_	_	_	
+16-19	1865-1868	так	_	_	_	_	_	_	_	
+16-20	1868-1869	,	_	_	_	_	_	_	_	
+16-21	1870-1875	чтобы	_	_	_	_	_	_	_	
+16-22	1876-1886	вычисления	_	_	_	_	_	_	_	
+16-23	1887-1891	были	_	_	_	_	_	_	_	
+16-24	1892-1895	как	_	_	_	_	_	_	_	
+16-25	1896-1901	можно	_	_	_	_	_	_	_	
+16-26	1902-1913	простейшими	_	_	_	_	_	_	_	
+16-27	1913-1914	,	_	_	_	_	_	_	_	
+16-28	1915-1918	как	_	_	_	_	_	_	_	
+16-29	1919-1924	можно	_	_	_	_	_	_	_	
+16-30	1925-1930	проще	_	_	_	_	_	_	_	
+16-31	1930-1931	.	_	_	_	_	_	_	_	
+
+#Text=Например, четырнадцать плюс тридцать пять плюс сорок пять плюс шесть.
+17-1	1932-1940	Например	_	_	_	_	_	_	_	
+17-2	1940-1941	,	_	_	_	_	_	_	_	
+17-3	1942-1954	четырнадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+17-4	1955-1959	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+17-5	1960-1968	тридцать	*[7]	_[7]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[7]	*[7]	_[7]	*	
+17-6	1969-1973	пять	*[7]	_[7]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[7]	*[7]	_[7]	*	
+17-7	1974-1978	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+17-8	1979-1984	сорок	*[8]	_[8]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[8]	*[8]	_[8]	*	
+17-9	1985-1989	пять	*[8]	_[8]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[8]	*[8]	_[8]	*	
+17-10	1990-1994	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+17-11	1995-2000	шесть	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+17-12	2000-2001	.	_	_	_	_	_	_	_	
+
+#Text=Выполним сложение наиболее удобным способом.
+18-1	2002-2010	Выполним	_	_	_	_	_	_	_	
+18-2	2011-2019	сложение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+18-3	2020-2028	наиболее	_	_	_	_	_	_	_	
+18-4	2029-2036	удобным	_	_	_	_	_	_	_	
+18-5	2037-2045	способом	_	_	_	_	_	_	_	
+18-6	2045-2046	.	_	_	_	_	_	_	_	
+
+#Text=Сгруппируем слагаемые в следующем порядке: сначала четырнадцать и шесть, затем тридцать пять и сорок пять.
+19-1	2047-2058	Сгруппируем	_	_	_	_	_	_	_	
+19-2	2059-2068	слагаемые	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+19-3	2069-2070	в	_	_	_	_	_	_	_	
+19-4	2071-2080	следующем	_	_	_	_	_	_	_	
+19-5	2081-2088	порядке	_	_	_	_	_	_	_	
+19-6	2088-2089	:	_	_	_	_	_	_	_	
+19-7	2090-2097	сначала	_	_	_	_	_	_	_	
+19-8	2098-2110	четырнадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+19-9	2111-2112	и	_	_	_	_	_	_	_	
+19-10	2113-2118	шесть	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+19-11	2118-2119	,	_	_	_	_	_	_	_	
+19-12	2120-2125	затем	_	_	_	_	_	_	_	
+19-13	2126-2134	тридцать	*[9]	_[9]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[9]	*[9]	_[9]	*	
+19-14	2135-2139	пять	*[9]	_[9]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[9]	*[9]	_[9]	*	
+19-15	2140-2141	и	_	_	_	_	_	_	_	
+19-16	2142-2147	сорок	*[10]	_[10]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[10]	*[10]	_[10]	*	
+19-17	2148-2152	пять	*[10]	_[10]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[10]	*[10]	_[10]	*	
+19-18	2152-2153	.	_	_	_	_	_	_	_	
+
+#Text=Первая сумма нам дает ответ двадцать.
+20-1	2154-2160	Первая	_	_	_	_	_	_	_	
+20-2	2161-2166	сумма	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+20-3	2167-2170	нам	_	_	_	_	_	_	_	
+20-4	2171-2175	дает	_	_	_	_	_	_	_	
+20-5	2176-2181	ответ	_	_	_	_	_	_	_	
+20-6	2182-2190	двадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+20-7	2190-2191	.	_	_	_	_	_	_	_	
+
+#Text=Вторая сумма дает ответ восемьдесят.
+21-1	2192-2198	Вторая	_	_	_	_	_	_	_	
+21-2	2199-2204	сумма	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+21-3	2205-2209	дает	_	_	_	_	_	_	_	
+21-4	2210-2215	ответ	_	_	_	_	_	_	_	
+21-5	2216-2227	восемьдесят	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+21-6	2227-2228	.	_	_	_	_	_	_	_	
+
+#Text=Всего получаем сто.
+22-1	2229-2234	Всего	_	_	_	_	_	_	_	
+22-2	2235-2243	получаем	_	_	_	_	_	_	_	
+22-3	2244-2247	сто	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+22-4	2247-2248	.	_	_	_	_	_	_	_	
+
+#Text=Или шесть тысяч восемьсот сорок плюс две тысячи девятьсот семьдесят плюс триста плюс тридцать плюс сто шестьдесят.
+23-1	2249-2252	Или	_	_	_	_	_	_	_	
+23-2	2253-2258	шесть	*[11]	_[11]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[11]	*[11]	_[11]	*	
+23-3	2259-2264	тысяч	*[11]	_[11]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[11]	*[11]	_[11]	*	
+23-4	2265-2274	восемьсот	*[11]	_[11]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[11]	*[11]	_[11]	*	
+23-5	2275-2280	сорок	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+23-6	2281-2285	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+23-7	2286-2289	две	*[12]	_[12]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[12]	*[12]	_[12]	*	
+23-8	2290-2296	тысячи	*[12]	_[12]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[12]	*[12]	_[12]	*	
+23-9	2297-2306	девятьсот	*[12]	_[12]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[12]	*[12]	_[12]	*	
+23-10	2307-2316	семьдесят	*[12]	_[12]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[12]	*[12]	_[12]	*	
+23-11	2317-2321	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+23-12	2322-2328	триста	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+23-13	2329-2333	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+23-14	2334-2342	тридцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+23-15	2343-2347	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+23-16	2348-2351	сто	*[13]	_[13]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[13]	*[13]	_[13]	*	
+23-17	2352-2362	шестьдесят	*[13]	_[13]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[13]	*[13]	_[13]	*	
+23-18	2362-2363	.	_	_	_	_	_	_	_	
+
+#Text=Мы имеем сумму, состоящую из пяти слагаемых.
+24-1	2364-2366	Мы	_	_	_	_	_	_	_	
+24-2	2367-2372	имеем	_	_	_	_	_	_	_	
+24-3	2373-2378	сумму	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+24-4	2378-2379	,	_	_	_	_	_	_	_	
+24-5	2380-2389	состоящую	_	_	_	_	_	_	_	
+24-6	2390-2392	из	_	_	_	_	_	_	_	
+24-7	2393-2397	пяти	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+24-8	2398-2407	слагаемых	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9279	*	_	*	
+24-9	2407-2408	.	_	_	_	_	_	_	_	
+
+#Text=Будем группировать их следующим образом: в первые скобки заключаем два числа шесть тысяч восемьсот сорок и число сто шестьдесят; во вторые скобки – две тысячи девятьсот семьдесят и тридцать и дописываем оставшееся число триста.
+25-1	2409-2414	Будем	_	_	_	_	_	_	_	
+25-2	2415-2427	группировать	_	_	_	_	_	_	_	
+25-3	2428-2430	их	_	_	_	_	_	_	_	
+25-4	2431-2440	следующим	_	_	_	_	_	_	_	
+25-5	2441-2448	образом	_	_	_	_	_	_	_	
+25-6	2448-2449	:	_	_	_	_	_	_	_	
+25-7	2450-2451	в	_	_	_	_	_	_	_	
+25-8	2452-2458	первые	_	_	_	_	_	_	_	
+25-9	2459-2465	скобки	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172720	*	_	*	
+25-10	2466-2475	заключаем	_	_	_	_	_	_	_	
+25-11	2476-2479	два	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+25-12	2480-2485	числа	_	_	_	_	_	_	_	
+25-13	2486-2491	шесть	*[14]	_[14]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[14]	*[14]	_[14]	*	
+25-14	2492-2497	тысяч	*[14]	_[14]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[14]	*[14]	_[14]	*	
+25-15	2498-2507	восемьсот	*[14]	_[14]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[14]	*[14]	_[14]	*	
+25-16	2508-2513	сорок	*[14]	_[14]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[14]	*[14]	_[14]	*	
+25-17	2514-2515	и	_	_	_	_	_	_	_	
+25-18	2516-2521	число	_	_	_	_	_	_	_	
+25-19	2522-2525	сто	*[15]	_[15]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[15]	*[15]	_[15]	*	
+25-20	2526-2536	шестьдесят	*[15]	_[15]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[15]	*[15]	_[15]	*	
+25-21	2536-2537	;	_	_	_	_	_	_	_	
+25-22	2538-2540	во	_	_	_	_	_	_	_	
+25-23	2541-2547	вторые	_	_	_	_	_	_	_	
+25-24	2548-2554	скобки	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172720	*	_	*	
+25-25	2555-2556	–	_	_	_	_	_	_	_	
+25-26	2557-2560	две	*[16]	_[16]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[16]	*[16]	_[16]	*	
+25-27	2561-2567	тысячи	*[16]	_[16]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[16]	*[16]	_[16]	*	
+25-28	2568-2577	девятьсот	*[16]	_[16]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[16]	*[16]	_[16]	*	
+25-29	2578-2587	семьдесят	*[16]	_[16]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[16]	*[16]	_[16]	*	
+25-30	2588-2589	и	_	_	_	_	_	_	_	
+25-31	2590-2598	тридцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+25-32	2599-2600	и	_	_	_	_	_	_	_	
+25-33	2601-2611	дописываем	_	_	_	_	_	_	_	
+25-34	2612-2622	оставшееся	_	_	_	_	_	_	_	
+25-35	2623-2628	число	_	_	_	_	_	_	_	
+25-36	2629-2635	триста	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+25-37	2635-2636	.	_	_	_	_	_	_	_	
+
+#Text=Находим сумму в первых скобках, получаем семь тысяч.
+26-1	2637-2644	Находим	_	_	_	_	_	_	_	
+26-2	2645-2650	сумму	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+26-3	2651-2652	в	_	_	_	_	_	_	_	
+26-4	2653-2659	первых	_	_	_	_	_	_	_	
+26-5	2660-2667	скобках	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172720	*	_	*	
+26-6	2667-2668	,	_	_	_	_	_	_	_	
+26-7	2669-2677	получаем	_	_	_	_	_	_	_	
+26-8	2678-2682	семь	*[17]	_[17]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[17]	*[17]	_[17]	*	
+26-9	2683-2688	тысяч	*[17]	_[17]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[17]	*[17]	_[17]	*	
+26-10	2688-2689	.	_	_	_	_	_	_	_	
+
+#Text=Во вторых скобках получаем три тысячи и число триста.
+27-1	2690-2692	Во	_	_	_	_	_	_	_	
+27-2	2693-2699	вторых	_	_	_	_	_	_	_	
+27-3	2700-2707	скобках	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172720	*	_	*	
+27-4	2708-2716	получаем	_	_	_	_	_	_	_	
+27-5	2717-2720	три	*[18]	_[18]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[18]	*[18]	_[18]	*	
+27-6	2721-2727	тысячи	*[18]	_[18]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[18]	*[18]	_[18]	*	
+27-7	2728-2729	и	_	_	_	_	_	_	_	
+27-8	2730-2735	число	_	_	_	_	_	_	_	
+27-9	2736-2742	триста	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+27-10	2742-2743	.	_	_	_	_	_	_	_	
+
+#Text=Наш ответ: десять тысяч триста.
+28-1	2744-2747	Наш	_	_	_	_	_	_	_	
+28-2	2748-2753	ответ	_	_	_	_	_	_	_	
+28-3	2753-2754	:	_	_	_	_	_	_	_	
+28-4	2755-2761	десять	*[19]	_[19]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[19]	*[19]	_[19]	*	
+28-5	2762-2767	тысяч	*[19]	_[19]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[19]	*[19]	_[19]	*	
+28-6	2768-2774	триста	*[19]	_[19]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[19]	*[19]	_[19]	*	
+28-7	2774-2775	.	_	_	_	_	_	_	_	
+
+#Text=Сумма двух натуральных чисел всегда больше каждого из слагаемых.
+29-1	2776-2781	Сумма	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+29-2	2782-2786	двух	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+29-3	2787-2798	натуральных	_	_	_	_	_	_	_	
+29-4	2799-2804	чисел	_	_	_	_	_	_	_	
+29-5	2805-2811	всегда	_	_	_	_	_	_	_	
+29-6	2812-2818	больше	_	_	_	_	_	_	_	
+29-7	2819-2826	каждого	_	_	_	_	_	_	_	
+29-8	2827-2829	из	_	_	_	_	_	_	_	
+29-9	2830-2839	слагаемых	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9279	*	_	*	
+29-10	2839-2840	.	_	_	_	_	_	_	_	
+
+#Text=Например, одиннадцать плюс семь больше числа одиннадцать.
+30-1	2841-2849	Например	_	_	_	_	_	_	_	
+30-2	2849-2850	,	_	_	_	_	_	_	_	
+30-3	2851-2862	одиннадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+30-4	2863-2867	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+30-5	2868-2872	семь	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+30-6	2873-2879	больше	_	_	_	_	_	_	_	
+30-7	2880-2885	числа	_	_	_	_	_	_	_	
+30-8	2886-2897	одиннадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+30-9	2897-2898	.	_	_	_	_	_	_	_	
+
+#Text=Или сумма одиннадцать плюс семь больше второго слагаемого, то есть семерки.
+31-1	2899-2902	Или	_	_	_	_	_	_	_	
+31-2	2903-2908	сумма	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+31-3	2909-2920	одиннадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+31-4	2921-2925	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+31-5	2926-2930	семь	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+31-6	2931-2937	больше	_	_	_	_	_	_	_	
+31-7	2938-2945	второго	_	_	_	_	_	_	_	
+31-8	2946-2956	слагаемого	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9279	*	_	*	
+31-9	2956-2957	,	_	_	_	_	_	_	_	
+31-10	2958-2960	то	_	_	_	_	_	_	_	
+31-11	2961-2965	есть	_	_	_	_	_	_	_	
+31-12	2966-2973	семерки	_	_	_	_	_	_	_	
+31-13	2973-2974	.	_	_	_	_	_	_	_	
+
+#Text=В общем виде это записывается так: a плюс бэ больше а, a плюс бэ больше бэ.
+32-1	2975-2976	В	_	_	_	_	_	_	_	
+32-2	2977-2982	общем	_	_	_	_	_	_	_	
+32-3	2983-2987	виде	_	_	_	_	_	_	_	
+32-4	2988-2991	это	_	_	_	_	_	_	_	
+32-5	2992-3004	записывается	_	_	_	_	_	_	_	
+32-6	3005-3008	так	_	_	_	_	_	_	_	
+32-7	3008-3009	:	_	_	_	_	_	_	_	
+32-8	3010-3011	a	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+32-9	3012-3016	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+32-10	3017-3019	бэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+32-11	3020-3026	больше	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b42	*	_	*	
+32-12	3027-3028	а	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+32-13	3028-3029	,	_	_	_	_	_	_	_	
+32-14	3030-3031	a	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+32-15	3032-3036	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+32-16	3037-3039	бэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+32-17	3040-3046	больше	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b42	*	_	*	
+32-18	3047-3049	бэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+32-19	3049-3050	.	_	_	_	_	_	_	_	
+
+#Text=Если одно из слагаемых равняется нулю, тогда их сумма будет равна второму слагаемому.
+33-1	3051-3055	Если	_	_	_	_	_	_	_	
+33-2	3056-3060	одно	_	_	_	_	_	_	_	
+33-3	3061-3063	из	_	_	_	_	_	_	_	
+33-4	3064-3073	слагаемых	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9279	*	_	*	
+33-5	3074-3083	равняется	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+33-6	3084-3088	нулю	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+33-7	3088-3089	,	_	_	_	_	_	_	_	
+33-8	3090-3095	тогда	_	_	_	_	_	_	_	
+33-9	3096-3098	их	_	_	_	_	_	_	_	
+33-10	3099-3104	сумма	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+33-11	3105-3110	будет	_	_	_	_	_	_	_	
+33-12	3111-3116	равна	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+33-13	3117-3124	второму	_	_	_	_	_	_	_	
+33-14	3125-3135	слагаемому	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9279	*	_	*	
+33-15	3135-3136	.	_	_	_	_	_	_	_	
+
+#Text=Например, восемь плюс ноль равняется восьми или ноль плюс десять равняется десяти.
+34-1	3137-3145	Например	_	_	_	_	_	_	_	
+34-2	3145-3146	,	_	_	_	_	_	_	_	
+34-3	3147-3153	восемь	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+34-4	3154-3158	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+34-5	3159-3163	ноль	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+34-6	3164-3173	равняется	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+34-7	3174-3180	восьми	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+34-8	3181-3184	или	_	_	_	_	_	_	_	
+34-9	3185-3189	ноль	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+34-10	3190-3194	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+34-11	3195-3201	десять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+34-12	3202-3211	равняется	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+34-13	3212-3218	десяти	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+34-14	3218-3219	.	_	_	_	_	_	_	_	
+
+#Text=В общем виде это записывается так: а плюс ноль равняется а, ноль плюс a равняется а.
+35-1	3220-3221	В	_	_	_	_	_	_	_	
+35-2	3222-3227	общем	_	_	_	_	_	_	_	
+35-3	3228-3232	виде	_	_	_	_	_	_	_	
+35-4	3233-3236	это	_	_	_	_	_	_	_	
+35-5	3237-3249	записывается	_	_	_	_	_	_	_	
+35-6	3250-3253	так	_	_	_	_	_	_	_	
+35-7	3253-3254	:	_	_	_	_	_	_	_	
+35-8	3255-3256	а	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+35-9	3257-3261	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+35-10	3262-3266	ноль	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+35-11	3267-3276	равняется	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+35-12	3277-3278	а	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+35-13	3278-3279	,	_	_	_	_	_	_	_	
+35-14	3280-3284	ноль	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+35-15	3285-3289	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+35-16	3290-3291	a	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+35-17	3292-3301	равняется	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+35-18	3302-3303	а	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+35-19	3303-3304	.	_	_	_	_	_	_	_	
+
+#Text=То же касается и разности.
+36-1	3305-3307	То	_	_	_	_	_	_	_	
+36-2	3308-3310	же	_	_	_	_	_	_	_	
+36-3	3311-3319	касается	_	_	_	_	_	_	_	
+36-4	3320-3321	и	_	_	_	_	_	_	_	
+36-5	3322-3330	разности	_	_	_	_	_	_	_	
+36-6	3330-3331	.	_	_	_	_	_	_	_	
+
+#Text=Если от любого числа отнять ноль, получим число а.
+37-1	3332-3336	Если	_	_	_	_	_	_	_	
+37-2	3337-3339	от	_	_	_	_	_	_	_	
+37-3	3340-3346	любого	_	_	_	_	_	_	_	
+37-4	3347-3352	числа	_	_	_	_	_	_	_	
+37-5	3353-3359	отнять	_	_	_	_	_	_	_	
+37-6	3360-3364	ноль	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+37-7	3364-3365	,	_	_	_	_	_	_	_	
+37-8	3366-3373	получим	_	_	_	_	_	_	_	
+37-9	3374-3379	число	_	_	_	_	_	_	_	
+37-10	3380-3381	а	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+37-11	3381-3382	.	_	_	_	_	_	_	_	
+
+#Text=Или если найти разность двух одинаковых чисел а минус а, то получим в ответе ноль.
+38-1	3383-3386	Или	_	_	_	_	_	_	_	
+38-2	3387-3391	если	_	_	_	_	_	_	_	
+38-3	3392-3397	найти	_	_	_	_	_	_	_	
+38-4	3398-3406	разность	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9285	*	_	*	
+38-5	3407-3411	двух	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+38-6	3412-3422	одинаковых	_	_	_	_	_	_	_	
+38-7	3423-3428	чисел	_	_	_	_	_	_	_	
+38-8	3429-3430	а	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+38-9	3431-3436	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	
+38-10	3437-3438	а	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+38-11	3438-3439	,	_	_	_	_	_	_	_	
+38-12	3440-3442	то	_	_	_	_	_	_	_	
+38-13	3443-3450	получим	_	_	_	_	_	_	_	
+38-14	3451-3452	в	_	_	_	_	_	_	_	
+38-15	3453-3459	ответе	_	_	_	_	_	_	_	
+38-16	3460-3464	ноль	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+38-17	3464-3465	.	_	_	_	_	_	_	_	
+
+#Text=Действие, с помощью которог,о зная сумму и одно из двух слагаемых, определяется второе слагаемое, называется вычитанием.
+39-1	3466-3474	Действие	_	_	_	_	_	_	_	
+39-2	3474-3475	,	_	_	_	_	_	_	_	
+39-3	3476-3477	с	_	_	_	_	_	_	_	
+39-4	3478-3485	помощью	_	_	_	_	_	_	_	
+39-5	3486-3493	которог	_	_	_	_	_	_	_	
+39-6	3493-3494	,	_	_	_	_	_	_	_	
+39-7	3494-3495	о	_	_	_	_	_	_	_	
+39-8	3496-3500	зная	_	_	_	_	_	_	_	
+39-9	3501-3506	сумму	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+39-10	3507-3508	и	_	_	_	_	_	_	_	
+39-11	3509-3513	одно	_	_	_	_	_	_	_	
+39-12	3514-3516	из	_	_	_	_	_	_	_	
+39-13	3517-3521	двух	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+39-14	3522-3531	слагаемых	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9279	*	_	*	
+39-15	3531-3532	,	_	_	_	_	_	_	_	
+39-16	3533-3545	определяется	_	_	_	_	_	_	_	
+39-17	3546-3552	второе	_	_	_	_	_	_	_	
+39-18	3553-3562	слагаемое	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9279	*	_	*	
+39-19	3562-3563	,	_	_	_	_	_	_	_	
+39-20	3564-3574	называется	_	_	_	_	_	_	_	
+39-21	3575-3585	вычитанием	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51659	*	_	*	
+39-22	3585-3586	.	_	_	_	_	_	_	_	
+
+#Text=Например, пусть икс равен a минус бэ.
+40-1	3587-3595	Например	_	_	_	_	_	_	_	
+40-2	3595-3596	,	_	_	_	_	_	_	_	
+40-3	3597-3602	пусть	_	_	_	_	_	_	_	
+40-4	3603-3606	икс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+40-5	3607-3612	равен	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+40-6	3613-3614	a	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+40-7	3615-3620	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	
+40-8	3621-3623	бэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+40-9	3623-3624	.	_	_	_	_	_	_	_	
+
+#Text=В этом случае икс называется разностью; числа а и бэ называются соответственно уменьшаемым и вычитаемым: а – уменьшаемое, бэ – вычитаемое.
+41-1	3625-3626	В	_	_	_	_	_	_	_	
+41-2	3627-3631	этом	_	_	_	_	_	_	_	
+41-3	3632-3638	случае	_	_	_	_	_	_	_	
+41-4	3639-3642	икс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+41-5	3643-3653	называется	_	_	_	_	_	_	_	
+41-6	3654-3663	разностью	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9285	*	_	*	
+41-7	3663-3664	;	_	_	_	_	_	_	_	
+41-8	3665-3670	числа	_	_	_	_	_	_	_	
+41-9	3671-3672	а	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+41-10	3673-3674	и	_	_	_	_	_	_	_	
+41-11	3675-3677	бэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+41-12	3678-3688	называются	_	_	_	_	_	_	_	
+41-13	3689-3703	соответственно	_	_	_	_	_	_	_	
+41-14	3704-3715	уменьшаемым	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9281	*	_	*	
+41-15	3716-3717	и	_	_	_	_	_	_	_	
+41-16	3718-3728	вычитаемым	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9284	*	_	*	
+41-17	3728-3729	:	_	_	_	_	_	_	_	
+41-18	3730-3731	а	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+41-19	3732-3733	–	_	_	_	_	_	_	_	
+41-20	3734-3745	уменьшаемое	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9281	*	_	*	
+41-21	3745-3746	,	_	_	_	_	_	_	_	
+41-22	3747-3749	бэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	
+41-23	3750-3751	–	_	_	_	_	_	_	_	
+41-24	3752-3762	вычитаемое	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9284	*	_	*	
+41-25	3762-3763	.	_	_	_	_	_	_	_	
+
+#Text=Например, тридцать шесть минус четырнадцать равняется двадцать два.
+42-1	3764-3772	Например	_	_	_	_	_	_	_	
+42-2	3772-3773	,	_	_	_	_	_	_	_	
+42-3	3774-3782	тридцать	*[20]	_[20]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[20]	*[20]	_[20]	*	
+42-4	3783-3788	шесть	*[20]	_[20]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[20]	*[20]	_[20]	*	
+42-5	3789-3794	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	
+42-6	3795-3807	четырнадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+42-7	3808-3817	равняется	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+42-8	3818-3826	двадцать	*[21]	_[21]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[21]	*[21]	_[21]	*	
+42-9	3827-3830	два	*[21]	_[21]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[21]	*[21]	_[21]	*	
+42-10	3830-3831	.	_	_	_	_	_	_	_	
+
+#Text=В этом примере число тридцать шесть называется уменьшаемым, число четырнадцать является вычитаемым, число двадцать два является разностью.
+43-1	3832-3833	В	_	_	_	_	_	_	_	
+43-2	3834-3838	этом	_	_	_	_	_	_	_	
+43-3	3839-3846	примере	_	_	_	_	_	_	_	
+43-4	3847-3852	число	_	_	_	_	_	_	_	
+43-5	3853-3861	тридцать	*[22]	_[22]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[22]	*[22]	_[22]	*	
+43-6	3862-3867	шесть	*[22]	_[22]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[22]	*[22]	_[22]	*	
+43-7	3868-3878	называется	_	_	_	_	_	_	_	
+43-8	3879-3890	уменьшаемым	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9281	*	_	*	
+43-9	3890-3891	,	_	_	_	_	_	_	_	
+43-10	3892-3897	число	_	_	_	_	_	_	_	
+43-11	3898-3910	четырнадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+43-12	3911-3919	является	_	_	_	_	_	_	_	
+43-13	3920-3930	вычитаемым	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9284	*	_	*	
+43-14	3930-3931	,	_	_	_	_	_	_	_	
+43-15	3932-3937	число	_	_	_	_	_	_	_	
+43-16	3938-3946	двадцать	*[23]	_[23]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[23]	*[23]	_[23]	*	
+43-17	3947-3950	два	*[23]	_[23]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[23]	*[23]	_[23]	*	
+43-18	3951-3959	является	_	_	_	_	_	_	_	
+43-19	3960-3969	разностью	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9285	*	_	*	
+43-20	3969-3970	.	_	_	_	_	_	_	_	
+
+#Text=При письменном сложении числа записывают так, чтобы цифры одноименных разрядов были в одном вертикальном столбце: единицы подписывают под единицами, десятки под десятками и так далее.
+44-1	3971-3974	При	_	_	_	_	_	_	_	
+44-2	3975-3985	письменном	_	_	_	_	_	_	_	
+44-3	3986-3994	сложении	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+44-4	3995-4000	числа	_	_	_	_	_	_	_	
+44-5	4001-4011	записывают	_	_	_	_	_	_	_	
+44-6	4012-4015	так	_	_	_	_	_	_	_	
+44-7	4015-4016	,	_	_	_	_	_	_	_	
+44-8	4017-4022	чтобы	_	_	_	_	_	_	_	
+44-9	4023-4028	цифры	_	_	_	_	_	_	_	
+44-10	4029-4040	одноименных	_	_	_	_	_	_	_	
+44-11	4041-4049	разрядов	_	_	_	_	_	_	_	
+44-12	4050-4054	были	_	_	_	_	_	_	_	
+44-13	4055-4056	в	_	_	_	_	_	_	_	
+44-14	4057-4062	одном	_	_	_	_	_	_	_	
+44-15	4063-4075	вертикальном	_	_	_	_	_	_	_	
+44-16	4076-4083	столбце	_	_	_	_	_	_	_	
+44-17	4083-4084	:	_	_	_	_	_	_	_	
+44-18	4085-4092	единицы	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+44-19	4093-4104	подписывают	_	_	_	_	_	_	_	
+44-20	4105-4108	под	_	_	_	_	_	_	_	
+44-21	4109-4118	единицами	_	_	_	_	_	_	_	
+44-22	4118-4119	,	_	_	_	_	_	_	_	
+44-23	4120-4127	десятки	_	_	_	_	_	_	_	
+44-24	4128-4131	под	_	_	_	_	_	_	_	
+44-25	4132-4141	десятками	_	_	_	_	_	_	_	
+44-26	4142-4143	и	_	_	_	_	_	_	_	
+44-27	4144-4147	так	_	_	_	_	_	_	_	
+44-28	4148-4153	далее	_	_	_	_	_	_	_	
+44-29	4153-4154	.	_	_	_	_	_	_	_	
+
+#Text=Слева у слагаемых ставят знак сложения, то есть плюс, под последним слагаемым проводят горизонтальную черту, под которой записывают найденную сумму.
+45-1	4155-4160	Слева	_	_	_	_	_	_	_	
+45-2	4161-4162	у	_	_	_	_	_	_	_	
+45-3	4163-4172	слагаемых	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9279	*	_	*	
+45-4	4173-4179	ставят	_	_	_	_	_	_	_	
+45-5	4180-4184	знак	_	_	_	_	_	_	_	
+45-6	4185-4193	сложения	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+45-7	4193-4194	,	_	_	_	_	_	_	_	
+45-8	4195-4197	то	_	_	_	_	_	_	_	
+45-9	4198-4202	есть	_	_	_	_	_	_	_	
+45-10	4203-4207	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#fdd7afcc821647cc8a0fcf6916f0155355	*	_	*	
+45-11	4207-4208	,	_	_	_	_	_	_	_	
+45-12	4209-4212	под	_	_	_	_	_	_	_	
+45-13	4213-4222	последним	_	_	_	_	_	_	_	
+45-14	4223-4232	слагаемым	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9279	*	_	*	
+45-15	4233-4241	проводят	_	_	_	_	_	_	_	
+45-16	4242-4256	горизонтальную	_	_	_	_	_	_	_	
+45-17	4257-4262	черту	_	_	_	_	_	_	_	
+45-18	4262-4263	,	_	_	_	_	_	_	_	
+45-19	4264-4267	под	_	_	_	_	_	_	_	
+45-20	4268-4275	которой	_	_	_	_	_	_	_	
+45-21	4276-4286	записывают	_	_	_	_	_	_	_	
+45-22	4287-4296	найденную	_	_	_	_	_	_	_	
+45-23	4297-4302	сумму	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+45-24	4302-4303	.	_	_	_	_	_	_	_	
+
+#Text=Рассмотрим несколько примеров.
+46-1	4304-4314	Рассмотрим	_	_	_	_	_	_	_	
+46-2	4315-4324	несколько	_	_	_	_	_	_	_	
+46-3	4325-4333	примеров	_	_	_	_	_	_	_	
+46-4	4333-4334	.	_	_	_	_	_	_	_	
+
+#Text=Семьдесят девять тысяч девятьсот двадцать пять прибавить сто пятнадцать тысяч четыреста девятнадцать.
+47-1	4335-4344	Семьдесят	*[24]	_[24]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[24]	*[24]	_[24]	*	
+47-2	4345-4351	девять	*[24]	_[24]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[24]	*[24]	_[24]	*	
+47-3	4352-4357	тысяч	*[24]	_[24]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[24]	*[24]	_[24]	*	
+47-4	4358-4367	девятьсот	*[24]	_[24]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[24]	*[24]	_[24]	*	
+47-5	4368-4376	двадцать	*[24]	_[24]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[24]	*[24]	_[24]	*	
+47-6	4377-4381	пять	*[24]	_[24]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[24]	*[24]	_[24]	*	
+47-7	4382-4391	прибавить	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+47-8	4392-4395	сто	*[25]	_[25]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[25]	*[25]	_[25]	*	
+47-9	4396-4406	пятнадцать	*[25]	_[25]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[25]	*[25]	_[25]	*	
+47-10	4407-4412	тысяч	*[25]	_[25]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[25]	*[25]	_[25]	*	
+47-11	4413-4422	четыреста	*[25]	_[25]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[25]	*[25]	_[25]	*	
+47-12	4423-4435	девятнадцать	*[25]	_[25]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[25]	*[25]	_[25]	*	
+47-13	4435-4436	.	*[25]	_[25]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[25]	*[25]	_[25]	*	
+
+#Text=Проводим горизонтальную черту и начинаем складывать единицы: пять плюс девять равняется четырнадцати, четыре пишем, десяток запоминаем, два плюс один три и плюс один – четыре, девять и четыре тринадцать три пишем запоминаем десяток, девять плюс один десять и плюс пять – пятнадцать, еще единичку запоминаем, получаем девять и единицу сносим.
+48-1	4437-4445	Проводим	_	_	_	_	_	_	_	
+48-2	4446-4460	горизонтальную	_	_	_	_	_	_	_	
+48-3	4461-4466	черту	_	_	_	_	_	_	_	
+48-4	4467-4468	и	_	_	_	_	_	_	_	
+48-5	4469-4477	начинаем	_	_	_	_	_	_	_	
+48-6	4478-4488	складывать	_	_	_	_	_	_	_	
+48-7	4489-4496	единицы	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+48-8	4496-4497	:	_	_	_	_	_	_	_	
+48-9	4498-4502	пять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+48-10	4503-4507	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+48-11	4508-4514	девять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+48-12	4515-4524	равняется	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	
+48-13	4525-4537	четырнадцати	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+48-14	4537-4538	,	_	_	_	_	_	_	_	
+48-15	4539-4545	четыре	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+48-16	4546-4551	пишем	_	_	_	_	_	_	_	
+48-17	4551-4552	,	_	_	_	_	_	_	_	
+48-18	4553-4560	десяток	_	_	_	_	_	_	_	
+48-19	4561-4571	запоминаем	_	_	_	_	_	_	_	
+48-20	4571-4572	,	_	_	_	_	_	_	_	
+48-21	4573-4576	два	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+48-22	4577-4581	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+48-23	4582-4586	один	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+48-24	4587-4590	три	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+48-25	4591-4592	и	_	_	_	_	_	_	_	
+48-26	4593-4597	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+48-27	4598-4602	один	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+48-28	4603-4604	–	_	_	_	_	_	_	_	
+48-29	4605-4611	четыре	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+48-30	4611-4612	,	_	_	_	_	_	_	_	
+48-31	4613-4619	девять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+48-32	4620-4621	и	_	_	_	_	_	_	_	
+48-33	4622-4628	четыре	*[26]	_[26]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[26]	*[26]	_[26]	*	
+48-34	4629-4639	тринадцать	*[26]	_[26]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[26]	*[26]	_[26]	*	
+48-35	4640-4643	три	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+48-36	4644-4649	пишем	_	_	_	_	_	_	_	
+48-37	4650-4660	запоминаем	_	_	_	_	_	_	_	
+48-38	4661-4668	десяток	_	_	_	_	_	_	_	
+48-39	4668-4669	,	_	_	_	_	_	_	_	
+48-40	4670-4676	девять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+48-41	4677-4681	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+48-42	4682-4686	один	_	_	_	_	_	_	_	
+48-43	4687-4693	десять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+48-44	4694-4695	и	_	_	_	_	_	_	_	
+48-45	4696-4700	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+48-46	4701-4705	пять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+48-47	4706-4707	–	_	_	_	_	_	_	_	
+48-48	4708-4718	пятнадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+48-49	4718-4719	,	_	_	_	_	_	_	_	
+48-50	4720-4723	еще	_	_	_	_	_	_	_	
+48-51	4724-4732	единичку	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+48-52	4733-4743	запоминаем	_	_	_	_	_	_	_	
+48-53	4743-4744	,	_	_	_	_	_	_	_	
+48-54	4745-4753	получаем	_	_	_	_	_	_	_	
+48-55	4754-4760	девять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+48-56	4761-4762	и	_	_	_	_	_	_	_	
+48-57	4763-4770	единицу	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+48-58	4771-4777	сносим	_	_	_	_	_	_	_	
+48-59	4777-4778	.	_	_	_	_	_	_	_	
+
+#Text=Наш ответ: сто девяносто пять тысяч триста сорок четыре.
+49-1	4779-4782	Наш	_	_	_	_	_	_	_	
+49-2	4783-4788	ответ	_	_	_	_	_	_	_	
+49-3	4788-4789	:	_	_	_	_	_	_	_	
+49-4	4790-4793	сто	*[27]	_[27]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[27]	*[27]	_[27]	*	
+49-5	4794-4803	девяносто	*[27]	_[27]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[27]	*[27]	_[27]	*	
+49-6	4804-4808	пять	*[27]	_[27]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[27]	*[27]	_[27]	*	
+49-7	4809-4814	тысяч	*[27]	_[27]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[27]	*[27]	_[27]	*	
+49-8	4815-4821	триста	*[27]	_[27]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[27]	*[27]	_[27]	*	
+49-9	4822-4827	сорок	*[27]	_[27]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[27]	*[27]	_[27]	*	
+49-10	4828-4834	четыре	*[27]	_[27]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[27]	*[27]	_[27]	*	
+49-11	4834-4835	.	_	_	_	_	_	_	_	
+
+#Text=Второй пример: тринадцать миллионов пятьдесят восемь тысяч шестьсот девять плюс восемь миллионов двадцать семь тысяч шестьсот сорок семь.
+50-1	4836-4842	Второй	_	_	_	_	_	_	_	
+50-2	4843-4849	пример	_	_	_	_	_	_	_	
+50-3	4849-4850	:	_	_	_	_	_	_	_	
+50-4	4851-4861	тринадцать	*[28]	_[28]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[28]	*[28]	_[28]	*	
+50-5	4862-4871	миллионов	*[28]	_[28]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[28]	*[28]	_[28]	*	
+50-6	4872-4881	пятьдесят	*[28]	_[28]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[28]	*[28]	_[28]	*	
+50-7	4882-4888	восемь	*[28]	_[28]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[28]	*[28]	_[28]	*	
+50-8	4889-4894	тысяч	*[28]	_[28]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[28]	*[28]	_[28]	*	
+50-9	4895-4903	шестьсот	*[28]	_[28]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[28]	*[28]	_[28]	*	
+50-10	4904-4910	девять	*[28]	_[28]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[28]	*[28]	_[28]	*	
+50-11	4911-4915	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+50-12	4916-4922	восемь	*[29]	_[29]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[29]	*[29]	_[29]	*	
+50-13	4923-4932	миллионов	*[29]	_[29]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[29]	*[29]	_[29]	*	
+50-14	4933-4941	двадцать	*[29]	_[29]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[29]	*[29]	_[29]	*	
+50-15	4942-4946	семь	*[29]	_[29]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[29]	*[29]	_[29]	*	
+50-16	4947-4952	тысяч	*[29]	_[29]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[29]	*[29]	_[29]	*	
+50-17	4953-4961	шестьсот	*[29]	_[29]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[29]	*[29]	_[29]	*	
+50-18	4962-4967	сорок	*[29]	_[29]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[29]	*[29]	_[29]	*	
+50-19	4968-4972	семь	*[29]	_[29]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[29]	*[29]	_[29]	*	
+50-20	4972-4973	.	_	_	_	_	_	_	_	
+
+#Text=Подписали единицы под единицами, десятки под десятками и так далее.
+51-1	4974-4983	Подписали	_	_	_	_	_	_	_	
+51-2	4984-4991	единицы	_	_	_	_	_	_	_	
+51-3	4992-4995	под	_	_	_	_	_	_	_	
+51-4	4996-5005	единицами	_	_	_	_	_	_	_	
+51-5	5005-5006	,	_	_	_	_	_	_	_	
+51-6	5007-5014	десятки	_	_	_	_	_	_	_	
+51-7	5015-5018	под	_	_	_	_	_	_	_	
+51-8	5019-5028	десятками	_	_	_	_	_	_	_	
+51-9	5029-5030	и	_	_	_	_	_	_	_	
+51-10	5031-5034	так	_	_	_	_	_	_	_	
+51-11	5035-5040	далее	_	_	_	_	_	_	_	
+51-12	5040-5041	.	_	_	_	_	_	_	_	
+
+#Text=Находим сумму: девять плюс – шестнадцать, единичку запоминаем, один плюс четыре – пять, шесть и шесть – двенадцать, единичку запоминаем, восемь плюс семь пятнадцать и один – шестнадцать, единичку запомнили, пять плюс два – семь, и один – восемь.
+52-1	5042-5049	Находим	_	_	_	_	_	_	_	
+52-2	5050-5055	сумму	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+52-3	5055-5056	:	_	_	_	_	_	_	_	
+52-4	5057-5063	девять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+52-5	5064-5068	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+52-6	5069-5070	–	_	_	_	_	_	_	_	
+52-7	5071-5082	шестнадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+52-8	5082-5083	,	_	_	_	_	_	_	_	
+52-9	5084-5092	единичку	_	_	_	_	_	_	_	
+52-10	5093-5103	запоминаем	_	_	_	_	_	_	_	
+52-11	5103-5104	,	_	_	_	_	_	_	_	
+52-12	5105-5109	один	_	_	_	_	_	_	_	
+52-13	5110-5114	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+52-14	5115-5121	четыре	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+52-15	5122-5123	–	_	_	_	_	_	_	_	
+52-16	5124-5128	пять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+52-17	5128-5129	,	_	_	_	_	_	_	_	
+52-18	5130-5135	шесть	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+52-19	5136-5137	и	_	_	_	_	_	_	_	
+52-20	5138-5143	шесть	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+52-21	5144-5145	–	_	_	_	_	_	_	_	
+52-22	5146-5156	двенадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+52-23	5156-5157	,	_	_	_	_	_	_	_	
+52-24	5158-5166	единичку	_	_	_	_	_	_	_	
+52-25	5167-5177	запоминаем	_	_	_	_	_	_	_	
+52-26	5177-5178	,	_	_	_	_	_	_	_	
+52-27	5179-5185	восемь	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+52-28	5186-5190	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+52-29	5191-5195	семь	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+52-30	5196-5206	пятнадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+52-31	5207-5208	и	_	_	_	_	_	_	_	
+52-32	5209-5213	один	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+52-33	5214-5215	–	_	_	_	_	_	_	_	
+52-34	5216-5227	шестнадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+52-35	5227-5228	,	_	_	_	_	_	_	_	
+52-36	5229-5237	единичку	_	_	_	_	_	_	_	
+52-37	5238-5247	запомнили	_	_	_	_	_	_	_	
+52-38	5247-5248	,	_	_	_	_	_	_	_	
+52-39	5249-5253	пять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+52-40	5254-5258	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+52-41	5259-5262	два	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+52-42	5263-5264	–	_	_	_	_	_	_	_	
+52-43	5265-5269	семь	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+52-44	5269-5270	,	_	_	_	_	_	_	_	
+52-45	5271-5272	и	_	_	_	_	_	_	_	
+52-46	5273-5277	один	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+52-47	5278-5279	–	_	_	_	_	_	_	_	
+52-48	5280-5286	восемь	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+52-49	5286-5287	.	_	_	_	_	_	_	_	
+
+#Text=Сумма нулей даёт ноль, три плюс восемь – одиннадцать, единицу запоминаем, и два в старшем разряде.
+53-1	5288-5293	Сумма	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172730	*	_	*	
+53-2	5294-5299	нулей	_	_	_	_	_	_	_	
+53-3	5300-5304	даёт	_	_	_	_	_	_	_	
+53-4	5305-5309	ноль	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+53-5	5309-5310	,	_	_	_	_	_	_	_	
+53-6	5311-5314	три	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+53-7	5315-5319	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+53-8	5320-5326	восемь	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+53-9	5327-5328	–	_	_	_	_	_	_	_	
+53-10	5329-5340	одиннадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+53-11	5340-5341	,	_	_	_	_	_	_	_	
+53-12	5342-5349	единицу	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+53-13	5350-5360	запоминаем	_	_	_	_	_	_	_	
+53-14	5360-5361	,	_	_	_	_	_	_	_	
+53-15	5362-5363	и	_	_	_	_	_	_	_	
+53-16	5364-5367	два	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+53-17	5368-5369	в	_	_	_	_	_	_	_	
+53-18	5370-5377	старшем	_	_	_	_	_	_	_	
+53-19	5378-5385	разряде	_	_	_	_	_	_	_	
+53-20	5385-5386	.	_	_	_	_	_	_	_	
+
+#Text=Наш ответ: двадцать один миллион восемьдесят шесть тысяч двести пятьдесят шесть.
+54-1	5387-5390	Наш	_	_	_	_	_	_	_	
+54-2	5391-5396	ответ	_	_	_	_	_	_	_	
+54-3	5396-5397	:	_	_	_	_	_	_	_	
+54-4	5398-5406	двадцать	*[30]	_[30]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[30]	*[30]	_[30]	*	
+54-5	5407-5411	один	*[30]	_[30]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[30]	*[30]	_[30]	*	
+54-6	5412-5419	миллион	*[30]	_[30]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[30]	*[30]	_[30]	*	
+54-7	5420-5431	восемьдесят	*[30]	_[30]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[30]	*[30]	_[30]	*	
+54-8	5432-5437	шесть	*[30]	_[30]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[30]	*[30]	_[30]	*	
+54-9	5438-5443	тысяч	*[30]	_[30]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[30]	*[30]	_[30]	*	
+54-10	5444-5450	двести	*[30]	_[30]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[30]	*[30]	_[30]	*	
+54-11	5451-5460	пятьдесят	*[30]	_[30]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[30]	*[30]	_[30]	*	
+54-12	5461-5466	шесть	*[30]	_[30]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[30]	*[30]	_[30]	*	
+54-13	5466-5467	.	_	_	_	_	_	_	_	
+
+#Text=Порядок письменного вычитания подобен порядку сложения: уменьшаемое и вычитаемое записывают поразрядно, вычитание начинают с меньшего разряда.
+55-1	5468-5475	Порядок	_	_	_	_	_	_	_	
+55-2	5476-5487	письменного	_	_	_	_	_	_	_	
+55-3	5488-5497	вычитания	_	_	_	_	_	_	_	
+55-4	5498-5505	подобен	_	_	_	_	_	_	_	
+55-5	5506-5513	порядку	_	_	_	_	_	_	_	
+55-6	5514-5522	сложения	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	
+55-7	5522-5523	:	_	_	_	_	_	_	_	
+55-8	5524-5535	уменьшаемое	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9281	*	_	*	
+55-9	5536-5537	и	_	_	_	_	_	_	_	
+55-10	5538-5548	вычитаемое	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9284	*	_	*	
+55-11	5549-5559	записывают	_	_	_	_	_	_	_	
+55-12	5560-5570	поразрядно	_	_	_	_	_	_	_	
+55-13	5570-5571	,	_	_	_	_	_	_	_	
+55-14	5572-5581	вычитание	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	
+55-15	5582-5590	начинают	_	_	_	_	_	_	_	
+55-16	5591-5592	с	_	_	_	_	_	_	_	
+55-17	5593-5601	меньшего	_	_	_	_	_	_	_	
+55-18	5602-5609	разряда	_	_	_	_	_	_	_	
+55-19	5609-5610	.	_	_	_	_	_	_	_	
+
+#Text=Рассмотрим следующие примеры.
+56-1	5611-5621	Рассмотрим	_	_	_	_	_	_	_	
+56-2	5622-5631	следующие	_	_	_	_	_	_	_	
+56-3	5632-5639	примеры	_	_	_	_	_	_	_	
+56-4	5639-5640	.	_	_	_	_	_	_	_	
+
+#Text=Четыреста двадцать тысяч сорок минус двадцать пять тысяч девяноста три.
+57-1	5641-5650	Четыреста	*[31]	_[31]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[31]	*[31]	_[31]	*	
+57-2	5651-5659	двадцать	*[31]	_[31]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[31]	*[31]	_[31]	*	
+57-3	5660-5665	тысяч	*[31]	_[31]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[31]	*[31]	_[31]	*	
+57-4	5666-5671	сорок	*[31]	_[31]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[31]	*[31]	_[31]	*	
+57-5	5672-5677	минус	*[31]	_[31]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[31]	*[31]	_[31]	*	
+57-6	5678-5686	двадцать	*[31]	_[31]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[31]	*[31]	_[31]	*	
+57-7	5687-5691	пять	*[31]	_[31]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[31]	*[31]	_[31]	*	
+57-8	5692-5697	тысяч	*[31]	_[31]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[31]	*[31]	_[31]	*	
+57-9	5698-5707	девяноста	*[31]	_[31]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[31]	*[31]	_[31]	*	
+57-10	5708-5711	три	*[31]	_[31]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[31]	*[31]	_[31]	*	
+57-11	5711-5712	.	_	_	_	_	_	_	_	
+
+#Text=Так как от нуля не отнимается тройка, мы от предыдущего разряда занимаем десяток.
+58-1	5713-5716	Так	_	_	_	_	_	_	_	
+58-2	5717-5720	как	_	_	_	_	_	_	_	
+58-3	5721-5723	от	_	_	_	_	_	_	_	
+58-4	5724-5728	нуля	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+58-5	5729-5731	не	_	_	_	_	_	_	_	
+58-6	5732-5742	отнимается	_	_	_	_	_	_	_	
+58-7	5743-5749	тройка	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+58-8	5749-5750	,	_	_	_	_	_	_	_	
+58-9	5751-5753	мы	_	_	_	_	_	_	_	
+58-10	5754-5756	от	_	_	_	_	_	_	_	
+58-11	5757-5768	предыдущего	_	_	_	_	_	_	_	
+58-12	5769-5776	разряда	_	_	_	_	_	_	_	
+58-13	5777-5785	занимаем	_	_	_	_	_	_	_	
+58-14	5786-5793	десяток	_	_	_	_	_	_	_	
+58-15	5793-5794	.	_	_	_	_	_	_	_	
+
+#Text=Десять минус три – семь, и тогда от четверки остается тройка.
+59-1	5795-5801	Десять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+59-2	5802-5807	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	
+59-3	5808-5811	три	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+59-4	5812-5813	–	_	_	_	_	_	_	_	
+59-5	5814-5818	семь	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+59-6	5818-5819	,	_	_	_	_	_	_	_	
+59-7	5820-5821	и	_	_	_	_	_	_	_	
+59-8	5822-5827	тогда	_	_	_	_	_	_	_	
+59-9	5828-5830	от	_	_	_	_	_	_	_	
+59-10	5831-5839	четверки	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+59-11	5840-5848	остается	_	_	_	_	_	_	_	
+59-12	5849-5855	тройка	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+59-13	5855-5856	.	_	_	_	_	_	_	_	
+
+#Text=Снова от тройки девять не вычитается, от предыдущего разряда занимаем еще десяток, это будет от двоечки.
+60-1	5857-5862	Снова	_	_	_	_	_	_	_	
+60-2	5863-5865	от	_	_	_	_	_	_	_	
+60-3	5866-5872	тройки	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+60-4	5873-5879	девять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+60-5	5880-5882	не	_	_	_	_	_	_	_	
+60-6	5883-5893	вычитается	_	_	_	_	_	_	_	
+60-7	5893-5894	,	_	_	_	_	_	_	_	
+60-8	5895-5897	от	_	_	_	_	_	_	_	
+60-9	5898-5909	предыдущего	_	_	_	_	_	_	_	
+60-10	5910-5917	разряда	_	_	_	_	_	_	_	
+60-11	5918-5926	занимаем	_	_	_	_	_	_	_	
+60-12	5927-5930	еще	_	_	_	_	_	_	_	
+60-13	5931-5938	десяток	_	_	_	_	_	_	_	
+60-14	5938-5939	,	_	_	_	_	_	_	_	
+60-15	5940-5943	это	_	_	_	_	_	_	_	
+60-16	5944-5949	будет	_	_	_	_	_	_	_	
+60-17	5950-5952	от	_	_	_	_	_	_	_	
+60-18	5953-5960	двоечки	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+60-19	5960-5961	.	_	_	_	_	_	_	_	
+
+#Text=Заняли, от тринадцати девять отняли, получили четыре, к предыдущему разряду таким образом переходит девятка, и ко всем предыдущим девятки.
+61-1	5962-5968	Заняли	_	_	_	_	_	_	_	
+61-2	5968-5969	,	_	_	_	_	_	_	_	
+61-3	5970-5972	от	_	_	_	_	_	_	_	
+61-4	5973-5983	тринадцати	*[32]	_[32]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[32]	*[32]	_[32]	*	
+61-5	5984-5990	девять	*[32]	_[32]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[32]	*[32]	_[32]	*	
+61-6	5991-5997	отняли	_	_	_	_	_	_	_	
+61-7	5997-5998	,	_	_	_	_	_	_	_	
+61-8	5999-6007	получили	_	_	_	_	_	_	_	
+61-9	6008-6014	четыре	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+61-10	6014-6015	,	_	_	_	_	_	_	_	
+61-11	6016-6017	к	_	_	_	_	_	_	_	
+61-12	6018-6029	предыдущему	_	_	_	_	_	_	_	
+61-13	6030-6037	разряду	_	_	_	_	_	_	_	
+61-14	6038-6043	таким	_	_	_	_	_	_	_	
+61-15	6044-6051	образом	_	_	_	_	_	_	_	
+61-16	6052-6061	переходит	_	_	_	_	_	_	_	
+61-17	6062-6069	девятка	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+61-18	6069-6070	,	_	_	_	_	_	_	_	
+61-19	6071-6072	и	_	_	_	_	_	_	_	
+61-20	6073-6075	ко	_	_	_	_	_	_	_	
+61-21	6076-6080	всем	_	_	_	_	_	_	_	
+61-22	6081-6091	предыдущим	_	_	_	_	_	_	_	
+61-23	6092-6099	девятки	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+61-24	6099-6100	.	_	_	_	_	_	_	_	
+
+#Text=Таким образом получается у нас от девяти ноль отнимаем, выходит девять, от девяти пять отнимаем, выходит четыре, здесь уже двойки нет, от четверки занимаем десяток, одиннадцать минус два – девять, от четверки оставляем… остается тройка.
+62-1	6101-6106	Таким	_	_	_	_	_	_	_	
+62-2	6107-6114	образом	_	_	_	_	_	_	_	
+62-3	6115-6125	получается	_	_	_	_	_	_	_	
+62-4	6126-6127	у	_	_	_	_	_	_	_	
+62-5	6128-6131	нас	_	_	_	_	_	_	_	
+62-6	6132-6134	от	_	_	_	_	_	_	_	
+62-7	6135-6141	девяти	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+62-8	6142-6146	ноль	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+62-9	6147-6155	отнимаем	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	
+62-10	6155-6156	,	_	_	_	_	_	_	_	
+62-11	6157-6164	выходит	_	_	_	_	_	_	_	
+62-12	6165-6171	девять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+62-13	6171-6172	,	_	_	_	_	_	_	_	
+62-14	6173-6175	от	_	_	_	_	_	_	_	
+62-15	6176-6182	девяти	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+62-16	6183-6187	пять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+62-17	6188-6196	отнимаем	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	
+62-18	6196-6197	,	_	_	_	_	_	_	_	
+62-19	6198-6205	выходит	_	_	_	_	_	_	_	
+62-20	6206-6212	четыре	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+62-21	6212-6213	,	_	_	_	_	_	_	_	
+62-22	6214-6219	здесь	_	_	_	_	_	_	_	
+62-23	6220-6223	уже	_	_	_	_	_	_	_	
+62-24	6224-6230	двойки	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+62-25	6231-6234	нет	_	_	_	_	_	_	_	
+62-26	6234-6235	,	_	_	_	_	_	_	_	
+62-27	6236-6238	от	_	_	_	_	_	_	_	
+62-28	6239-6247	четверки	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+62-29	6248-6256	занимаем	_	_	_	_	_	_	_	
+62-30	6257-6264	десяток	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+62-31	6264-6265	,	_	_	_	_	_	_	_	
+62-32	6266-6277	одиннадцать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+62-33	6278-6283	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	
+62-34	6284-6287	два	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+62-35	6288-6289	–	_	_	_	_	_	_	_	
+62-36	6290-6296	девять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+62-37	6296-6297	,	_	_	_	_	_	_	_	
+62-38	6298-6300	от	_	_	_	_	_	_	_	
+62-39	6301-6309	четверки	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+62-40	6310-6319	оставляем	_	_	_	_	_	_	_	
+62-41	6319-6320	…	_	_	_	_	_	_	_	
+62-42	6321-6329	остается	_	_	_	_	_	_	_	
+62-43	6330-6336	тройка	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+62-44	6336-6337	.	_	_	_	_	_	_	_	
+
+#Text=Наш ответ: триста девяносто четыре тысячи девятьсот сорок семь.
+63-1	6338-6341	Наш	_	_	_	_	_	_	_	
+63-2	6342-6347	ответ	_	_	_	_	_	_	_	
+63-3	6347-6348	:	_	_	_	_	_	_	_	
+63-4	6349-6355	триста	*[33]	_[33]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[33]	*[33]	_[33]	*	
+63-5	6356-6365	девяносто	*[33]	_[33]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[33]	*[33]	_[33]	*	
+63-6	6366-6372	четыре	*[33]	_[33]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[33]	*[33]	_[33]	*	
+63-7	6373-6379	тысячи	*[33]	_[33]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[33]	*[33]	_[33]	*	
+63-8	6380-6389	девятьсот	*[33]	_[33]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[33]	*[33]	_[33]	*	
+63-9	6390-6395	сорок	*[33]	_[33]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[33]	*[33]	_[33]	*	
+63-10	6396-6400	семь	*[33]	_[33]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[33]	*[33]	_[33]	*	
+63-11	6400-6401	.	_	_	_	_	_	_	_	
+
+#Text=И еще один пример: девятьсот девяносто тысяч минус шестьсот тридцать восемь тысяч двести семьдесят два.
+64-1	6402-6403	И	_	_	_	_	_	_	_	
+64-2	6404-6407	еще	_	_	_	_	_	_	_	
+64-3	6408-6412	один	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+64-4	6413-6419	пример	_	_	_	_	_	_	_	
+64-5	6419-6420	:	_	_	_	_	_	_	_	
+64-6	6421-6430	девятьсот	*[34]	_[34]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[34]	*[34]	_[34]	*	
+64-7	6431-6440	девяносто	*[34]	_[34]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[34]	*[34]	_[34]	*	
+64-8	6441-6446	тысяч	*[34]	_[34]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[34]	*[34]	_[34]	*	
+64-9	6447-6452	минус	*[34]	_[34]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[34]	*[34]	_[34]	*	
+64-10	6453-6461	шестьсот	*[34]	_[34]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[34]	*[34]	_[34]	*	
+64-11	6462-6470	тридцать	*[34]	_[34]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[34]	*[34]	_[34]	*	
+64-12	6471-6477	восемь	*[34]	_[34]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[34]	*[34]	_[34]	*	
+64-13	6478-6483	тысяч	*[34]	_[34]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[34]	*[34]	_[34]	*	
+64-14	6484-6490	двести	*[34]	_[34]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[34]	*[34]	_[34]	*	
+64-15	6491-6500	семьдесят	*[34]	_[34]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[34]	*[34]	_[34]	*	
+64-16	6501-6504	два	*[34]	_[34]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[34]	*[34]	_[34]	*	
+64-17	6504-6505	.	_	_	_	_	_	_	_	
+
+#Text=Занимаем от второй девятки сюда десять, в предыдущие разряды девятки, десять минус два – восемь, девять минус семь – два, девять минус два – семь, девять минус восемь – единица.
+65-1	6506-6514	Занимаем	_	_	_	_	_	_	_	
+65-2	6515-6517	от	_	_	_	_	_	_	_	
+65-3	6518-6524	второй	_	_	_	_	_	_	_	
+65-4	6525-6532	девятки	_	_	_	_	_	_	_	
+65-5	6533-6537	сюда	_	_	_	_	_	_	_	
+65-6	6538-6544	десять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+65-7	6544-6545	,	_	_	_	_	_	_	_	
+65-8	6546-6547	в	_	_	_	_	_	_	_	
+65-9	6548-6558	предыдущие	_	_	_	_	_	_	_	
+65-10	6559-6566	разряды	_	_	_	_	_	_	_	
+65-11	6567-6574	девятки	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+65-12	6574-6575	,	_	_	_	_	_	_	_	
+65-13	6576-6582	десять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+65-14	6583-6588	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	
+65-15	6589-6592	два	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+65-16	6593-6594	–	_	_	_	_	_	_	_	
+65-17	6595-6601	восемь	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+65-18	6601-6602	,	_	_	_	_	_	_	_	
+65-19	6603-6609	девять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+65-20	6610-6615	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	
+65-21	6616-6620	семь	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+65-22	6621-6622	–	_	_	_	_	_	_	_	
+65-23	6623-6626	два	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+65-24	6626-6627	,	_	_	_	_	_	_	_	
+65-25	6628-6634	девять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+65-26	6635-6640	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	
+65-27	6641-6644	два	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+65-28	6645-6646	–	_	_	_	_	_	_	_	
+65-29	6647-6651	семь	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+65-30	6651-6652	,	_	_	_	_	_	_	_	
+65-31	6653-6659	девять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+65-32	6660-6665	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	
+65-33	6666-6672	восемь	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+65-34	6673-6674	–	_	_	_	_	_	_	_	
+65-35	6675-6682	единица	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+65-36	6682-6683	.	_	_	_	_	_	_	_	
+
+#Text=Здесь остается восемь, восемь минус три – пять и девять минус шесть – три.
+66-1	6684-6689	Здесь	_	_	_	_	_	_	_	
+66-2	6690-6698	остается	_	_	_	_	_	_	_	
+66-3	6699-6705	восемь	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+66-4	6705-6706	,	_	_	_	_	_	_	_	
+66-5	6707-6713	восемь	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+66-6	6714-6719	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	
+66-7	6720-6723	три	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+66-8	6724-6725	–	_	_	_	_	_	_	_	
+66-9	6726-6730	пять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+66-10	6731-6732	и	_	_	_	_	_	_	_	
+66-11	6733-6739	девять	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+66-12	6740-6745	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	
+66-13	6746-6751	шесть	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+66-14	6752-6753	–	_	_	_	_	_	_	_	
+66-15	6754-6757	три	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	
+66-16	6757-6758	.	_	_	_	_	_	_	_	
+
+#Text=Наш ответ: триста пятьдесят одна тысяча семьсот двадцать восемь."
+67-1	6759-6762	Наш	_	_	_	_	_	_	_	
+67-2	6763-6768	ответ	_	_	_	_	_	_	_	
+67-3	6768-6769	:	_	_	_	_	_	_	_	
+67-4	6770-6776	триста	*[35]	_[35]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[35]	*[35]	_[35]	*	
+67-5	6777-6786	пятьдесят	*[35]	_[35]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[35]	*[35]	_[35]	*	
+67-6	6787-6791	одна	*[35]	_[35]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[35]	*[35]	_[35]	*	
+67-7	6792-6798	тысяча	*[35]	_[35]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[35]	*[35]	_[35]	*	
+67-8	6799-6806	семьсот	*[35]	_[35]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[35]	*[35]	_[35]	*	
+67-9	6807-6815	двадцать	*[35]	_[35]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[35]	*[35]	_[35]	*	
+67-10	6816-6822	восемь	*[35]	_[35]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[35]	*[35]	_[35]	*	
+67-11	6822-6823	.	_	_	_	_	_	_	_	
+67-12	6823-6824	"	_	_	_	_	_	_	_	

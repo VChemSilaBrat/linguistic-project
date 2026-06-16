@@ -1,0 +1,1643 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures|animacy|aspect|case|definiteness|degree|gender|mood|negative|numType|number|person|possessive|pronType|reflex|tense|transitivity|value|verbForm|voice
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_RL=de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency|DependencyType|flavor|BT_de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS
+
+
+#Sentence.id=1
+#Text=Разобрав с вами тему многочлены, мы вроде бы как забыли про неё и переключились на квадратное уравнение, но алгебра тема интересная: никто ничего не забывает.
+1-1	0-8	Разобрав	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	Past	*	Aspect=Perf\|Tense=Past\|VerbForm=Conv\|Voice=Act	Conv	Act	VERB	VERB	разобрать	advcl	basic	1-11	
+1-2	9-10	с	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	с	case	basic	1-3	
+1-3	11-15	вами	*	*	Ins	*	*	*	*	*	*	Plur	Second	*	*	*	*	*	Case=Ins\|Number=Plur\|Person=Second	*	*	PRON	PRON	вами	obl	basic	1-1	
+1-4	16-20	тему	Inan	*	Acc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	тема	obj	basic	1-1	
+1-5	21-31	многочлены	*	Perf	*	*	*	*	*	*	*	Plur	*	*	*	*	Past	*	Aspect=Perf\|Number=Plur\|StyleVariant=Short\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	VERB	VERB	многочлены	nmod	basic	1-4	
+1-6	31-32	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	1-1	
+1-7	33-35	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	1-11	
+1-8	36-41	вроде	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	вроде	advmod	basic	1-11	
+1-9	42-44	бы	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	бы	fixed	basic	1-8	
+1-10	45-48	как	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	как	advmod	basic	1-11	
+1-11	49-55	забыли	*	Perf	*	*	*	*	Ind	*	*	Plur	*	*	*	*	Past	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	забыть	ROOT	basic	1-11	
+1-12	56-59	про	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	про	case	basic	1-13	
+1-13	60-63	неё	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	неё	obl	basic	1-11	
+1-14	64-65	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	1-15	
+1-15	66-79	переключились	*	Perf	*	*	*	*	Ind	*	*	Plur	*	*	*	*	Past	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Tense=Past\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	переключиться	conj	basic	1-11	
+1-16	80-82	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	1-18	
+1-17	83-93	квадратное	Inan	*	Acc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	квадратный	amod	basic	1-18	
+1-18	94-103	уравнение	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	obl	basic	1-15	
+1-19	103-104	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	1-23	
+1-20	105-107	но	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	но	cc	basic	1-23	
+1-21	108-115	алгебра	Anim	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	алгебра	nsubj	basic	1-23	
+1-22	116-120	тема	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	тема	appos	basic	1-21	
+1-23	121-131	интересная	*	*	Nom	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	ADJ	ADJ	интересный	conj	basic	1-11	
+1-24	131-132	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	punct	basic	1-28	
+1-25	133-138	никто	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	PRON	PRON	никто	nsubj	basic	1-28	
+1-26	139-145	ничего	*	*	Gen	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Gen	*	*	PRON	PRON	ничто	obj	basic	1-28	
+1-27	146-148	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	advmod	basic	1-28	
+1-28	149-157	забывает	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	забывать	parataxis	basic	1-23	
+1-29	157-158	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	1-11	
+
+#Sentence.id=2
+#Text=Сегодня мы квадратное уравнение используем для того, чтобы преобразовывать многочлены.
+2-1	159-166	Сегодня	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	сегодня	advmod	basic	2-5	
+2-2	167-169	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	2-5	
+2-3	170-180	квадратное	Inan	*	Acc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	квадратный	amod	basic	2-4	
+2-4	181-190	уравнение	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	obj	basic	2-5	
+2-5	191-201	используем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	использовать	ROOT	basic	2-5	
+2-6	202-205	для	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	для	case	basic	2-7	
+2-7	206-210	того	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	того	obl	basic	2-5	
+2-8	210-211	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	2-10	
+2-9	212-217	чтобы	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	чтобы	mark	basic	2-10	
+2-10	218-233	преобразовывать	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	преобразовывать	advcl	basic	2-7	
+2-11	234-244	многочлены	Inan	*	Acc	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	многочлен	obj	basic	2-10	
+2-12	244-245	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	2-5	
+
+#Sentence.id=3
+#Text=Ну, в данном случае мы пока преобразуем трёхчлен, причём у нас трёхчлен стандартного вида.
+3-1	246-248	Ну	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	ну	discourse	basic	3-8	
+3-2	248-249	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	3-1	
+3-3	250-251	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	case	basic	3-5	
+3-4	252-258	данном	*	*	Loc	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Loc\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	данном	amod	basic	3-5	
+3-5	259-265	случае	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	случай	obl	basic	3-8	
+3-6	266-268	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	3-8	
+3-7	269-273	пока	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	пока	advmod	basic	3-8	
+3-8	274-285	преобразуем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	преобразуем	ROOT	basic	3-8	
+3-9	286-294	трёхчлен	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	трёхчлен	obj	basic	3-8	
+3-10	294-295	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	3-11	
+3-11	296-302	причём	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	причём	conj	basic	3-8	
+3-12	303-304	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	case	basic	3-13	
+3-13	305-308	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	obl	basic	3-14	
+3-14	309-317	трёхчлен	*	Perf	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Gender=Masc\|Number=Sing\|StyleVariant=Short\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	VERB	VERB	трёхчлен	conj	basic	3-8	
+3-15	318-330	стандартного	*	*	Gen	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	стандартный	amod	basic	3-16	
+3-16	331-335	вида	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	вид	nmod	basic	3-14	
+3-17	335-336	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	3-8	
+
+#Sentence.id=4
+#Text=И выглядит он очень похожим на квадратное уравнение.
+4-1	337-338	И	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	4-2	
+4-2	339-347	выглядит	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	выглядеть	ROOT	basic	4-2	
+4-3	348-350	он	*	*	Nom	*	*	Masc	*	*	*	Sing	Third	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing\|Person=Third	*	*	PRON	PRON	он	nsubj	basic	4-2	
+4-4	351-356	очень	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	очень	advmod	basic	4-5	
+4-5	357-364	похожим	*	*	Ins	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	похожий	xcomp	basic	4-2	
+4-6	365-367	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	4-8	
+4-7	368-378	квадратное	Inan	*	Acc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	квадратный	amod	basic	4-8	
+4-8	379-388	уравнение	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	obl	basic	4-5	
+4-9	388-389	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	4-2	
+
+#Sentence.id=5
+#Text=То есть, если бы вот здесь вот стоял знак равенство и после равенства нолик, то было бы квадратного уравнения.
+5-1	390-392	То	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	SCONJ	SCONJ	То	mark	basic	5-21	
+5-2	393-397	есть	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	быть	fixed	basic	5-1	
+5-3	397-398	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	5-1	
+5-4	399-403	если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	mark	basic	5-9	
+5-5	404-406	бы	*	*	*	*	*	*	Cnd	*	*	*	*	*	*	*	*	*	Mood=Cnd	*	*	AUX	AUX	бы	aux	basic	5-7	
+5-6	407-410	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	advmod	basic	5-7	
+5-7	411-416	здесь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	здесь	advmod	basic	5-9	
+5-8	417-420	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	advmod	basic	5-9	
+5-9	421-426	стоял	*	Imp	*	*	*	Masc	Ind	*	*	Sing	*	*	*	*	Past	*	Aspect=Imp\|Gender=Masc\|Mood=Ind\|Number=Sing\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	стоять	advcl	basic	5-18	
+5-10	427-431	знак	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	знак	nsubj	basic	5-9	
+5-11	432-441	равенство	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	равенство	nmod	basic	5-10	
+5-12	442-443	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	и	advmod	basic	5-14	
+5-13	444-449	после	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	после	case	basic	5-14	
+5-14	450-459	равенства	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	равенство	conj	basic	5-9	
+5-15	460-465	нолик	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	нолик	nmod	basic	5-14	
+5-16	465-466	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	5-9	
+5-17	467-469	то	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	то	nsubj	basic	5-18	
+5-18	470-474	было	*	Imp	*	*	*	Neut	Ind	*	*	Sing	*	*	*	*	Past	*	Aspect=Imp\|Gender=Neut\|Mood=Ind\|Number=Sing\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	было	cop	basic	5-21	
+5-19	475-477	бы	*	*	*	*	*	*	Cnd	*	*	*	*	*	*	*	*	*	Mood=Cnd	*	*	AUX	AUX	бы	aux	basic	5-21	
+5-20	478-489	квадратного	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	квадратный	amod	basic	5-21	
+5-21	490-499	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	ROOT	basic	5-21	
+5-22	499-500	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	5-21	
+
+#Sentence.id=6
+#Text=Но у нас трёхчлен и алгебра уверяет, что этот трёхчлен, да, собственно говоря, и любой, можно разложить на множители.
+6-1	501-503	Но	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	но	cc	basic	6-4	
+6-2	504-505	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	case	basic	6-3	
+6-3	506-509	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	obl	basic	6-4	
+6-4	510-518	трёхчлен	*	*	*	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Masc\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	трёхчлен	ROOT	basic	6-4	
+6-5	519-520	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	6-6	
+6-6	521-528	алгебра	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	алгебра	nsubj	basic	6-7	
+6-7	529-536	уверяет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	уверять	conj	basic	6-4	
+6-8	536-537	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	6-11	
+6-9	538-541	что	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	что	mark	basic	6-11	
+6-10	542-546	этот	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	DET	DET	этот	det	basic	6-11	
+6-11	547-555	трёхчлен	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	трёхчлен	ccomp	basic	6-7	
+6-12	555-556	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	6-13	
+6-13	557-559	да	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	да	parataxis	basic	6-16	
+6-14	559-560	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	6-13	
+6-15	561-571	собственно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	собственно	advmod	basic	6-16	
+6-16	572-578	говоря	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	Pres	*	Aspect=Imp\|Tense=Pres\|VerbForm=Conv\|Voice=Act	Conv	Act	VERB	VERB	говорить	parataxis	basic	6-11	
+6-17	578-579	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	6-16	
+6-18	580-581	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	6-19	
+6-19	582-587	любой	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	DET	DET	любой	conj	basic	6-11	
+6-20	587-588	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	6-11	
+6-21	589-594	можно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	можно	conj	basic	6-11	
+6-22	595-604	разложить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	разложить	csubj	basic	6-21	
+6-23	605-607	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	6-24	
+6-24	608-617	множители	Inan	*	Acc	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	множитель	obl	basic	6-22	
+6-25	617-618	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	6-4	
+
+#Sentence.id=7
+#Text=Давайте сделаем несколько шагов и научимся это делать.
+7-1	619-626	Давайте	*	Imp	*	*	*	*	Imp	*	*	Plur	Second	*	*	*	*	*	Aspect=Imp\|Mood=Imp\|Number=Plur\|Person=Second\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	давать	ROOT	basic	7-1	
+7-2	627-634	сделаем	*	Perf	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Fut\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	сделать	xcomp	basic	7-1	
+7-3	635-644	несколько	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	несколько	nummod:gov	basic	7-4	
+7-4	645-650	шагов	Inan	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	шаг	obj	basic	7-2	
+7-5	651-652	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	7-6	
+7-6	653-661	научимся	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	научимся	conj	basic	7-2	
+7-7	662-665	это	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	obj	basic	7-8	
+7-8	666-672	делать	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	делать	xcomp	basic	7-6	
+7-9	672-673	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	7-1	
+
+#Sentence.id=8
+#Text=По этому трёхчлену первое, на что стоит обратить внимание, мы троечку можем вынести за скобку, как один из множителей.
+8-1	674-676	По	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	по	case	basic	8-3	
+8-2	677-682	этому	*	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Dat\|Gender=Masc\|Number=Sing	*	*	DET	DET	этот	det	basic	8-3	
+8-3	683-692	трёхчлену	Inan	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	трёхчлен	obl	basic	8-4	
+8-4	693-699	первое	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	первый	ROOT	basic	8-4	
+8-5	699-700	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	8-8	
+8-6	701-703	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	8-7	
+8-7	704-707	что	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	что	obl	basic	8-8	
+8-8	708-713	стоит	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	стоить	parataxis	basic	8-4	
+8-9	714-722	обратить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	обратить	csubj	basic	8-8	
+8-10	723-731	внимание	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	внимание	obj	basic	8-9	
+8-11	731-732	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	8-4	
+8-12	733-735	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	8-14	
+8-13	736-743	троечку	Inan	*	Acc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	троечка	obj	basic	8-14	
+8-14	744-749	можем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	мочь	conj	basic	8-4	
+8-15	750-757	вынести	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	вынести	xcomp	basic	8-14	
+8-16	758-760	за	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	за	case	basic	8-17	
+8-17	761-767	скобку	Inan	*	Acc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	скобка	obl	basic	8-15	
+8-18	767-768	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	8-20	
+8-19	769-772	как	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	как	case	basic	8-20	
+8-20	773-777	один	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	один	obl	basic	8-15	
+8-21	778-780	из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	из	case	basic	8-22	
+8-22	781-791	множителей	Anim	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Anim\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	множитель	nmod	basic	8-20	
+8-23	791-792	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	8-4	
+
+#Sentence.id=9
+#Text=Первый – множитель три, второй – икс в квадрате минус семь икс плюс десять.
+9-1	793-799	Первый	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	первый	ROOT	basic	9-1	
+9-2	800-801	–	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	–	punct	basic	9-3	
+9-3	802-811	множитель	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	множитель	appos	basic	9-1	
+9-4	812-815	три	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	три	amod	basic	9-3	
+9-5	815-816	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	9-6	
+9-6	817-823	второй	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	второй	conj	basic	9-3	
+9-7	824-825	–	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	–	punct	basic	9-8	
+9-8	826-829	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	conj	basic	9-3	
+9-9	830-831	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	case	basic	9-10	
+9-10	832-840	квадрате	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	квадрат	nmod	basic	9-3	
+9-11	841-846	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	9-13	
+9-12	847-851	семь	*	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Acc	*	*	NUM	NUM	семь	nummod:gov	basic	9-13	
+9-13	852-855	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	nmod	basic	9-10	
+9-14	856-860	плюс	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	плюс	case	basic	9-15	
+9-15	861-867	десять	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	десять	nummod:gov	basic	9-3	
+9-16	867-868	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	9-1	
+
+#Sentence.id=10
+#Text=Ну, а дальше могли бы мы раскладывать?
+10-1	869-871	Ну	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	ну	parataxis	basic	10-5	
+10-2	871-872	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	10-1	
+10-3	873-874	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	cc	basic	10-5	
+10-4	875-881	дальше	*	*	*	*	Cmp	*	*	*	*	*	*	*	*	*	*	*	Degree=Cmp	*	*	ADV	ADV	далёкий	advmod	basic	10-5	
+10-5	882-887	могли	*	Imp	*	*	*	*	Ind	*	*	Plur	*	*	*	*	Past	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	мочь	ROOT	basic	10-5	
+10-6	888-890	бы	*	*	*	*	*	*	Cnd	*	*	*	*	*	*	*	*	*	Mood=Cnd	*	*	AUX	AUX	бы	aux	basic	10-5	
+10-7	891-893	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	10-5	
+10-8	894-906	раскладывать	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	раскладывать	xcomp	basic	10-5	
+10-9	906-907	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	?	punct	basic	10-5	
+
+#Sentence.id=11
+#Text=Давайте семь икс мы заменим на два слагаемых: два икс и пять икс.
+11-1	908-915	Давайте	*	Imp	*	*	*	*	Imp	*	*	Plur	Second	*	*	*	*	*	Aspect=Imp\|Mood=Imp\|Number=Plur\|Person=Second\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	давать	ROOT	basic	11-1	
+11-2	916-920	семь	*	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Acc	*	*	NUM	NUM	семь	nummod:gov	basic	11-3	
+11-3	921-924	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	obj	basic	11-1	
+11-4	925-927	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	11-5	
+11-5	928-935	заменим	*	Perf	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Fut\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	заменить	xcomp	basic	11-1	
+11-6	936-938	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	11-8	
+11-7	939-942	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	nummod:gov	basic	11-8	
+11-8	943-952	слагаемых	*	Imp	Gen	*	*	*	*	*	*	Plur	*	*	*	*	Pres	*	Aspect=Imp\|Case=Gen\|Number=Plur\|Tense=Pres\|VerbForm=Part\|Voice=Pass	Part	Pass	VERB	VERB	слагать	obl	basic	11-5	
+11-9	952-953	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	punct	basic	11-11	
+11-10	954-957	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	nummod:gov	basic	11-11	
+11-11	958-961	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	parataxis	basic	11-8	
+11-12	962-963	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	11-14	
+11-13	964-968	пять	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	пять	nummod:gov	basic	11-14	
+11-14	969-972	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	conj	basic	11-11	
+11-15	972-973	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	11-1	
+
+#Sentence.id=12
+#Text=Почему именно на эти?
+12-1	974-980	Почему	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	почему	ROOT	basic	12-1	
+12-2	981-987	именно	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	именно	advmod	basic	12-4	
+12-3	988-990	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	12-4	
+12-4	991-994	эти	Inan	*	Acc	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Number=Plur	*	*	DET	DET	этот	det	basic	12-1	
+12-5	994-995	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	?	punct	basic	12-4	
+
+#Sentence.id=13
+#Text=Ну, будем предполагать, что я знаю чуть больше, чем вы.
+13-1	996-998	Ну	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	ну	parataxis	basic	13-4	
+13-2	998-999	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	13-1	
+13-3	1000-1005	будем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	aux	basic	13-4	
+13-4	1006-1018	предполагать	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	предполагать	ROOT	basic	13-4	
+13-5	1018-1019	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	13-8	
+13-6	1020-1023	что	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	что	mark	basic	13-8	
+13-7	1024-1025	я	*	*	Nom	*	*	*	*	*	*	Sing	First	*	*	*	*	*	Case=Nom\|Number=Sing\|Person=First	*	*	PRON	PRON	я	nsubj	basic	13-8	
+13-8	1026-1030	знаю	*	Imp	*	*	*	*	Ind	*	*	Sing	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	знать	ccomp	basic	13-4	
+13-9	1031-1035	чуть	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	чуть	advmod	basic	13-10	
+13-10	1036-1042	больше	*	*	*	*	Cmp	*	*	*	*	*	*	*	*	*	*	*	Degree=Cmp	*	*	ADV	ADV	больше	advmod	basic	13-8	
+13-11	1042-1043	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	13-13	
+13-12	1044-1047	чем	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	чем	mark	basic	13-13	
+13-13	1048-1050	вы	*	*	Nom	*	*	*	*	*	*	Plur	Second	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=Second	*	*	PRON	PRON	вы	obl	basic	13-10	
+13-14	1050-1051	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	13-4	
+
+#Sentence.id=14
+#Text=То есть я знаю, чем всё это закончится, поэтому на эти.
+14-1	1052-1054	То	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	SCONJ	SCONJ	То	mark	basic	14-4	
+14-2	1055-1059	есть	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	быть	fixed	basic	14-1	
+14-3	1060-1061	я	*	*	Nom	*	*	*	*	*	*	Sing	First	*	*	*	*	*	Case=Nom\|Number=Sing\|Person=First	*	*	PRON	PRON	я	nsubj	basic	14-4	
+14-4	1062-1066	знаю	*	Imp	*	*	*	*	Ind	*	*	Sing	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	знать	ROOT	basic	14-4	
+14-5	1066-1067	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	14-9	
+14-6	1068-1071	чем	Inan	*	Ins	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	что	mark	basic	14-9	
+14-7	1072-1075	всё	*	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Neut\|Number=Sing	*	*	DET	DET	весь	det	basic	14-8	
+14-8	1076-1079	это	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	nsubj	basic	14-9	
+14-9	1080-1090	закончится	*	Perf	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Fut\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	закончиться	ccomp	basic	14-4	
+14-10	1090-1091	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	14-13	
+14-11	1092-1099	поэтому	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	поэтому	advmod	basic	14-13	
+14-12	1100-1102	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	14-13	
+14-13	1103-1106	эти	Inan	*	Acc	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Number=Plur	*	*	DET	DET	этот	det	basic	14-4	
+14-14	1106-1107	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	14-4	
+
+#Sentence.id=15
+#Text=Пока оставим тройку, не будем про неё говорить, перепишем: икс в квадрате минус…
+15-1	1108-1112	Пока	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	пока	advmod	basic	15-2	
+15-2	1113-1120	оставим	*	Perf	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Fut\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	оставить	ROOT	basic	15-2	
+15-3	1121-1127	тройку	Inan	*	Acc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	тройка	obj	basic	15-2	
+15-4	1127-1128	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	15-9	
+15-5	1129-1131	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	advmod	basic	15-9	
+15-6	1132-1137	будем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	aux	basic	15-9	
+15-7	1138-1141	про	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	про	case	basic	15-8	
+15-8	1142-1145	неё	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	неё	obl	basic	15-9	
+15-9	1146-1154	говорить	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	говорить	conj	basic	15-2	
+15-10	1154-1155	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	15-11	
+15-11	1156-1165	перепишем	*	Perf	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Case=Loc\|Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part\|Voice=Act	Part	Act	PTCP\|VERB	VERB	переписавший\|переписать	advcl	basic	15-9	
+15-12	1165-1166	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	punct	basic	15-13	
+15-13	1167-1170	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	parataxis	basic	15-11	
+15-14	1171-1172	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	case	basic	15-15	
+15-15	1173-1181	квадрате	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	квадрат	nmod	basic	15-13	
+15-16	1182-1187	минус	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	appos	basic	15-15	
+15-17	1187-1188	…	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	…	punct	basic	15-2	
+
+#Sentence.id=16
+#Text=Если у нас здесь минус, то и здесь минус.
+16-1	1189-1193	Если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	mark	basic	16-10	
+16-2	1194-1195	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	case	basic	16-3	
+16-3	1196-1199	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	obl	basic	16-10	
+16-4	1200-1205	здесь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	здесь	advmod	basic	16-5	
+16-5	1206-1211	минус	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	nsubj	basic	16-3	
+16-6	1211-1212	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	16-3	
+16-7	1213-1215	то	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	то	mark	basic	16-9	
+16-8	1216-1217	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	и	advmod	basic	16-9	
+16-9	1218-1223	здесь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	здесь	conj	basic	16-3	
+16-10	1224-1229	минус	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	ROOT	basic	16-10	
+16-11	1229-1230	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	16-10	
+
+#Sentence.id=17
+#Text=Ну, а раскрывая скобки, мы получаем минусы везде.
+17-1	1231-1233	Ну	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	ну	parataxis	basic	17-8	
+17-2	1233-1234	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	17-1	
+17-3	1235-1236	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	cc	basic	17-8	
+17-4	1237-1246	раскрывая	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	Pres	*	Aspect=Imp\|Tense=Pres\|VerbForm=Conv\|Voice=Act	Conv	Act	VERB	VERB	раскрывать	advcl	basic	17-8	
+17-5	1247-1253	скобки	Inan	*	Acc	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	скобка	obj	basic	17-4	
+17-6	1253-1254	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	17-4	
+17-7	1255-1257	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	17-8	
+17-8	1258-1266	получаем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получать	ROOT	basic	17-8	
+17-9	1267-1273	минусы	Inan	*	Acc	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	минус	obj	basic	17-8	
+17-10	1274-1279	везде	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	везде	advmod	basic	17-8	
+17-11	1279-1280	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	17-8	
+
+#Sentence.id=18
+#Text=Не забывайте.
+18-1	1281-1283	Не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	advmod	basic	18-2	
+18-2	1284-1293	забывайте	*	Imp	*	*	*	*	Imp	*	*	Plur	Second	*	*	*	*	*	Aspect=Imp\|Mood=Imp\|Number=Plur\|Person=Second\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	забывать	ROOT	basic	18-2	
+18-3	1293-1294	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	18-2	
+
+#Sentence.id=19
+#Text=Минус два икс минус пять икс плюс десять.
+19-1	1295-1300	Минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	19-3	
+19-2	1301-1304	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	nummod:gov	basic	19-3	
+19-3	1305-1308	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	nsubj	basic	19-6	
+19-4	1309-1314	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	19-6	
+19-5	1315-1319	пять	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	пять	nummod:gov	basic	19-6	
+19-6	1320-1323	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	ROOT	basic	19-6	
+19-7	1324-1328	плюс	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	плюс	case	basic	19-8	
+19-8	1329-1335	десять	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	десять	nummod:gov	basic	19-6	
+19-9	1335-1336	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	19-6	
+
+#Sentence.id=20
+#Text=А теперь группируем наши слагаемые, и выносим общий множитель для каждой пары.
+20-1	1337-1338	А	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	cc	basic	20-3	
+20-2	1339-1345	теперь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	теперь	advmod	basic	20-3	
+20-3	1346-1356	группируем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	группировать	ROOT	basic	20-3	
+20-4	1357-1361	наши	Inan	*	Acc	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Number=Plur	*	*	DET	DET	наш	det	basic	20-5	
+20-5	1362-1371	слагаемые	Inan	*	Acc	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	слагаемые	obj	basic	20-3	
+20-6	1371-1372	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	20-8	
+20-7	1373-1374	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	20-8	
+20-8	1375-1382	выносим	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	выносить	conj	basic	20-3	
+20-9	1383-1388	общий	Inan	*	Acc	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	общий	amod	basic	20-10	
+20-10	1389-1398	множитель	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	множитель	obj	basic	20-8	
+20-11	1399-1402	для	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	для	case	basic	20-13	
+20-12	1403-1409	каждой	*	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Gender=Fem\|Number=Sing	*	*	DET	DET	каждый	det	basic	20-13	
+20-13	1410-1414	пары	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	пара	nmod	basic	20-10	
+20-14	1414-1415	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	20-3	
+
+#Sentence.id=21
+#Text=Здесь у нас общий множитель икс, и тогда у нас будет икс минус два, а здесь у нас общий множитель пять, и снова, так как минус пять, здесь у нас икс, минус уже ушел сюда, значит икс положительное.
+21-1	1416-1421	Здесь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	здесь	advmod	basic	21-3	
+21-2	1422-1423	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	case	basic	21-3	
+21-3	1424-1427	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	ROOT	basic	21-3	
+21-4	1428-1433	общий	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	общий	amod	basic	21-5	
+21-5	1434-1443	множитель	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	множитель	nsubj	basic	21-3	
+21-6	1444-1447	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	nmod	basic	21-5	
+21-7	1447-1448	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	21-12	
+21-8	1449-1450	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	21-12	
+21-9	1451-1456	тогда	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	тогда	advmod	basic	21-12	
+21-10	1457-1458	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	case	basic	21-11	
+21-11	1459-1462	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	obl	basic	21-12	
+21-12	1463-1468	будет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	будет	cop	basic	21-15	
+21-13	1469-1472	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nsubj	basic	21-15	
+21-14	1473-1478	минус	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	advmod	basic	21-15	
+21-15	1479-1482	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	conj	basic	21-3	
+21-16	1482-1483	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	21-20	
+21-17	1484-1485	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	cc	basic	21-20	
+21-18	1486-1491	здесь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	здесь	advmod	basic	21-20	
+21-19	1492-1493	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	case	basic	21-20	
+21-20	1494-1497	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	conj	basic	21-15	
+21-21	1498-1503	общий	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	общий	amod	basic	21-22	
+21-22	1504-1513	множитель	Anim	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	множитель	nsubj	basic	21-20	
+21-23	1514-1518	пять	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	пять	appos	basic	21-22	
+21-24	1518-1519	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	21-26	
+21-25	1520-1521	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	21-26	
+21-26	1522-1527	снова	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	снова	conj	basic	21-15	
+21-27	1527-1528	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	21-31	
+21-28	1529-1532	так	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	так	mark	basic	21-31	
+21-29	1533-1536	как	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	как	fixed	basic	21-28	
+21-30	1537-1542	минус	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	nsubj	basic	21-31	
+21-31	1543-1547	пять	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	пять	advcl	basic	21-15	
+21-32	1547-1548	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	21-33	
+21-33	1549-1554	здесь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	здесь	advmod	basic	21-40	
+21-34	1555-1556	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	case	basic	21-35	
+21-35	1557-1560	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	obl	basic	21-33	
+21-36	1561-1564	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nsubj	basic	21-33	
+21-37	1564-1565	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	21-33	
+21-38	1566-1571	минус	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	nsubj	basic	21-40	
+21-39	1572-1575	уже	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	уже	advmod	basic	21-40	
+21-40	1576-1580	ушел	*	Perf	*	*	*	Masc	Ind	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Gender=Masc\|Mood=Ind\|Number=Sing\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	уйти	conj	basic	21-3	
+21-41	1581-1585	сюда	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	сюда	advmod	basic	21-40	
+21-42	1585-1586	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	21-43	
+21-43	1587-1593	значит	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	значить	conj	basic	21-40	
+21-44	1594-1597	икс	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	икс	obj	basic	21-43	
+21-45	1598-1611	положительное	Inan	*	Acc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	положительный	obj	basic	21-43	
+21-46	1611-1612	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	21-3	
+
+#Sentence.id=22
+#Text=А вот от этой десяточки мы вытаскиваем множитель минус пять, получаем минус два.
+22-1	1613-1614	А	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	cc	basic	22-7	
+22-2	1615-1618	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	advmod	basic	22-5	
+22-3	1619-1621	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	case	basic	22-5	
+22-4	1622-1626	этой	*	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Gender=Fem\|Number=Sing	*	*	DET	DET	этот	det	basic	22-5	
+22-5	1627-1636	десяточки	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	десяточка	obl	basic	22-7	
+22-6	1637-1639	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	22-7	
+22-7	1640-1651	вытаскиваем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	вытаскивать	ROOT	basic	22-7	
+22-8	1652-1661	множитель	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	множитель	obj	basic	22-7	
+22-9	1662-1667	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	22-10	
+22-10	1668-1672	пять	*	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Acc	*	*	NUM	NUM	пять	nummod:gov	basic	22-7	
+22-11	1672-1673	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	22-12	
+22-12	1674-1682	получаем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получать	conj	basic	22-7	
+22-13	1683-1688	минус	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	advmod	basic	22-14	
+22-14	1689-1692	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	nummod:gov	basic	22-12	
+22-15	1692-1693	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	22-7	
+
+#Sentence.id=23
+#Text=В результате у нас получилось два одинаковых множителя, которые позволяют нам переписать это выражение несколько иначе.
+23-1	1694-1695	В	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	case	basic	23-2	
+23-2	1696-1706	результате	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	результат	obl	basic	23-5	
+23-3	1707-1708	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	case	basic	23-4	
+23-4	1709-1712	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	obl	basic	23-5	
+23-5	1713-1723	получилось	*	Perf	*	*	*	Neut	Ind	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Gender=Neut\|Mood=Ind\|Number=Sing\|Tense=Past\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	получиться	ROOT	basic	23-5	
+23-6	1724-1727	два	*	*	Nom	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Masc	*	*	NUM	NUM	два	nummod:gov	basic	23-8	
+23-7	1728-1738	одинаковых	*	*	Gen	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	одинаковый	amod	basic	23-8	
+23-8	1739-1748	множителя	Anim	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	множитель	nsubj	basic	23-5	
+23-9	1748-1749	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	23-11	
+23-10	1750-1757	которые	*	*	Nom	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Nom\|Number=Plur	*	*	PRON	PRON	которые	nsubj	basic	23-11	
+23-11	1758-1767	позволяют	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	позволять	acl:relcl	basic	23-8	
+23-12	1768-1771	нам	*	*	Dat	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Dat\|Number=Plur\|Person=First	*	*	PRON	PRON	нам	iobj	basic	23-11	
+23-13	1772-1782	переписать	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	переписать	xcomp	basic	23-11	
+23-14	1783-1786	это	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	DET	DET	это	det	basic	23-15	
+23-15	1787-1796	выражение	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	выражение	obj	basic	23-13	
+23-16	1797-1806	несколько	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	несколько	nummod:gov	basic	23-17	
+23-17	1807-1812	иначе	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	иначе	advmod	basic	23-13	
+23-18	1812-1813	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	23-5	
+
+#Sentence.id=24
+#Text=Выносим икс минус два за скобку, а в скобках у нас получится икс минус пять.
+24-1	1814-1821	Выносим	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	выносить	ROOT	basic	24-1	
+24-2	1822-1825	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	obj	basic	24-1	
+24-3	1826-1831	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	24-4	
+24-4	1832-1835	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	nummod:gov	basic	24-1	
+24-5	1836-1838	за	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	за	case	basic	24-6	
+24-6	1839-1845	скобку	Inan	*	Acc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	скобка	nmod	basic	24-4	
+24-7	1845-1846	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	24-13	
+24-8	1847-1848	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	cc	basic	24-13	
+24-9	1849-1850	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	case	basic	24-10	
+24-10	1851-1858	скобках	Inan	*	Loc	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	скобка	obl	basic	24-13	
+24-11	1859-1860	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	case	basic	24-12	
+24-12	1861-1864	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	obl	basic	24-13	
+24-13	1865-1874	получится	*	Perf	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Fut\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	получиться	conj	basic	24-1	
+24-14	1875-1878	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nsubj	basic	24-13	
+24-15	1879-1884	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	24-16	
+24-16	1885-1889	пять	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	пять	nummod:gov	basic	24-13	
+24-17	1889-1890	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	24-1	
+
+#Sentence.id=25
+#Text=Так, и тогда всё это выражение с учётом троечки будет выглядеть таким образом: три умножить на икс минус два умножить на икс минус пять.
+25-1	1891-1894	Так	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	так	parataxis	basic	25-12	
+25-2	1894-1895	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	25-1	
+25-3	1896-1897	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	25-12	
+25-4	1898-1903	тогда	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	тогда	advmod	basic	25-12	
+25-5	1904-1907	всё	*	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Neut\|Number=Sing	*	*	DET	DET	весь	det	basic	25-7	
+25-6	1908-1911	это	*	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Neut\|Number=Sing	*	*	DET	DET	это	det	basic	25-7	
+25-7	1912-1921	выражение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	выражение	nsubj	basic	25-12	
+25-8	1922-1923	с	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	с	case	basic	25-9	
+25-9	1924-1930	учётом	Inan	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	учёт	nmod	basic	25-7	
+25-10	1931-1938	троечки	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	троечка	nmod	basic	25-9	
+25-11	1939-1944	будет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	aux	basic	25-12	
+25-12	1945-1954	выглядеть	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	выглядеть	ROOT	basic	25-12	
+25-13	1955-1960	таким	*	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Gender=Masc\|Number=Sing	*	*	DET	DET	такой	det	basic	25-14	
+25-14	1961-1968	образом	Inan	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	образ	obl	basic	25-12	
+25-15	1968-1969	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	punct	basic	25-17	
+25-16	1970-1973	три	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	три	obj	basic	25-17	
+25-17	1974-1982	умножить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	умножить	parataxis	basic	25-14	
+25-18	1983-1985	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	25-19	
+25-19	1986-1989	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	obl	basic	25-17	
+25-20	1990-1995	минус	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	advmod	basic	25-21	
+25-21	1996-1999	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	nummod:gov	basic	25-22	
+25-22	2000-2008	умножить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	умножить	xcomp	basic	25-17	
+25-23	2009-2011	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	25-24	
+25-24	2012-2015	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	obl	basic	25-22	
+25-25	2016-2021	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	25-26	
+25-26	2022-2026	пять	*	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Acc	*	*	NUM	NUM	пять	nummod:gov	basic	25-22	
+25-27	2026-2027	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	25-12	
+
+#Sentence.id=26
+#Text=Это и есть результат разложения нашего трёхчлена на множители.
+26-1	2028-2031	Это	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	nsubj	basic	26-4	
+26-2	2032-2033	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	и	advmod	basic	26-3	
+26-3	2034-2038	есть	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	есть	cop	basic	26-4	
+26-4	2039-2048	результат	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	результат	ROOT	basic	26-4	
+26-5	2049-2059	разложения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	разложение	nmod	basic	26-4	
+26-6	2060-2066	нашего	*	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Gender=Masc\|Number=Sing	*	*	DET	DET	наш	det	basic	26-7	
+26-7	2067-2076	трёхчлена	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	трёхчлен	nmod	basic	26-5	
+26-8	2077-2079	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	26-9	
+26-9	2080-2089	множители	Inan	*	Acc	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	множитель	nmod	basic	26-5	
+26-10	2089-2090	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	26-4	
+
+#Sentence.id=27
+#Text=И первый множитель здесь – коэффициент при икс в квадрате, а вот этими вот множителями является разность икса и неких чисел.
+27-1	2091-2092	И	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	27-6	
+27-2	2093-2099	первый	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	первый	amod	basic	27-3	
+27-3	2100-2109	множитель	Anim	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	множитель	nsubj	basic	27-6	
+27-4	2110-2115	здесь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	здесь	advmod	basic	27-3	
+27-5	2116-2117	–	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	–	punct	basic	27-6	
+27-6	2118-2129	коэффициент	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	коэффициент	ROOT	basic	27-6	
+27-7	2130-2133	при	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	при	case	basic	27-8	
+27-8	2134-2137	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nmod	basic	27-6	
+27-9	2138-2139	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	case	basic	27-10	
+27-10	2140-2148	квадрате	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	квадрат	nmod	basic	27-6	
+27-11	2148-2149	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	27-17	
+27-12	2150-2151	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	cc	basic	27-17	
+27-13	2152-2155	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	advmod	basic	27-14	
+27-14	2156-2161	этими	*	*	Ins	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Ins\|Number=Plur	*	*	DET	DET	этот	det	basic	27-16	
+27-15	2162-2165	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	advmod	basic	27-16	
+27-16	2166-2177	множителями	Inan	*	Ins	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	множителями	xcomp	basic	27-17	
+27-17	2178-2186	является	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	являться	conj	basic	27-6	
+27-18	2187-2195	разность	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	разность	nsubj	basic	27-17	
+27-19	2196-2200	икса	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nmod	basic	27-18	
+27-20	2201-2202	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	27-22	
+27-21	2203-2208	неких	*	*	Gen	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Number=Plur	*	*	DET	DET	некий	det	basic	27-22	
+27-22	2209-2214	чисел	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	число	conj	basic	27-19	
+27-23	2214-2215	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	27-6	
+
+#Sentence.id=28
+#Text=А что это за числа, откуда они взялись?
+28-1	2216-2217	А	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	cc	basic	28-2	
+28-2	2218-2221	что	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	что	mark	basic	28-5	
+28-3	2222-2225	это	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	nsubj	basic	28-5	
+28-4	2226-2228	за	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	за	case	basic	28-5	
+28-5	2229-2234	числа	Inan	*	Acc	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	число	ROOT	basic	28-5	
+28-6	2234-2235	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	28-9	
+28-7	2236-2242	откуда	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	откуда	advmod	basic	28-9	
+28-8	2243-2246	они	*	*	Nom	*	*	*	*	*	*	Plur	Third	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=Third	*	*	PRON	PRON	они	nsubj	basic	28-9	
+28-9	2247-2254	взялись	*	Perf	*	*	*	*	Ind	*	*	Plur	*	*	*	*	Past	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Tense=Past\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	взяться	acl:relcl	basic	28-5	
+28-10	2254-2255	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	?	punct	basic	28-5	
+
+#Sentence.id=29
+#Text=Ну ладно, для семёрки мы подобрали, там минус два и минус пять – очень удобно.
+29-1	2256-2258	Ну	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	ну	discourse	basic	29-2	
+29-2	2259-2264	ладно	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	ладно	parataxis	basic	29-7	
+29-3	2264-2265	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	29-2	
+29-4	2266-2269	для	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	для	case	basic	29-5	
+29-5	2270-2277	семёрки	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	семёрка	obl	basic	29-7	
+29-6	2278-2280	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	29-7	
+29-7	2281-2290	подобрали	*	Perf	*	*	*	*	Ind	*	*	Plur	*	*	*	*	Past	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	подобрать	ROOT	basic	29-7	
+29-8	2290-2291	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	29-9	
+29-9	2292-2295	там	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	там	advmod	basic	29-7	
+29-10	2296-2301	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	29-11	
+29-11	2302-2305	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	nummod	basic	29-7	
+29-12	2306-2307	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	29-14	
+29-13	2308-2313	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	29-14	
+29-14	2314-2318	пять	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	пять	conj	basic	29-11	
+29-15	2319-2320	–	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	–	punct	basic	29-17	
+29-16	2321-2326	очень	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	очень	advmod	basic	29-17	
+29-17	2327-2333	удобно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	удобный	parataxis	basic	29-7	
+29-18	2333-2334	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	29-7	
+
+#Sentence.id=30
+#Text=А как дальше подбирать?
+30-1	2335-2336	А	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	cc	basic	30-4	
+30-2	2337-2340	как	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	как	advmod	basic	30-3	
+30-3	2341-2347	дальше	*	*	*	*	Cmp	*	*	*	*	*	*	*	*	*	*	*	Degree=Cmp	*	*	ADV	ADV	далёкий	advmod	basic	30-4	
+30-4	2348-2357	подбирать	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	подбирать	ROOT	basic	30-4	
+30-5	2357-2358	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	?	punct	basic	30-4	
+
+#Sentence.id=31
+#Text=Давайте сейчас сотру наш код, и мы тут чуть-чуть поэкспериментируем дальше.
+31-1	2359-2366	Давайте	*	Imp	*	*	*	*	Imp	*	*	Plur	Second	*	*	*	*	*	Aspect=Imp\|Mood=Imp\|Number=Plur\|Person=Second\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	давать	ROOT	basic	31-1	
+31-2	2367-2373	сейчас	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	сейчас	advmod	basic	31-1	
+31-3	2374-2379	сотру	*	Perf	*	*	*	*	Ind	*	*	Sing	First	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Sing\|Person=First\|Tense=Fut\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	стереть	nsubj	basic	31-1	
+31-4	2380-2383	наш	*	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Acc\|Gender=Masc\|Number=Sing	*	*	DET	DET	наш	det	basic	31-5	
+31-5	2384-2387	код	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	код	nsubj	basic	31-1	
+31-6	2387-2388	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	31-13	
+31-7	2389-2390	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	31-13	
+31-8	2391-2393	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	31-13	
+31-9	2394-2397	тут	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	тут	advmod	basic	31-13	
+31-10	2398-2402	чуть	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	чуть	advmod	basic	31-13	
+31-11	2402-2403	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	-	advmod	basic	31-13	
+31-12	2403-2407	чуть	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	чуть	advmod	basic	31-13	
+31-13	2408-2426	поэкспериментируем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	поэкспериментируем	conj	basic	31-1	
+31-14	2427-2433	дальше	*	*	*	*	Cmp	*	*	*	*	*	*	*	*	*	*	*	Degree=Cmp	*	*	ADV	ADV	далёкий	advmod	basic	31-13	
+31-15	2433-2434	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	31-1	
+
+#Sentence.id=32
+#Text=Что станет с этим многочленом, вот именно с этим, если икс будет равен двум?
+32-1	2435-2438	Что	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	что	nsubj	basic	32-2	
+32-2	2439-2445	станет	*	Perf	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Fut\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	стать	ROOT	basic	32-2	
+32-3	2446-2447	с	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	с	case	basic	32-5	
+32-4	2448-2452	этим	*	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Gender=Masc\|Number=Sing	*	*	DET	DET	этот	det	basic	32-5	
+32-5	2453-2464	многочленом	Inan	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	многочлен	obl	basic	32-2	
+32-6	2464-2465	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	32-10	
+32-7	2466-2469	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	advmod	basic	32-10	
+32-8	2470-2476	именно	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	именно	advmod	basic	32-10	
+32-9	2477-2478	с	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	с	case	basic	32-10	
+32-10	2479-2483	этим	Inan	*	Ins	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	obl	basic	32-2	
+32-11	2483-2484	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	32-15	
+32-12	2485-2489	если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	mark	basic	32-15	
+32-13	2490-2493	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nsubj	basic	32-15	
+32-14	2494-2499	будет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	cop	basic	32-15	
+32-15	2500-2505	равен	*	*	*	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Masc\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	advcl	basic	32-10	
+32-16	2506-2510	двум	*	*	Dat	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Dat	*	*	NUM	NUM	два	iobj	basic	32-15	
+32-17	2510-2511	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	?	punct	basic	32-2	
+
+#Sentence.id=33
+#Text=Ну, мы уже приняли, что вот этот многочлен раскладывается на множители и при икс, равном двум, мы получаем один из множителей равных нулю.
+33-1	2512-2514	Ну	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	ну	discourse	basic	33-5	
+33-2	2514-2515	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	33-1	
+33-3	2516-2518	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	33-5	
+33-4	2519-2522	уже	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	уже	advmod	basic	33-5	
+33-5	2523-2530	приняли	*	Perf	*	*	*	*	Ind	*	*	Plur	*	*	*	*	Past	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	принять	ROOT	basic	33-5	
+33-6	2530-2531	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	33-11	
+33-7	2532-2535	что	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	что	mark	basic	33-11	
+33-8	2536-2539	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	advmod	basic	33-9	
+33-9	2540-2544	этот	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	DET	DET	этот	det	basic	33-10	
+33-10	2545-2554	многочлен	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	многочлен	nsubj	basic	33-11	
+33-11	2555-2569	раскладывается	*	Perf	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Fut\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	раскладывается	ccomp	basic	33-5	
+33-12	2570-2572	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	33-13	
+33-13	2573-2582	множители	Inan	*	Acc	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	множитель	obl	basic	33-11	
+33-14	2583-2584	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	33-16	
+33-15	2585-2588	при	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	при	case	basic	33-16	
+33-16	2589-2592	икс	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	икс	conj	basic	33-13	
+33-17	2592-2593	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	33-18	
+33-18	2594-2600	равном	*	*	Loc	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Loc\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	равный	acl	basic	33-13	
+33-19	2601-2605	двум	*	*	Dat	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Dat	*	*	NUM	NUM	два	iobj	basic	33-18	
+33-20	2605-2606	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	33-18	
+33-21	2607-2609	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	33-22	
+33-22	2610-2618	получаем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получать	conj	basic	33-11	
+33-23	2619-2623	один	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	один	obj	basic	33-22	
+33-24	2624-2626	из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	из	case	basic	33-25	
+33-25	2627-2637	множителей	Anim	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Anim\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	множитель	nmod	basic	33-23	
+33-26	2638-2644	равных	*	*	Gen	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	равный	amod	basic	33-27	
+33-27	2645-2649	нулю	Inan	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	нуль	nmod	basic	33-25	
+33-28	2649-2650	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	33-5	
+
+#Sentence.id=34
+#Text=Я думаю, с этим спорить не будете, да?
+34-1	2651-2652	Я	*	*	Nom	*	*	*	*	*	*	Sing	First	*	*	*	*	*	Case=Nom\|Number=Sing\|Person=First	*	*	PRON	PRON	я	nsubj	basic	34-2	
+34-2	2653-2658	думаю	*	Imp	*	*	*	*	Ind	*	*	Sing	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	думать	ROOT	basic	34-2	
+34-3	2658-2659	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	34-6	
+34-4	2660-2661	с	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	с	case	basic	34-5	
+34-5	2662-2666	этим	Inan	*	Ins	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	obl	basic	34-6	
+34-6	2667-2674	спорить	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	спорить	xcomp	basic	34-2	
+34-7	2675-2677	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	advmod	basic	34-8	
+34-8	2678-2684	будете	*	Imp	*	*	*	*	Ind	*	*	Plur	Second	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Second\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	aux	basic	34-6	
+34-9	2684-2685	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	34-10	
+34-10	2686-2688	да	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	да	parataxis	basic	34-2	
+34-11	2688-2689	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	?	punct	basic	34-2	
+
+#Sentence.id=35
+#Text=Ну, а если один из множителей равен нулю, значит всё это равно нулю.
+35-1	2690-2692	Ну	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	ну	parataxis	basic	35-11	
+35-2	2692-2693	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	35-1	
+35-3	2694-2695	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	cc	basic	35-11	
+35-4	2696-2700	если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	mark	basic	35-8	
+35-5	2701-2705	один	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	один	nsubj	basic	35-8	
+35-6	2706-2708	из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	из	case	basic	35-7	
+35-7	2709-2719	множителей	Anim	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Anim\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	множитель	nmod	basic	35-5	
+35-8	2720-2725	равен	*	*	*	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Masc\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	advcl	basic	35-11	
+35-9	2726-2730	нулю	Inan	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	нуль	iobj	basic	35-8	
+35-10	2730-2731	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	35-8	
+35-11	2732-2738	значит	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	значить	ROOT	basic	35-11	
+35-12	2739-2742	всё	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	DET	DET	весь	det	basic	35-13	
+35-13	2743-2746	это	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	obj	basic	35-11	
+35-14	2747-2752	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	fixed	basic	35-11	
+35-15	2753-2757	нулю	Inan	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	нуль	aux	basic	35-11	
+35-16	2757-2758	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	35-11	
+
+#Sentence.id=36
+#Text=Если это всё равно нулю, значит вот это всё равно нулю при икс равном двум.
+36-1	2759-2763	Если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	mark	basic	36-5	
+36-2	2764-2767	это	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	nsubj	basic	36-5	
+36-3	2768-2771	всё	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	всё	advmod	basic	36-5	
+36-4	2772-2777	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	fixed	basic	36-3	
+36-5	2778-2782	нулю	Inan	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	нуль	advcl	basic	36-12	
+36-6	2782-2783	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	36-7	
+36-7	2784-2790	значит	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	значить	discourse	basic	36-12	
+36-8	2791-2794	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	advmod	basic	36-9	
+36-9	2795-2798	это	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	nsubj	basic	36-7	
+36-10	2799-2802	всё	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	DET	DET	весь	advmod	basic	36-12	
+36-11	2803-2808	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	fixed	basic	36-10	
+36-12	2809-2813	нулю	Inan	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	нуль	ROOT	basic	36-12	
+36-13	2814-2817	при	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	при	case	basic	36-14	
+36-14	2818-2821	икс	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nmod	basic	36-12	
+36-15	2822-2828	равном	Inan	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	равном	obl	basic	36-12	
+36-16	2829-2833	двум	*	*	Dat	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Dat	*	*	NUM	NUM	два	appos	basic	36-15	
+36-17	2833-2834	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	36-12	
+
+#Sentence.id=37
+#Text=Хорошо.
+37-1	2835-2841	Хорошо	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	хороший	ROOT	basic	37-1	
+37-2	2841-2842	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	37-1	
+
+#Sentence.id=38
+#Text=Ну а если икс будет равен пяти?
+38-1	2843-2845	Ну	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	ну	discourse	basic	38-6	
+38-2	2846-2847	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	advmod	basic	38-6	
+38-3	2848-2852	если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	mark	basic	38-6	
+38-4	2853-2856	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nsubj	basic	38-6	
+38-5	2857-2862	будет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	cop	basic	38-6	
+38-6	2863-2868	равен	*	*	*	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Masc\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	ROOT	basic	38-6	
+38-7	2869-2873	пяти	*	*	Dat	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Dat	*	*	NUM	NUM	пять	cop	basic	38-6	
+38-8	2873-2874	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	?	punct	basic	38-6	
+
+#Sentence.id=39
+#Text=Мы получим тот же результат, только переставив.
+39-1	2875-2877	Мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	39-2	
+39-2	2878-2885	получим	*	Perf	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Fut\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получить	ROOT	basic	39-2	
+39-3	2886-2889	тот	*	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Acc\|Gender=Masc\|Number=Sing	*	*	DET	DET	тот	det	basic	39-5	
+39-4	2890-2892	же	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	же	advmod	basic	39-3	
+39-5	2893-2902	результат	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	результат	obj	basic	39-2	
+39-6	2902-2903	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	39-8	
+39-7	2904-2910	только	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	только	advmod	basic	39-8	
+39-8	2911-2921	переставив	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	Past	*	Aspect=Perf\|Tense=Past\|VerbForm=Conv\|Voice=Act	Conv	Act	VERB	VERB	переставить	advcl	basic	39-2	
+39-9	2921-2922	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	39-2	
+
+#Sentence.id=40
+#Text=Первый множитель у нас останется три, второй уже будет пять минус два, но в ответе всё равно ноль.
+40-1	2923-2929	Первый	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	первый	amod	basic	40-2	
+40-2	2930-2939	множитель	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	множитель	nsubj	basic	40-5	
+40-3	2940-2941	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	case	basic	40-4	
+40-4	2942-2945	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	obl	basic	40-5	
+40-5	2946-2955	останется	*	Perf	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Fut\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	остаться	ROOT	basic	40-5	
+40-6	2956-2959	три	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	три	nsubj	basic	40-5	
+40-7	2959-2960	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	40-8	
+40-8	2961-2967	второй	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	второй	amod	basic	40-11	
+40-9	2968-2971	уже	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	уже	advmod	basic	40-8	
+40-10	2972-2977	будет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	cop	basic	40-8	
+40-11	2978-2982	пять	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	пять	nsubj	basic	40-13	
+40-12	2983-2988	минус	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	advmod	basic	40-13	
+40-13	2989-2992	два	*	*	Nom	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Masc	*	*	NUM	NUM	два	parataxis	basic	40-5	
+40-14	2992-2993	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	40-20	
+40-15	2994-2996	но	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	но	cc	basic	40-17	
+40-16	2997-2998	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	case	basic	40-17	
+40-17	2999-3005	ответе	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	ответ	case	basic	40-14	
+40-18	3006-3009	всё	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	всё	advmod	basic	40-20	
+40-19	3010-3015	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	fixed	basic	40-18	
+40-20	3016-3020	ноль	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	ноль	conj	basic	40-5	
+40-21	3020-3021	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	40-5	
+
+#Sentence.id=41
+#Text=Снова мы получаем, что при таком значение икса наш трёхчлен будет равен нулю.
+41-1	3022-3027	Снова	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	снова	advmod	basic	41-3	
+41-2	3028-3030	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	41-3	
+41-3	3031-3039	получаем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получать	ROOT	basic	41-3	
+41-4	3039-3040	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	41-13	
+41-5	3041-3044	что	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	что	mark	basic	41-13	
+41-6	3045-3048	при	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	при	case	basic	41-8	
+41-7	3049-3054	таком	*	*	Loc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Loc\|Gender=Neut\|Number=Sing	*	*	DET	DET	такой	det	basic	41-8	
+41-8	3055-3063	значение	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	значение	obl	basic	41-13	
+41-9	3064-3068	икса	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nmod	basic	41-8	
+41-10	3069-3072	наш	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	DET	DET	наш	det	basic	41-11	
+41-11	3073-3081	трёхчлен	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	трёхчлен	nsubj	basic	41-13	
+41-12	3082-3087	будет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	cop	basic	41-13	
+41-13	3088-3093	равен	*	*	*	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Masc\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	ccomp	basic	41-3	
+41-14	3094-3098	нулю	Inan	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	нуль	iobj	basic	41-13	
+41-15	3098-3099	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	41-3	
+
+#Sentence.id=42
+#Text=По сути получается, что это уравнение, при этом пять и два являются корнями этого квадратного уравнения.
+42-1	3100-3102	По	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	по	case	basic	42-2	
+42-2	3103-3107	сути	Inan	*	Dat	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	суть	obl	basic	42-3	
+42-3	3108-3118	получается	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	получаться	ROOT	basic	42-3	
+42-4	3118-3119	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	42-7	
+42-5	3120-3123	что	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	что	mark	basic	42-7	
+42-6	3124-3127	это	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	nsubj	basic	42-7	
+42-7	3128-3137	уравнение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	ccomp	basic	42-3	
+42-8	3137-3138	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	42-14	
+42-9	3139-3142	при	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	при	case	basic	42-10	
+42-10	3143-3147	этом	Inan	*	Loc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	obl	basic	42-14	
+42-11	3148-3152	пять	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	пять	nsubj	basic	42-14	
+42-12	3153-3154	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	42-13	
+42-13	3155-3158	два	*	*	Nom	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Masc	*	*	NUM	NUM	два	conj	basic	42-11	
+42-14	3159-3167	являются	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	являться	conj	basic	42-7	
+42-15	3168-3175	корнями	Inan	*	Ins	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	корень	xcomp	basic	42-14	
+42-16	3176-3181	этого	*	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Gender=Neut\|Number=Sing	*	*	DET	DET	это	det	basic	42-18	
+42-17	3182-3193	квадратного	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	квадратный	amod	basic	42-18	
+42-18	3194-3203	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	nmod	basic	42-15	
+42-19	3203-3204	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	42-3	
+
+#Sentence.id=43
+#Text=Ну, у нас трёхчлен, равный нулю – это и есть уравнение.
+43-1	3205-3207	Ну	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	ну	parataxis	basic	43-5	
+43-2	3207-3208	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	43-1	
+43-3	3209-3210	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	case	basic	43-4	
+43-4	3211-3214	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	obl	basic	43-5	
+43-5	3215-3223	трёхчлен	*	Perf	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Gender=Masc\|Number=Sing\|StyleVariant=Short\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	VERB	VERB	трёхчлен	ROOT	basic	43-5	
+43-6	3223-3224	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	43-8	
+43-7	3225-3231	равный	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	равный	amod	basic	43-8	
+43-8	3232-3236	нулю	Inan	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	нуль	nsubj	basic	43-13	
+43-9	3237-3238	–	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	–	punct	basic	43-13	
+43-10	3239-3242	это	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	это	nsubj	basic	43-13	
+43-11	3243-3244	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	и	advmod	basic	43-13	
+43-12	3245-3249	есть	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	есть	cop	basic	43-13	
+43-13	3250-3259	уравнение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	nsubj:pass	basic	43-5	
+43-14	3259-3260	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	43-5	
+
+#Sentence.id=44
+#Text=А если при икс равном двум и икс равном пяти это уравнение истинно, значит это корни этого уравнения.
+44-1	3261-3262	А	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	cc	basic	44-15	
+44-2	3263-3267	если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	mark	basic	44-9	
+44-3	3268-3271	при	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	при	case	basic	44-4	
+44-4	3272-3275	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	obl	basic	44-9	
+44-5	3276-3282	равном	Inan	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	равном	amod	basic	44-9	
+44-6	3283-3287	двум	*	*	Dat	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Dat	*	*	NUM	NUM	два	nummod	basic	44-9	
+44-7	3288-3289	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	44-8	
+44-8	3290-3293	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	conj	basic	44-6	
+44-9	3294-3300	равном	Inan	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	равном	advcl	basic	44-15	
+44-10	3301-3305	пяти	*	*	Gen	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Gen	*	*	NUM	NUM	пять	cop	basic	44-9	
+44-11	3306-3309	это	*	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Neut\|Number=Sing	*	*	DET	DET	это	det	basic	44-12	
+44-12	3310-3319	уравнение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	nsubj	basic	44-9	
+44-13	3320-3327	истинно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	истинно	advmod	basic	44-9	
+44-14	3327-3328	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	44-9	
+44-15	3329-3335	значит	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	значить	ROOT	basic	44-15	
+44-16	3336-3339	это	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	obj	basic	44-15	
+44-17	3340-3345	корни	Inan	*	Acc	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	корень	nsubj	basic	44-15	
+44-18	3346-3351	этого	*	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Gender=Neut\|Number=Sing	*	*	DET	DET	это	det	basic	44-19	
+44-19	3352-3361	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	nmod	basic	44-17	
+44-20	3361-3362	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	44-15	
+
+#Sentence.id=45
+#Text=И вот теперь интересный вопрос.
+45-1	3363-3364	И	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	45-5	
+45-2	3365-3368	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	advmod	basic	45-3	
+45-3	3369-3375	теперь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	теперь	advmod	basic	45-5	
+45-4	3376-3386	интересный	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	интересный	amod	basic	45-5	
+45-5	3387-3393	вопрос	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	вопрос	ROOT	basic	45-5	
+45-6	3393-3394	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	45-5	
+
+#Sentence.id=46
+#Text=Это для любого квадратного трёхчлена или только для этого, вот для мною подобранного?
+46-1	3395-3398	Это	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	nsubj	basic	46-5	
+46-2	3399-3402	для	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	для	case	basic	46-5	
+46-3	3403-3409	любого	*	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Gender=Masc\|Number=Sing	*	*	DET	DET	любой	det	basic	46-5	
+46-4	3410-3421	квадратного	*	*	Gen	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	квадратный	amod	basic	46-5	
+46-5	3422-3431	трёхчлена	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	трёхчлен	ROOT	basic	46-5	
+46-6	3432-3435	или	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	или	cc	basic	46-9	
+46-7	3436-3442	только	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	только	advmod	basic	46-9	
+46-8	3443-3446	для	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	для	case	basic	46-9	
+46-9	3447-3452	этого	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	conj	basic	46-5	
+46-10	3452-3453	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	46-13	
+46-11	3454-3457	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	advmod	basic	46-13	
+46-12	3458-3461	для	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	для	case	basic	46-13	
+46-13	3462-3466	мною	*	*	Ins	*	*	*	*	*	*	Sing	First	*	*	*	*	*	Case=Ins\|Number=Sing\|Person=First	*	*	PRON	PRON	мною	obl	basic	46-14	
+46-14	3467-3479	подобранного	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	подобранного	conj	basic	46-5	
+46-15	3479-3480	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	?	punct	basic	46-5	
+
+#Sentence.id=47
+#Text=На самом деле любой квадратный трёхчлен можно разложить на множители, причём на три множителя.
+47-1	3481-3483	На	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	47-3	
+47-2	3484-3489	самом	*	*	Loc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Loc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	самом	amod	basic	47-3	
+47-3	3490-3494	деле	Inan	*	Loc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	дело	obl	basic	47-7	
+47-4	3495-3500	любой	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	DET	DET	любой	det	basic	47-6	
+47-5	3501-3511	квадратный	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	квадратный	amod	basic	47-6	
+47-6	3512-3520	трёхчлен	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	трёхчлен	nsubj	basic	47-7	
+47-7	3521-3526	можно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	можно	ROOT	basic	47-7	
+47-8	3527-3536	разложить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	разложить	csubj	basic	47-7	
+47-9	3537-3539	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	47-10	
+47-10	3540-3549	множители	Inan	*	Acc	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	множитель	obl	basic	47-8	
+47-11	3549-3550	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	47-12	
+47-12	3551-3557	причём	Inan	*	Acc	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	причём	conj	basic	47-10	
+47-13	3558-3560	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	47-15	
+47-14	3561-3564	три	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	три	nummod:gov	basic	47-15	
+47-15	3565-3574	множителя	Anim	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	множитель	nmod	basic	47-12	
+47-16	3574-3575	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	47-7	
+
+#Sentence.id=48
+#Text=При этом первым множителем будет коэффициент при икс в квадрате, и если мы берём приведенное квадратное уравнение, вы помните, приведенное – это у которого три икс в квадрате коэффициент равен единице, всё равно будет первый множитель, просто он будет равен единице.
+48-1	3576-3579	При	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	При	case	basic	48-2	
+48-2	3580-3584	этом	Inan	*	Loc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	nmod	basic	48-4	
+48-3	3585-3591	первым	*	*	Ins	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	первый	amod	basic	48-4	
+48-4	3592-3602	множителем	Anim	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Ins\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	множитель	obl	basic	48-33	
+48-5	3603-3608	будет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	cop	basic	48-4	
+48-6	3609-3620	коэффициент	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	коэффициент	nsubj	basic	48-4	
+48-7	3621-3624	при	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	при	case	basic	48-8	
+48-8	3625-3628	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nmod	basic	48-6	
+48-9	3629-3630	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	case	basic	48-10	
+48-10	3631-3639	квадрате	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	квадрат	nmod	basic	48-6	
+48-11	3639-3640	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	48-21	
+48-12	3641-3642	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	48-21	
+48-13	3643-3647	если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	mark	basic	48-15	
+48-14	3648-3650	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	48-15	
+48-15	3651-3656	берём	*	*	*	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Fem\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	берём	advcl	basic	48-21	
+48-16	3657-3668	приведенное	Inan	*	Acc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	приведенное	amod	basic	48-18	
+48-17	3669-3679	квадратное	Inan	*	Acc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	квадратный	amod	basic	48-18	
+48-18	3680-3689	уравнение	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	obj	basic	48-15	
+48-19	3689-3690	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	48-15	
+48-20	3691-3693	вы	*	*	Nom	*	*	*	*	*	*	Plur	Second	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=Second	*	*	PRON	PRON	вы	nsubj	basic	48-21	
+48-21	3694-3701	помните	*	Imp	*	*	*	*	Ind	*	*	Plur	Second	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Second\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	помнить	conj	basic	48-4	
+48-22	3701-3702	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	48-23	
+48-23	3703-3714	приведенное	Inan	*	Acc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	приведенное	appos	basic	48-4	
+48-24	3715-3716	–	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	–	punct	basic	48-27	
+48-25	3717-3720	это	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	nsubj	basic	48-27	
+48-26	3721-3722	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	case	basic	48-27	
+48-27	3723-3731	которого	*	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Gender=Masc\|Number=Sing	*	*	PRON	PRON	которого	parataxis	basic	48-4	
+48-28	3732-3735	три	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	три	nummod:gov	basic	48-29	
+48-29	3736-3739	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	nsubj	basic	48-33	
+48-30	3740-3741	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	case	basic	48-31	
+48-31	3742-3750	квадрате	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	квадрат	nmod	basic	48-29	
+48-32	3751-3762	коэффициент	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	коэффициент	nsubj	basic	48-33	
+48-33	3763-3768	равен	*	*	*	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Masc\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	ROOT	basic	48-33	
+48-34	3769-3776	единице	Anim	*	Dat	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Dat\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	единица	iobj	basic	48-33	
+48-35	3776-3777	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	48-38	
+48-36	3778-3781	всё	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	ADV	ADV	всё	advmod	basic	48-38	
+48-37	3782-3787	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	fixed	basic	48-36	
+48-38	3788-3793	будет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	будет	cop	basic	48-33	
+48-39	3794-3800	первый	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	первый	amod	basic	48-40	
+48-40	3801-3810	множитель	Anim	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	множитель	nsubj	basic	48-38	
+48-41	3810-3811	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	48-45	
+48-42	3812-3818	просто	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	просто	advmod	basic	48-45	
+48-43	3819-3821	он	*	*	Nom	*	*	Masc	*	*	*	Sing	Third	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing\|Person=Third	*	*	PRON	PRON	он	nsubj	basic	48-45	
+48-44	3822-3827	будет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	cop	basic	48-45	
+48-45	3828-3833	равен	*	*	*	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Masc\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	conj	basic	48-33	
+48-46	3834-3841	единице	Anim	*	Dat	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Dat\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	единица	iobj	basic	48-45	
+48-47	3841-3842	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	48-33	
+
+#Sentence.id=49
+#Text=Но множителей будет три.
+49-1	3843-3845	Но	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	но	cc	basic	49-4	
+49-2	3846-3856	множителей	Anim	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Anim\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	множитель	nsubj	basic	49-4	
+49-3	3857-3862	будет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	cop	basic	49-4	
+49-4	3863-3866	три	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	три	ROOT	basic	49-4	
+49-5	3866-3867	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	49-4	
+
+#Sentence.id=50
+#Text=Ну, а вторым и третьим множителем будут выражения икс минус икс один икс минус икс два, в котором икс один и икс два – это корни квадратного уравнения.
+50-1	3868-3870	Ну	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	ну	parataxis	basic	50-7	
+50-2	3870-3871	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	50-1	
+50-3	3872-3873	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	cc	basic	50-7	
+50-4	3874-3880	вторым	*	*	Ins	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	второй	amod	basic	50-7	
+50-5	3881-3882	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	50-6	
+50-6	3883-3890	третьим	*	*	Ins	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	третий	conj	basic	50-4	
+50-7	3891-3901	множителем	Anim	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Ins\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	множитель	ROOT	basic	50-7	
+50-8	3902-3907	будут	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	cop	basic	50-7	
+50-9	3908-3917	выражения	Inan	*	Nom	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	выражение	nsubj	basic	50-7	
+50-10	3918-3921	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	nmod	basic	50-9	
+50-11	3922-3927	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	50-12	
+50-12	3928-3931	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nmod	basic	50-9	
+50-13	3932-3936	один	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	один	nummod	basic	50-14	
+50-14	3937-3940	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nmod	basic	50-9	
+50-15	3941-3946	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	50-16	
+50-16	3947-3950	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nmod	basic	50-14	
+50-17	3951-3954	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	nsubj	basic	50-7	
+50-18	3954-3955	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	50-22	
+50-19	3956-3957	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	case	basic	50-20	
+50-20	3958-3965	котором	*	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Loc\|Gender=Masc\|Number=Sing	*	*	PRON	PRON	котором	obl	basic	50-22	
+50-21	3966-3969	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nsubj	basic	50-22	
+50-22	3970-3974	один	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	DET	DET	один	acl:relcl	basic	50-17	
+50-23	3975-3976	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	50-24	
+50-24	3977-3980	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	conj	basic	50-22	
+50-25	3981-3984	два	*	*	Nom	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Masc	*	*	NUM	NUM	два	nummod:gov	basic	50-22	
+50-26	3985-3986	–	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	–	punct	basic	50-28	
+50-27	3987-3990	это	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	это	expl	basic	50-28	
+50-28	3991-3996	корни	Inan	*	Nom	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	корень	parataxis	basic	50-7	
+50-29	3997-4008	квадратного	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	квадратный	amod	basic	50-30	
+50-30	4009-4018	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	nmod	basic	50-28	
+50-31	4018-4019	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	50-7	
+
+#Sentence.id=51
+#Text=Вы помните, что икс один может быть равен икс два.
+51-1	4020-4022	Вы	*	*	Nom	*	*	*	*	*	*	Plur	Second	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=Second	*	*	PRON	PRON	вы	nsubj	basic	51-2	
+51-2	4023-4030	помните	*	Imp	*	*	*	*	Ind	*	*	Plur	Second	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Second\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	помнить	ROOT	basic	51-2	
+51-3	4030-4031	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	51-7	
+51-4	4032-4035	что	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	что	mark	basic	51-7	
+51-5	4036-4039	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nsubj:pass	basic	51-7	
+51-6	4040-4044	один	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	один	nsubj:pass	basic	51-7	
+51-7	4045-4050	может	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	мочь	ccomp	basic	51-2	
+51-8	4051-4055	быть	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	AUX	AUX	быть	cop	basic	51-9	
+51-9	4056-4061	равен	*	*	*	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Masc\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	xcomp	basic	51-7	
+51-10	4062-4065	икс	Inan	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	iobj	basic	51-9	
+51-11	4066-4069	два	*	*	Nom	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Masc	*	*	NUM	NUM	два	nummod:gov	basic	51-7	
+51-12	4069-4070	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	51-2	
+
+#Sentence.id=52
+#Text=Ну, то есть, есть уравнение, у которых всего лишь один корень.
+52-1	4071-4073	Ну	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	ну	discourse	basic	52-6	
+52-2	4073-4074	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	52-1	
+52-3	4075-4077	то	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	SCONJ	SCONJ	то	mark	basic	52-6	
+52-4	4078-4082	есть	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	быть	fixed	basic	52-3	
+52-5	4082-4083	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	52-3	
+52-6	4084-4088	есть	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	быть	ROOT	basic	52-6	
+52-7	4089-4098	уравнение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	nsubj	basic	52-6	
+52-8	4098-4099	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	52-10	
+52-9	4100-4101	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	case	basic	52-10	
+52-10	4102-4109	которых	*	*	Gen	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Number=Plur	*	*	PRON	PRON	которых	acl:relcl	basic	52-7	
+52-11	4110-4115	всего	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	всего	advmod	basic	52-12	
+52-12	4116-4120	лишь	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	лишь	advmod	basic	52-13	
+52-13	4121-4125	один	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	один	nummod	basic	52-14	
+52-14	4126-4132	корень	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	корень	nsubj	basic	52-10	
+52-15	4132-4133	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	52-6	
+
+#Sentence.id=53
+#Text=Так вот всё равно будут три множителя, но тогда икс один будет равен икс два и выглядеть это будет так: а умножить на икс минус икс один умножить на икс минус икс один, или а умножить на икс минус икс один в квадрате.
+53-1	4134-4137	Так	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	так	advmod	basic	53-3	
+53-2	4138-4141	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	advmod	basic	53-3	
+53-3	4142-4145	всё	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	всё	ROOT	basic	53-3	
+53-4	4146-4151	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	fixed	basic	53-3	
+53-5	4152-4157	будут	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	cop	basic	53-3	
+53-6	4158-4161	три	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	три	nummod:gov	basic	53-7	
+53-7	4162-4171	множителя	Anim	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	множитель	nsubj	basic	53-5	
+53-8	4171-4172	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	53-14	
+53-9	4173-4175	но	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	но	cc	basic	53-14	
+53-10	4176-4181	тогда	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	тогда	advmod	basic	53-14	
+53-11	4182-4185	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nsubj	basic	53-14	
+53-12	4186-4190	один	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	DET	DET	один	appos	basic	53-11	
+53-13	4191-4196	будет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	cop	basic	53-14	
+53-14	4197-4202	равен	*	*	*	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Masc\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	conj	basic	53-5	
+53-15	4203-4206	икс	Inan	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	iobj	basic	53-14	
+53-16	4207-4210	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	iobj	basic	53-14	
+53-17	4211-4212	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	53-18	
+53-18	4213-4222	выглядеть	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	выглядеть	conj	basic	53-5	
+53-19	4223-4226	это	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	obj	basic	53-18	
+53-20	4227-4232	будет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	aux	basic	53-18	
+53-21	4233-4236	так	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	так	advmod	basic	53-18	
+53-22	4236-4237	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	punct	basic	53-24	
+53-23	4238-4239	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	cc	basic	53-24	
+53-24	4240-4248	умножить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	умножить	parataxis	basic	53-21	
+53-25	4249-4251	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	53-26	
+53-26	4252-4255	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	obl	basic	53-24	
+53-27	4256-4261	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	53-28	
+53-28	4262-4265	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	obl	basic	53-24	
+53-29	4266-4270	один	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	DET	DET	один	obj	basic	53-24	
+53-30	4271-4279	умножить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	умножить	xcomp	basic	53-24	
+53-31	4280-4282	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	53-32	
+53-32	4283-4286	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	obl	basic	53-30	
+53-33	4287-4292	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	53-34	
+53-34	4293-4296	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	obl	basic	53-30	
+53-35	4297-4301	один	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	DET	DET	один	obj	basic	53-30	
+53-36	4301-4302	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	53-39	
+53-37	4303-4306	или	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	или	cc	basic	53-39	
+53-38	4307-4308	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	cc	basic	53-39	
+53-39	4309-4317	умножить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	умножить	conj	basic	53-30	
+53-40	4318-4320	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	53-41	
+53-41	4321-4324	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	obl	basic	53-39	
+53-42	4325-4330	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	53-43	
+53-43	4331-4334	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	obl	basic	53-39	
+53-44	4335-4339	один	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	один	appos	basic	53-43	
+53-45	4340-4341	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	case	basic	53-46	
+53-46	4342-4350	квадрате	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	квадрат	obl	basic	53-39	
+53-47	4350-4351	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	53-3	
+
+#Sentence.id=54
+#Text=И для доказательства этого мы снова прибегаем к теореме Виета.
+54-1	4352-4353	И	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	54-7	
+54-2	4354-4357	для	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	для	case	basic	54-3	
+54-3	4358-4372	доказательства	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	доказательство	obl	basic	54-7	
+54-4	4373-4378	этого	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	nmod	basic	54-3	
+54-5	4379-4381	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	54-7	
+54-6	4382-4387	снова	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	снова	advmod	basic	54-7	
+54-7	4388-4397	прибегаем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	прибегать	ROOT	basic	54-7	
+54-8	4398-4399	к	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	к	case	basic	54-9	
+54-9	4400-4407	теореме	Inan	*	Dat	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	теорема	obl	basic	54-7	
+54-10	4408-4413	Виета	Anim	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	виета	nmod	basic	54-9	
+54-11	4413-4414	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	54-7	
+
+#Sentence.id=55
+#Text=Если кто-то не помнит, зайдите посмотрите по ссылочке, а мы уже пользуемся её результатом.
+55-1	4415-4419	Если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	mark	basic	55-6	
+55-2	4420-4423	кто	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	PRON	PRON	кто	nsubj	basic	55-6	
+55-3	4423-4424	-	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	PRON	PRON	-	nsubj	basic	55-6	
+55-4	4424-4426	то	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	PRON	PRON	то	nsubj	basic	55-6	
+55-5	4427-4429	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	advmod	basic	55-6	
+55-6	4430-4436	помнит	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	помнить	advcl	basic	55-8	
+55-7	4436-4437	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	55-8	
+55-8	4438-4445	зайдите	*	Perf	*	*	*	*	Imp	*	*	Plur	Second	*	*	*	*	*	Aspect=Perf\|Mood=Imp\|Number=Plur\|Person=Second\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	зайти	ROOT	basic	55-8	
+55-9	4446-4456	посмотрите	*	Perf	*	*	*	*	Imp	*	*	Plur	Second	*	*	*	*	*	Aspect=Perf\|Mood=Imp\|Number=Plur\|Person=Second\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	посмотреть	obj	basic	55-8	
+55-10	4457-4459	по	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	по	case	basic	55-11	
+55-11	4460-4468	ссылочке	Inan	*	Dat	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	ссылочка	obl	basic	55-9	
+55-12	4468-4469	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	55-16	
+55-13	4470-4471	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	cc	basic	55-16	
+55-14	4472-4474	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	55-16	
+55-15	4475-4478	уже	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	уже	advmod	basic	55-16	
+55-16	4479-4489	пользуемся	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	пользоваться	conj	basic	55-8	
+55-17	4490-4492	её	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	DET	DET	её	obj	basic	55-16	
+55-18	4493-4504	результатом	Inan	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	результат	xcomp	basic	55-16	
+55-19	4504-4505	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	55-8	
+
+#Sentence.id=56
+#Text=Разделим весь многочлен на коэффициент а и получим следующее: икс квадрат плюс бэ, делённое на а, умножить на икс плюс цэ, делённое на а.
+56-1	4506-4514	Разделим	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	разделим	nsubj:pass	basic	56-3	
+56-2	4515-4519	весь	*	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Acc\|Gender=Masc\|Number=Sing	*	*	DET	DET	весь	det	basic	56-3	
+56-3	4520-4529	многочлен	*	Perf	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Gender=Masc\|Number=Sing\|StyleVariant=Short\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	VERB	VERB	многочлен	ROOT	basic	56-3	
+56-4	4530-4532	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	56-5	
+56-5	4533-4544	коэффициент	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	коэффициент	obl	basic	56-3	
+56-6	4545-4546	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	appos	basic	56-5	
+56-7	4547-4548	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	56-8	
+56-8	4549-4556	получим	*	Perf	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Fut\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получить	conj	basic	56-6	
+56-9	4557-4566	следующее	Inan	*	Acc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	следующий	obj	basic	56-8	
+56-10	4566-4567	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	punct	basic	56-11	
+56-11	4568-4571	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	parataxis	basic	56-3	
+56-12	4572-4579	квадрат	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	квадрат	nmod	basic	56-11	
+56-13	4580-4584	плюс	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	плюс	case	basic	56-14	
+56-14	4585-4587	бэ	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	бэ	nmod	basic	56-12	
+56-15	4587-4588	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	56-16	
+56-16	4589-4597	делённое	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	делённое	acl	basic	56-11	
+56-17	4598-4600	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	56-18	
+56-18	4601-4602	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	obl	basic	56-16	
+56-19	4602-4603	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	56-20	
+56-20	4604-4612	умножить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	умножить	conj	basic	56-11	
+56-21	4613-4615	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	56-22	
+56-22	4616-4619	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	obl	basic	56-20	
+56-23	4620-4624	плюс	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	плюс	case	basic	56-24	
+56-24	4625-4627	цэ	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	цэ	obl	basic	56-20	
+56-25	4627-4628	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	56-26	
+56-26	4629-4637	делённое	*	Perf	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Case=Nom\|Gender=Neut\|Number=Sing\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	PTCP\|VERB	VERB	делённый\|делить	acl	basic	56-11	
+56-27	4638-4640	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	56-28	
+56-28	4641-4642	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	nmod	basic	56-11	
+56-29	4642-4643	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	56-3	
+
+#Sentence.id=57
+#Text=Если мы такой трёхчлен приравняем к нулю, то мы получим что икс один и икс два – это корни квадратного уравнения, причём по теореме Виета икс один плюс иск два равно минус бэ а, ну там по теореме Виета там стоял пэ, но пэ – это на самом деле это тоже самое бэ, делённое на а.
+57-1	4644-4648	Если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	mark	basic	57-4	
+57-2	4649-4651	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	57-4	
+57-3	4652-4657	такой	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	DET	DET	такой	det	basic	57-4	
+57-4	4658-4666	трёхчлен	*	Perf	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Gender=Masc\|Number=Sing\|StyleVariant=Short\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	VERB	VERB	трёхчлен	advcl	basic	57-5	
+57-5	4667-4677	приравняем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	приравняем	advcl	basic	57-11	
+57-6	4678-4679	к	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	к	case	basic	57-7	
+57-7	4680-4684	нулю	Inan	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	нуль	obl	basic	57-5	
+57-8	4684-4685	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	57-5	
+57-9	4686-4688	то	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	то	mark	basic	57-11	
+57-10	4689-4691	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	57-11	
+57-11	4692-4699	получим	*	Perf	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Fut\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получить	ROOT	basic	57-11	
+57-12	4700-4703	что	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	что	mark	basic	57-14	
+57-13	4704-4707	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nsubj	basic	57-14	
+57-14	4708-4712	один	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	DET	DET	один	nummod	basic	57-11	
+57-15	4713-4714	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	57-16	
+57-16	4715-4718	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	conj	basic	57-14	
+57-17	4719-4722	два	*	*	Nom	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Masc	*	*	NUM	NUM	два	conj	basic	57-14	
+57-18	4723-4724	–	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	–	punct	basic	57-20	
+57-19	4725-4728	это	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	это	expl	basic	57-20	
+57-20	4729-4734	корни	Inan	*	Nom	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	корень	parataxis	basic	57-11	
+57-21	4735-4746	квадратного	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	квадратный	amod	basic	57-22	
+57-22	4747-4756	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	nmod	basic	57-20	
+57-23	4756-4757	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	57-24	
+57-24	4758-4764	причём	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	причём	conj	basic	57-22	
+57-25	4765-4767	по	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	по	case	basic	57-26	
+57-26	4768-4775	теореме	Inan	*	Dat	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	теорема	nmod	basic	57-24	
+57-27	4776-4781	Виета	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	виета	nmod	basic	57-26	
+57-28	4782-4785	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nmod	basic	57-26	
+57-29	4786-4790	один	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	один	nummod	basic	57-31	
+57-30	4791-4795	плюс	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	плюс	case	basic	57-31	
+57-31	4796-4799	иск	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	иск	nmod	basic	57-20	
+57-32	4800-4803	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	nmod	basic	57-31	
+57-33	4804-4809	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	fixed	basic	57-32	
+57-34	4810-4815	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	57-35	
+57-35	4816-4818	бэ	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	бэ	obl	basic	57-32	
+57-36	4819-4820	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	appos	basic	57-35	
+57-37	4820-4821	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	57-44	
+57-38	4822-4824	ну	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	ну	discourse	basic	57-44	
+57-39	4825-4828	там	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	там	advmod	basic	57-44	
+57-40	4829-4831	по	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	по	case	basic	57-41	
+57-41	4832-4839	теореме	Inan	*	Dat	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	теорема	obl	basic	57-44	
+57-42	4840-4845	Виета	Anim	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	виета	nmod	basic	57-41	
+57-43	4846-4849	там	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	там	advmod	basic	57-44	
+57-44	4850-4855	стоял	*	Imp	*	*	*	Masc	Ind	*	*	Sing	*	*	*	*	Past	*	Aspect=Imp\|Gender=Masc\|Mood=Ind\|Number=Sing\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	стоять	conj	basic	57-11	
+57-45	4856-4858	пэ	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	пэ	nsubj	basic	57-44	
+57-46	4858-4859	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	57-57	
+57-47	4860-4862	но	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	но	cc	basic	57-57	
+57-48	4863-4865	пэ	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	пэ	nsubj	basic	57-57	
+57-49	4866-4867	–	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	–	punct	basic	57-48	
+57-50	4868-4871	это	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	это	expl	basic	57-57	
+57-51	4872-4874	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	57-53	
+57-52	4875-4880	самом	*	*	Loc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Loc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	самом	amod	basic	57-53	
+57-53	4881-4885	деле	Inan	*	Loc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	дело	nmod	basic	57-57	
+57-54	4886-4889	это	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	nsubj	basic	57-57	
+57-55	4890-4894	тоже	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	тоже	advmod	basic	57-56	
+57-56	4895-4900	самое	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	самое	amod	basic	57-57	
+57-57	4901-4903	бэ	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	бэ	conj	basic	57-44	
+57-58	4903-4904	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	57-59	
+57-59	4905-4913	делённое	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	делённое	acl	basic	57-57	
+57-60	4914-4916	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	57-61	
+57-61	4917-4918	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	obl	basic	57-59	
+57-62	4918-4919	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	57-11	
+
+#Sentence.id=58
+#Text=А произведение икс один и икс два равно цэ, делённое на а.
+58-1	4920-4921	А	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	cc	basic	58-4	
+58-2	4922-4934	произведение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	произведение	nsubj	basic	58-4	
+58-3	4935-4938	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	nmod	basic	58-2	
+58-4	4939-4943	один	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	DET	DET	один	nummod	basic	58-9	
+58-5	4944-4945	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	58-6	
+58-6	4946-4949	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	conj	basic	58-4	
+58-7	4950-4953	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	nummod:gov	basic	58-9	
+58-8	4954-4959	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	flat	basic	58-7	
+58-9	4960-4962	цэ	Anim	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Anim\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	цэ	ROOT	basic	58-9	
+58-10	4962-4963	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	58-11	
+58-11	4964-4972	делённое	*	Perf	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Case=Nom\|Gender=Neut\|Number=Sing\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	PTCP\|VERB	VERB	делённый\|делить	acl	basic	58-9	
+58-12	4973-4975	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	58-13	
+58-13	4976-4977	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	obl	basic	58-11	
+58-14	4977-4978	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	58-9	
+
+#Sentence.id=59
+#Text=Вот и подставим эти значения, вот эти вот, вместо бэ на а – икс один плюс икс два, но только со знаками не запутайтесь, и вместо цэ, делённое на а – икс один умножить на два.
+59-1	4979-4982	Вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	advmod	basic	59-3	
+59-2	4983-4984	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	и	advmod	basic	59-3	
+59-3	4985-4994	подставим	*	Perf	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Fut\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	подставить	ROOT	basic	59-3	
+59-4	4995-4998	эти	Inan	*	Acc	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Number=Plur	*	*	DET	DET	этот	det	basic	59-5	
+59-5	4999-5007	значения	Inan	*	Acc	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	значение	obj	basic	59-3	
+59-6	5007-5008	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	59-8	
+59-7	5009-5012	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	advmod	basic	59-8	
+59-8	5013-5016	эти	*	*	Nom	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Nom\|Number=Plur	*	*	DET	DET	этот	det	basic	59-16	
+59-9	5017-5020	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	advmod	basic	59-8	
+59-10	5020-5021	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	59-12	
+59-11	5022-5028	вместо	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	вместо	case	basic	59-12	
+59-12	5029-5031	бэ	Inan	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	бэ	nmod	basic	59-16	
+59-13	5032-5034	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	59-14	
+59-14	5035-5036	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	nmod	basic	59-12	
+59-15	5037-5038	–	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	–	punct	basic	59-14	
+59-16	5039-5042	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nsubj	basic	59-17	
+59-17	5043-5047	один	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	один	nummod	basic	59-20	
+59-18	5048-5052	плюс	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	плюс	case	basic	59-19	
+59-19	5053-5056	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nmod	basic	59-17	
+59-20	5057-5060	два	*	*	Nom	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Masc	*	*	NUM	NUM	два	nsubj	basic	59-3	
+59-21	5060-5061	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	59-27	
+59-22	5062-5064	но	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	но	cc	basic	59-27	
+59-23	5065-5071	только	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	только	advmod	basic	59-25	
+59-24	5072-5074	со	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	со	case	basic	59-25	
+59-25	5075-5082	знаками	Inan	*	Ins	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	знак	obl	basic	59-27	
+59-26	5083-5085	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	advmod	basic	59-27	
+59-27	5086-5097	запутайтесь	*	Imp	*	*	*	*	Imp	*	*	Plur	Second	*	*	*	*	*	Aspect=Imp\|Mood=Imp\|Number=Plur\|Person=Second\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	запутайтесь	conj	basic	59-3	
+59-28	5097-5098	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	59-37	
+59-29	5099-5100	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	59-31	
+59-30	5101-5107	вместо	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	вместо	case	basic	59-31	
+59-31	5108-5110	цэ	Anim	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Anim\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	цэ	case	basic	59-28	
+59-32	5110-5111	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	59-33	
+59-33	5112-5120	делённое	*	Perf	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Case=Nom\|Gender=Neut\|Number=Sing\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	PTCP\|VERB	VERB	делённый\|делить	amod	basic	59-31	
+59-34	5121-5123	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	59-35	
+59-35	5124-5125	а	Inan	*	Loc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	а	obl	basic	59-33	
+59-36	5126-5127	–	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	–	punct	basic	59-35	
+59-37	5128-5131	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	conj	basic	59-3	
+59-38	5132-5136	один	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	DET	DET	один	obj	basic	59-39	
+59-39	5137-5145	умножить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	умножить	xcomp	basic	59-37	
+59-40	5146-5148	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	59-41	
+59-41	5149-5152	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	nummod:gov	basic	59-39	
+59-42	5152-5153	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	59-3	
+
+#Sentence.id=60
+#Text=Я думаю, не запутаетесь, потому что я же рядом с вами, да.
+60-1	5154-5155	Я	*	*	Nom	*	*	*	*	*	*	Sing	First	*	*	*	*	*	Case=Nom\|Number=Sing\|Person=First	*	*	PRON	PRON	я	nsubj	basic	60-2	
+60-2	5156-5161	думаю	*	Imp	*	*	*	*	Ind	*	*	Sing	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	думать	ROOT	basic	60-2	
+60-3	5161-5162	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	60-5	
+60-4	5163-5165	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	advmod	basic	60-5	
+60-5	5166-5177	запутаетесь	*	Imp	*	*	*	*	Imp	*	*	Plur	Second	*	*	*	*	*	Aspect=Imp\|Mood=Imp\|Number=Plur\|Person=Second\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	запутаетесь	ccomp	basic	60-2	
+60-6	5177-5178	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	60-11	
+60-7	5179-5185	потому	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	потому	mark	basic	60-11	
+60-8	5186-5189	что	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	что	fixed	basic	60-7	
+60-9	5190-5191	я	*	*	Nom	*	*	*	*	*	*	Sing	First	*	*	*	*	*	Case=Nom\|Number=Sing\|Person=First	*	*	PRON	PRON	я	nsubj	basic	60-11	
+60-10	5192-5194	же	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	же	advmod	basic	60-9	
+60-11	5195-5200	рядом	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	рядом	advcl	basic	60-5	
+60-12	5201-5202	с	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	с	case	basic	60-13	
+60-13	5203-5207	вами	*	*	Ins	*	*	*	*	*	*	Plur	Second	*	*	*	*	*	Case=Ins\|Number=Plur\|Person=Second	*	*	PRON	PRON	вами	obl	basic	60-11	
+60-14	5207-5208	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	60-15	
+60-15	5209-5211	да	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	да	conj	basic	60-2	
+60-16	5211-5212	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	60-2	
+
+#Sentence.id=61
+#Text=И вот вместо бэ вы подставили сумму икс один плюс икс два, получилось икс в квадрате минус икс один плюс икс два умножить на икс, плюс произведение икс один и икс два.
+61-1	5213-5214	И	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	61-6	
+61-2	5215-5218	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	advmod	basic	61-4	
+61-3	5219-5225	вместо	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	вместо	case	basic	61-4	
+61-4	5226-5228	бэ	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	бэ	obl	basic	61-6	
+61-5	5229-5231	вы	*	*	Nom	*	*	*	*	*	*	Plur	Second	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=Second	*	*	PRON	PRON	вы	nsubj	basic	61-6	
+61-6	5232-5242	подставили	*	Perf	*	*	*	*	Ind	*	*	Plur	*	*	*	*	Past	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	подставить	ROOT	basic	61-6	
+61-7	5243-5248	сумму	Inan	*	Acc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	сумма	obj	basic	61-6	
+61-8	5249-5252	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	nmod	basic	61-7	
+61-9	5253-5257	один	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	один	nummod	basic	61-12	
+61-10	5258-5262	плюс	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	плюс	case	basic	61-11	
+61-11	5263-5266	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nmod	basic	61-9	
+61-12	5267-5270	два	*	*	Nom	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Masc	*	*	NUM	NUM	два	xcomp	basic	61-6	
+61-13	5270-5271	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	61-14	
+61-14	5272-5282	получилось	*	Perf	*	*	*	Neut	Ind	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Gender=Neut\|Mood=Ind\|Number=Sing\|Tense=Past\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	получиться	conj	basic	61-6	
+61-15	5283-5286	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nsubj	basic	61-14	
+61-16	5287-5288	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	case	basic	61-17	
+61-17	5289-5297	квадрате	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	квадрат	obl	basic	61-14	
+61-18	5298-5303	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	61-19	
+61-19	5304-5307	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nmod	basic	61-17	
+61-20	5308-5312	один	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	один	nsubj	basic	61-14	
+61-21	5313-5317	плюс	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	плюс	case	basic	61-22	
+61-22	5318-5321	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nmod	basic	61-20	
+61-23	5322-5325	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	nummod:gov	basic	61-24	
+61-24	5326-5334	умножить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	умножить	csubj	basic	61-14	
+61-25	5335-5337	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	61-26	
+61-26	5338-5341	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	obl	basic	61-24	
+61-27	5341-5342	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	61-29	
+61-28	5343-5347	плюс	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	плюс	case	basic	61-29	
+61-29	5348-5360	произведение	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	произведение	conj	basic	61-26	
+61-30	5361-5364	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	nmod	basic	61-29	
+61-31	5365-5369	один	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	DET	DET	один	appos	basic	61-29	
+61-32	5370-5371	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	61-33	
+61-33	5372-5375	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	conj	basic	61-31	
+61-34	5376-5379	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	obj	basic	61-24	
+61-35	5379-5380	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	61-6	
+
+#Sentence.id=62
+#Text=Раскрываем скобки, сохраняем знаки.
+62-1	5381-5391	Раскрываем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	раскрывать	ROOT	basic	62-1	
+62-2	5392-5398	скобки	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	скобка	obj	basic	62-1	
+62-3	5398-5399	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	62-4	
+62-4	5400-5409	сохраняем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	сохранять	conj	basic	62-1	
+62-5	5410-5415	знаки	Inan	*	Acc	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	знак	obj	basic	62-4	
+62-6	5415-5416	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	62-1	
+
+#Sentence.id=63
+#Text=Я взял другой фломастер, но, надеюсь, вам видно.
+63-1	5417-5418	Я	*	*	Nom	*	*	*	*	*	*	Sing	First	*	*	*	*	*	Case=Nom\|Number=Sing\|Person=First	*	*	PRON	PRON	я	nsubj	basic	63-2	
+63-2	5419-5423	взял	*	Perf	*	*	*	Masc	Ind	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Gender=Masc\|Mood=Ind\|Number=Sing\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	взять	ROOT	basic	63-2	
+63-3	5424-5430	другой	Inan	*	Acc	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	другой	amod	basic	63-4	
+63-4	5431-5440	фломастер	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	фломастер	obj	basic	63-2	
+63-5	5440-5441	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	63-11	
+63-6	5442-5444	но	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	но	cc	basic	63-11	
+63-7	5444-5445	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	63-8	
+63-8	5446-5453	надеюсь	*	Imp	*	*	*	*	Ind	*	*	Sing	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	надеяться	parataxis	basic	63-11	
+63-9	5453-5454	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	63-8	
+63-10	5455-5458	вам	*	*	Dat	*	*	*	*	*	*	Plur	Second	*	*	*	*	*	Case=Dat\|Number=Plur\|Person=Second	*	*	PRON	PRON	вам	iobj	basic	63-11	
+63-11	5459-5464	видно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	видно	conj	basic	63-2	
+63-12	5464-5465	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	63-2	
+
+#Sentence.id=64
+#Text=Он чуть светлее, просто для того, чтобы отделить эту часть.
+64-1	5466-5468	Он	*	*	Nom	*	*	Masc	*	*	*	Sing	Third	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing\|Person=Third	*	*	PRON	PRON	он	nsubj	basic	64-3	
+64-2	5469-5473	чуть	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	чуть	advmod	basic	64-3	
+64-3	5474-5481	светлее	*	*	*	*	Cmp	*	*	*	*	*	*	*	*	*	*	*	Degree=Cmp	*	*	ADJ	ADJ	светлый	ROOT	basic	64-3	
+64-4	5481-5482	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	64-7	
+64-5	5483-5489	просто	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	просто	advmod	basic	64-7	
+64-6	5490-5493	для	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	для	case	basic	64-7	
+64-7	5494-5498	того	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	того	obl	basic	64-3	
+64-8	5498-5499	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	64-10	
+64-9	5500-5505	чтобы	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	чтобы	mark	basic	64-10	
+64-10	5506-5514	отделить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	отделить	advcl	basic	64-7	
+64-11	5515-5518	эту	*	*	Acc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Acc\|Gender=Fem\|Number=Sing	*	*	DET	DET	этот	det	basic	64-12	
+64-12	5519-5524	часть	Inan	*	Acc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	часть	obj	basic	64-10	
+64-13	5524-5525	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	64-3	
+
+#Sentence.id=65
+#Text=Теперь снова группируем и выносим за скобочки общий множитель.
+65-1	5526-5532	Теперь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	теперь	advmod	basic	65-3	
+65-2	5533-5538	снова	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	снова	advmod	basic	65-3	
+65-3	5539-5549	группируем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	группировать	ROOT	basic	65-3	
+65-4	5550-5551	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	65-5	
+65-5	5552-5559	выносим	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	выносить	conj	basic	65-3	
+65-6	5560-5562	за	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	за	case	basic	65-7	
+65-7	5563-5571	скобочки	Inan	*	Acc	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	скобочка	obl	basic	65-5	
+65-8	5572-5577	общий	Inan	*	Acc	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	общий	amod	basic	65-9	
+65-9	5578-5587	множитель	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	множитель	obj	basic	65-5	
+65-10	5587-5588	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	65-3	
+
+#Sentence.id=66
+#Text=Здесь мы выносим за скобочки икс и получаем икс умножить на икс минус один.
+66-1	5589-5594	Здесь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	здесь	advmod	basic	66-3	
+66-2	5595-5597	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	66-3	
+66-3	5598-5605	выносим	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	выносить	ROOT	basic	66-3	
+66-4	5606-5608	за	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	за	case	basic	66-5	
+66-5	5609-5617	скобочки	Inan	*	Acc	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	скобочка	obl	basic	66-3	
+66-6	5618-5621	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	nmod	basic	66-5	
+66-7	5622-5623	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	66-8	
+66-8	5624-5632	получаем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получать	conj	basic	66-3	
+66-9	5633-5636	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	obj	basic	66-8	
+66-10	5637-5645	умножить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	умножить	xcomp	basic	66-8	
+66-11	5646-5648	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	66-12	
+66-12	5649-5652	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	obl	basic	66-10	
+66-13	5653-5658	минус	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	case	basic	66-14	
+66-14	5659-5663	один	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	один	nummod	basic	66-10	
+66-15	5663-5664	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	66-3	
+
+#Sentence.id=67
+#Text=Здесь у нас икс квадрат минус икс…
+67-1	5665-5670	Здесь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	здесь	advmod	basic	67-3	
+67-2	5671-5672	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	case	basic	67-3	
+67-3	5673-5676	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	ROOT	basic	67-3	
+67-4	5677-5680	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nsubj	basic	67-3	
+67-5	5681-5688	квадрат	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	квадрат	nsubj	basic	67-4	
+67-6	5689-5694	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	67-7	
+67-7	5695-5698	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	nmod	basic	67-5	
+67-8	5698-5699	…	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	…	punct	basic	67-3	
+
+#Sentence.id=68
+#Text=икс один, выносим за скобки икс, получаем икс умножить на в скобках икс минус один.
+68-1	5700-5703	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nsubj	basic	68-2	
+68-2	5704-5708	один	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	DET	DET	один	ROOT	basic	68-2	
+68-3	5708-5709	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	68-4	
+68-4	5710-5717	выносим	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	выносить	conj	basic	68-2	
+68-5	5718-5720	за	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	за	case	basic	68-6	
+68-6	5721-5727	скобки	Inan	*	Acc	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	скобка	obl	basic	68-4	
+68-7	5728-5731	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	nmod	basic	68-6	
+68-8	5731-5732	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	68-9	
+68-9	5733-5741	получаем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получать	conj	basic	68-2	
+68-10	5742-5745	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	obj	basic	68-9	
+68-11	5746-5754	умножить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	умножить	xcomp	basic	68-9	
+68-12	5755-5757	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	68-14	
+68-13	5758-5759	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	case	basic	68-14	
+68-14	5760-5767	скобках	Inan	*	Loc	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	скобка	obl	basic	68-11	
+68-15	5768-5771	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	nmod	basic	68-14	
+68-16	5772-5777	минус	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	case	basic	68-17	
+68-17	5778-5782	один	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	один	nummod	basic	68-11	
+68-18	5782-5783	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	68-2	
+
+#Sentence.id=69
+#Text=Здесь мы за скобки выносим икс два.
+69-1	5784-5789	Здесь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	здесь	advmod	basic	69-5	
+69-2	5790-5792	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	69-5	
+69-3	5793-5795	за	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	за	case	basic	69-4	
+69-4	5796-5802	скобки	Inan	*	Acc	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	скобка	obl	basic	69-5	
+69-5	5803-5810	выносим	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	выносить	ROOT	basic	69-5	
+69-6	5811-5814	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	obj	basic	69-5	
+69-7	5815-5818	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	nummod	basic	69-5	
+69-8	5818-5819	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	69-5	
+
+#Sentence.id=70
+#Text=Минус икс два, а в скобках у нас снова икс и, так как у нас здесь был минус, то и здесь меняется знак на минус, икс один.
+70-1	5820-5825	Минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	70-2	
+70-2	5826-5829	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nsubj	basic	70-3	
+70-3	5830-5833	два	*	*	Nom	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Masc	*	*	NUM	NUM	два	ROOT	basic	70-3	
+70-4	5833-5834	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	70-9	
+70-5	5835-5836	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	cc	basic	70-9	
+70-6	5837-5838	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	case	basic	70-7	
+70-7	5839-5846	скобках	Inan	*	Loc	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	скобка	nmod	basic	70-9	
+70-8	5847-5848	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	case	basic	70-9	
+70-9	5849-5852	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	conj	basic	70-3	
+70-10	5853-5858	снова	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	снова	advmod	basic	70-9	
+70-11	5859-5862	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nsubj	basic	70-9	
+70-12	5863-5864	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	70-25	
+70-13	5864-5865	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	70-20	
+70-14	5866-5869	так	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	так	mark	basic	70-20	
+70-15	5870-5873	как	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	как	fixed	basic	70-14	
+70-16	5874-5875	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	case	basic	70-17	
+70-17	5876-5879	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	obl	basic	70-20	
+70-18	5880-5885	здесь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	здесь	advmod	basic	70-17	
+70-19	5886-5889	был	*	Imp	*	*	*	Masc	Ind	*	*	Sing	*	*	*	*	Past	*	Aspect=Imp\|Gender=Masc\|Mood=Ind\|Number=Sing\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	cop	basic	70-18	
+70-20	5890-5895	минус	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	advcl	basic	70-25	
+70-21	5895-5896	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	70-20	
+70-22	5897-5899	то	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	то	mark	basic	70-25	
+70-23	5900-5901	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	и	advmod	basic	70-24	
+70-24	5902-5907	здесь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	здесь	advmod	basic	70-25	
+70-25	5908-5916	меняется	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	меняться	conj	basic	70-3	
+70-26	5917-5921	знак	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	знак	nsubj	basic	70-25	
+70-27	5922-5924	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	70-28	
+70-28	5925-5930	минус	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	nmod	basic	70-26	
+70-29	5930-5931	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	70-30	
+70-30	5932-5935	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	conj	basic	70-28	
+70-31	5936-5940	один	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	DET	DET	один	nsubj	basic	70-25	
+70-32	5940-5941	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	70-3	
+
+#Sentence.id=71
+#Text=Снова у нас получились две одинаковые скобки: икс минус один и икс минус один.
+71-1	5942-5947	Снова	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	снова	advmod	basic	71-4	
+71-2	5948-5949	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	case	basic	71-3	
+71-3	5950-5953	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	obl	basic	71-4	
+71-4	5954-5964	получились	*	Perf	*	*	*	*	Ind	*	*	Plur	*	*	*	*	Past	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Tense=Past\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	получиться	ROOT	basic	71-4	
+71-5	5965-5968	две	*	*	Nom	*	*	Fem	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Fem	*	*	NUM	NUM	два	nummod:gov	basic	71-7	
+71-6	5969-5979	одинаковые	*	*	Nom	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	одинаковый	amod	basic	71-7	
+71-7	5980-5986	скобки	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	скобка	nsubj	basic	71-4	
+71-8	5986-5987	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	punct	basic	71-9	
+71-9	5988-5991	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nsubj	basic	71-15	
+71-10	5992-5997	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	71-11	
+71-11	5998-6002	один	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	один	nummod	basic	71-9	
+71-12	6003-6004	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	71-13	
+71-13	6005-6008	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	икс	conj	basic	71-11	
+71-14	6009-6014	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	71-15	
+71-15	6015-6019	один	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	один	parataxis	basic	71-7	
+71-16	6019-6020	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	71-4	
+
+#Sentence.id=72
+#Text=Снова возвращаемся к чёрному и уже выносим за скобки общую скобочку икс минус икс один умножить на икс минус икс два.
+72-1	6021-6026	Снова	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	снова	advmod	basic	72-2	
+72-2	6027-6039	возвращаемся	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	возвращаться	ROOT	basic	72-2	
+72-3	6040-6041	к	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	к	case	basic	72-4	
+72-4	6042-6049	чёрному	*	*	Dat	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Dat\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	чёрный	obl	basic	72-2	
+72-5	6050-6051	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	72-7	
+72-6	6052-6055	уже	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	уже	advmod	basic	72-7	
+72-7	6056-6063	выносим	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	выносить	conj	basic	72-2	
+72-8	6064-6066	за	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	за	case	basic	72-9	
+72-9	6067-6073	скобки	Inan	*	Acc	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	скобка	obl	basic	72-7	
+72-10	6074-6079	общую	*	*	Acc	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Acc\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	ADJ	ADJ	общий	amod	basic	72-11	
+72-11	6080-6088	скобочку	Inan	*	Acc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	скобочка	obj	basic	72-7	
+72-12	6089-6092	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	nmod	basic	72-11	
+72-13	6093-6098	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	72-14	
+72-14	6099-6102	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	nmod	basic	72-11	
+72-15	6103-6107	один	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	DET	DET	один	obj	basic	72-16	
+72-16	6108-6116	умножить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	умножить	xcomp	basic	72-2	
+72-17	6117-6119	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	72-18	
+72-18	6120-6123	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	obl	basic	72-16	
+72-19	6124-6129	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	case	basic	72-20	
+72-20	6130-6133	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	obl	basic	72-16	
+72-21	6134-6137	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	nummod:gov	basic	72-16	
+72-22	6137-6138	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	72-2	
+
+#Sentence.id=73
+#Text=Ну, этот результат мы получили для приведенного квадратного трёхчлена, а если у нас не приведенный, то есть возле икс квадрате стоит некий коэффициент, то тогда и получается вот это выражение.
+73-1	6139-6141	Ну	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	ну	discourse	basic	73-6	
+73-2	6141-6142	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	73-1	
+73-3	6143-6147	этот	*	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Acc\|Gender=Masc\|Number=Sing	*	*	DET	DET	этот	det	basic	73-4	
+73-4	6148-6157	результат	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	результат	obj	basic	73-6	
+73-5	6158-6160	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	73-6	
+73-6	6161-6169	получили	*	Perf	*	*	*	*	Ind	*	*	Plur	*	*	*	*	Past	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получить	ROOT	basic	73-6	
+73-7	6170-6173	для	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	для	case	basic	73-10	
+73-8	6174-6186	приведенного	*	*	Gen	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	приведенного	amod	basic	73-10	
+73-9	6187-6198	квадратного	*	*	Gen	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	квадратный	amod	basic	73-10	
+73-10	6199-6208	трёхчлена	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	трёхчлен	obl	basic	73-6	
+73-11	6208-6209	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	73-17	
+73-12	6210-6211	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	cc	basic	73-17	
+73-13	6212-6216	если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	mark	basic	73-17	
+73-14	6217-6218	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	case	basic	73-15	
+73-15	6219-6222	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	obl	basic	73-17	
+73-16	6223-6225	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	advmod	basic	73-17	
+73-17	6226-6237	приведенный	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	приведенный	acl	basic	73-23	
+73-18	6237-6238	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	73-22	
+73-19	6239-6241	то	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	SCONJ	SCONJ	то	mark	basic	73-22	
+73-20	6242-6246	есть	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	быть	fixed	basic	73-19	
+73-21	6247-6252	возле	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	возле	case	basic	73-22	
+73-22	6253-6256	икс	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	икс	parataxis	basic	73-17	
+73-23	6257-6265	квадрате	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	квадрате	iobj	basic	73-24	
+73-24	6266-6271	стоит	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	стоить	conj	basic	73-6	
+73-25	6272-6277	некий	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	DET	DET	некий	det	basic	73-26	
+73-26	6278-6289	коэффициент	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	коэффициент	nsubj	basic	73-24	
+73-27	6289-6290	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	73-31	
+73-28	6291-6293	то	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	то	mark	basic	73-31	
+73-29	6294-6299	тогда	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	тогда	advmod	basic	73-31	
+73-30	6300-6301	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	и	advmod	basic	73-31	
+73-31	6302-6312	получается	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	получаться	conj	basic	73-6	
+73-32	6313-6316	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	advmod	basic	73-33	
+73-33	6317-6320	это	*	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Neut\|Number=Sing	*	*	DET	DET	это	det	basic	73-34	
+73-34	6321-6330	выражение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	выражение	nsubj	basic	73-31	
+73-35	6330-6331	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	73-6	
+
+#Sentence.id=74
+#Text=Это есть доказательство.
+74-1	6332-6335	Это	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	nsubj	basic	74-3	
+74-2	6336-6340	есть	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	есть	cop	basic	74-3	
+74-3	6341-6355	доказательство	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	доказательство	ROOT	basic	74-3	
+74-4	6355-6356	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	74-3	
+
+#Sentence.id=75
+#Text=Не знаю, понадобится вам или нет доказательство, но то, что вам понадобится эта формула – это однозначно.
+75-1	6357-6359	Не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	advmod	basic	75-2	
+75-2	6360-6364	знаю	*	Imp	*	*	*	*	Ind	*	*	Sing	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	знать	ROOT	basic	75-2	
+75-3	6364-6365	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	75-4	
+75-4	6366-6377	понадобится	*	Perf	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Fut\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	понадобиться	conj	basic	75-2	
+75-5	6378-6381	вам	*	*	Dat	*	*	*	*	*	*	Plur	Second	*	*	*	*	*	Case=Dat\|Number=Plur\|Person=Second	*	*	PRON	PRON	вам	iobj	basic	75-4	
+75-6	6382-6385	или	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	или	cc	basic	75-7	
+75-7	6386-6389	нет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	нет	conj	basic	75-2	
+75-8	6390-6404	доказательство	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	доказательство	nsubj	basic	75-7	
+75-9	6404-6405	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	75-20	
+75-10	6406-6408	но	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	но	cc	basic	75-20	
+75-11	6409-6411	то	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	то	nsubj	basic	75-20	
+75-12	6411-6412	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	75-15	
+75-13	6413-6416	что	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	что	mark	basic	75-15	
+75-14	6417-6420	вам	*	*	Dat	*	*	*	*	*	*	Plur	Second	*	*	*	*	*	Case=Dat\|Number=Plur\|Person=Second	*	*	PRON	PRON	вам	iobj	basic	75-15	
+75-15	6421-6432	понадобится	*	Perf	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Fut\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	понадобиться	acl	basic	75-11	
+75-16	6433-6436	эта	*	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Fem\|Number=Sing	*	*	DET	DET	этот	det	basic	75-17	
+75-17	6437-6444	формула	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	формула	nsubj	basic	75-15	
+75-18	6445-6446	–	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	–	punct	basic	75-11	
+75-19	6447-6450	это	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	это	expl	basic	75-20	
+75-20	6451-6461	однозначно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	однозначный	conj	basic	75-2	
+75-21	6461-6462	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	75-2	
+
+#Sentence.id=76
+#Text=Ну и здесь стоит заметить только одно: если квадратный трёхчлен приравняем к нулю, мы не получаем его корней, то есть невозможно его приравнять к нулю, то такой трёхчлен и не раскладывается на множители.
+76-1	6463-6465	Ну	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	ну	discourse	basic	76-4	
+76-2	6466-6467	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	и	advmod	basic	76-3	
+76-3	6468-6473	здесь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	здесь	advmod	basic	76-4	
+76-4	6474-6479	стоит	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	стоить	ROOT	basic	76-4	
+76-5	6480-6488	заметить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	заметить	csubj	basic	76-4	
+76-6	6489-6495	только	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	только	advmod	basic	76-7	
+76-7	6496-6500	одно	*	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Acc\|Gender=Neut\|Number=Sing	*	*	NUM	NUM	одно	obj	basic	76-5	
+76-8	6500-6501	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	punct	basic	76-18	
+76-9	6502-6506	если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	mark	basic	76-12	
+76-10	6507-6517	квадратный	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	квадратный	amod	basic	76-11	
+76-11	6518-6526	трёхчлен	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	трёхчлен	nsubj	basic	76-12	
+76-12	6527-6537	приравняем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	приравняем	advcl	basic	76-18	
+76-13	6538-6539	к	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	к	case	basic	76-14	
+76-14	6540-6544	нулю	Inan	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	нуль	obl	basic	76-12	
+76-15	6544-6545	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	76-12	
+76-16	6546-6548	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	76-18	
+76-17	6549-6551	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	advmod	basic	76-18	
+76-18	6552-6560	получаем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получать	parataxis	basic	76-4	
+76-19	6561-6564	его	*	*	Acc	*	*	Masc	*	*	*	Sing	Third	*	*	*	*	*	Case=Acc\|Gender=Masc\|Number=Sing\|Person=Third	*	*	PRON	PRON	его	obj	basic	76-18	
+76-20	6565-6571	корней	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	корней	obj	basic	76-18	
+76-21	6571-6572	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	76-24	
+76-22	6573-6575	то	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	SCONJ	SCONJ	то	mark	basic	76-24	
+76-23	6576-6580	есть	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	быть	fixed	basic	76-22	
+76-24	6581-6591	невозможно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	невозможный	parataxis	basic	76-18	
+76-25	6592-6595	его	*	*	Acc	*	*	Masc	*	*	*	Sing	Third	*	*	*	*	*	Case=Acc\|Gender=Masc\|Number=Sing\|Person=Third	*	*	PRON	PRON	его	obj	basic	76-26	
+76-26	6596-6606	приравнять	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	приравнять	csubj	basic	76-24	
+76-27	6607-6608	к	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	к	case	basic	76-28	
+76-28	6609-6613	нулю	Inan	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	нуль	obl	basic	76-26	
+76-29	6613-6614	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	76-24	
+76-30	6615-6617	то	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	то	mark	basic	76-32	
+76-31	6618-6623	такой	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	DET	DET	такой	det	basic	76-32	
+76-32	6624-6632	трёхчлен	*	*	*	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Masc\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	трёхчлен	conj	basic	76-18	
+76-33	6633-6634	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	76-35	
+76-34	6635-6637	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	advmod	basic	76-35	
+76-35	6638-6652	раскладывается	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Pass	Fin	Pass	VERB	VERB	раскладывается	conj	basic	76-32	
+76-36	6653-6655	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	76-37	
+76-37	6656-6665	множители	Inan	*	Acc	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	множитель	obl	basic	76-35	
+76-38	6665-6666	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	76-4	
+
+#Sentence.id=77
+#Text=Вот именно для этого нам теперь и понадобятся наши знания в квадратных уравнениях, о дискриминантах и обо всем, что мы до этого прошли.
+77-1	6667-6670	Вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	advmod	basic	77-4	
+77-2	6671-6677	именно	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	именно	advmod	basic	77-4	
+77-3	6678-6681	для	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	для	case	basic	77-4	
+77-4	6682-6687	этого	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	obl	basic	77-8	
+77-5	6688-6691	нам	*	*	Dat	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Dat\|Number=Plur\|Person=First	*	*	PRON	PRON	нам	iobj	basic	77-8	
+77-6	6692-6698	теперь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	теперь	advmod	basic	77-8	
+77-7	6699-6700	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	и	advmod	basic	77-8	
+77-8	6701-6712	понадобятся	*	Perf	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Fut\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	понадобиться	ROOT	basic	77-8	
+77-9	6713-6717	наши	*	*	Nom	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Nom\|Number=Plur	*	*	DET	DET	наш	det	basic	77-10	
+77-10	6718-6724	знания	Inan	*	Nom	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	знание	nsubj	basic	77-8	
+77-11	6725-6726	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	case	basic	77-13	
+77-12	6727-6737	квадратных	*	*	Loc	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Loc\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	квадратный	amod	basic	77-13	
+77-13	6738-6748	уравнениях	Inan	*	Loc	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	уравнение	nmod	basic	77-10	
+77-14	6748-6749	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	77-16	
+77-15	6750-6751	о	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	о	case	basic	77-16	
+77-16	6752-6766	дискриминантах	Anim	*	Loc	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Anim\|Case=Loc\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	дискриминант	conj	basic	77-13	
+77-17	6767-6768	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	cc	basic	77-19	
+77-18	6769-6772	обо	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	обо	case	basic	77-19	
+77-19	6773-6777	всем	Inan	*	Loc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	всем	conj	basic	77-13	
+77-20	6777-6778	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	77-25	
+77-21	6779-6782	что	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	что	mark	basic	77-25	
+77-22	6783-6785	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	nsubj	basic	77-25	
+77-23	6786-6788	до	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	до	case	basic	77-24	
+77-24	6789-6794	этого	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	obl	basic	77-25	
+77-25	6795-6801	прошли	*	Perf	*	*	*	*	Ind	*	*	Plur	*	*	*	*	Past	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	пройти	acl:relcl	basic	77-19	
+77-26	6801-6802	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	77-8	
+
+#Sentence.id=78
+#Text=Но как это использовать на практике, разберём в следующих видео.
+78-1	6803-6805	Но	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	но	cc	basic	78-4	
+78-2	6806-6809	как	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	как	advmod	basic	78-4	
+78-3	6810-6813	это	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	obj	basic	78-4	
+78-4	6814-6826	использовать	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	использовать	ROOT	basic	78-4	
+78-5	6827-6829	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	case	basic	78-6	
+78-6	6830-6838	практике	Inan	*	Loc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	практика	obl	basic	78-4	
+78-7	6838-6839	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	punct	basic	78-8	
+78-8	6840-6848	разберём	Inan	*	Loc	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	разберём	acl	basic	78-6	
+78-9	6849-6850	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	case	basic	78-11	
+78-10	6851-6860	следующих	*	*	Loc	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Loc\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	следующий	amod	basic	78-11	
+78-11	6861-6866	видео	Inan	*	Loc	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	видео	obl	basic	78-8	
+78-12	6866-6867	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	punct	basic	78-4	

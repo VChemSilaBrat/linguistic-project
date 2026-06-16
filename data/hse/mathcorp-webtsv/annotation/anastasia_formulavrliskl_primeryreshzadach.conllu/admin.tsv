@@ -1,0 +1,814 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures|animacy|aspect|case|definiteness|degree|gender|mood|negative|numType|number|person|possessive|pronType|reflex|tense|transitivity|value|verbForm|voice
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.Math_entities|Name|ROLE_webanno.custom.Math_entities:args_webanno.custom.Math_entitiesArgsLink|webanno.custom.MathArgs|math_tag|reference|ROLE_webanno.custom.Math_entities:specifier_webanno.custom.Math_entitiesSpecifierLink|webanno.custom.Math_entities
+#T_RL=de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency|DependencyType|flavor|BT_de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS
+
+
+#Sentence.id=1
+#Text=Сегодня мы с вами поговорим про формулу включений и исключений.
+1-1	0-7	Сегодня	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	сегодня	_	_	_	_	_	_	_	advmod	basic	1-5	
+1-2	8-10	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	_	_	_	_	_	_	_	nsubj	basic	1-5	
+1-3	11-12	с	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	с	_	_	_	_	_	_	_	case	basic	1-4	
+1-4	13-17	вами	*	*	Ins	*	*	*	*	*	*	Plur	Second	*	*	*	*	*	Case=Ins\|Number=Plur\|Person=Second	*	*	PRON	PRON	вами	_	_	_	_	_	_	_	nmod	basic	1-2	
+1-5	18-27	поговорим	*	Perf	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Fut\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	поговорить	_	_	_	_	_	_	_	ROOT	basic	1-5	
+1-6	28-31	про	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	про	_	_	_	_	_	_	_	case	basic	1-7	
+1-7	32-39	формулу	Inan	*	Acc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	формула	_	_	_	_	_	_	_	obl	basic	1-5	
+1-8	40-49	включений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	включение	_	_	_	_	_	_	_	nmod	basic	1-7	
+1-9	50-51	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	1-10	
+1-10	52-62	исключений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	исключение	_	_	_	_	_	_	_	conj	basic	1-8	
+1-11	62-63	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	1-5	
+
+#Sentence.id=2
+#Text=Разберёмся с постановкой задачи: пусть у нас имеется семь предметов, некоторые из которых обладают свойствами альфа один, альфа два, альфа эн.
+2-1	64-74	Разберёмся	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	разберёмся	_	_	_	_	_	_	_	ROOT	basic	2-1	
+2-2	75-76	с	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	с	_	_	_	_	_	_	_	case	basic	2-3	
+2-3	77-88	постановкой	Inan	*	Ins	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	постановка	_	_	_	_	_	_	_	obl	basic	2-1	
+2-4	89-95	задачи	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	задача	_	_	_	_	_	_	_	nmod	basic	2-3	
+2-5	95-96	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	2-9	
+2-6	97-102	пусть	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	пусть	_	_	_	_	_	_	_	advmod	basic	2-9	
+2-7	103-104	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	_	_	_	_	_	_	_	case	basic	2-8	
+2-8	105-108	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	_	_	_	_	_	_	_	obl	basic	2-9	
+2-9	109-116	имеется	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	иметься	_	_	_	_	_	_	_	parataxis	basic	2-1	
+2-10	117-121	семь	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	семь	7	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	2-11	
+2-11	122-131	предметов	Inan	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	предмет	_	_	_	_	_	_	_	nsubj	basic	2-9	
+2-12	131-132	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	2-16	
+2-13	133-142	некоторые	*	*	Nom	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Nom\|Number=Plur	*	*	DET	DET	некоторый	_	_	_	_	_	_	_	nsubj	basic	2-16	
+2-14	143-145	из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	из	_	_	_	_	_	_	_	case	basic	2-15	
+2-15	146-153	которых	*	*	Gen	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Number=Plur	*	*	PRON	PRON	которых	_	_	_	_	_	_	_	nmod	basic	2-13	
+2-16	154-162	обладают	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	обладать	_	_	_	_	_	_	_	acl:relcl	basic	2-11	
+2-17	163-173	свойствами	Inan	*	Ins	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	свойство	_	_	_	_	_	_	_	obj	basic	2-16	
+2-18	174-179	альфа	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	альф	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	2-17	
+2-19	180-184	один	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	один	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	appos	basic	2-18	
+2-20	184-185	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	2-21	
+2-21	186-191	альфа	Anim	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	альфа	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	conj	basic	2-18	
+2-22	192-195	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	flat:name	basic	2-21	
+2-23	195-196	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	2-24	
+2-24	197-202	альфа	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	альфа	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	conj	basic	2-18	
+2-25	203-205	эн	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	эн	n	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	flat:name	basic	2-24	
+2-26	205-206	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	2-1	
+
+#Sentence.id=3
+#Text=Для понятности будем считать, что у нас имеется множество молодых людей, каждый из которых определяет… обладает определёнными свойствами, например, он может быть красив, умён и так далее, богат.
+3-1	207-210	Для	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	Для	_	_	_	_	_	_	_	case	basic	3-2	
+3-2	211-221	понятности	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	понятность	_	_	_	_	_	_	_	obl	basic	3-4	
+3-3	222-227	будем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	_	_	_	_	_	_	_	aux	basic	3-4	
+3-4	228-235	считать	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	считать	_	_	_	_	_	_	_	ROOT	basic	3-4	
+3-5	235-236	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	3-9	
+3-6	237-240	что	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	что	_	_	_	_	_	_	_	mark	basic	3-9	
+3-7	241-242	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	_	_	_	_	_	_	_	case	basic	3-8	
+3-8	243-246	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	_	_	_	_	_	_	_	obl	basic	3-9	
+3-9	247-254	имеется	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	иметься	_	_	_	_	_	_	_	ccomp	basic	3-4	
+3-10	255-264	множество	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	множество	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e77	*	_	*	nsubj	basic	3-9	
+3-11	265-272	молодых	*	*	Gen	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	молодой	_	_	_	_	_	_	_	amod	basic	3-12	
+3-12	273-278	людей	Anim	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Anim\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	человек	_	_	_	_	_	_	_	nmod	basic	3-10	
+3-13	278-279	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	3-17	
+3-14	280-286	каждый	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	DET	DET	каждый	_	_	_	_	_	_	_	nsubj	basic	3-17	
+3-15	287-289	из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	из	_	_	_	_	_	_	_	case	basic	3-16	
+3-16	290-297	которых	*	*	Gen	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Number=Plur	*	*	PRON	PRON	которых	_	_	_	_	_	_	_	nmod	basic	3-14	
+3-17	298-308	определяет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	определять	_	_	_	_	_	_	_	acl:relcl	basic	3-12	
+3-18	308-309	…	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	…	_	_	_	_	_	_	_	punct	basic	3-17	
+3-19	310-318	обладает	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	обладать	_	_	_	_	_	_	_	conj	basic	3-4	
+3-20	319-332	определёнными	*	*	Ins	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Ins\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	определённый	_	_	_	_	_	_	_	amod	basic	3-21	
+3-21	333-343	свойствами	Inan	*	Ins	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	свойство	_	_	_	_	_	_	_	obj	basic	3-19	
+3-22	343-344	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	3-26	
+3-23	345-353	например	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	например	_	_	_	_	_	_	_	parataxis	basic	3-26	
+3-24	353-354	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	3-23	
+3-25	355-357	он	*	*	Nom	*	*	Masc	*	*	*	Sing	Third	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing\|Person=Third	*	*	PRON	PRON	он	_	_	_	_	_	_	_	nsubj	basic	3-26	
+3-26	358-363	может	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	мочь	_	_	_	_	_	_	_	parataxis	basic	3-19	
+3-27	364-368	быть	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	AUX	AUX	быть	_	_	_	_	_	_	_	cop	basic	3-28	
+3-28	369-375	красив	*	*	*	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Masc\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	красивый	_	_	_	_	_	_	_	xcomp	basic	3-26	
+3-29	375-376	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	3-30	
+3-30	377-381	умён	*	*	*	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Degree=Pos\|Number=Plur\|StyleVariant=Short	*	*	ADJ	ADJ	умён	_	_	_	_	_	_	_	conj	basic	3-28	
+3-31	382-383	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	conj	basic	3-28	
+3-32	384-387	так	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	так	_	_	_	_	_	_	_	fixed	basic	3-31	
+3-33	388-393	далее	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	далее	_	_	_	_	_	_	_	fixed	basic	3-31	
+3-34	393-394	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	3-35	
+3-35	395-400	богат	*	*	*	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Masc\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	богатый	_	_	_	_	_	_	_	conj	basic	3-28	
+3-36	400-401	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	3-4	
+
+#Sentence.id=4
+#Text=При этом каждый предмет может не обладать ни одним из этих свойств, обладать парой из этих свойств, тройкой из этих свойств и, наконец, всеми свойствами.
+4-1	402-405	При	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	При	_	_	_	_	_	_	_	case	basic	4-2	
+4-2	406-410	этом	Inan	*	Loc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	_	_	_	_	_	_	_	obl	basic	4-5	
+4-3	411-417	каждый	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	DET	DET	каждый	_	_	_	_	_	_	_	det	basic	4-4	
+4-4	418-425	предмет	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	предмет	_	_	_	_	_	_	_	nsubj	basic	4-5	
+4-5	426-431	может	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	мочь	_	_	_	_	_	_	_	ROOT	basic	4-5	
+4-6	432-434	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	4-7	
+4-7	435-443	обладать	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	обладать	_	_	_	_	_	_	_	xcomp	basic	4-5	
+4-8	444-446	ни	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	ни	_	_	_	_	_	_	_	advmod	basic	4-9	
+4-9	447-452	одним	*	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	одним	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod	basic	4-7	
+4-10	453-455	из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	из	_	_	_	_	_	_	_	case	basic	4-12	
+4-11	456-460	этих	*	*	Gen	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Number=Plur	*	*	DET	DET	этот	_	_	_	_	_	_	_	det	basic	4-12	
+4-12	461-468	свойств	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	свойство	_	_	_	_	_	_	_	nmod	basic	4-9	
+4-13	468-469	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	4-14	
+4-14	470-478	обладать	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	обладать	_	_	_	_	_	_	_	conj	basic	4-7	
+4-15	479-484	парой	Inan	*	Ins	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	пара	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obj	basic	4-14	
+4-16	485-487	из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	из	_	_	_	_	_	_	_	case	basic	4-18	
+4-17	488-492	этих	*	*	Gen	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Number=Plur	*	*	DET	DET	этот	_	_	_	_	_	_	_	det	basic	4-18	
+4-18	493-500	свойств	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	свойство	_	_	_	_	_	_	_	obl	basic	4-14	
+4-19	500-501	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	4-20	
+4-20	502-509	тройкой	Inan	*	Ins	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	тройка	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	conj	basic	4-7	
+4-21	510-512	из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	из	_	_	_	_	_	_	_	case	basic	4-23	
+4-22	513-517	этих	*	*	Gen	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Number=Plur	*	*	DET	DET	этот	_	_	_	_	_	_	_	det	basic	4-23	
+4-23	518-525	свойств	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	свойство	_	_	_	_	_	_	_	nmod	basic	4-20	
+4-24	526-527	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	4-29	
+4-25	527-528	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	4-26	
+4-26	529-536	наконец	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	наконец	_	_	_	_	_	_	_	parataxis	basic	4-29	
+4-27	536-537	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	4-26	
+4-28	538-543	всеми	*	*	Ins	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Ins\|Number=Plur	*	*	DET	DET	весь	_	_	_	_	_	_	_	det	basic	4-29	
+4-29	544-554	свойствами	Inan	*	Ins	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	свойство	_	_	_	_	_	_	_	conj	basic	4-7	
+4-30	554-555	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	4-5	
+
+#Sentence.id=5
+#Text=Применительно к нашему случаю он может быть умён или он может быть умён и красив.
+5-1	556-569	Применительно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	применительно	_	_	_	_	_	_	_	advmod	basic	5-6	
+5-2	570-571	к	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	к	_	_	_	_	_	_	_	case	basic	5-4	
+5-3	572-578	нашему	*	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Dat\|Gender=Masc\|Number=Sing	*	*	DET	DET	наш	_	_	_	_	_	_	_	det	basic	5-4	
+5-4	579-585	случаю	Inan	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	случай	_	_	_	_	_	_	_	obl	basic	5-1	
+5-5	586-588	он	*	*	Nom	*	*	Masc	*	*	*	Sing	Third	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing\|Person=Third	*	*	PRON	PRON	он	_	_	_	_	_	_	_	nsubj	basic	5-6	
+5-6	589-594	может	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	мочь	_	_	_	_	_	_	_	ROOT	basic	5-6	
+5-7	595-599	быть	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	AUX	AUX	быть	_	_	_	_	_	_	_	cop	basic	5-8	
+5-8	600-604	умён	*	*	*	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Degree=Pos\|Number=Plur\|StyleVariant=Short	*	*	ADJ	ADJ	умён	_	_	_	_	_	_	_	xcomp	basic	5-6	
+5-9	605-608	или	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	или	_	_	_	_	_	_	_	cc	basic	5-11	
+5-10	609-611	он	*	*	Nom	*	*	Masc	*	*	*	Sing	Third	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing\|Person=Third	*	*	PRON	PRON	он	_	_	_	_	_	_	_	nsubj	basic	5-11	
+5-11	612-617	может	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	мочь	_	_	_	_	_	_	_	conj	basic	5-6	
+5-12	618-622	быть	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	AUX	AUX	быть	_	_	_	_	_	_	_	cop	basic	5-13	
+5-13	623-627	умён	*	*	*	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Degree=Pos\|Number=Plur\|StyleVariant=Short	*	*	ADJ	ADJ	умён	_	_	_	_	_	_	_	xcomp	basic	5-11	
+5-14	628-629	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	5-15	
+5-15	630-636	красив	*	*	*	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Masc\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	красивый	_	_	_	_	_	_	_	conj	basic	5-13	
+5-16	636-637	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	5-6	
+
+#Sentence.id=6
+#Text=Дальше необходимо договориться, как мы будем записывать ситуации, когда у нас какой-то предмет не обладает определённым свойством, в этой ситуации принято обозначать это свойство чертой.
+6-1	638-644	Дальше	*	*	*	*	Cmp	*	*	*	*	*	*	*	*	*	*	*	Degree=Cmp	*	*	ADV	ADV	далёкий	_	_	_	_	_	_	_	advmod	basic	6-2	
+6-2	645-655	необходимо	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	необходимый	_	_	_	_	_	_	_	ROOT	basic	6-2	
+6-3	656-668	договориться	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Mid	Inf	Mid	VERB	VERB	договориться	_	_	_	_	_	_	_	csubj	basic	6-2	
+6-4	668-669	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	6-8	
+6-5	670-673	как	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	как	_	_	_	_	_	_	_	advmod	basic	6-8	
+6-6	674-676	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	_	_	_	_	_	_	_	nsubj	basic	6-8	
+6-7	677-682	будем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	_	_	_	_	_	_	_	aux	basic	6-8	
+6-8	683-693	записывать	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	записывать	_	_	_	_	_	_	_	ccomp	basic	6-3	
+6-9	694-702	ситуации	Inan	*	Acc	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	ситуация	_	_	_	_	_	_	_	obj	basic	6-8	
+6-10	702-703	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	6-19	
+6-11	704-709	когда	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	когда	_	_	_	_	_	_	_	mark	basic	6-19	
+6-12	710-711	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	_	_	_	_	_	_	_	case	basic	6-13	
+6-13	712-715	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	_	_	_	_	_	_	_	obl	basic	6-19	
+6-14	716-721	какой	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	DET	DET	какой	_	_	_	_	_	_	_	det	basic	6-17	
+6-15	721-722	-	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	DET	DET	-	_	_	_	_	_	_	_	det	basic	6-17	
+6-16	722-724	то	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	DET	DET	то	_	_	_	_	_	_	_	det	basic	6-17	
+6-17	725-732	предмет	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	предмет	_	_	_	_	_	_	_	nsubj	basic	6-19	
+6-18	733-735	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	6-19	
+6-19	736-744	обладает	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	обладать	_	_	_	_	_	_	_	advcl	basic	6-8	
+6-20	745-757	определённым	*	*	Ins	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	определённый	_	_	_	_	_	_	_	amod	basic	6-21	
+6-21	758-767	свойством	Inan	*	Ins	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	свойство	_	_	_	_	_	_	_	obj	basic	6-19	
+6-22	767-768	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	6-26	
+6-23	769-770	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	_	_	_	_	_	_	_	case	basic	6-25	
+6-24	771-775	этой	*	*	Loc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Loc\|Gender=Fem\|Number=Sing	*	*	DET	DET	этот	_	_	_	_	_	_	_	det	basic	6-25	
+6-25	776-784	ситуации	Inan	*	Loc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	ситуация	_	_	_	_	_	_	_	obl	basic	6-26	
+6-26	785-792	принято	*	Perf	*	*	*	Neut	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Gender=Neut\|Number=Sing\|StyleVariant=Short\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	PTCP\|VERB	VERB	принятый\|принять	_	_	_	_	_	_	_	conj	basic	6-2	
+6-27	793-803	обозначать	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	обозначать	_	_	_	_	_	_	_	csubj	basic	6-26	
+6-28	804-807	это	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	DET	DET	это	_	_	_	_	_	_	_	det	basic	6-29	
+6-29	808-816	свойство	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	свойство	_	_	_	_	_	_	_	obj	basic	6-27	
+6-30	817-823	чертой	Inan	*	Ins	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	черта	_	_	_	_	_	_	_	obl	basic	6-27	
+6-31	823-824	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	6-2	
+
+#Sentence.id=7
+#Text=То есть, вот здесь у нас, скажем, применительно к нашим молодым людям записано, что наш предмет красив, умён, ну, и, скажем, альфа три – это имеет отдельную жилплощадь.
+7-1	825-827	То	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	SCONJ	SCONJ	То	_	_	_	_	_	_	_	mark	basic	7-16	
+7-2	828-832	есть	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	быть	_	_	_	_	_	_	_	fixed	basic	7-1	
+7-3	832-833	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	7-1	
+7-4	834-837	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	_	_	_	_	_	_	_	advmod	basic	7-5	
+7-5	838-843	здесь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	здесь	_	_	_	_	_	_	_	advmod	basic	7-16	
+7-6	844-845	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	_	_	_	_	_	_	_	case	basic	7-7	
+7-7	846-849	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	_	_	_	_	_	_	_	obl	basic	7-5	
+7-8	849-850	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	7-9	
+7-9	851-857	скажем	*	Perf	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Fut\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	сказать	_	_	_	_	_	_	_	parataxis	basic	7-11	
+7-10	857-858	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	7-9	
+7-11	859-872	применительно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	применительно	_	_	_	_	_	_	_	advmod	basic	7-16	
+7-12	873-874	к	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	к	_	_	_	_	_	_	_	case	basic	7-15	
+7-13	875-880	нашим	*	*	Dat	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Dat\|Number=Plur	*	*	DET	DET	наш	_	_	_	_	_	_	_	det	basic	7-15	
+7-14	881-888	молодым	*	*	Dat	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Dat\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	молодой	_	_	_	_	_	_	_	amod	basic	7-15	
+7-15	889-894	людям	Anim	*	Dat	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Anim\|Case=Dat\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	человек	_	_	_	_	_	_	_	obl	basic	7-16	
+7-16	895-903	записано	*	Perf	*	*	*	Neut	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Gender=Neut\|Number=Sing\|StyleVariant=Short\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	PTCP\|VERB	VERB	записанный\|записать	_	_	_	_	_	_	_	ROOT	basic	7-16	
+7-17	903-904	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	7-21	
+7-18	905-908	что	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	что	_	_	_	_	_	_	_	mark	basic	7-21	
+7-19	909-912	наш	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	DET	DET	наш	_	_	_	_	_	_	_	det	basic	7-20	
+7-20	913-920	предмет	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	предмет	_	_	_	_	_	_	_	nsubj	basic	7-21	
+7-21	921-927	красив	*	*	*	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Masc\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	красивый	_	_	_	_	_	_	_	ccomp	basic	7-16	
+7-22	927-928	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	7-23	
+7-23	929-933	умён	*	*	*	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Degree=Pos\|Number=Plur\|StyleVariant=Short	*	*	ADJ	ADJ	умён	_	_	_	_	_	_	_	conj	basic	7-21	
+7-24	933-934	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	7-25	
+7-25	935-937	ну	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	ну	_	_	_	_	_	_	_	discourse	basic	7-31	
+7-26	937-938	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	7-25	
+7-27	939-940	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	7-31	
+7-28	940-941	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	7-29	
+7-29	942-948	скажем	*	Perf	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Fut\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	сказать	_	_	_	_	_	_	_	parataxis	basic	7-31	
+7-30	948-949	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	7-29	
+7-31	950-955	альфа	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	альфа	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	conj	basic	7-21	
+7-32	956-959	три	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	три	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	appos	basic	7-31	
+7-33	960-961	–	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	–	_	_	_	_	_	_	_	punct	basic	7-35	
+7-34	962-965	это	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	_	_	_	_	_	_	_	nsubj	basic	7-35	
+7-35	966-971	имеет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	иметь	_	_	_	_	_	_	_	parataxis	basic	7-31	
+7-36	972-981	отдельную	*	*	Acc	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Acc\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	ADJ	ADJ	отдельный	_	_	_	_	_	_	_	amod	basic	7-37	
+7-37	982-992	жилплощадь	Inan	*	Acc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	жилплощадь	_	_	_	_	_	_	_	obj	basic	7-35	
+7-38	992-993	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	7-16	
+
+#Sentence.id=8
+#Text=Тогда здесь будет: не имеет отдельной жилплощади.
+8-1	994-999	Тогда	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	тогда	_	_	_	_	_	_	_	advmod	basic	8-3	
+8-2	1000-1005	здесь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	здесь	_	_	_	_	_	_	_	advmod	basic	8-3	
+8-3	1006-1011	будет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	будет	_	_	_	_	_	_	_	ROOT	basic	8-3	
+8-4	1011-1012	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	8-6	
+8-5	1013-1015	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	8-6	
+8-6	1016-1021	имеет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	иметь	_	_	_	_	_	_	_	parataxis	basic	8-3	
+8-7	1022-1031	отдельной	*	*	Gen	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	ADJ	ADJ	отдельный	_	_	_	_	_	_	_	amod	basic	8-8	
+8-8	1032-1042	жилплощади	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	жилплощадь	_	_	_	_	_	_	_	obj	basic	8-6	
+8-9	1042-1043	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	8-3	
+
+#Sentence.id=9
+#Text=И наконец, число предметов, не обладающих ни одним из этих свойств, обозначается следующим образом: над каждым предметом ставится черта, ни умён, ни красив и так далее, ни богат.
+9-1	1044-1045	И	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	9-15	
+9-2	1046-1053	наконец	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	наконец	_	_	_	_	_	_	_	parataxis	basic	9-15	
+9-3	1053-1054	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	9-2	
+9-4	1055-1060	число	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	число	_	_	_	_	_	_	_	nsubj:pass	basic	9-15	
+9-5	1061-1070	предметов	Inan	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	предмет	_	_	_	_	_	_	_	nmod	basic	9-4	
+9-6	1070-1071	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	9-8	
+9-7	1072-1074	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	9-8	
+9-8	1075-1085	обладающих	*	Imp	Gen	*	*	*	*	*	*	Plur	*	*	*	*	Pres	*	Aspect=Imp\|Case=Gen\|Number=Plur\|Tense=Pres\|VerbForm=Part\|Voice=Act	Part	Act	PTCP\|VERB	VERB	обладающий\|обладать	_	_	_	_	_	_	_	acl	basic	9-5	
+9-9	1086-1088	ни	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	ни	_	_	_	_	_	_	_	advmod	basic	9-10	
+9-10	1089-1094	одним	*	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	одним	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obl	basic	9-8	
+9-11	1095-1097	из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	из	_	_	_	_	_	_	_	case	basic	9-13	
+9-12	1098-1102	этих	*	*	Gen	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Number=Plur	*	*	DET	DET	этот	_	_	_	_	_	_	_	det	basic	9-13	
+9-13	1103-1110	свойств	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	свойство	_	_	_	_	_	_	_	nmod	basic	9-10	
+9-14	1110-1111	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	9-8	
+9-15	1112-1124	обозначается	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Pass	Fin	Pass	VERB	VERB	обозначаться	_	_	_	_	_	_	_	ROOT	basic	9-15	
+9-16	1125-1134	следующим	*	*	Ins	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	следующий	_	_	_	_	_	_	_	amod	basic	9-17	
+9-17	1135-1142	образом	Inan	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	образ	_	_	_	_	_	_	_	obl	basic	9-15	
+9-18	1142-1143	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	9-22	
+9-19	1144-1147	над	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	над	_	_	_	_	_	_	_	case	basic	9-21	
+9-20	1148-1154	каждым	*	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Gender=Masc\|Number=Sing	*	*	DET	DET	каждый	_	_	_	_	_	_	_	det	basic	9-21	
+9-21	1155-1164	предметом	Inan	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	предмет	_	_	_	_	_	_	_	obl	basic	9-22	
+9-22	1165-1173	ставится	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Pass	Fin	Pass	VERB	VERB	ставиться	_	_	_	_	_	_	_	parataxis	basic	9-17	
+9-23	1174-1179	черта	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	черта	_	_	_	_	_	_	_	nsubj:pass	basic	9-22	
+9-24	1179-1180	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	9-26	
+9-25	1181-1183	ни	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	CCONJ	CCONJ	ни	_	_	_	_	_	_	_	cc	basic	9-26	
+9-26	1184-1188	умён	*	*	*	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Degree=Pos\|Number=Plur\|StyleVariant=Short	*	*	ADJ	ADJ	умён	_	_	_	_	_	_	_	conj	basic	9-23	
+9-27	1188-1189	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	9-29	
+9-28	1190-1192	ни	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	CCONJ	CCONJ	ни	_	_	_	_	_	_	_	cc	basic	9-29	
+9-29	1193-1199	красив	*	*	*	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Masc\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	красивый	_	_	_	_	_	_	_	conj	basic	9-22	
+9-30	1200-1201	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	9-35	
+9-31	1202-1205	так	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	так	_	_	_	_	_	_	_	fixed	basic	9-30	
+9-32	1206-1211	далее	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	далее	_	_	_	_	_	_	_	fixed	basic	9-30	
+9-33	1211-1212	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	9-35	
+9-34	1213-1215	ни	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	CCONJ	CCONJ	ни	_	_	_	_	_	_	_	cc	basic	9-35	
+9-35	1216-1221	богат	*	*	*	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Masc\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	богатый	_	_	_	_	_	_	_	conj	basic	9-22	
+9-36	1221-1222	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	9-15	
+
+#Sentence.id=10
+#Text=Формула включений и исключений как раз состоит в том, чтобы посчитать количество предметов, не обладающих ни одним из свойств.
+10-1	1223-1230	Формула	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	формула	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#20d05471972f4ffa8b7a4e828cf0852653	*	_	*	nsubj	basic	10-7	
+10-2	1231-1240	включений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	включение	_	_	_	_	_	_	_	nmod	basic	10-1	
+10-3	1241-1242	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	10-4	
+10-4	1243-1253	исключений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	исключение	_	_	_	_	_	_	_	conj	basic	10-2	
+10-5	1254-1257	как	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADV	ADV	как	_	_	_	_	_	_	_	advmod	basic	10-7	
+10-6	1258-1261	раз	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	раз	_	_	_	_	_	_	_	fixed	basic	10-5	
+10-7	1262-1269	состоит	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	состоять	_	_	_	_	_	_	_	ROOT	basic	10-7	
+10-8	1270-1271	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	_	_	_	_	_	_	_	case	basic	10-9	
+10-9	1272-1275	том	Inan	*	Loc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	том	_	_	_	_	_	_	_	obl	basic	10-7	
+10-10	1275-1276	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	10-12	
+10-11	1277-1282	чтобы	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	чтобы	_	_	_	_	_	_	_	mark	basic	10-12	
+10-12	1283-1292	посчитать	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	посчитать	_	_	_	_	_	_	_	advcl	basic	10-9	
+10-13	1293-1303	количество	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	количество	_	_	_	_	_	_	_	obj	basic	10-12	
+10-14	1304-1313	предметов	Inan	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	предмет	_	_	_	_	_	_	_	nmod	basic	10-13	
+10-15	1313-1314	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	10-17	
+10-16	1315-1317	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	10-17	
+10-17	1318-1328	обладающих	*	Imp	Gen	*	*	*	*	*	*	Plur	*	*	*	*	Pres	*	Aspect=Imp\|Case=Gen\|Number=Plur\|Tense=Pres\|VerbForm=Part\|Voice=Act	Part	Act	PTCP\|VERB	VERB	обладающий\|обладать	_	_	_	_	_	_	_	acl	basic	10-14	
+10-18	1329-1331	ни	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	ни	_	_	_	_	_	_	_	advmod	basic	10-19	
+10-19	1332-1337	одним	*	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	одним	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obl	basic	10-17	
+10-20	1338-1340	из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	из	_	_	_	_	_	_	_	case	basic	10-21	
+10-21	1341-1348	свойств	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	свойство	_	_	_	_	_	_	_	nmod	basic	10-19	
+10-22	1348-1349	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	10-7	
+
+#Sentence.id=11
+#Text=Вот она записана, и считается следующим образом: берётся общее количество предметов, вычитается то количество предметов, которые обладают только одним свойством, добавляются те, кто обладает двумя свойствами и так далее, пока мы наконец не доходим до того количества, которое обладает всеми эн свойствами.
+11-1	1350-1353	Вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	_	_	_	_	_	_	_	advmod	basic	11-2	
+11-2	1354-1357	она	*	*	Nom	*	*	Fem	*	*	*	Sing	Third	*	*	*	*	*	Case=Nom\|Gender=Fem\|Number=Sing\|Person=Third	*	*	PRON	PRON	она	_	_	_	_	_	_	_	nsubj:pass	basic	11-3	
+11-3	1358-1366	записана	*	Perf	*	*	*	Fem	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Gender=Fem\|Number=Sing\|StyleVariant=Short\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	PTCP\|VERB	VERB	записанный\|записать	_	_	_	_	_	_	_	ROOT	basic	11-3	
+11-4	1366-1367	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	11-6	
+11-5	1368-1369	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	11-6	
+11-6	1370-1379	считается	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Pass	Fin	Pass	VERB	VERB	считаться	_	_	_	_	_	_	_	conj	basic	11-3	
+11-7	1380-1389	следующим	*	*	Ins	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	следующий	_	_	_	_	_	_	_	amod	basic	11-8	
+11-8	1390-1397	образом	Inan	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	образ	_	_	_	_	_	_	_	xcomp	basic	11-6	
+11-9	1397-1398	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	11-10	
+11-10	1399-1406	берётся	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	браться	_	_	_	_	_	_	_	parataxis	basic	11-6	
+11-11	1407-1412	общее	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	общий	_	_	_	_	_	_	_	amod	basic	11-12	
+11-12	1413-1423	количество	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	количество	_	_	_	_	_	_	_	nsubj	basic	11-10	
+11-13	1424-1433	предметов	Inan	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	предмет	_	_	_	_	_	_	_	nmod	basic	11-12	
+11-14	1433-1434	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	11-15	
+11-15	1435-1445	вычитается	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Pass	Fin	Pass	VERB	VERB	вычитается	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	conj	basic	11-10	
+11-16	1446-1448	то	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	то	_	_	_	_	_	_	_	det	basic	11-17	
+11-17	1449-1459	количество	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	количество	_	_	_	_	_	_	_	nsubj:pass	basic	11-15	
+11-18	1460-1469	предметов	Inan	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	предмет	_	_	_	_	_	_	_	nmod	basic	11-17	
+11-19	1469-1470	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	11-21	
+11-20	1471-1478	которые	*	*	Nom	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Nom\|Number=Plur	*	*	PRON	PRON	которые	_	_	_	_	_	_	_	nsubj	basic	11-21	
+11-21	1479-1487	обладают	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	обладать	_	_	_	_	_	_	_	acl:relcl	basic	11-18	
+11-22	1488-1494	только	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	только	_	_	_	_	_	_	_	advmod	basic	11-23	
+11-23	1495-1500	одним	*	*	Ins	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Gender=Neut\|Number=Sing	*	*	NUM	NUM	одним	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod	basic	11-24	
+11-24	1501-1510	свойством	Inan	*	Ins	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	свойство	_	_	_	_	_	_	_	obj	basic	11-21	
+11-25	1510-1511	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	11-26	
+11-26	1512-1523	добавляются	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	добавляться	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	conj	basic	11-10	
+11-27	1524-1526	те	*	*	Nom	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Nom\|Number=Plur	*	*	DET	DET	тот	_	_	_	_	_	_	_	nsubj	basic	11-26	
+11-28	1526-1527	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	11-30	
+11-29	1528-1531	кто	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	PRON	PRON	кто	_	_	_	_	_	_	_	nsubj	basic	11-30	
+11-30	1532-1540	обладает	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	обладать	_	_	_	_	_	_	_	acl:relcl	basic	11-27	
+11-31	1541-1546	двумя	*	*	Ins	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Ins	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod	basic	11-32	
+11-32	1547-1557	свойствами	Inan	*	Ins	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	свойство	_	_	_	_	_	_	_	obj	basic	11-30	
+11-33	1558-1559	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	11-41	
+11-34	1560-1563	так	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	так	_	_	_	_	_	_	_	fixed	basic	11-33	
+11-35	1564-1569	далее	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	далее	_	_	_	_	_	_	_	fixed	basic	11-33	
+11-36	1569-1570	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	11-41	
+11-37	1571-1575	пока	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	пока	_	_	_	_	_	_	_	mark	basic	11-41	
+11-38	1576-1578	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	_	_	_	_	_	_	_	nsubj	basic	11-41	
+11-39	1579-1586	наконец	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	наконец	_	_	_	_	_	_	_	advmod	basic	11-41	
+11-40	1587-1589	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	11-41	
+11-41	1590-1597	доходим	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	доходить	_	_	_	_	_	_	_	conj	basic	11-30	
+11-42	1598-1600	до	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	до	_	_	_	_	_	_	_	case	basic	11-44	
+11-43	1601-1605	того	*	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Gender=Neut\|Number=Sing	*	*	DET	DET	тот	_	_	_	_	_	_	_	det	basic	11-44	
+11-44	1606-1616	количества	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	количество	_	_	_	_	_	_	_	obl	basic	11-41	
+11-45	1616-1617	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	11-47	
+11-46	1618-1625	которое	*	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	которое	_	_	_	_	_	_	_	nsubj	basic	11-47	
+11-47	1626-1634	обладает	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	обладать	_	_	_	_	_	_	_	acl:relcl	basic	11-44	
+11-48	1635-1640	всеми	*	*	Ins	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Ins\|Number=Plur	*	*	DET	DET	весь	_	_	_	_	_	_	_	det	basic	11-50	
+11-49	1641-1643	эн	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	эн	n	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	advmod	basic	11-48	
+11-50	1644-1654	свойствами	Inan	*	Ins	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	свойство	_	_	_	_	_	_	_	obj	basic	11-47	
+11-51	1654-1655	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	11-3	
+
+#Sentence.id=12
+#Text=Главное здесь следить за знаками, если у нас количество свойств чётное, то, соответственно, знак плюс, если количество свойств нечётное, то знак минус перед элементом.
+12-1	1656-1663	Главное	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	главный	_	_	_	_	_	_	_	nsubj	basic	12-12	
+12-2	1664-1669	здесь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	здесь	_	_	_	_	_	_	_	advmod	basic	12-3	
+12-3	1670-1677	следить	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	следить	_	_	_	_	_	_	_	xcomp	basic	12-1	
+12-4	1678-1680	за	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	за	_	_	_	_	_	_	_	case	basic	12-5	
+12-5	1681-1688	знаками	Inan	*	Ins	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	знак	_	_	_	_	_	_	_	obl	basic	12-3	
+12-6	1688-1689	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	12-9	
+12-7	1690-1694	если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	_	_	_	_	_	_	_	mark	basic	12-9	
+12-8	1695-1696	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	_	_	_	_	_	_	_	case	basic	12-9	
+12-9	1697-1700	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	_	_	_	_	_	_	_	obl	basic	12-12	
+12-10	1701-1711	количество	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	количество	_	_	_	_	_	_	_	nsubj	basic	12-12	
+12-11	1712-1719	свойств	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	свойство	_	_	_	_	_	_	_	nmod	basic	12-10	
+12-12	1720-1726	чётное	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	чётный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172715	*	_	*	ROOT	basic	12-12	
+12-13	1726-1727	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	12-19	
+12-14	1728-1730	то	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	то	_	_	_	_	_	_	_	mark	basic	12-19	
+12-15	1730-1731	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	12-16	
+12-16	1732-1746	соответственно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	соответственно	_	_	_	_	_	_	_	parataxis	basic	12-18	
+12-17	1746-1747	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	12-16	
+12-18	1748-1752	знак	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	знак	*[1]	_[1]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#fdd7afcc821647cc8a0fcf6916f0155355[1]	*[1]	_[1]	*	nsubj	basic	12-19	
+12-19	1753-1757	плюс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	плюс	*[1]	_[1]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#fdd7afcc821647cc8a0fcf6916f0155355[1]	*[1]	_[1]	*	conj	basic	12-12	
+12-20	1757-1758	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	12-24	
+12-21	1759-1763	если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	_	_	_	_	_	_	_	mark	basic	12-24	
+12-22	1764-1774	количество	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	количество	_	_	_	_	_	_	_	nsubj	basic	12-24	
+12-23	1775-1782	свойств	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	свойство	_	_	_	_	_	_	_	nmod	basic	12-22	
+12-24	1783-1791	нечётное	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	нечётный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172716	*	_	*	advcl	basic	12-19	
+12-25	1791-1792	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	12-24	
+12-26	1793-1795	то	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	то	_	_	_	_	_	_	_	mark	basic	12-27	
+12-27	1796-1800	знак	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	знак	*[2]	_[2]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#fdd7afcc821647cc8a0fcf6916f0155353[2]	*[2]	_[2]	*	conj	basic	12-12	
+12-28	1801-1806	минус	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	*[2]	_[2]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#fdd7afcc821647cc8a0fcf6916f0155353[2]	*[2]	_[2]	*	nmod	basic	12-27	
+12-29	1807-1812	перед	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	перед	_	_	_	_	_	_	_	case	basic	12-30	
+12-30	1813-1822	элементом	Inan	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	элемент	_	_	_	_	_	_	_	nmod	basic	12-28	
+12-31	1822-1823	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	12-12	
+
+#Sentence.id=13
+#Text=Давайте разберём на примере, так будет понятнее: у нас есть шестьдесят семь человек, сорок семь знают английский, тридцать пять знает немецкий, двадцать три знают оба языка, нужно посчитать, какое количество не знает ни одного языка.
+13-1	1824-1831	Давайте	*	Imp	*	*	*	*	Imp	*	*	Plur	Second	*	*	*	*	*	Aspect=Imp\|Mood=Imp\|Number=Plur\|Person=Second\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	давать	_	_	_	_	_	_	_	ROOT	basic	13-1	
+13-2	1832-1840	разберём	Anim	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	разберём	_	_	_	_	_	_	_	obj	basic	13-1	
+13-3	1841-1843	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	_	_	_	_	_	_	_	case	basic	13-4	
+13-4	1844-1851	примере	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	пример	_	_	_	_	_	_	_	obl	basic	13-1	
+13-5	1851-1852	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	13-8	
+13-6	1853-1856	так	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	так	_	_	_	_	_	_	_	advmod	basic	13-8	
+13-7	1857-1862	будет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	_	_	_	_	_	_	_	cop	basic	13-8	
+13-8	1863-1871	понятнее	*	*	*	*	Cmp	*	*	*	*	*	*	*	*	*	*	*	Degree=Cmp	*	*	ADJ	ADJ	понятный	_	_	_	_	_	_	_	conj	basic	13-1	
+13-9	1871-1872	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	13-12	
+13-10	1873-1874	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	_	_	_	_	_	_	_	case	basic	13-11	
+13-11	1875-1878	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	_	_	_	_	_	_	_	obl	basic	13-12	
+13-12	1879-1883	есть	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	быть	_	_	_	_	_	_	_	parataxis	basic	13-8	
+13-13	1884-1894	шестьдесят	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	шестьдесят	67[3]	_[3]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[3]	*[3]	_[3]	*	nsubj	basic	13-12	
+13-14	1895-1899	семь	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	семь	67[3]	_[3]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[3]	*[3]	_[3]	*	nummod:gov	basic	13-15	
+13-15	1900-1907	человек	Anim	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Anim\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	человек	_	_	_	_	_	_	_	nsubj	basic	13-13	
+13-16	1907-1908	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	13-19	
+13-17	1909-1914	сорок	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	сорок	47[4]	_[4]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[4]	*[4]	_[4]	*	nummod:gov	basic	13-18	
+13-18	1915-1919	семь	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	семь	47[4]	_[4]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[4]	*[4]	_[4]	*	nsubj	basic	13-19	
+13-19	1920-1925	знают	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	знать	_	_	_	_	_	_	_	conj	basic	13-12	
+13-20	1926-1936	английский	Inan	*	Acc	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	английский	_	_	_	_	_	_	_	obj	basic	13-19	
+13-21	1936-1937	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	13-24	
+13-22	1938-1946	тридцать	*	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Acc	*	*	NUM	NUM	тридцать	35[5]	_[5]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[5]	*[5]	_[5]	*	nummod:gov	basic	13-23	
+13-23	1947-1951	пять	*	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Acc	*	*	NUM	NUM	пять	35[5]	_[5]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[5]	*[5]	_[5]	*	nummod:gov	basic	13-24	
+13-24	1952-1957	знает	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	знать	_	_	_	_	_	_	_	conj	basic	13-12	
+13-25	1958-1966	немецкий	Inan	*	Acc	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	немецкий	_	_	_	_	_	_	_	nsubj	basic	13-24	
+13-26	1966-1967	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	13-29	
+13-27	1968-1976	двадцать	*	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Acc	*	*	NUM	NUM	двадцать	23[6]	_[6]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[6]	*[6]	_[6]	*	nummod:gov	basic	13-28	
+13-28	1977-1980	три	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	три	23[6]	_[6]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[6]	*[6]	_[6]	*	nummod:gov	basic	13-29	
+13-29	1981-1986	знают	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	знать	_	_	_	_	_	_	_	conj	basic	13-12	
+13-30	1987-1990	оба	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	оба	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	13-31	
+13-31	1991-1996	языка	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	язык	_	_	_	_	_	_	_	obj	basic	13-29	
+13-32	1996-1997	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	13-33	
+13-33	1998-2003	нужно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	нужный	_	_	_	_	_	_	_	conj	basic	13-12	
+13-34	2004-2013	посчитать	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	посчитать	_	_	_	_	_	_	_	csubj	basic	13-33	
+13-35	2013-2014	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	13-39	
+13-36	2015-2020	какое	*	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Neut\|Number=Sing	*	*	DET	DET	какой	_	_	_	_	_	_	_	det	basic	13-37	
+13-37	2021-2031	количество	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	количество	_	_	_	_	_	_	_	nsubj	basic	13-39	
+13-38	2032-2034	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	13-39	
+13-39	2035-2040	знает	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	знать	_	_	_	_	_	_	_	ccomp	basic	13-34	
+13-40	2041-2043	ни	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	ни	_	_	_	_	_	_	_	advmod	basic	13-41	
+13-41	2044-2050	одного	*	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	одного	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod	basic	13-42	
+13-42	2051-2056	языка	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	язык	_	_	_	_	_	_	_	obj	basic	13-39	
+13-43	2056-2057	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	13-1	
+
+#Sentence.id=14
+#Text=Значит, берём общее количество, вычитаем тех, кто знает по одному языку, добавляем тех, кто знает по два, вот, соответственно, получили восемь.
+14-1	2058-2064	Значит	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	значить	_	_	_	_	_	_	_	discourse	basic	14-3	
+14-2	2064-2065	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	14-1	
+14-3	2066-2071	берём	*	Perf	*	*	*	*	Ind	*	*	Sing	First	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Sing\|Person=First\|Tense=Fut\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	берём	_	_	_	_	_	_	_	ROOT	basic	14-3	
+14-4	2072-2077	общее	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	общий	_	_	_	_	_	_	_	amod	basic	14-5	
+14-5	2078-2088	количество	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	количество	_	_	_	_	_	_	_	nsubj	basic	14-3	
+14-6	2088-2089	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	14-7	
+14-7	2090-2098	вычитаем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	вычитать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	conj	basic	14-3	
+14-8	2099-2102	тех	Inan	*	Acc	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Number=Plur	*	*	DET	DET	тот	_	_	_	_	_	_	_	det	basic	14-7	
+14-9	2102-2103	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	14-11	
+14-10	2104-2107	кто	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	PRON	PRON	кто	_	_	_	_	_	_	_	nsubj	basic	14-11	
+14-11	2108-2113	знает	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	знать	_	_	_	_	_	_	_	acl:relcl	basic	14-8	
+14-12	2114-2116	по	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	по	_	_	_	_	_	_	_	case	basic	14-14	
+14-13	2117-2123	одному	*	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Dat\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	одному	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod	basic	14-14	
+14-14	2124-2129	языку	Inan	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	язык	_	_	_	_	_	_	_	obl	basic	14-11	
+14-15	2129-2130	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	14-16	
+14-16	2131-2140	добавляем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	добавлять	_	_	_	_	_	_	_	conj	basic	14-3	
+14-17	2141-2144	тех	Inan	*	Acc	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Number=Plur	*	*	DET	DET	тот	_	_	_	_	_	_	_	det	basic	14-16	
+14-18	2144-2145	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	14-20	
+14-19	2146-2149	кто	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	PRON	PRON	кто	_	_	_	_	_	_	_	nsubj	basic	14-20	
+14-20	2150-2155	знает	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	знать	_	_	_	_	_	_	_	acl:relcl	basic	14-17	
+14-21	2156-2158	по	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	по	_	_	_	_	_	_	_	case	basic	14-22	
+14-22	2159-2162	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod	basic	14-20	
+14-23	2162-2163	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	14-28	
+14-24	2164-2167	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	_	_	_	_	_	_	_	advmod	basic	14-28	
+14-25	2167-2168	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	14-26	
+14-26	2169-2183	соответственно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	соответственно	_	_	_	_	_	_	_	parataxis	basic	14-28	
+14-27	2183-2184	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	14-26	
+14-28	2185-2193	получили	*	Perf	*	*	*	*	Ind	*	*	Plur	*	*	*	*	Past	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получить	_	_	_	_	_	_	_	conj	basic	14-3	
+14-29	2194-2200	восемь	*	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Acc	*	*	NUM	NUM	восемь	8	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nsubj	basic	14-28	
+14-30	2200-2201	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	14-3	
+
+#Sentence.id=15
+#Text=Чуть-чуть усложняем ситуацию: пусть у нас теперь с вами три языка: английский, французский, итальянский.
+15-1	2202-2206	Чуть	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	чуть	_	_	_	_	_	_	_	advmod	basic	15-4	
+15-2	2206-2207	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	-	_	_	_	_	_	_	_	advmod	basic	15-4	
+15-3	2207-2211	чуть	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	чуть	_	_	_	_	_	_	_	advmod	basic	15-4	
+15-4	2212-2221	усложняем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	усложнять	_	_	_	_	_	_	_	ROOT	basic	15-4	
+15-5	2222-2230	ситуацию	Inan	*	Acc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	ситуация	_	_	_	_	_	_	_	obj	basic	15-4	
+15-6	2230-2231	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	15-12	
+15-7	2232-2237	пусть	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	пусть	_	_	_	_	_	_	_	advmod	basic	15-9	
+15-8	2238-2239	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	_	_	_	_	_	_	_	case	basic	15-9	
+15-9	2240-2243	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	_	_	_	_	_	_	_	nmod	basic	15-12	
+15-10	2244-2250	теперь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	теперь	_	_	_	_	_	_	_	advmod	basic	15-12	
+15-11	2251-2252	с	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	с	_	_	_	_	_	_	_	case	basic	15-12	
+15-12	2253-2257	вами	*	*	Ins	*	*	*	*	*	*	Plur	Second	*	*	*	*	*	Case=Ins\|Number=Plur\|Person=Second	*	*	PRON	PRON	вами	_	_	_	_	_	_	_	parataxis	basic	15-4	
+15-13	2258-2261	три	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	три	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	15-14	
+15-14	2262-2267	языка	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	язык	_	_	_	_	_	_	_	nsubj	basic	15-12	
+15-15	2267-2268	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	15-16	
+15-16	2269-2279	английский	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	английский	_	_	_	_	_	_	_	parataxis	basic	15-14	
+15-17	2279-2280	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	15-18	
+15-18	2281-2292	французский	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	французский	_	_	_	_	_	_	_	conj	basic	15-16	
+15-19	2292-2293	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	15-20	
+15-20	2294-2305	итальянский	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	итальянский	_	_	_	_	_	_	_	conj	basic	15-16	
+15-21	2305-2306	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	15-4	
+
+#Sentence.id=16
+#Text=Вот это количество тех, кто знает по одному, здесь у нас количество тех, кто знают по два языка – семь, пять, три, наконец, двое знают все три языка, и задача в том, чтобы посчитать, какое количество людей не знают ни одного языка.
+16-1	2307-2310	Вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	_	_	_	_	_	_	_	advmod	basic	16-3	
+16-2	2311-2314	это	*	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Neut\|Number=Sing	*	*	DET	DET	это	_	_	_	_	_	_	_	det	basic	16-3	
+16-3	2315-2325	количество	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	количество	_	_	_	_	_	_	_	nsubj	basic	16-32	
+16-4	2326-2329	тех	*	*	Gen	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Number=Plur	*	*	DET	DET	тот	_	_	_	_	_	_	_	det	basic	16-3	
+16-5	2329-2330	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	16-7	
+16-6	2331-2334	кто	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	PRON	PRON	кто	_	_	_	_	_	_	_	nsubj	basic	16-7	
+16-7	2335-2340	знает	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	знать	_	_	_	_	_	_	_	acl:relcl	basic	16-4	
+16-8	2341-2343	по	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	по	_	_	_	_	_	_	_	case	basic	16-9	
+16-9	2344-2350	одному	*	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Dat\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	одному	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obl	basic	16-7	
+16-10	2350-2351	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	16-13	
+16-11	2352-2357	здесь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	здесь	_	_	_	_	_	_	_	advmod	basic	16-13	
+16-12	2358-2359	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	_	_	_	_	_	_	_	case	basic	16-13	
+16-13	2360-2363	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	_	_	_	_	_	_	_	obl	basic	16-32	
+16-14	2364-2374	количество	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	количество	_	_	_	_	_	_	_	nsubj	basic	16-32	
+16-15	2375-2378	тех	*	*	Gen	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Number=Plur	*	*	DET	DET	тот	_	_	_	_	_	_	_	det	basic	16-14	
+16-16	2378-2379	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	16-18	
+16-17	2380-2383	кто	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	PRON	PRON	кто	_	_	_	_	_	_	_	nsubj	basic	16-18	
+16-18	2384-2389	знают	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	знать	_	_	_	_	_	_	_	acl:relcl	basic	16-15	
+16-19	2390-2392	по	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	по	_	_	_	_	_	_	_	case	basic	16-21	
+16-20	2393-2396	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	16-21	
+16-21	2397-2402	языка	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	язык	_	_	_	_	_	_	_	obj	basic	16-18	
+16-22	2403-2404	–	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	–	_	_	_	_	_	_	_	punct	basic	16-23	
+16-23	2405-2409	семь	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	семь	7	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	16-14	
+16-24	2409-2410	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	16-25	
+16-25	2411-2415	пять	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	пять	5	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	conj	basic	16-23	
+16-26	2415-2416	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	16-27	
+16-27	2417-2420	три	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	три	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	conj	basic	16-23	
+16-28	2420-2421	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	16-29	
+16-29	2422-2429	наконец	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	наконец	_	_	_	_	_	_	_	parataxis	basic	16-32	
+16-30	2429-2430	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	16-29	
+16-31	2431-2435	двое	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	двое	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nsubj	basic	16-32	
+16-32	2436-2441	знают	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	знать	_	_	_	_	_	_	_	ROOT	basic	16-32	
+16-33	2442-2445	все	Inan	*	Acc	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Number=Plur	*	*	DET	DET	весь	_	_	_	_	_	_	_	det	basic	16-34	
+16-34	2446-2449	три	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	три	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	16-35	
+16-35	2450-2455	языка	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	язык	_	_	_	_	_	_	_	obj	basic	16-32	
+16-36	2455-2456	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	16-38	
+16-37	2457-2458	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	16-38	
+16-38	2459-2465	задача	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	задача	_	_	_	_	_	_	_	conj	basic	16-32	
+16-39	2466-2467	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	_	_	_	_	_	_	_	case	basic	16-40	
+16-40	2468-2471	том	Inan	*	Loc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	том	_	_	_	_	_	_	_	nmod	basic	16-38	
+16-41	2471-2472	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	16-43	
+16-42	2473-2478	чтобы	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	чтобы	_	_	_	_	_	_	_	mark	basic	16-43	
+16-43	2479-2488	посчитать	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	посчитать	_	_	_	_	_	_	_	advcl	basic	16-40	
+16-44	2488-2489	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	16-49	
+16-45	2490-2495	какое	*	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Neut\|Number=Sing	*	*	DET	DET	какой	_	_	_	_	_	_	_	det	basic	16-46	
+16-46	2496-2506	количество	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	количество	_	_	_	_	_	_	_	nsubj	basic	16-49	
+16-47	2507-2512	людей	Anim	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Anim\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	человек	_	_	_	_	_	_	_	nmod	basic	16-46	
+16-48	2513-2515	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	16-49	
+16-49	2516-2521	знают	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	знать	_	_	_	_	_	_	_	ccomp	basic	16-43	
+16-50	2522-2524	ни	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	ни	_	_	_	_	_	_	_	advmod	basic	16-51	
+16-51	2525-2531	одного	*	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	одного	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod	basic	16-52	
+16-52	2532-2537	языка	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	язык	_	_	_	_	_	_	_	obj	basic	16-49	
+16-53	2537-2538	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	16-32	
+
+#Sentence.id=17
+#Text=Сначала расписываем формулу, вот она у меня написана, и, соответственно, дальше начинаем считать.
+17-1	2539-2546	Сначала	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	сначала	_	_	_	_	_	_	_	advmod	basic	17-2	
+17-2	2547-2558	расписываем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	расписывать	_	_	_	_	_	_	_	ROOT	basic	17-2	
+17-3	2559-2566	формулу	Inan	*	Acc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	формула	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#20d05471972f4ffa8b7a4e828cf0852653	*	_	*	obj	basic	17-2	
+17-4	2566-2567	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	17-9	
+17-5	2568-2571	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	_	_	_	_	_	_	_	advmod	basic	17-6	
+17-6	2572-2575	она	*	*	Nom	*	*	Fem	*	*	*	Sing	Third	*	*	*	*	*	Case=Nom\|Gender=Fem\|Number=Sing\|Person=Third	*	*	PRON	PRON	она	_	_	_	_	_	_	_	nsubj:pass	basic	17-9	
+17-7	2576-2577	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	_	_	_	_	_	_	_	case	basic	17-8	
+17-8	2578-2582	меня	*	*	Gen	*	*	*	*	*	*	Sing	First	*	*	*	*	*	Case=Gen\|Number=Sing\|Person=First	*	*	PRON	PRON	меня	_	_	_	_	_	_	_	obl	basic	17-9	
+17-9	2583-2591	написана	*	Perf	*	*	*	Fem	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Gender=Fem\|Number=Sing\|StyleVariant=Short\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	PTCP\|VERB	VERB	написанный\|написать	_	_	_	_	_	_	_	conj	basic	17-2	
+17-10	2591-2592	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	17-16	
+17-11	2593-2594	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	17-16	
+17-12	2594-2595	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	17-16	
+17-13	2596-2610	соответственно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	соответственно	_	_	_	_	_	_	_	parataxis	basic	17-16	
+17-14	2610-2611	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	17-13	
+17-15	2612-2618	дальше	*	*	*	*	Cmp	*	*	*	*	*	*	*	*	*	*	*	Degree=Cmp	*	*	ADV	ADV	далёкий	_	_	_	_	_	_	_	advmod	basic	17-16	
+17-16	2619-2627	начинаем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	начинать	_	_	_	_	_	_	_	conj	basic	17-2	
+17-17	2628-2635	считать	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	считать	_	_	_	_	_	_	_	xcomp	basic	17-16	
+17-18	2635-2636	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	17-2	
+
+#Sentence.id=18
+#Text=Последняя задачка: в группе тридцать пять человек, четырнадцать получили отлично по логике, дальше пишем: пятнадцать по физике, восемнадцать по педагогике.
+18-1	2637-2646	Последняя	*	*	Nom	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	ADJ	ADJ	последний	_	_	_	_	_	_	_	amod	basic	18-2	
+18-2	2647-2654	задачка	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	задачка	_	_	_	_	_	_	_	ROOT	basic	18-2	
+18-3	2654-2655	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	18-11	
+18-4	2656-2657	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	_	_	_	_	_	_	_	case	basic	18-5	
+18-5	2658-2664	группе	Inan	*	Loc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	группа	_	_	_	_	_	_	_	obl	basic	18-11	
+18-6	2665-2673	тридцать	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	тридцать	35[7]	_[7]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[7]	*[7]	_[7]	*	nmod	basic	18-5	
+18-7	2674-2678	пять	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	пять	35[7]	_[7]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[7]	*[7]	_[7]	*	nummod:gov	basic	18-8	
+18-8	2679-2686	человек	Anim	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Anim\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	человек	_	_	_	_	_	_	_	nsubj	basic	18-5	
+18-9	2686-2687	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	18-5	
+18-10	2688-2700	четырнадцать	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	четырнадцать	14	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obj	basic	18-11	
+18-11	2701-2709	получили	*	Perf	*	*	*	*	Ind	*	*	Plur	*	*	*	*	Past	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получить	_	_	_	_	_	_	_	parataxis	basic	18-2	
+18-12	2710-2717	отлично	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	отлично	_	_	_	_	_	_	_	advmod	basic	18-11	
+18-13	2718-2720	по	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	по	_	_	_	_	_	_	_	case	basic	18-14	
+18-14	2721-2727	логике	Inan	*	Dat	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	логика	_	_	_	_	_	_	_	obl	basic	18-11	
+18-15	2727-2728	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	18-17	
+18-16	2729-2735	дальше	*	*	*	*	Cmp	*	*	*	*	*	*	*	*	*	*	*	Degree=Cmp	*	*	ADV	ADV	далёкий	_	_	_	_	_	_	_	advmod	basic	18-17	
+18-17	2736-2741	пишем	*	*	*	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Masc\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	пишем	_	_	_	_	_	_	_	conj	basic	18-11	
+18-18	2741-2742	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	18-19	
+18-19	2743-2753	пятнадцать	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	пятнадцать	15	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	parataxis	basic	18-17	
+18-20	2754-2756	по	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	по	_	_	_	_	_	_	_	case	basic	18-21	
+18-21	2757-2763	физике	Inan	*	Dat	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	физика	_	_	_	_	_	_	_	obl	basic	18-19	
+18-22	2763-2764	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	18-23	
+18-23	2765-2777	восемнадцать	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	восемнадцать	18	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	conj	basic	18-19	
+18-24	2778-2780	по	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	по	_	_	_	_	_	_	_	case	basic	18-25	
+18-25	2781-2791	педагогике	Inan	*	Dat	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	педагогика	_	_	_	_	_	_	_	obl	basic	18-23	
+18-26	2791-2792	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	18-2	
+
+#Sentence.id=19
+#Text=Выписываем теперь по два свойства: отлично по логики и физики, логике, педагогике, физики, педагогике.
+19-1	2793-2803	Выписываем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	выписывать	_	_	_	_	_	_	_	ROOT	basic	19-1	
+19-2	2804-2810	теперь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	теперь	_	_	_	_	_	_	_	advmod	basic	19-1	
+19-3	2811-2813	по	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	по	_	_	_	_	_	_	_	case	basic	19-5	
+19-4	2814-2817	два	*	*	Acc	*	*	Neut	*	*	*	*	*	*	*	*	*	*	Case=Acc\|Gender=Neut	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	19-5	
+19-5	2818-2826	свойства	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	свойство	_	_	_	_	_	_	_	obj	basic	19-1	
+19-6	2826-2827	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	19-7	
+19-7	2828-2835	отлично	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	отлично	_	_	_	_	_	_	_	parataxis	basic	19-5	
+19-8	2836-2838	по	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	по	_	_	_	_	_	_	_	case	basic	19-9	
+19-9	2839-2845	логики	Inan	*	Dat	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	логики	_	_	_	_	_	_	_	obl	basic	19-7	
+19-10	2846-2847	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	19-11	
+19-11	2848-2854	физики	Anim	*	Nom	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	физик	_	_	_	_	_	_	_	conj	basic	19-9	
+19-12	2854-2855	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	19-13	
+19-13	2856-2862	логике	Inan	*	Loc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	логика	_	_	_	_	_	_	_	conj	basic	19-9	
+19-14	2862-2863	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	19-15	
+19-15	2864-2874	педагогике	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	педагогике	_	_	_	_	_	_	_	conj	basic	19-9	
+19-16	2874-2875	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	19-17	
+19-17	2876-2882	физики	Anim	*	Nom	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	физик	_	_	_	_	_	_	_	conj	basic	19-9	
+19-18	2882-2883	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	19-19	
+19-19	2884-2894	педагогике	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	педагогике	_	_	_	_	_	_	_	conj	basic	19-9	
+19-20	2894-2895	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	19-1	
+
+#Sentence.id=20
+#Text=Теперь все три свойства: отлично по всем трём предметам.
+20-1	2896-2902	Теперь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	теперь	_	_	_	_	_	_	_	advmod	basic	20-4	
+20-2	2903-2906	все	*	*	Nom	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Nom\|Number=Plur	*	*	DET	DET	весь	_	_	_	_	_	_	_	det	basic	20-3	
+20-3	2907-2910	три	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	три	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	20-4	
+20-4	2911-2919	свойства	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	свойство	_	_	_	_	_	_	_	ROOT	basic	20-4	
+20-5	2919-2920	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	20-6	
+20-6	2921-2928	отлично	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	отлично	_	_	_	_	_	_	_	advmod	basic	20-10	
+20-7	2929-2931	по	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	по	_	_	_	_	_	_	_	case	basic	20-9	
+20-8	2932-2936	всем	*	*	Dat	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Dat\|Number=Plur	*	*	DET	DET	весь	_	_	_	_	_	_	_	det	basic	20-9	
+20-9	2937-2941	трём	Inan	*	Dat	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	трём	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	amod	basic	20-10	
+20-10	2942-2951	предметам	Inan	*	Dat	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	предмет	_	_	_	_	_	_	_	parataxis	basic	20-4	
+20-11	2951-2952	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	20-4	
+
+#Sentence.id=21
+#Text=Значит, вот здесь у нас будет записано количество тех, кто не получил ни одной пятёрки.
+21-1	2953-2959	Значит	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	значить	_	_	_	_	_	_	_	discourse	basic	21-8	
+21-2	2959-2960	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	21-1	
+21-3	2961-2964	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	_	_	_	_	_	_	_	advmod	basic	21-4	
+21-4	2965-2970	здесь	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	здесь	_	_	_	_	_	_	_	advmod	basic	21-8	
+21-5	2971-2972	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	_	_	_	_	_	_	_	case	basic	21-6	
+21-6	2973-2976	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	_	_	_	_	_	_	_	obl	basic	21-8	
+21-7	2977-2982	будет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	_	_	_	_	_	_	_	aux:pass	basic	21-8	
+21-8	2983-2991	записано	*	Perf	*	*	*	Neut	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Gender=Neut\|Number=Sing\|StyleVariant=Short\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	PTCP\|VERB	VERB	записанный\|записать	_	_	_	_	_	_	_	ROOT	basic	21-8	
+21-9	2992-3002	количество	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	количество	_	_	_	_	_	_	_	nsubj:pass	basic	21-8	
+21-10	3003-3006	тех	*	*	Gen	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Number=Plur	*	*	DET	DET	тот	_	_	_	_	_	_	_	det	basic	21-9	
+21-11	3006-3007	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	21-14	
+21-12	3008-3011	кто	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	PRON	PRON	кто	_	_	_	_	_	_	_	nsubj	basic	21-14	
+21-13	3012-3014	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	21-14	
+21-14	3015-3022	получил	*	Perf	*	*	*	Masc	Ind	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Gender=Masc\|Mood=Ind\|Number=Sing\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получить	_	_	_	_	_	_	_	acl:relcl	basic	21-10	
+21-15	3023-3025	ни	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	ни	_	_	_	_	_	_	_	advmod	basic	21-16	
+21-16	3026-3031	одной	*	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Gender=Fem\|Number=Sing	*	*	NUM	NUM	одной	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod	basic	21-17	
+21-17	3032-3039	пятёрки	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	пятёрка	5	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obj	basic	21-14	
+21-18	3039-3040	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	21-8	
+
+#Sentence.id=22
+#Text=А сама задача формулируется следующим образом: сколько студентов получили хотя бы по одной отличной оценке?
+22-1	3041-3042	А	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	_	_	_	_	_	_	_	cc	basic	22-4	
+22-2	3043-3047	сама	*	*	Nom	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	ADJ	ADJ	сама	_	_	_	_	_	_	_	amod	basic	22-3	
+22-3	3048-3054	задача	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	задача	_	_	_	_	_	_	_	nsubj	basic	22-4	
+22-4	3055-3068	формулируется	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	формулироваться	_	_	_	_	_	_	_	ROOT	basic	22-4	
+22-5	3069-3078	следующим	*	*	Ins	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	следующий	_	_	_	_	_	_	_	amod	basic	22-6	
+22-6	3079-3086	образом	Inan	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	образ	_	_	_	_	_	_	_	obl	basic	22-4	
+22-7	3086-3087	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	22-10	
+22-8	3088-3095	сколько	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	сколько	_	_	_	_	_	_	_	nummod:gov	basic	22-9	
+22-9	3096-3105	студентов	Anim	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Anim\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	студент	_	_	_	_	_	_	_	nsubj	basic	22-10	
+22-10	3106-3114	получили	*	Perf	*	*	*	*	Ind	*	*	Plur	*	*	*	*	Past	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получить	_	_	_	_	_	_	_	parataxis	basic	22-6	
+22-11	3115-3119	хотя	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	хотя	_	_	_	_	_	_	_	advmod	basic	22-16	
+22-12	3120-3122	бы	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	бы	_	_	_	_	_	_	_	fixed	basic	22-11	
+22-13	3123-3125	по	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	по	_	_	_	_	_	_	_	case	basic	22-16	
+22-14	3126-3131	одной	*	*	Dat	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Dat\|Gender=Fem\|Number=Sing	*	*	NUM	NUM	одной	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod	basic	22-16	
+22-15	3132-3140	отличной	*	*	Dat	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Dat\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	ADJ	ADJ	отличный	_	_	_	_	_	_	_	amod	basic	22-16	
+22-16	3141-3147	оценке	Inan	*	Dat	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	оценка	_	_	_	_	_	_	_	iobj	basic	22-10	
+22-17	3147-3148	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	?	_	_	_	_	_	_	_	punct	basic	22-4	
+
+#Sentence.id=23
+#Text=Как это посчитать: из общего количества, из тридцати пяти, нужно вычесть тех, кто не получил ни одной пятёрки.
+23-1	3149-3152	Как	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	как	_	_	_	_	_	_	_	advmod	basic	23-3	
+23-2	3153-3156	это	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	это	_	_	_	_	_	_	_	obj	basic	23-3	
+23-3	3157-3166	посчитать	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	посчитать	_	_	_	_	_	_	_	csubj	basic	23-13	
+23-4	3166-3167	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	23-7	
+23-5	3168-3170	из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	из	_	_	_	_	_	_	_	case	basic	23-7	
+23-6	3171-3177	общего	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	общий	_	_	_	_	_	_	_	amod	basic	23-7	
+23-7	3178-3188	количества	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	количество	_	_	_	_	_	_	_	obl	basic	23-13	
+23-8	3188-3189	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	23-11	
+23-9	3190-3192	из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	из	_	_	_	_	_	_	_	case	basic	23-11	
+23-10	3193-3201	тридцати	*	*	Gen	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Gen	*	*	NUM	NUM	тридцать	35[8]	_[8]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[8]	*[8]	_[8]	*	nummod	basic	23-11	
+23-11	3202-3206	пяти	*	*	Gen	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Gen	*	*	NUM	NUM	пять	35[8]	_[8]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[8]	*[8]	_[8]	*	nummod	basic	23-7	
+23-12	3206-3207	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	23-7	
+23-13	3208-3213	нужно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	нужный	_	_	_	_	_	_	_	ROOT	basic	23-13	
+23-14	3214-3221	вычесть	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	вычесть	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	csubj	basic	23-13	
+23-15	3222-3225	тех	*	*	Gen	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Number=Plur	*	*	DET	DET	тот	_	_	_	_	_	_	_	det	basic	23-14	
+23-16	3225-3226	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	23-19	
+23-17	3227-3230	кто	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	PRON	PRON	кто	_	_	_	_	_	_	_	nsubj	basic	23-19	
+23-18	3231-3233	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	23-19	
+23-19	3234-3241	получил	*	Perf	*	*	*	Masc	Ind	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Gender=Masc\|Mood=Ind\|Number=Sing\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получить	_	_	_	_	_	_	_	acl:relcl	basic	23-15	
+23-20	3242-3244	ни	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	ни	_	_	_	_	_	_	_	advmod	basic	23-21	
+23-21	3245-3250	одной	*	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Gender=Fem\|Number=Sing	*	*	NUM	NUM	одной	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod	basic	23-22	
+23-22	3251-3258	пятёрки	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	пятёрка	5	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obj	basic	23-19	
+23-23	3258-3259	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	23-13	
+
+#Sentence.id=24
+#Text=Поэтому, конечно, в начале мы должны посчитать тех, кто не получил ни одной пятёрки.
+24-1	3260-3267	Поэтому	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	поэтому	_	_	_	_	_	_	_	advmod	basic	24-8	
+24-2	3267-3268	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	24-1	
+24-3	3269-3276	конечно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	конечно	_	_	_	_	_	_	_	parataxis	basic	24-8	
+24-4	3276-3277	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	24-3	
+24-5	3278-3279	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	_	_	_	_	_	_	_	case	basic	24-6	
+24-6	3280-3286	начале	Inan	*	Loc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	начало	_	_	_	_	_	_	_	obl	basic	24-8	
+24-7	3287-3289	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	_	_	_	_	_	_	_	nsubj	basic	24-8	
+24-8	3290-3296	должны	*	*	*	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Degree=Pos\|Number=Plur\|StyleVariant=Short	*	*	ADJ	ADJ	должный	_	_	_	_	_	_	_	ROOT	basic	24-8	
+24-9	3297-3306	посчитать	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	посчитать	_	_	_	_	_	_	_	xcomp	basic	24-8	
+24-10	3307-3310	тех	Inan	*	Acc	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Number=Plur	*	*	DET	DET	тот	_	_	_	_	_	_	_	det	basic	24-9	
+24-11	3310-3311	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	24-14	
+24-12	3312-3315	кто	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	PRON	PRON	кто	_	_	_	_	_	_	_	nsubj	basic	24-14	
+24-13	3316-3318	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	24-14	
+24-14	3319-3326	получил	*	Perf	*	*	*	Masc	Ind	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Gender=Masc\|Mood=Ind\|Number=Sing\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получить	_	_	_	_	_	_	_	acl:relcl	basic	24-10	
+24-15	3327-3329	ни	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	ни	_	_	_	_	_	_	_	advmod	basic	24-16	
+24-16	3330-3335	одной	*	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Gender=Fem\|Number=Sing	*	*	NUM	NUM	одной	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod	basic	24-17	
+24-17	3336-3343	пятёрки	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	пятёрка	5	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obj	basic	24-14	
+24-18	3343-3344	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	24-8	
+
+#Sentence.id=25
+#Text=Расписываем формулу включений и исключений: эм минус эм от альфа один, альфа два, эм от альфа три, плюс эм от альфа один, альфа два, эм от альфа один, альфа три, эм от альфа два, альфа три, наконец, вычитаем всех кто получил, соответственно, пятёрки по всем трём предметам, все расписали, получили: шесть у нас человек не получили ни одной пятёрки, и затем мы из тридцати пяти вычитаем шесть.
+25-1	3345-3356	Расписываем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	расписывать	_	_	_	_	_	_	_	ROOT	basic	25-1	
+25-2	3357-3364	формулу	Inan	*	Acc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	формула	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#20d05471972f4ffa8b7a4e828cf0852653	*	_	*	obj	basic	25-1	
+25-3	3365-3374	включений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	включение	_	_	_	_	_	_	_	nmod	basic	25-2	
+25-4	3375-3376	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	25-5	
+25-5	3377-3387	исключений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	исключение	_	_	_	_	_	_	_	conj	basic	25-3	
+25-6	3387-3388	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	25-7	
+25-7	3389-3391	эм	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	эм	m	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nsubj	basic	25-49	
+25-8	3392-3397	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	case	basic	25-9	
+25-9	3398-3400	эм	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	эм	m	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	25-7	
+25-10	3401-3403	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	25-11	
+25-11	3404-3409	альфа	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	альф	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	25-7	
+25-12	3410-3414	один	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	один	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	appos	basic	25-11	
+25-13	3414-3415	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	25-14	
+25-14	3416-3421	альфа	Anim	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	альфа	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	conj	basic	25-7	
+25-15	3422-3425	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	appos	basic	25-14	
+25-16	3425-3426	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	25-17	
+25-17	3427-3429	эм	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	эм	m	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	conj	basic	25-7	
+25-18	3430-3432	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	25-19	
+25-19	3433-3438	альфа	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	альф	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	25-17	
+25-20	3439-3442	три	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	три	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	25-17	
+25-21	3442-3443	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	25-23	
+25-22	3444-3448	плюс	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	case	basic	25-23	
+25-23	3449-3451	эм	Inan	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	эм	m	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	conj	basic	25-7	
+25-24	3452-3454	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	25-25	
+25-25	3455-3460	альфа	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	альф	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	25-7	
+25-26	3461-3465	один	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	один	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	appos	basic	25-25	
+25-27	3465-3466	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	25-28	
+25-28	3467-3472	альфа	Anim	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	альфа	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	conj	basic	25-7	
+25-29	3473-3476	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	appos	basic	25-28	
+25-30	3476-3477	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	25-31	
+25-31	3478-3480	эм	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	эм	m	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	conj	basic	25-7	
+25-32	3481-3483	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	25-33	
+25-33	3484-3489	альфа	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	альф	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	25-31	
+25-34	3490-3494	один	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	один	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	appos	basic	25-33	
+25-35	3494-3495	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	25-36	
+25-36	3496-3501	альфа	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	альфа	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	conj	basic	25-7	
+25-37	3502-3505	три	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	три	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	flat:name	basic	25-36	
+25-38	3505-3506	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	25-39	
+25-39	3507-3509	эм	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	эм	m	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	conj	basic	25-7	
+25-40	3510-3512	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	25-41	
+25-41	3513-3518	альфа	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	альф	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	25-39	
+25-42	3519-3522	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	25-39	
+25-43	3522-3523	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	25-44	
+25-44	3524-3529	альфа	Anim	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	альфа	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	conj	basic	25-7	
+25-45	3530-3533	три	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	три	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	flat:name	basic	25-44	
+25-46	3533-3534	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	25-47	
+25-47	3535-3542	наконец	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	наконец	_	_	_	_	_	_	_	parataxis	basic	25-49	
+25-48	3542-3543	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	25-47	
+25-49	3544-3552	вычитаем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	вычитать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	conj	basic	25-1	
+25-50	3553-3557	всех	Anim	*	Acc	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Animacy=Anim\|Case=Acc\|Number=Plur	*	*	PRON	PRON	всех	_	_	_	_	_	_	_	det	basic	25-52	
+25-51	3558-3561	кто	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	PRON	PRON	кто	_	_	_	_	_	_	_	nsubj	basic	25-52	
+25-52	3562-3569	получил	*	Perf	*	*	*	Masc	Ind	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Gender=Masc\|Mood=Ind\|Number=Sing\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получить	_	_	_	_	_	_	_	xcomp	basic	25-49	
+25-53	3569-3570	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	25-54	
+25-54	3571-3585	соответственно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	соответственно	_	_	_	_	_	_	_	advmod	basic	25-52	
+25-55	3585-3586	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	25-54	
+25-56	3587-3594	пятёрки	Inan	*	Nom	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	пятёрки	5	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obj	basic	25-52	
+25-57	3595-3597	по	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	по	_	_	_	_	_	_	_	case	basic	25-59	
+25-58	3598-3602	всем	*	*	Dat	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Dat\|Number=Plur	*	*	DET	DET	весь	_	_	_	_	_	_	_	det	basic	25-59	
+25-59	3603-3607	трём	Inan	*	Dat	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	трём	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nmod	basic	25-56	
+25-60	3608-3617	предметам	Inan	*	Dat	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	предмет	_	_	_	_	_	_	_	iobj	basic	25-52	
+25-61	3617-3618	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	25-63	
+25-62	3619-3622	все	Anim	*	Nom	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Number=Plur	*	*	PRON	PRON	все	_	_	_	_	_	_	_	nsubj	basic	25-63	
+25-63	3623-3632	расписали	*	Perf	*	*	*	*	Ind	*	*	Plur	*	*	*	*	Past	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	расписать	_	_	_	_	_	_	_	conj	basic	25-1	
+25-64	3632-3633	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	25-65	
+25-65	3634-3642	получили	*	Perf	*	*	*	*	Ind	*	*	Plur	*	*	*	*	Past	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получить	_	_	_	_	_	_	_	conj	basic	25-1	
+25-66	3642-3643	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	25-72	
+25-67	3644-3649	шесть	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	шесть	6	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	25-69	
+25-68	3650-3651	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	_	_	_	_	_	_	_	case	basic	25-69	
+25-69	3652-3655	нас	*	*	Gen	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=First	*	*	PRON	PRON	нас	_	_	_	_	_	_	_	obl	basic	25-72	
+25-70	3656-3663	человек	Anim	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	человек	_	_	_	_	_	_	_	nsubj	basic	25-72	
+25-71	3664-3666	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	25-72	
+25-72	3667-3675	получили	*	Perf	*	*	*	*	Ind	*	*	Plur	*	*	*	*	Past	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получить	_	_	_	_	_	_	_	parataxis	basic	25-65	
+25-73	3676-3678	ни	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	ни	_	_	_	_	_	_	_	advmod	basic	25-74	
+25-74	3679-3684	одной	*	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Gender=Fem\|Number=Sing	*	*	NUM	NUM	одной	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod	basic	25-75	
+25-75	3685-3692	пятёрки	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	пятёрка	5	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obj	basic	25-72	
+25-76	3692-3693	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	25-83	
+25-77	3694-3695	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	25-83	
+25-78	3696-3701	затем	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	затем	_	_	_	_	_	_	_	advmod	basic	25-83	
+25-79	3702-3704	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	_	_	_	_	_	_	_	nsubj	basic	25-83	
+25-80	3705-3707	из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	из	_	_	_	_	_	_	_	case	basic	25-82	
+25-81	3708-3716	тридцати	*	*	Gen	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Gen	*	*	NUM	NUM	тридцать	35[9]	_[9]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[9]	*[9]	_[9]	*	nummod	basic	25-82	
+25-82	3717-3721	пяти	*	*	Gen	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Gen	*	*	NUM	NUM	пять	35[9]	_[9]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[9]	*[9]	_[9]	*	nummod	basic	25-83	
+25-83	3722-3730	вычитаем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	вычитать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	conj	basic	25-72	
+25-84	3731-3736	шесть	*	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Acc	*	*	NUM	NUM	шесть	6	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obj	basic	25-83	
+25-85	3736-3737	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	25-1	
+
+#Sentence.id=26
+#Text=Вот таким образом используется формула включений и исключений.
+26-1	3738-3741	Вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	_	_	_	_	_	_	_	advmod	basic	26-4	
+26-2	3742-3747	таким	*	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Gender=Masc\|Number=Sing	*	*	DET	DET	такой	_	_	_	_	_	_	_	det	basic	26-3	
+26-3	3748-3755	образом	Inan	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	образ	_	_	_	_	_	_	_	obl	basic	26-4	
+26-4	3756-3768	используется	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Pass	Fin	Pass	VERB	VERB	использоваться	_	_	_	_	_	_	_	ROOT	basic	26-4	
+26-5	3769-3776	формула	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	формула	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#20d05471972f4ffa8b7a4e828cf0852653	*	_	*	nsubj:pass	basic	26-4	
+26-6	3777-3786	включений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	включение	_	_	_	_	_	_	_	nmod	basic	26-5	
+26-7	3787-3788	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	26-8	
+26-8	3789-3799	исключений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	исключение	_	_	_	_	_	_	_	conj	basic	26-6	
+26-9	3799-3800	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	26-4	

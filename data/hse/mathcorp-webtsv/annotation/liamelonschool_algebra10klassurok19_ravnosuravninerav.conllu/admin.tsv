@@ -1,0 +1,1262 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures|animacy|aspect|case|definiteness|degree|gender|mood|negative|numType|number|person|possessive|pronType|reflex|tense|transitivity|value|verbForm|voice
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.Math_entities|Name|ROLE_webanno.custom.Math_entities:args_webanno.custom.Math_entitiesArgsLink|webanno.custom.MathArgs|math_tag|reference|ROLE_webanno.custom.Math_entities:specifier_webanno.custom.Math_entitiesSpecifierLink|webanno.custom.Math_entities
+#T_RL=de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency|DependencyType|flavor|BT_de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS
+
+
+#Sentence.id=1
+#Text=Определение.
+1-1	0-11	Определение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	определение	_	_	_	_	_	_	_	ROOT	basic	1-1	
+1-2	11-12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	1-1	
+
+#Sentence.id=2
+#Text=Два уравнения с одной переменной эф от икс равно жэ от икс и пэ от икс равно аш от икс называют равносильными, если множества этих корней совпадают.
+2-1	13-16	Два	*	*	Nom	*	*	Neut	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Neut	*	*	NUM	NUM	два	_	_	_	_	_	_	_	nummod:gov	basic	2-2	
+2-2	17-26	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	obj	basic	2-21	
+2-3	27-28	с	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	с	_	_	_	_	_	_	_	case	basic	2-5	
+2-4	29-34	одной	*	*	Ins	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Gender=Fem\|Number=Sing	*	*	NUM	NUM	одной	_	_	_	_	_	_	_	nummod	basic	2-5	
+2-5	35-45	переменной	*	*	Ins	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	ADJ	ADJ	переменный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	2-2	
+2-6	46-48	эф	Anim	*	Ins	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Ins\|Gender=Fem\|Number=Sing	*	*	PROPN	PROPN	эф	f	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	nmod	basic	2-2	
+2-7	49-51	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	2-8	
+2-8	52-55	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	2-2	
+2-9	56-61	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	advmod	basic	2-2	
+2-10	62-64	жэ	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	INTJ	INTJ	жэ	g	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	case	basic	2-2	
+2-11	65-67	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	2-12	
+2-12	68-71	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	2-2	
+2-13	72-73	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	2-14	
+2-14	74-76	пэ	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	DET	DET	пэ	p	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	conj	basic	2-12	
+2-15	77-79	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	2-16	
+2-16	80-83	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	2-2	
+2-17	84-89	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	advmod	basic	2-2	
+2-18	90-92	аш	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	аш	h	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	nsubj	basic	2-21	
+2-19	93-95	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	2-20	
+2-20	96-99	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	obl	basic	2-21	
+2-21	100-108	называют	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	называть	_	_	_	_	_	_	_	ROOT	basic	2-21	
+2-22	109-122	равносильными	*	*	Ins	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Ins\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	xcomp	basic	2-21	
+2-23	122-123	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	2-28	
+2-24	124-128	если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	_	_	_	_	_	_	_	mark	basic	2-28	
+2-25	129-138	множества	Inan	*	Nom	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	множество	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e77	*	_	*	nsubj	basic	2-28	
+2-26	139-143	этих	*	*	Gen	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Number=Plur	*	*	DET	DET	этот	_	_	_	_	_	_	_	det	basic	2-27	
+2-27	144-150	корней	Inan	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	nmod	basic	2-25	
+2-28	151-160	совпадают	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	совпадать	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	advcl	basic	2-21	
+2-29	160-161	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	2-21	
+
+#Sentence.id=3
+#Text=Иными словами, два уравнения называют равносильными, если они имеют одинаковые корни или если оба уравнения не имеют корней.
+3-1	162-167	Иными	*	*	Ins	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Ins\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	иными	_	_	_	_	_	_	_	amod	basic	3-2	
+3-2	168-175	словами	Inan	*	Ins	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	слово	_	_	_	_	_	_	_	parataxis	basic	3-6	
+3-3	175-176	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	3-2	
+3-4	177-180	два	*	*	Nom	*	*	Neut	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Neut	*	*	NUM	NUM	два	_	_	_	_	_	_	_	nummod:gov	basic	3-5	
+3-5	181-190	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nsubj	basic	3-6	
+3-6	191-199	называют	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	называть	_	_	_	_	_	_	_	ROOT	basic	3-6	
+3-7	200-213	равносильными	*	*	Ins	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Ins\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	xcomp	basic	3-6	
+3-8	213-214	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	3-11	
+3-9	215-219	если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	_	_	_	_	_	_	_	mark	basic	3-11	
+3-10	220-223	они	*	*	Nom	*	*	*	*	*	*	Plur	Third	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=Third	*	*	PRON	PRON	они	_	_	_	_	_	_	_	nsubj	basic	3-11	
+3-11	224-229	имеют	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	иметь	_	_	_	_	_	_	_	advcl	basic	3-6	
+3-12	230-240	одинаковые	Inan	*	Acc	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	одинаковый	_	_	_	_	_	_	_	amod	basic	3-13	
+3-13	241-246	корни	Inan	*	Acc	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	obj	basic	3-11	
+3-14	247-250	или	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	или	_	_	_	_	_	_	_	cc	basic	3-19	
+3-15	251-255	если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	_	_	_	_	_	_	_	mark	basic	3-19	
+3-16	256-259	оба	*	*	Nom	*	*	Neut	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Neut	*	*	NUM	NUM	оба	_	_	_	_	_	_	_	nummod:gov	basic	3-17	
+3-17	260-269	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nsubj	basic	3-19	
+3-18	270-272	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	3-19	
+3-19	273-278	имеют	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	иметь	_	_	_	_	_	_	_	conj	basic	3-11	
+3-20	279-285	корней	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	корней	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	obj	basic	3-19	
+3-21	285-286	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	3-6	
+
+#Sentence.id=4
+#Text=Приведём примеры.
+4-1	287-295	Приведём	Anim	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	приведём	_	_	_	_	_	_	_	ROOT	basic	4-1	
+4-2	296-303	примеры	Inan	*	Acc	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	пример	_	_	_	_	_	_	_	nmod	basic	4-1	
+4-3	303-304	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	4-1	
+
+#Sentence.id=5
+#Text=Первое.
+5-1	305-311	Первое	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	первый	_	_	_	_	_	_	_	ROOT	basic	5-1	
+5-2	311-312	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	5-1	
+
+#Sentence.id=6
+#Text=Уравнения четыре икс минус три равно два икс плюс три и два икс равно шести равносильны, так как каждое из них имеет только один корень икс, равный трём.
+6-1	313-322	Уравнения	Inan	*	Nom	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	уравнение	_	_	_	_	_	_	_	nsubj	basic	6-16	
+6-2	323-329	четыре	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	четыре	4	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	6-3	
+6-3	330-333	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	6-1	
+6-4	334-339	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	case	basic	6-8	
+6-5	340-343	три	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	три	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	6-8	
+6-6	344-349	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	advmod	basic	6-5	
+6-7	350-353	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	6-8	
+6-8	354-357	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	6-1	
+6-9	358-362	плюс	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	case	basic	6-13	
+6-10	363-366	три	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	три	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	6-13	
+6-11	367-368	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	6-12	
+6-12	369-372	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	conj	basic	6-10	
+6-13	373-376	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	6-8	
+6-14	377-382	равно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	равно	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	advmod	basic	6-8	
+6-15	383-388	шести	*	*	Gen	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Gen	*	*	NUM	NUM	шесть	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod	basic	6-16	
+6-16	389-400	равносильны	*	*	*	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Degree=Pos\|Number=Plur\|StyleVariant=Short	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	ROOT	basic	6-16	
+6-17	400-401	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	6-23	
+6-18	402-405	так	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	так	_	_	_	_	_	_	_	mark	basic	6-23	
+6-19	406-409	как	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	как	_	_	_	_	_	_	_	fixed	basic	6-18	
+6-20	410-416	каждое	*	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Neut\|Number=Sing	*	*	DET	DET	каждый	_	_	_	_	_	_	_	nsubj	basic	6-23	
+6-21	417-419	из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	из	_	_	_	_	_	_	_	case	basic	6-22	
+6-22	420-423	них	*	*	Gen	*	*	*	*	*	*	Plur	Third	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=Third	*	*	PRON	PRON	них	_	_	_	_	_	_	_	nmod	basic	6-20	
+6-23	424-429	имеет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	иметь	_	_	_	_	_	_	_	advcl	basic	6-16	
+6-24	430-436	только	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	только	_	_	_	_	_	_	_	advmod	basic	6-25	
+6-25	437-441	один	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	один	_	_	_	_	_	_	_	nummod	basic	6-26	
+6-26	442-448	корень	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	obj	basic	6-23	
+6-27	449-452	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	6-26	
+6-28	452-453	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	6-29	
+6-29	454-460	равный	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	amod	basic	6-30	
+6-30	461-465	трём	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	трём	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obj	basic	6-23	
+6-31	465-466	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	6-16	
+
+#Sentence.id=7
+#Text=Второе.
+7-1	467-473	Второе	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	второй	_	_	_	_	_	_	_	ROOT	basic	7-1	
+7-2	473-474	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	7-1	
+
+#Sentence.id=8
+#Text=Уравнения икс минус два умножить на икс плюс пять и икс квадрат плюс три икс минус десять равно нулю также равносильны, так как у них одни и те же корни икс один равно два, икс два равно минус пять.
+8-1	475-484	Уравнения	Inan	*	Nom	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	obj	basic	8-5	
+8-2	485-488	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	8-1	
+8-3	489-494	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	advmod	basic	8-4	
+8-4	495-498	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	8-5	
+8-5	499-507	умножить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	умножить	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b49	*	_	*	csubj	basic	8-21	
+8-6	508-510	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	_	_	_	_	_	_	_	case	basic	8-7	
+8-7	511-514	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	obl	basic	8-5	
+8-8	515-519	плюс	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	case	basic	8-9	
+8-9	520-524	пять	*	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Acc	*	*	NUM	NUM	пять	5	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	8-12	
+8-10	525-526	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	8-11	
+8-11	527-530	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	conj	basic	8-9	
+8-12	531-538	квадрат	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	квадрат	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#08daba7ec97f44f58065397fbcbf525353	*	_	*	obj	basic	8-5	
+8-13	539-543	плюс	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	case	basic	8-15	
+8-14	544-547	три	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	три	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	8-15	
+8-15	548-551	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	8-12	
+8-16	552-557	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	case	basic	8-19	
+8-17	558-564	десять	*	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Acc	*	*	NUM	NUM	десять	10	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	8-19	
+8-18	565-570	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	advmod	basic	8-17	
+8-19	571-575	нулю	Inan	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	нуль	0	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obl	basic	8-5	
+8-20	576-581	также	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	также	_	_	_	_	_	_	_	advmod	basic	8-21	
+8-21	582-593	равносильны	*	*	*	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Degree=Pos\|Number=Plur\|StyleVariant=Short	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	ROOT	basic	8-21	
+8-22	593-594	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	8-26	
+8-23	595-598	так	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	так	_	_	_	_	_	_	_	mark	basic	8-26	
+8-24	599-602	как	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	как	_	_	_	_	_	_	_	fixed	basic	8-23	
+8-25	603-604	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	_	_	_	_	_	_	_	case	basic	8-26	
+8-26	605-608	них	*	*	Gen	*	*	*	*	*	*	Plur	Third	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=Third	*	*	PRON	PRON	них	_	_	_	_	_	_	_	obl	basic	8-38	
+8-27	609-613	одни	*	*	Nom	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Number=Plur	*	*	DET	DET	один	_	_	_	_	_	_	_	amod	basic	8-31	
+8-28	614-615	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	8-29	
+8-29	616-618	те	*	*	Nom	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Nom\|Number=Plur	*	*	DET	DET	тот	_	_	_	_	_	_	_	det	basic	8-27	
+8-30	619-621	же	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	же	_	_	_	_	_	_	_	advmod	basic	8-29	
+8-31	622-627	корни	Inan	*	Acc	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	nsubj	basic	8-26	
+8-32	628-631	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	икс	x1[1]	_[1]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83[1]	*[1]	_[1]	*	nmod	basic	8-31	
+8-33	632-636	один	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	один	x1[1]|1[2]	_[1]|_[2]	*|*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83[1]|http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9e7c5a4ce7a243ca8897ac2d59c6032743[2]	*[1]|*[2]	_[1]|_[2]	*|*	nummod	basic	8-35	
+8-34	637-642	равно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	равно	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	fixed	basic	8-33	
+8-35	643-646	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	8-31	
+8-36	646-647	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	8-38	
+8-37	648-651	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x2[3]	_[3]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83[3]	*[3]	_[3]	*	nsubj	basic	8-38	
+8-38	652-655	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	x2[3]|2[4]	_[3]|_[4]	*|*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83[3]|http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478[4]	*[3]|*[4]	_[3]|_[4]	*|*	parataxis	basic	8-21	
+8-39	656-661	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	advmod	basic	8-38	
+8-40	662-667	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#95b051b0cac145c2a619143bb347cb2d92	*	_	*	case	basic	8-41	
+8-41	668-672	пять	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	пять	5	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	8-38	
+8-42	672-673	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	8-21	
+
+#Sentence.id=9
+#Text=Третье.
+9-1	674-680	Третье	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	третий	_	_	_	_	_	_	_	ROOT	basic	9-1	
+9-2	680-681	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	9-1	
+
+#Sentence.id=10
+#Text=А вот уравнения три икс равно шесть и четыре икс в квадрате равно шестнадцать не равносильны, потому что у первого уравнения корень икс равен двум, а у второго уравнения два корня: икс равно два и икс равно минус два.
+10-1	682-683	А	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	_	_	_	_	_	_	_	cc	basic	10-16	
+10-2	684-687	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	_	_	_	_	_	_	_	advmod	basic	10-3	
+10-3	688-697	уравнения	Inan	*	Nom	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	obj	basic	10-14	
+10-4	698-701	три	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	три	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	10-5	
+10-5	702-705	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nsubj	basic	10-10	
+10-6	706-711	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	advmod	basic	10-10	
+10-7	712-717	шесть	*	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Acc	*	*	NUM	NUM	шесть	6	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	10-10	
+10-8	718-719	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	10-9	
+10-9	720-726	четыре	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	четыре	4	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	conj	basic	10-7	
+10-10	727-730	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	10-3	
+10-11	731-732	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b51	*	_	*	case	basic	10-12	
+10-12	733-741	квадрате	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	квадрат	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#08daba7ec97f44f58065397fbcbf525353	*	_	*	nmod	basic	10-3	
+10-13	742-747	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	advmod	basic	10-14	
+10-14	748-759	шестнадцать	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	шестнадцать	16	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	xcomp	basic	10-16	
+10-15	760-762	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	10-16	
+10-16	763-774	равносильны	*	*	*	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Degree=Pos\|Number=Plur\|StyleVariant=Short	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	ROOT	basic	10-16	
+10-17	774-775	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	10-25	
+10-18	776-782	потому	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	потому	_	_	_	_	_	_	_	mark	basic	10-25	
+10-19	783-786	что	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	что	_	_	_	_	_	_	_	fixed	basic	10-18	
+10-20	787-788	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	_	_	_	_	_	_	_	case	basic	10-22	
+10-21	789-796	первого	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	первый	_	_	_	_	_	_	_	amod	basic	10-22	
+10-22	797-806	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	obl	basic	10-25	
+10-23	807-813	корень	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	nsubj	basic	10-25	
+10-24	814-817	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	10-23	
+10-25	818-823	равен	*	*	*	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Masc\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	advcl	basic	10-16	
+10-26	824-828	двум	*	*	Dat	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Dat	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	iobj	basic	10-25	
+10-27	828-829	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	10-31	
+10-28	830-831	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	_	_	_	_	_	_	_	cc	basic	10-31	
+10-29	832-833	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	_	_	_	_	_	_	_	case	basic	10-31	
+10-30	834-841	второго	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	второй	_	_	_	_	_	_	_	amod	basic	10-31	
+10-31	842-851	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	conj	basic	10-25	
+10-32	852-855	два	*	*	Nom	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Masc	*	*	NUM	NUM	два	_	_	_	_	_	_	_	nummod:gov	basic	10-33	
+10-33	856-861	корня	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	nsubj	basic	10-31	
+10-34	861-862	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	10-35	
+10-35	863-866	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nsubj	basic	10-42	
+10-36	867-872	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	fixed	basic	10-35	
+10-37	873-876	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	10-35	
+10-38	877-878	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	10-39	
+10-39	879-882	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	conj	basic	10-37	
+10-40	883-888	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	fixed	basic	10-35	
+10-41	889-894	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#95b051b0cac145c2a619143bb347cb2d92	*	_	*	case	basic	10-42	
+10-42	895-898	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	10-33	
+10-43	898-899	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	10-16	
+
+#Sentence.id=11
+#Text=Из определения равносильности следует, что два уравнения равносильны, если каждый корень первого уравнения является корнем второго уравнения и наоборот.
+11-1	900-902	Из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	Из	_	_	_	_	_	_	_	case	basic	11-2	
+11-2	903-914	определения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	определение	_	_	_	_	_	_	_	obl	basic	11-4	
+11-3	915-929	равносильности	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	равносильность	_	_	_	_	_	_	_	nmod	basic	11-2	
+11-4	930-937	следует	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	следовать	_	_	_	_	_	_	_	ROOT	basic	11-4	
+11-5	937-938	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	11-9	
+11-6	939-942	что	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	что	_	_	_	_	_	_	_	mark	basic	11-9	
+11-7	943-946	два	*	*	Nom	*	*	Neut	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Neut	*	*	NUM	NUM	два	_	_	_	_	_	_	_	nummod:gov	basic	11-8	
+11-8	947-956	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nsubj	basic	11-9	
+11-9	957-968	равносильны	*	*	*	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Degree=Pos\|Number=Plur\|StyleVariant=Short	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	ccomp	basic	11-4	
+11-10	968-969	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	11-16	
+11-11	970-974	если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	_	_	_	_	_	_	_	mark	basic	11-16	
+11-12	975-981	каждый	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	DET	DET	каждый	_	_	_	_	_	_	_	det	basic	11-13	
+11-13	982-988	корень	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	nsubj	basic	11-16	
+11-14	989-996	первого	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	первый	_	_	_	_	_	_	_	amod	basic	11-15	
+11-15	997-1006	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	11-13	
+11-16	1007-1015	является	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	являться	_	_	_	_	_	_	_	advcl	basic	11-9	
+11-17	1016-1022	корнем	Inan	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	xcomp	basic	11-16	
+11-18	1023-1030	второго	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	второй	_	_	_	_	_	_	_	amod	basic	11-19	
+11-19	1031-1040	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	11-17	
+11-20	1041-1042	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	11-21	
+11-21	1043-1051	наоборот	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	наоборот	_	_	_	_	_	_	_	conj	basic	11-16	
+11-22	1051-1052	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	11-4	
+
+#Sentence.id=12
+#Text=Решение уравнения осуществляется в три этапа.
+12-1	1053-1060	Решение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	решение	_	_	_	_	_	_	_	nsubj	basic	12-3	
+12-2	1061-1070	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	12-1	
+12-3	1071-1085	осуществляется	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	осуществляться	_	_	_	_	_	_	_	ROOT	basic	12-3	
+12-4	1086-1087	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	_	_	_	_	_	_	_	case	basic	12-6	
+12-5	1088-1091	три	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	три	_	_	_	_	_	_	_	nummod:gov	basic	12-6	
+12-6	1092-1097	этапа	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	этап	_	_	_	_	_	_	_	obl	basic	12-3	
+12-7	1097-1098	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	12-3	
+
+#Sentence.id=13
+#Text=Первый этап - технический.
+13-1	1099-1105	Первый	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	первый	_	_	_	_	_	_	_	amod	basic	13-2	
+13-2	1106-1110	этап	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	этап	_	_	_	_	_	_	_	ROOT	basic	13-2	
+13-3	1111-1112	-	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	-	_	_	_	_	_	_	_	punct	basic	13-2	
+13-4	1113-1124	технический	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	технический	_	_	_	_	_	_	_	conj	basic	13-2	
+13-5	1124-1125	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	13-2	
+
+#Sentence.id=14
+#Text=На этом этапе осуществляют преобразование по схеме и находят корни последнего, самого простого уравнения указанной цепочки.
+14-1	1126-1128	На	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	_	_	_	_	_	_	_	case	basic	14-3	
+14-2	1129-1133	этом	*	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Loc\|Gender=Masc\|Number=Sing	*	*	DET	DET	этот	_	_	_	_	_	_	_	det	basic	14-3	
+14-3	1134-1139	этапе	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	этап	_	_	_	_	_	_	_	obl	basic	14-4	
+14-4	1140-1152	осуществляют	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	осуществлять	_	_	_	_	_	_	_	ROOT	basic	14-4	
+14-5	1153-1167	преобразование	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	преобразование	_	_	_	_	_	_	_	obj	basic	14-4	
+14-6	1168-1170	по	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	по	_	_	_	_	_	_	_	case	basic	14-7	
+14-7	1171-1176	схеме	Inan	*	Dat	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	схема	_	_	_	_	_	_	_	nmod	basic	14-5	
+14-8	1177-1178	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	14-9	
+14-9	1179-1186	находят	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	находить	_	_	_	_	_	_	_	conj	basic	14-4	
+14-10	1187-1192	корни	Inan	*	Acc	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	obj	basic	14-9	
+14-11	1193-1203	последнего	*	*	Gen	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	последний	_	_	_	_	_	_	_	amod	basic	14-15	
+14-12	1203-1204	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	14-14	
+14-13	1205-1211	самого	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	самого	_	_	_	_	_	_	_	amod	basic	14-14	
+14-14	1212-1220	простого	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	простой	_	_	_	_	_	_	_	conj	basic	14-11	
+14-15	1221-1230	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	14-10	
+14-16	1231-1240	указанной	*	Perf	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Case=Gen\|Gender=Fem\|Number=Sing\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	VERB	VERB	указать	_	_	_	_	_	_	_	amod	basic	14-17	
+14-17	1241-1248	цепочки	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	цепочка	_	_	_	_	_	_	_	nmod	basic	14-15	
+14-18	1248-1249	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	14-4	
+
+#Sentence.id=15
+#Text=Второй этап - анализ решения.
+15-1	1250-1256	Второй	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	второй	_	_	_	_	_	_	_	amod	basic	15-2	
+15-2	1257-1261	этап	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	этап	_	_	_	_	_	_	_	nsubj	basic	15-4	
+15-3	1262-1263	-	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	-	_	_	_	_	_	_	_	nsubj	basic	15-4	
+15-4	1264-1270	анализ	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	анализ	_	_	_	_	_	_	_	ROOT	basic	15-4	
+15-5	1271-1278	решения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	решение	_	_	_	_	_	_	_	nmod	basic	15-4	
+15-6	1278-1279	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	15-4	
+
+#Sentence.id=16
+#Text=На этом этапе, анализируя проведённые преобразования, отвечают на вопрос, все ли они были равносильными.
+16-1	1280-1282	На	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	_	_	_	_	_	_	_	case	basic	16-3	
+16-2	1283-1287	этом	*	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Loc\|Gender=Masc\|Number=Sing	*	*	DET	DET	этот	_	_	_	_	_	_	_	det	basic	16-3	
+16-3	1288-1293	этапе	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	этап	_	_	_	_	_	_	_	obl	basic	16-9	
+16-4	1293-1294	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	16-5	
+16-5	1295-1305	анализируя	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	Pres	*	Aspect=Imp\|Tense=Pres\|VerbForm=Conv\|Voice=Act	Conv	Act	VERB	VERB	анализировать	_	_	_	_	_	_	_	advcl	basic	16-9	
+16-6	1306-1317	проведённые	Inan	*	Acc	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	проведённые	_	_	_	_	_	_	_	amod	basic	16-7	
+16-7	1318-1332	преобразования	Inan	*	Acc	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	преобразование	_	_	_	_	_	_	_	obj	basic	16-5	
+16-8	1332-1333	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	16-5	
+16-9	1334-1342	отвечают	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	отвечать	_	_	_	_	_	_	_	ROOT	basic	16-9	
+16-10	1343-1345	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	_	_	_	_	_	_	_	case	basic	16-11	
+16-11	1346-1352	вопрос	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	вопрос	_	_	_	_	_	_	_	obl	basic	16-9	
+16-12	1352-1353	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	16-17	
+16-13	1354-1357	все	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	все	_	_	_	_	_	_	_	advmod	basic	16-17	
+16-14	1358-1360	ли	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	ли	_	_	_	_	_	_	_	advmod	basic	16-13	
+16-15	1361-1364	они	*	*	Nom	*	*	*	*	*	*	Plur	Third	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=Third	*	*	PRON	PRON	они	_	_	_	_	_	_	_	nsubj	basic	16-17	
+16-16	1365-1369	были	*	Imp	*	*	*	*	Ind	*	*	Plur	*	*	*	*	Past	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	были	_	_	_	_	_	_	_	cop	basic	16-17	
+16-17	1370-1383	равносильными	*	*	Ins	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Ins\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	acl	basic	16-11	
+16-18	1383-1384	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	16-9	
+
+#Sentence.id=17
+#Text=Третий этап - проверка.
+17-1	1385-1391	Третий	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	третий	_	_	_	_	_	_	_	amod	basic	17-2	
+17-2	1392-1396	этап	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	этап	_	_	_	_	_	_	_	ROOT	basic	17-2	
+17-3	1397-1398	-	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	-	_	_	_	_	_	_	_	punct	basic	17-2	
+17-4	1399-1407	проверка	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	проверка	_	_	_	_	_	_	_	conj	basic	17-2	
+17-5	1407-1408	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	17-2	
+
+#Sentence.id=18
+#Text=Если анализ, проведенный на втором этапе, показывает, что некоторые преобразования могли привести к уравнению-следствию, то обязательна проверка всех найденных корней их подстановкой в исходное уравнение.
+18-1	1409-1413	Если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	_	_	_	_	_	_	_	mark	basic	18-9	
+18-2	1414-1420	анализ	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	анализ	_	_	_	_	_	_	_	nsubj	basic	18-9	
+18-3	1420-1421	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	18-4	
+18-4	1422-1433	проведенный	*	Perf	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Case=Nom\|Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	PTCP\|VERB	VERB	проведённый\|провести	_	_	_	_	_	_	_	acl	basic	18-2	
+18-5	1434-1436	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	_	_	_	_	_	_	_	case	basic	18-7	
+18-6	1437-1443	втором	*	*	Loc	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Loc\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	второй	_	_	_	_	_	_	_	amod	basic	18-7	
+18-7	1444-1449	этапе	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	этап	_	_	_	_	_	_	_	obl	basic	18-4	
+18-8	1449-1450	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	18-4	
+18-9	1451-1461	показывает	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	показывать	_	_	_	_	_	_	_	ROOT	basic	18-9	
+18-10	1461-1462	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	18-14	
+18-11	1463-1466	что	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	что	_	_	_	_	_	_	_	mark	basic	18-14	
+18-12	1467-1476	некоторые	*	*	Nom	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Nom\|Number=Plur	*	*	DET	DET	некоторый	_	_	_	_	_	_	_	det	basic	18-13	
+18-13	1477-1491	преобразования	Inan	*	Nom	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	преобразование	_	_	_	_	_	_	_	nsubj	basic	18-14	
+18-14	1492-1497	могли	*	Imp	*	*	*	*	Ind	*	*	Plur	*	*	*	*	Past	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	мочь	_	_	_	_	_	_	_	ccomp	basic	18-9	
+18-15	1498-1506	привести	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	привести	_	_	_	_	_	_	_	xcomp	basic	18-14	
+18-16	1507-1508	к	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	к	_	_	_	_	_	_	_	case	basic	18-17	
+18-17	1509-1518	уравнению	Inan	*	Dat	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	obl	basic	18-15	
+18-18	1518-1519	-	Inan	*	Dat	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	-	_	_	_	_	_	_	_	iobj	basic	18-15	
+18-19	1519-1528	следствию	Inan	*	Dat	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	следствие	_	_	_	_	_	_	_	obl	basic	18-15	
+18-20	1528-1529	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	18-14	
+18-21	1530-1532	то	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	то	_	_	_	_	_	_	_	mark	basic	18-22	
+18-22	1533-1544	обязательна	*	*	*	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Fem\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	обязательный	_	_	_	_	_	_	_	conj	basic	18-14	
+18-23	1545-1553	проверка	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	проверка	_	_	_	_	_	_	_	nsubj	basic	18-22	
+18-24	1554-1558	всех	*	*	Gen	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Number=Plur	*	*	DET	DET	весь	_	_	_	_	_	_	_	det	basic	18-26	
+18-25	1559-1568	найденных	*	Perf	Gen	*	*	*	*	*	*	Plur	*	*	*	*	Past	*	Aspect=Perf\|Case=Gen\|Number=Plur\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	PTCP\|VERB	VERB	найденный\|найти	_	_	_	_	_	_	_	amod	basic	18-26	
+18-26	1569-1575	корней	Inan	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	nmod	basic	18-23	
+18-27	1576-1578	их	*	*	Gen	*	*	*	*	*	*	Plur	Third	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=Third	*	*	PRON	PRON	их	_	_	_	_	_	_	_	det	basic	18-28	
+18-28	1579-1591	подстановкой	Inan	*	Ins	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	подстановка	_	_	_	_	_	_	_	nmod	basic	18-23	
+18-29	1592-1593	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	_	_	_	_	_	_	_	case	basic	18-31	
+18-30	1594-1602	исходное	Inan	*	Acc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	исходный	_	_	_	_	_	_	_	amod	basic	18-31	
+18-31	1603-1612	уравнение	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	18-23	
+18-32	1612-1613	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	18-9	
+
+#Sentence.id=19
+#Text=Из курса средней школы мы знаем, что можно сделать следующие преобразования уравнений.
+19-1	1614-1616	Из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	Из	_	_	_	_	_	_	_	case	basic	19-2	
+19-2	1617-1622	курса	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	курс	_	_	_	_	_	_	_	obl	basic	19-6	
+19-3	1623-1630	средней	*	*	Gen	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	ADJ	ADJ	средний	_	_	_	_	_	_	_	amod	basic	19-4	
+19-4	1631-1636	школы	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	школа	_	_	_	_	_	_	_	nmod	basic	19-2	
+19-5	1637-1639	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	_	_	_	_	_	_	_	nsubj	basic	19-6	
+19-6	1640-1645	знаем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	знать	_	_	_	_	_	_	_	ROOT	basic	19-6	
+19-7	1645-1646	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	19-9	
+19-8	1647-1650	что	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	что	_	_	_	_	_	_	_	mark	basic	19-9	
+19-9	1651-1656	можно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	можно	_	_	_	_	_	_	_	ccomp	basic	19-6	
+19-10	1657-1664	сделать	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	сделать	_	_	_	_	_	_	_	csubj	basic	19-9	
+19-11	1665-1674	следующие	Inan	*	Acc	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	следующий	_	_	_	_	_	_	_	amod	basic	19-12	
+19-12	1675-1689	преобразования	Inan	*	Acc	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	преобразование	_	_	_	_	_	_	_	obj	basic	19-10	
+19-13	1690-1699	уравнений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	19-12	
+19-14	1699-1700	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	19-6	
+
+#Sentence.id=20
+#Text=Любой член уравнения можно перенести из одной части в другую, изменив его знак на противоположный.
+20-1	1701-1706	Любой	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	DET	DET	любой	_	_	_	_	_	_	_	det	basic	20-2	
+20-2	1707-1711	член	Anim	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	член	_	_	_	_	_	_	_	nsubj	basic	20-4	
+20-3	1712-1721	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	20-2	
+20-4	1722-1727	можно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	можно	_	_	_	_	_	_	_	ROOT	basic	20-4	
+20-5	1728-1737	перенести	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	перенести	_	_	_	_	_	_	_	csubj	basic	20-4	
+20-6	1738-1740	из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	из	_	_	_	_	_	_	_	case	basic	20-8	
+20-7	1741-1746	одной	*	*	Gen	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	NUM	NUM	одной	_	_	_	_	_	_	_	nummod	basic	20-8	
+20-8	1747-1752	части	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	часть	_	_	_	_	_	_	_	obl	basic	20-5	
+20-9	1753-1754	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	_	_	_	_	_	_	_	case	basic	20-10	
+20-10	1755-1761	другую	*	*	Acc	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Acc\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	ADJ	ADJ	другую	_	_	_	_	_	_	_	obl	basic	20-5	
+20-11	1761-1762	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	20-12	
+20-12	1763-1770	изменив	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	Past	*	Aspect=Perf\|Tense=Past\|VerbForm=Conv\|Voice=Act	Conv	Act	VERB	VERB	изменить	_	_	_	_	_	_	_	advcl	basic	20-5	
+20-13	1771-1774	его	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	DET	DET	он	_	_	_	_	_	_	_	det	basic	20-14	
+20-14	1775-1779	знак	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	знак	_	_	_	_	_	_	_	obj	basic	20-12	
+20-15	1780-1782	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	_	_	_	_	_	_	_	case	basic	20-16	
+20-16	1783-1798	противоположный	Inan	*	Acc	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	противоположный	_	_	_	_	_	_	_	obl	basic	20-12	
+20-17	1798-1799	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	20-4	
+
+#Sentence.id=21
+#Text=Обе части уравнения можно умножить или разделить на одно и то же число, не равное нулю.
+21-1	1800-1803	Обе	*	*	Nom	*	*	Fem	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Fem	*	*	NUM	NUM	оба	_	_	_	_	_	_	_	nummod:gov	basic	21-2	
+21-2	1804-1809	части	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	часть	_	_	_	_	_	_	_	nsubj	basic	21-4	
+21-3	1810-1819	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	21-2	
+21-4	1820-1825	можно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	можно	_	_	_	_	_	_	_	ROOT	basic	21-4	
+21-5	1826-1834	умножить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	умножить	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b49	*	_	*	csubj	basic	21-4	
+21-6	1835-1838	или	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	или	_	_	_	_	_	_	_	cc	basic	21-7	
+21-7	1839-1848	разделить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	разделить	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b50	*	_	*	conj	basic	21-5	
+21-8	1849-1851	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	_	_	_	_	_	_	_	case	basic	21-13	
+21-9	1852-1856	одно	Inan	*	Acc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	DET	DET	один	_	_	_	_	_	_	_	amod	basic	21-13	
+21-10	1857-1858	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	21-11	
+21-11	1859-1861	то	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	DET	DET	тот	_	_	_	_	_	_	_	det	basic	21-9	
+21-12	1862-1864	же	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	же	_	_	_	_	_	_	_	advmod	basic	21-11	
+21-13	1865-1870	число	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	число	_	_	_	_	_	_	_	obl	basic	21-7	
+21-14	1870-1871	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	21-16	
+21-15	1872-1874	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	*[5]	_[5]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b41[5]	*[5]	_[5]	*	advmod	basic	21-16	
+21-16	1875-1881	равное	*	Perf	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Case=Acc\|Gender=Neut\|Number=Sing\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	VERB	VERB	равное	*[5]	_[5]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b41[5]	*[5]	_[5]	*	acl	basic	21-13	
+21-17	1882-1886	нулю	Inan	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	нуль	0	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	iobj	basic	21-16	
+21-18	1886-1887	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	21-4	
+
+#Sentence.id=22
+#Text=Если при переходе от одного уравнения к другому потери корней не происходит, то второе уравнение называют следствием первого уравнения.
+22-1	1888-1892	Если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	_	_	_	_	_	_	_	mark	basic	22-12	
+22-2	1893-1896	при	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	при	_	_	_	_	_	_	_	case	basic	22-3	
+22-3	1897-1905	переходе	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	переход	_	_	_	_	_	_	_	obl	basic	22-12	
+22-4	1906-1908	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	22-6	
+22-5	1909-1915	одного	*	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Gender=Neut\|Number=Sing	*	*	NUM	NUM	одного	_	_	_	_	_	_	_	nummod	basic	22-6	
+22-6	1916-1925	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	22-3	
+22-7	1926-1927	к	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	к	_	_	_	_	_	_	_	case	basic	22-9	
+22-8	1928-1935	другому	*	*	Dat	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Dat\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	другому	_	_	_	_	_	_	_	amod	basic	22-9	
+22-9	1936-1942	потери	Inan	*	Dat	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	потери	_	_	_	_	_	_	_	nmod	basic	22-3	
+22-10	1943-1949	корней	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	корней	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	nsubj	basic	22-12	
+22-11	1950-1952	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	22-12	
+22-12	1953-1963	происходит	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	происходить	_	_	_	_	_	_	_	advcl	basic	22-17	
+22-13	1963-1964	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	22-12	
+22-14	1965-1967	то	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	то	_	_	_	_	_	_	_	mark	basic	22-17	
+22-15	1968-1974	второе	Inan	*	Acc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	второй	_	_	_	_	_	_	_	amod	basic	22-16	
+22-16	1975-1984	уравнение	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	obj	basic	22-17	
+22-17	1985-1993	называют	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	называть	_	_	_	_	_	_	_	ROOT	basic	22-17	
+22-18	1994-2004	следствием	Inan	*	Ins	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	следствие	_	_	_	_	_	_	_	xcomp	basic	22-17	
+22-19	2005-2012	первого	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	первый	_	_	_	_	_	_	_	amod	basic	22-20	
+22-20	2013-2022	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	22-18	
+22-21	2022-2023	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	22-17	
+
+#Sentence.id=23
+#Text=Иначе, если все корни первого уравнения являются корнями второго уравнения, то второе уравнение называется следствием первого уравнения.
+23-1	2024-2029	Иначе	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	иначе	_	_	_	_	_	_	_	cc	basic	23-16	
+23-2	2029-2030	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	23-1	
+23-3	2031-2035	если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	_	_	_	_	_	_	_	mark	basic	23-8	
+23-4	2036-2039	все	*	*	Nom	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Nom\|Number=Plur	*	*	DET	DET	весь	_	_	_	_	_	_	_	det	basic	23-5	
+23-5	2040-2045	корни	Inan	*	Nom	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	nsubj	basic	23-8	
+23-6	2046-2053	первого	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	первый	_	_	_	_	_	_	_	amod	basic	23-7	
+23-7	2054-2063	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	23-5	
+23-8	2064-2072	являются	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	являться	_	_	_	_	_	_	_	advcl	basic	23-16	
+23-9	2073-2080	корнями	Inan	*	Ins	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	xcomp	basic	23-8	
+23-10	2081-2088	второго	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	второй	_	_	_	_	_	_	_	amod	basic	23-11	
+23-11	2089-2098	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	23-9	
+23-12	2098-2099	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	23-8	
+23-13	2100-2102	то	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	то	_	_	_	_	_	_	_	mark	basic	23-16	
+23-14	2103-2109	второе	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	второй	_	_	_	_	_	_	_	amod	basic	23-15	
+23-15	2110-2119	уравнение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nsubj	basic	23-16	
+23-16	2120-2130	называется	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	называться	_	_	_	_	_	_	_	ROOT	basic	23-16	
+23-17	2131-2141	следствием	Inan	*	Ins	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	следствие	_	_	_	_	_	_	_	xcomp	basic	23-16	
+23-18	2142-2149	первого	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	первый	_	_	_	_	_	_	_	amod	basic	23-19	
+23-19	2150-2159	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	23-17	
+23-20	2159-2160	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	23-16	
+
+#Sentence.id=24
+#Text=Из этого определения и определения равносильности уравнений следует, что первое: если два уравнения равносильны, то каждое из них является следствием другого, второе: если каждое из двух уравнений является следствием другого, то эти уравнения равносильны.
+24-1	2161-2163	Из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	Из	_	_	_	_	_	_	_	case	basic	24-3	
+24-2	2164-2169	этого	*	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Gender=Neut\|Number=Sing	*	*	DET	DET	это	_	_	_	_	_	_	_	det	basic	24-3	
+24-3	2170-2181	определения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	определение	_	_	_	_	_	_	_	obl	basic	24-8	
+24-4	2182-2183	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	24-5	
+24-5	2184-2195	определения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	определение	_	_	_	_	_	_	_	conj	basic	24-3	
+24-6	2196-2210	равносильности	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	равносильность	_	_	_	_	_	_	_	nmod	basic	24-5	
+24-7	2211-2220	уравнений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	уравнение	_	_	_	_	_	_	_	nmod	basic	24-6	
+24-8	2221-2228	следует	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	следовать	_	_	_	_	_	_	_	ROOT	basic	24-8	
+24-9	2228-2229	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	24-11	
+24-10	2230-2233	что	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	что	_	_	_	_	_	_	_	mark	basic	24-11	
+24-11	2234-2240	первое	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	первый	_	_	_	_	_	_	_	ccomp	basic	24-8	
+24-12	2240-2241	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	24-22	
+24-13	2242-2246	если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	_	_	_	_	_	_	_	mark	basic	24-16	
+24-14	2247-2250	два	*	*	Nom	*	*	Neut	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Neut	*	*	NUM	NUM	два	_	_	_	_	_	_	_	nummod:gov	basic	24-15	
+24-15	2251-2260	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nsubj	basic	24-16	
+24-16	2261-2272	равносильны	*	*	*	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Degree=Pos\|Number=Plur\|StyleVariant=Short	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	advcl	basic	24-22	
+24-17	2272-2273	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	24-16	
+24-18	2274-2276	то	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	то	_	_	_	_	_	_	_	mark	basic	24-22	
+24-19	2277-2283	каждое	*	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Neut\|Number=Sing	*	*	DET	DET	каждый	_	_	_	_	_	_	_	nsubj	basic	24-22	
+24-20	2284-2286	из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	из	_	_	_	_	_	_	_	case	basic	24-21	
+24-21	2287-2290	них	*	*	Gen	*	*	*	*	*	*	Plur	Third	*	*	*	*	*	Case=Gen\|Number=Plur\|Person=Third	*	*	PRON	PRON	них	_	_	_	_	_	_	_	nmod	basic	24-19	
+24-22	2291-2299	является	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	являться	_	_	_	_	_	_	_	advcl	basic	24-26	
+24-23	2300-2310	следствием	Inan	*	Ins	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	следствие	_	_	_	_	_	_	_	xcomp	basic	24-22	
+24-24	2311-2318	другого	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	другого	_	_	_	_	_	_	_	nmod	basic	24-23	
+24-25	2318-2319	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	24-26	
+24-26	2320-2326	второе	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	второй	_	_	_	_	_	_	_	conj	basic	24-11	
+24-27	2326-2327	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	24-33	
+24-28	2328-2332	если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	_	_	_	_	_	_	_	mark	basic	24-33	
+24-29	2333-2339	каждое	*	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Neut\|Number=Sing	*	*	DET	DET	каждый	_	_	_	_	_	_	_	nsubj	basic	24-33	
+24-30	2340-2342	из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	из	_	_	_	_	_	_	_	case	basic	24-32	
+24-31	2343-2347	двух	*	*	Gen	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Gen	*	*	NUM	NUM	два	_	_	_	_	_	_	_	nummod	basic	24-32	
+24-32	2348-2357	уравнений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	24-29	
+24-33	2358-2366	является	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	являться	_	_	_	_	_	_	_	advcl	basic	24-40	
+24-34	2367-2377	следствием	Inan	*	Ins	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	следствие	_	_	_	_	_	_	_	xcomp	basic	24-33	
+24-35	2378-2385	другого	*	*	Gen	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	другого	_	_	_	_	_	_	_	nmod	basic	24-34	
+24-36	2385-2386	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	24-33	
+24-37	2387-2389	то	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	то	_	_	_	_	_	_	_	mark	basic	24-40	
+24-38	2390-2393	эти	*	*	Nom	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Nom\|Number=Plur	*	*	DET	DET	этот	_	_	_	_	_	_	_	det	basic	24-39	
+24-39	2394-2403	уравнения	Inan	*	Nom	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nsubj	basic	24-40	
+24-40	2404-2415	равносильны	*	*	*	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Degree=Pos\|Number=Plur\|StyleVariant=Short	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	conj	basic	24-11	
+24-41	2415-2416	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	24-8	
+
+#Sentence.id=25
+#Text=При решении уравнений главное - не потерять корни, а наличие посторонних корней можно установить проверкой, поэтому важно следить за тем, чтобы при преобразовании уравнения каждое следующее уравнение было следствием предыдущего.
+25-1	2417-2420	При	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	При	_	_	_	_	_	_	_	case	basic	25-2	
+25-2	2421-2428	решении	Inan	*	Loc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	решение	_	_	_	_	_	_	_	obl	basic	25-7	
+25-3	2429-2438	уравнений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	25-2	
+25-4	2439-2446	главное	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	главный	_	_	_	_	_	_	_	advmod	basic	25-7	
+25-5	2447-2448	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	-	_	_	_	_	_	_	_	advmod	basic	25-7	
+25-6	2449-2451	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	25-7	
+25-7	2452-2460	потерять	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	потерять	_	_	_	_	_	_	_	ROOT	basic	25-7	
+25-8	2461-2466	корни	Inan	*	Acc	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	obj	basic	25-7	
+25-9	2466-2467	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	25-14	
+25-10	2468-2469	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	_	_	_	_	_	_	_	cc	basic	25-14	
+25-11	2470-2477	наличие	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	наличие	_	_	_	_	_	_	_	nsubj	basic	25-14	
+25-12	2478-2489	посторонних	*	*	Gen	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	посторонний	_	_	_	_	_	_	_	amod	basic	25-13	
+25-13	2490-2496	корней	Inan	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	nmod	basic	25-11	
+25-14	2497-2502	можно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	можно	_	_	_	_	_	_	_	conj	basic	25-7	
+25-15	2503-2513	установить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	установить	_	_	_	_	_	_	_	csubj	basic	25-14	
+25-16	2514-2523	проверкой	Inan	*	Ins	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	проверка	_	_	_	_	_	_	_	obl	basic	25-15	
+25-17	2523-2524	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	25-19	
+25-18	2525-2532	поэтому	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	поэтому	_	_	_	_	_	_	_	advmod	basic	25-19	
+25-19	2533-2538	важно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	важный	_	_	_	_	_	_	_	conj	basic	25-7	
+25-20	2539-2546	следить	*	Imp	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Imp\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	следить	_	_	_	_	_	_	_	csubj	basic	25-19	
+25-21	2547-2549	за	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	за	_	_	_	_	_	_	_	case	basic	25-22	
+25-22	2550-2553	тем	Inan	*	Ins	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	тем	_	_	_	_	_	_	_	obl	basic	25-20	
+25-23	2553-2554	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	25-32	
+25-24	2555-2560	чтобы	*	*	*	*	*	*	Cnd	*	*	*	*	*	*	*	*	*	Mood=Cnd	*	*	SCONJ	SCONJ	чтобы	_	_	_	_	_	_	_	mark	basic	25-32	
+25-25	2561-2564	при	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	при	_	_	_	_	_	_	_	case	basic	25-26	
+25-26	2565-2579	преобразовании	Inan	*	Loc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	преобразование	_	_	_	_	_	_	_	nmod	basic	25-32	
+25-27	2580-2589	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	25-26	
+25-28	2590-2596	каждое	*	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Neut\|Number=Sing	*	*	DET	DET	каждый	_	_	_	_	_	_	_	det	basic	25-30	
+25-29	2597-2606	следующее	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	следующий	_	_	_	_	_	_	_	amod	basic	25-30	
+25-30	2607-2616	уравнение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nsubj	basic	25-32	
+25-31	2617-2621	было	*	Imp	*	*	*	Neut	Ind	*	*	Sing	*	*	*	*	Past	*	Aspect=Imp\|Gender=Neut\|Mood=Ind\|Number=Sing\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	было	_	_	_	_	_	_	_	cop	basic	25-32	
+25-32	2622-2632	следствием	Inan	*	Ins	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	следствие	_	_	_	_	_	_	_	acl	basic	25-22	
+25-33	2633-2644	предыдущего	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	предыдущий	_	_	_	_	_	_	_	nmod	basic	25-32	
+25-34	2644-2645	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	25-7	
+
+#Sentence.id=26
+#Text=Стоит отметить, что посторонние корни могут получиться при умножении обеих частей уравнения на выражение, содержащее неизвестное, а вот потеря корней может произойти при делении обеих частей уравнения на выражение, содержащее неизвестное.
+26-1	2646-2651	Стоит	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	стоить	_	_	_	_	_	_	_	ROOT	basic	26-1	
+26-2	2652-2660	отметить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	отметить	_	_	_	_	_	_	_	csubj	basic	26-1	
+26-3	2660-2661	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	26-7	
+26-4	2662-2665	что	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	что	_	_	_	_	_	_	_	mark	basic	26-7	
+26-5	2666-2677	посторонние	*	*	Nom	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	посторонний	_	_	_	_	_	_	_	amod	basic	26-6	
+26-6	2678-2683	корни	Inan	*	Nom	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	nsubj	basic	26-7	
+26-7	2684-2689	могут	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	мочь	_	_	_	_	_	_	_	ccomp	basic	26-2	
+26-8	2690-2700	получиться	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Mid	Inf	Mid	VERB	VERB	получиться	_	_	_	_	_	_	_	xcomp	basic	26-7	
+26-9	2701-2704	при	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	при	_	_	_	_	_	_	_	case	basic	26-10	
+26-10	2705-2714	умножении	Inan	*	Loc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	умножение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b49	*	_	*	obl	basic	26-8	
+26-11	2715-2720	обеих	*	*	Gen	*	*	Fem	*	*	*	*	*	*	*	*	*	*	Case=Gen\|Gender=Fem	*	*	NUM	NUM	оба	_	_	_	_	_	_	_	nummod	basic	26-12	
+26-12	2721-2727	частей	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	часть	_	_	_	_	_	_	_	nmod	basic	26-10	
+26-13	2728-2737	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	26-12	
+26-14	2738-2740	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	_	_	_	_	_	_	_	case	basic	26-15	
+26-15	2741-2750	выражение	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	выражение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51654	*	_	*	nmod	basic	26-13	
+26-16	2750-2751	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	26-17	
+26-17	2752-2762	содержащее	*	Imp	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	Pres	*	Aspect=Imp\|Case=Acc\|Gender=Neut\|Number=Sing\|Tense=Pres\|VerbForm=Part\|Voice=Act	Part	Act	PTCP\|VERB	VERB	содержащий\|содержать	_	_	_	_	_	_	_	acl	basic	26-15	
+26-18	2763-2774	неизвестное	Inan	*	Acc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	неизвестный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	xcomp	basic	26-17	
+26-19	2774-2775	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	26-24	
+26-20	2776-2777	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	_	_	_	_	_	_	_	cc	basic	26-24	
+26-21	2778-2781	вот	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	вот	_	_	_	_	_	_	_	advmod	basic	26-22	
+26-22	2782-2788	потеря	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	потеря	_	_	_	_	_	_	_	nsubj	basic	26-24	
+26-23	2789-2795	корней	Inan	*	Gen	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	nmod	basic	26-22	
+26-24	2796-2801	может	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	мочь	_	_	_	_	_	_	_	conj	basic	26-7	
+26-25	2802-2811	произойти	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	произойти	_	_	_	_	_	_	_	xcomp	basic	26-24	
+26-26	2812-2815	при	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	при	_	_	_	_	_	_	_	case	basic	26-27	
+26-27	2816-2823	делении	Inan	*	Loc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	деление	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b50	*	_	*	obl	basic	26-25	
+26-28	2824-2829	обеих	*	*	Gen	*	*	Fem	*	*	*	*	*	*	*	*	*	*	Case=Gen\|Gender=Fem	*	*	NUM	NUM	оба	_	_	_	_	_	_	_	nummod	basic	26-29	
+26-29	2830-2836	частей	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	часть	_	_	_	_	_	_	_	nmod	basic	26-27	
+26-30	2837-2846	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	26-29	
+26-31	2847-2849	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	_	_	_	_	_	_	_	case	basic	26-32	
+26-32	2850-2859	выражение	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	выражение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51654	*	_	*	nmod	basic	26-30	
+26-33	2859-2860	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	26-34	
+26-34	2861-2871	содержащее	*	Imp	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	Pres	*	Aspect=Imp\|Case=Acc\|Gender=Neut\|Number=Sing\|Tense=Pres\|VerbForm=Part\|Voice=Act	Part	Act	PTCP\|VERB	VERB	содержащий\|содержать	_	_	_	_	_	_	_	acl	basic	26-32	
+26-35	2872-2883	неизвестное	Inan	*	Acc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	неизвестный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	xcomp	basic	26-34	
+26-36	2883-2884	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	26-1	
+
+#Sentence.id=27
+#Text=Например, уравнение икс минус один равно трём имеет единственный корень - икс равно четырём.
+27-1	2885-2893	Например	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	например	_	_	_	_	_	_	_	parataxis	basic	27-9	
+27-2	2893-2894	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	27-1	
+27-3	2895-2904	уравнение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nsubj	basic	27-9	
+27-4	2905-2908	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	27-3	
+27-5	2909-2914	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	advmod	basic	27-6	
+27-6	2915-2919	один	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	один	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod	basic	27-8	
+27-7	2920-2925	равно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	равно	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	flat	basic	27-6	
+27-8	2926-2930	трём	Anim	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	трём	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nmod	basic	27-3	
+27-9	2931-2936	имеет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	иметь	_	_	_	_	_	_	_	ROOT	basic	27-9	
+27-10	2937-2949	единственный	Inan	*	Acc	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	единственный	_	_	_	_	_	_	_	amod	basic	27-11	
+27-11	2950-2956	корень	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	obj	basic	27-9	
+27-12	2957-2958	-	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	-	_	_	_	_	_	_	_	obj	basic	27-9	
+27-13	2959-2962	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	obj	basic	27-9	
+27-14	2963-2968	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	advmod	basic	27-15	
+27-15	2969-2976	четырём	Anim	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	четырём	4	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obj	basic	27-9	
+27-16	2976-2977	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	27-9	
+
+#Sentence.id=28
+#Text=Умножив обе части на икс минус два, получим икс минус два умножить на икс минус один равно три умножить на икс минус два.
+28-1	2978-2985	Умножив	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	Past	*	Aspect=Perf\|Tense=Past\|VerbForm=Conv\|Voice=Act	Conv	Act	VERB	VERB	умножить	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b49	*	_	*	ROOT	basic	28-1	
+28-2	2986-2989	обе	Inan	*	Acc	*	*	Fem	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem	*	*	NUM	NUM	оба	_	_	_	_	_	_	_	nummod:gov	basic	28-3	
+28-3	2990-2995	части	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	часть	_	_	_	_	_	_	_	obj	basic	28-1	
+28-4	2996-2998	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	_	_	_	_	_	_	_	case	basic	28-5	
+28-5	2999-3002	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	28-3	
+28-6	3003-3008	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	advmod	basic	28-7	
+28-7	3009-3012	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	28-1	
+28-8	3012-3013	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	28-9	
+28-9	3014-3021	получим	*	Perf	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Fut\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получить	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	conj	basic	28-1	
+28-10	3022-3025	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	obj	basic	28-9	
+28-11	3026-3031	минус	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	advmod	basic	28-12	
+28-12	3032-3035	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	28-13	
+28-13	3036-3044	умножить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	умножить	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b49	*	_	*	xcomp	basic	28-9	
+28-14	3045-3047	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	_	_	_	_	_	_	_	case	basic	28-15	
+28-15	3048-3051	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	obl	basic	28-13	
+28-16	3052-3057	минус	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	advmod	basic	28-17	
+28-17	3058-3062	один	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	один	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obl	basic	28-13	
+28-18	3063-3068	равно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	равно	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	fixed	basic	28-17	
+28-19	3069-3072	три	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	три	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	advmod	basic	28-20	
+28-20	3073-3081	умножить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	умножить	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b49	*	_	*	xcomp	basic	28-13	
+28-21	3082-3084	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	_	_	_	_	_	_	_	case	basic	28-22	
+28-22	3085-3088	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	obl	basic	28-20	
+28-23	3089-3094	минус	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	advmod	basic	28-24	
+28-24	3095-3098	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	28-20	
+28-25	3098-3099	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	28-1	
+
+#Sentence.id=29
+#Text=Это уравнение имеет два корня: икс равно четыре и икс равно два.
+29-1	3100-3103	Это	*	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Neut\|Number=Sing	*	*	DET	DET	это	_	_	_	_	_	_	_	det	basic	29-2	
+29-2	3104-3113	уравнение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nsubj	basic	29-3	
+29-3	3114-3119	имеет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	иметь	_	_	_	_	_	_	_	ROOT	basic	29-3	
+29-4	3120-3123	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	_	_	_	_	_	_	_	nummod:gov	basic	29-5	
+29-5	3124-3129	корня	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	obj	basic	29-3	
+29-6	3129-3130	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	29-7	
+29-7	3131-3134	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	parataxis	basic	29-5	
+29-8	3135-3140	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	fixed	basic	29-7	
+29-9	3141-3147	четыре	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	четыре	4	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	29-7	
+29-10	3148-3149	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	29-11	
+29-11	3150-3153	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	conj	basic	29-9	
+29-12	3154-3159	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	fixed	basic	29-7	
+29-13	3160-3163	два	*	*	Nom	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	29-7	
+29-14	3163-3164	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	29-3	
+
+#Sentence.id=30
+#Text=Появился посторонний корень, необходима проверка.
+30-1	3165-3173	Появился	*	Perf	*	*	*	Masc	Ind	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Gender=Masc\|Mood=Ind\|Number=Sing\|Tense=Past\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	появиться	_	_	_	_	_	_	_	ROOT	basic	30-1	
+30-2	3174-3185	посторонний	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	посторонний	_	_	_	_	_	_	_	amod	basic	30-3	
+30-3	3186-3192	корень	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	nsubj	basic	30-1	
+30-4	3192-3193	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	30-5	
+30-5	3194-3204	необходима	*	*	*	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Fem\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	необходимый	_	_	_	_	_	_	_	conj	basic	30-1	
+30-6	3205-3213	проверка	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	проверка	_	_	_	_	_	_	_	nsubj	basic	30-5	
+30-7	3213-3214	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	30-1	
+
+#Sentence.id=31
+#Text=Итак, сформулируем основные теоремы, которые используются при решении равносильных уравнений.
+31-1	3215-3219	Итак	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	итак	_	_	_	_	_	_	_	parataxis	basic	31-3	
+31-2	3219-3220	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	31-1	
+31-3	3221-3233	сформулируем	*	Imp	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	сформулируем	_	_	_	_	_	_	_	ROOT	basic	31-3	
+31-4	3234-3242	основные	Inan	*	Acc	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	основный	_	_	_	_	_	_	_	amod	basic	31-5	
+31-5	3243-3250	теоремы	Inan	*	Acc	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	теоремы	_	_	_	_	_	_	_	obj	basic	31-3	
+31-6	3250-3251	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	31-8	
+31-7	3252-3259	которые	*	*	Nom	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Nom\|Number=Plur	*	*	PRON	PRON	которые	_	_	_	_	_	_	_	nsubj:pass	basic	31-8	
+31-8	3260-3272	используются	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Pass	Fin	Pass	VERB	VERB	использоваться	_	_	_	_	_	_	_	acl:relcl	basic	31-5	
+31-9	3273-3276	при	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	при	_	_	_	_	_	_	_	case	basic	31-10	
+31-10	3277-3284	решении	Inan	*	Loc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	решение	_	_	_	_	_	_	_	obl	basic	31-8	
+31-11	3285-3297	равносильных	*	*	Gen	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	amod	basic	31-12	
+31-12	3298-3307	уравнений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	31-10	
+31-13	3307-3308	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	31-3	
+
+#Sentence.id=32
+#Text=Определение.
+32-1	3309-3320	Определение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	определение	_	_	_	_	_	_	_	ROOT	basic	32-1	
+32-2	3320-3321	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	32-1	
+
+#Sentence.id=33
+#Text=Областью определения уравнения эф от икс равно жэ от икс, или областью допустимых значений переменной, сокращённо одэзэ, называют множество тех значений переменной икс, при которых одновременно имеют смысл выражения эф от икс и жэ от икс.
+33-1	3322-3330	Областью	Inan	*	Ins	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	область	*[6]	_[6]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c44[6]	*[6]	_[6]	*	xcomp	basic	33-21	
+33-2	3331-3342	определения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	определение	*[6]	_[6]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c44[6]	*[6]	_[6]	*	nmod	basic	33-1	
+33-3	3343-3352	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	33-2	
+33-4	3353-3355	эф	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	эф	f	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	nmod	basic	33-3	
+33-5	3356-3358	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	33-6	
+33-6	3359-3362	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	33-3	
+33-7	3363-3368	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	advmod	basic	33-1	
+33-8	3369-3371	жэ	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	INTJ	INTJ	жэ	g	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	advmod	basic	33-1	
+33-9	3372-3374	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	33-10	
+33-10	3375-3378	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	33-8	
+33-11	3378-3379	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	33-13	
+33-12	3380-3383	или	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	или	_	_	_	_	_	_	_	cc	basic	33-13	
+33-13	3384-3392	областью	Inan	*	Ins	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	область	*[7]	_[7]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c44[7]	*[7]	_[7]	*	conj	basic	33-10	
+33-14	3393-3403	допустимых	*	*	Gen	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	допустимый	*[7]	_[7]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c44[7]	*[7]	_[7]	*	amod	basic	33-15	
+33-15	3404-3412	значений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	значение	*[7]	_[7]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c44[7]	*[7]	_[7]	*	nmod	basic	33-13	
+33-16	3413-3423	переменной	*	*	Gen	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	ADJ	ADJ	переменный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	33-15	
+33-17	3423-3424	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	33-19	
+33-18	3425-3435	сокращённо	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	сокращённо	_	_	_	_	_	_	_	advmod	basic	33-19	
+33-19	3436-3441	одэзэ	*	Perf	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Fut\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	одэзэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c44	*	_	*	conj	basic	33-1	
+33-20	3441-3442	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	33-1	
+33-21	3443-3451	называют	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	называть	_	_	_	_	_	_	_	ROOT	basic	33-21	
+33-22	3452-3461	множество	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	множество	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e77	*	_	*	obj	basic	33-21	
+33-23	3462-3465	тех	*	*	Gen	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Number=Plur	*	*	DET	DET	тот	_	_	_	_	_	_	_	det	basic	33-24	
+33-24	3466-3474	значений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	значение	_	_	_	_	_	_	_	nmod	basic	33-22	
+33-25	3475-3485	переменной	*	*	Gen	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	ADJ	ADJ	переменный	x[8]	_[8]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83[8]	*[8]	_[8]	*	amod	basic	33-26	
+33-26	3486-3489	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x[8]	_[8]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83[8]	*[8]	_[8]	*	nmod	basic	33-24	
+33-27	3489-3490	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	33-31	
+33-28	3491-3494	при	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	при	_	_	_	_	_	_	_	case	basic	33-29	
+33-29	3495-3502	которых	*	*	Loc	*	*	*	*	*	*	Plur	*	*	*	*	*	*	Case=Loc\|Number=Plur	*	*	PRON	PRON	которых	_	_	_	_	_	_	_	obl	basic	33-31	
+33-30	3503-3515	одновременно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	одновременно	_	_	_	_	_	_	_	advmod	basic	33-31	
+33-31	3516-3521	имеют	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	иметь	_	_	_	_	_	_	_	acl:relcl	basic	33-24	
+33-32	3522-3527	смысл	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	смысл	_	_	_	_	_	_	_	obj	basic	33-31	
+33-33	3528-3537	выражения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	выражение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51654	*	_	*	nmod	basic	33-32	
+33-34	3538-3540	эф	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADV	ADV	эф	f	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	nmod	basic	33-33	
+33-35	3541-3543	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	33-36	
+33-36	3544-3547	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	33-33	
+33-37	3548-3549	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	33-38	
+33-38	3550-3552	жэ	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	жэ	g	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	conj	basic	33-36	
+33-39	3553-3555	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	33-40	
+33-40	3556-3559	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	33-33	
+33-41	3559-3560	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	33-21	
+
+#Sentence.id=34
+#Text=Теорема первая.
+34-1	3561-3568	Теорема	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	теорема	_	_	_	_	_	_	_	nsubj	basic	34-2	
+34-2	3569-3575	первая	*	*	Nom	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	ADJ	ADJ	первый	_	_	_	_	_	_	_	ROOT	basic	34-2	
+34-3	3575-3576	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	34-2	
+
+#Sentence.id=35
+#Text=Если какой-либо член уравнения перенести из одной части уравнения в другую с противоположным знаком, то получится уравнение, равносильное данному.
+35-1	3577-3581	Если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	_	_	_	_	_	_	_	mark	basic	35-5	
+35-2	3582-3587	какой	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	DET	DET	какой	_	_	_	_	_	_	_	det	basic	35-5	
+35-3	3587-3588	-	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	DET	DET	-	_	_	_	_	_	_	_	det	basic	35-5	
+35-4	3588-3592	либо	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	DET	DET	либо	_	_	_	_	_	_	_	det	basic	35-5	
+35-5	3593-3597	член	Anim	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	член	_	_	_	_	_	_	_	advcl	basic	35-19	
+35-6	3598-3607	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	35-5	
+35-7	3608-3617	перенести	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	перенести	_	_	_	_	_	_	_	nmod	basic	35-6	
+35-8	3618-3620	из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	из	_	_	_	_	_	_	_	case	basic	35-10	
+35-9	3621-3626	одной	*	*	Gen	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	NUM	NUM	одной	_	_	_	_	_	_	_	nummod	basic	35-10	
+35-10	3627-3632	части	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	часть	_	_	_	_	_	_	_	obl	basic	35-7	
+35-11	3633-3642	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	35-10	
+35-12	3643-3644	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	_	_	_	_	_	_	_	case	basic	35-13	
+35-13	3645-3651	другую	*	*	Acc	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Acc\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	ADJ	ADJ	другую	_	_	_	_	_	_	_	obl	basic	35-7	
+35-14	3652-3653	с	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	с	_	_	_	_	_	_	_	case	basic	35-16	
+35-15	3654-3669	противоположным	*	*	Ins	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	противоположный	_	_	_	_	_	_	_	amod	basic	35-16	
+35-16	3670-3676	знаком	Inan	*	Ins	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	знак	_	_	_	_	_	_	_	obl	basic	35-13	
+35-17	3676-3677	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	35-5	
+35-18	3678-3680	то	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	то	_	_	_	_	_	_	_	mark	basic	35-19	
+35-19	3681-3690	получится	*	Perf	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Fut\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	получиться	_	_	_	_	_	_	_	ROOT	basic	35-19	
+35-20	3691-3700	уравнение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nsubj	basic	35-19	
+35-21	3700-3701	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	35-22	
+35-22	3702-3714	равносильное	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	acl	basic	35-20	
+35-23	3715-3722	данному	*	*	Dat	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Dat\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	данному	_	_	_	_	_	_	_	iobj	basic	35-22	
+35-24	3722-3723	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	35-19	
+
+#Sentence.id=36
+#Text=Теорема вторая.
+36-1	3724-3731	Теорема	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	теорема	_	_	_	_	_	_	_	nsubj	basic	36-2	
+36-2	3732-3738	вторая	*	*	Nom	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	ADJ	ADJ	второй	_	_	_	_	_	_	_	ROOT	basic	36-2	
+36-3	3738-3739	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	36-2	
+
+#Sentence.id=37
+#Text=Если обе части уравнения возвести в одну и ту же нечетную степень, то получится уравнение, равносильное данному.
+37-1	3740-3744	Если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	_	_	_	_	_	_	_	mark	basic	37-5	
+37-2	3745-3748	обе	*	*	Nom	*	*	Fem	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Fem	*	*	NUM	NUM	оба	_	_	_	_	_	_	_	nummod:gov	basic	37-3	
+37-3	3749-3754	части	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	часть	_	_	_	_	_	_	_	nsubj	basic	37-5	
+37-4	3755-3764	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	37-3	
+37-5	3765-3773	возвести	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	возвести	*[9]	_[9]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b51[9]	*[9]	_[9]	*	advcl	basic	37-15	
+37-6	3774-3775	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	*[9]	_[9]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b51[9]	*[9]	_[9]	*	case	basic	37-12	
+37-7	3776-3780	одну	*	*	Acc	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Acc\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	DET	DET	один	_	_	_	_	_	_	_	amod	basic	37-12	
+37-8	3781-3782	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	37-9	
+37-9	3783-3785	ту	*	*	Acc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Acc\|Gender=Fem\|Number=Sing	*	*	DET	DET	тот	_	_	_	_	_	_	_	det	basic	37-7	
+37-10	3786-3788	же	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	же	_	_	_	_	_	_	_	advmod	basic	37-9	
+37-11	3789-3797	нечетную	*	*	Acc	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Acc\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	ADJ	ADJ	нечётный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172716	*	_	*	amod	basic	37-12	
+37-12	3798-3805	степень	Inan	*	Acc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	степень	_	_	_	_	_	_	_	obl	basic	37-5	
+37-13	3805-3806	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	37-5	
+37-14	3807-3809	то	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	то	_	_	_	_	_	_	_	mark	basic	37-15	
+37-15	3810-3819	получится	*	Perf	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Fut\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	получиться	_	_	_	_	_	_	_	ROOT	basic	37-15	
+37-16	3820-3829	уравнение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nsubj	basic	37-15	
+37-17	3829-3830	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	37-18	
+37-18	3831-3843	равносильное	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	acl	basic	37-16	
+37-19	3844-3851	данному	*	*	Dat	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Dat\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	данному	_	_	_	_	_	_	_	iobj	basic	37-18	
+37-20	3851-3852	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	37-15	
+
+#Sentence.id=38
+#Text=Теорема третья.
+38-1	3853-3860	Теорема	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	теорема	_	_	_	_	_	_	_	ROOT	basic	38-1	
+38-2	3861-3867	третья	*	*	Nom	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	ADJ	ADJ	третий	_	_	_	_	_	_	_	amod	basic	38-1	
+38-3	3867-3868	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	38-1	
+
+#Sentence.id=39
+#Text=Показательное уравнение а в степени эф от икс равняется а в степени жэ от икс, где а больше нуля и не равно единице, равносильно уравнению эф от икс равно жэ от икс.
+39-1	3869-3882	Показательное	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	показательный	_	_	_	_	_	_	_	amod	basic	39-2	
+39-2	3883-3892	уравнение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nsubj	basic	39-9	
+39-3	3893-3894	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	a	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	39-2	
+39-4	3895-3896	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b51	*	_	*	case	basic	39-5	
+39-5	3897-3904	степени	Inan	*	Loc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	степень	_	_	_	_	_	_	_	obl	basic	39-6	
+39-6	3905-3907	эф	Anim	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	эф	f	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	fixed	basic	39-3	
+39-7	3908-3910	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	39-8	
+39-8	3911-3914	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	39-6	
+39-9	3915-3924	равняется	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	равняться	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	ROOT	basic	39-9	
+39-10	3925-3926	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	a	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	advmod	basic	39-12	
+39-11	3927-3928	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b51	*	_	*	case	basic	39-12	
+39-12	3929-3936	степени	Inan	*	Loc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	степень	_	_	_	_	_	_	_	obl	basic	39-9	
+39-13	3937-3939	жэ	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	жэ	g	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	nmod	basic	39-12	
+39-14	3940-3942	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	39-15	
+39-15	3943-3946	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	39-12	
+39-16	3946-3947	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	39-20	
+39-17	3948-3951	где	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	где	_	_	_	_	_	_	_	advmod	basic	39-20	
+39-18	3952-3953	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	a	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	cc	basic	39-19	
+39-19	3954-3960	больше	*	*	*	*	Cmp	*	*	*	*	*	*	*	*	*	*	*	Degree=Cmp	*	*	NUM	NUM	больше	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b42	*	_	*	nummod:gov	basic	39-20	
+39-20	3961-3965	нуля	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	нуль	0	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	acl:relcl	basic	39-15	
+39-21	3966-3967	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	39-23	
+39-22	3968-3970	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	*[10]	_[10]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b41[10]	*[10]	_[10]	*	advmod	basic	39-23	
+39-23	3971-3976	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*[10]	_[10]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b41[10]	*[10]	_[10]	*	conj	basic	39-20	
+39-24	3977-3984	единице	Anim	*	Dat	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Dat\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	единица	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	iobj	basic	39-20	
+39-25	3984-3985	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	39-26	
+39-26	3986-3997	равносильно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	parataxis	basic	39-9	
+39-27	3998-4007	уравнению	Inan	*	Dat	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	iobj	basic	39-26	
+39-28	4008-4010	эф	Anim	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	эф	f	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	nmod	basic	39-27	
+39-29	4011-4013	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	39-30	
+39-30	4014-4017	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	39-27	
+39-31	4018-4023	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	obl	basic	39-26	
+39-32	4024-4026	жэ	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	INTJ	INTJ	жэ	g	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	advmod	basic	39-26	
+39-33	4027-4029	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	39-34	
+39-34	4030-4033	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	obl	basic	39-26	
+39-35	4033-4034	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	39-9	
+
+#Sentence.id=40
+#Text=Теорема четвёртая.
+40-1	4035-4042	Теорема	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	теорема	_	_	_	_	_	_	_	nsubj	basic	40-2	
+40-2	4043-4052	четвёртая	*	*	Nom	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	ADJ	ADJ	четвёртый	_	_	_	_	_	_	_	ROOT	basic	40-2	
+40-3	4052-4053	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	40-2	
+
+#Sentence.id=41
+#Text=Если обе части уравнения эф от икс равно жэ от икс умножить на одно и то же выражение аш от икс, которое а) имеет смысл всюду в области определения, в области допустимых значений, уравнения эф от икс равно жэ от икс, бэ) в этой области не обращается в ноль, то получится уравнение эф от икс, умноженное на аш от икс, равняется жэ от икс, умноженное на аш от икс, равносильное данному в его одэзэ.
+41-1	4054-4058	Если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	_	_	_	_	_	_	_	mark	basic	41-12	
+41-2	4059-4062	обе	*	*	Nom	*	*	Fem	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Fem	*	*	NUM	NUM	оба	_	_	_	_	_	_	_	nummod:gov	basic	41-3	
+41-3	4063-4068	части	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	часть	_	_	_	_	_	_	_	nsubj	basic	41-12	
+41-4	4069-4078	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	41-3	
+41-5	4079-4081	эф	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADV	ADV	эф	f	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	case	basic	41-3	
+41-6	4082-4084	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	41-7	
+41-7	4085-4088	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	obl	basic	41-5	
+41-8	4089-4094	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	fixed	basic	41-5	
+41-9	4095-4097	жэ	Anim	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	жэ	g	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	nmod	basic	41-3	
+41-10	4098-4100	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	41-11	
+41-11	4101-4104	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	obl	basic	41-12	
+41-12	4105-4113	умножить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	умножить	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b49	*	_	*	advcl	basic	41-26	
+41-13	4114-4116	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	_	_	_	_	_	_	_	case	basic	41-18	
+41-14	4117-4121	одно	Inan	*	Acc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	DET	DET	один	_	_	_	_	_	_	_	amod	basic	41-18	
+41-15	4122-4123	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	41-16	
+41-16	4124-4126	то	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	DET	DET	тот	_	_	_	_	_	_	_	det	basic	41-14	
+41-17	4127-4129	же	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	же	_	_	_	_	_	_	_	advmod	basic	41-16	
+41-18	4130-4139	выражение	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	выражение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51654	*	_	*	obl	basic	41-12	
+41-19	4140-4142	аш	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	аш	h	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	appos	basic	41-18	
+41-20	4143-4145	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	41-21	
+41-21	4146-4149	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	41-18	
+41-22	4149-4150	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	41-24	
+41-23	4151-4158	которое	*	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	которое	_	_	_	_	_	_	_	nsubj	basic	41-24	
+41-24	4159-4160	а	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	а	_	_	_	_	_	_	_	acl:relcl	basic	41-18	
+41-25	4160-4161	)	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	)	_	_	_	_	_	_	_	punct	basic	41-24	
+41-26	4162-4167	имеет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	иметь	_	_	_	_	_	_	_	ROOT	basic	41-26	
+41-27	4168-4173	смысл	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	смысл	_	_	_	_	_	_	_	obj	basic	41-26	
+41-28	4174-4179	всюду	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	всюду	_	_	_	_	_	_	_	advmod	basic	41-26	
+41-29	4180-4181	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	_	_	_	_	_	_	_	case	basic	41-30	
+41-30	4182-4189	области	Inan	*	Loc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	область	*[11]	_[11]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c44[11]	*[11]	_[11]	*	obl	basic	41-28	
+41-31	4190-4201	определения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	определение	*[11]	_[11]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c44[11]	*[11]	_[11]	*	nmod	basic	41-30	
+41-32	4201-4202	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	41-34	
+41-33	4203-4204	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	_	_	_	_	_	_	_	case	basic	41-34	
+41-34	4205-4212	области	Inan	*	Loc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	область	*[12]	_[12]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c44[12]	*[12]	_[12]	*	conj	basic	41-30	
+41-35	4213-4223	допустимых	*	*	Gen	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	допустимый	*[12]	_[12]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c44[12]	*[12]	_[12]	*	amod	basic	41-36	
+41-36	4224-4232	значений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	значение	*[12]	_[12]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c44[12]	*[12]	_[12]	*	nmod	basic	41-34	
+41-37	4232-4233	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	41-38	
+41-38	4234-4243	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	conj	basic	41-30	
+41-39	4244-4246	эф	Anim	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	эф	f	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	nmod	basic	41-38	
+41-40	4247-4249	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	41-41	
+41-41	4250-4253	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	41-38	
+41-42	4254-4259	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	fixed	basic	41-28	
+41-43	4260-4262	жэ	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	INTJ	INTJ	жэ	g	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	obl	basic	41-28	
+41-44	4263-4265	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	41-45	
+41-45	4266-4269	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	obl	basic	41-26	
+41-46	4269-4270	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	41-47	
+41-47	4271-4273	бэ	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	бэ	_	_	_	_	_	_	_	conj	basic	41-45	
+41-48	4273-4274	)	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	)	_	_	_	_	_	_	_	punct	basic	41-26	
+41-49	4275-4276	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	_	_	_	_	_	_	_	case	basic	41-51	
+41-50	4277-4281	этой	*	*	Loc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Loc\|Gender=Fem\|Number=Sing	*	*	DET	DET	этот	_	_	_	_	_	_	_	det	basic	41-51	
+41-51	4282-4289	области	Inan	*	Loc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	область	_	_	_	_	_	_	_	obl	basic	41-53	
+41-52	4290-4292	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	41-53	
+41-53	4293-4303	обращается	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	обращаться	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	conj	basic	41-26	
+41-54	4304-4305	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	_	_	_	_	_	_	_	case	basic	41-55	
+41-55	4306-4310	ноль	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	ноль	0	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obl	basic	41-53	
+41-56	4310-4311	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	41-58	
+41-57	4312-4314	то	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	то	_	_	_	_	_	_	_	mark	basic	41-58	
+41-58	4315-4324	получится	*	Perf	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Fut\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	получиться	_	_	_	_	_	_	_	parataxis	basic	41-26	
+41-59	4325-4334	уравнение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nsubj	basic	41-58	
+41-60	4335-4337	эф	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	эф	f	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	nmod	basic	41-59	
+41-61	4338-4340	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	41-62	
+41-62	4341-4344	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	41-59	
+41-63	4344-4345	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	41-64	
+41-64	4346-4356	умноженное	*	Perf	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Case=Acc\|Gender=Neut\|Number=Sing\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	PTCP\|VERB	VERB	умноженный\|умножить	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b49	*	_	*	acl	basic	41-59	
+41-65	4357-4359	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	_	_	_	_	_	_	_	case	basic	41-66	
+41-66	4360-4362	аш	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	аш	h	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	obl	basic	41-64	
+41-67	4363-4365	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	41-68	
+41-68	4366-4369	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	41-66	
+41-69	4369-4370	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	41-64	
+41-70	4371-4380	равняется	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	равняться	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	conj	basic	41-26	
+41-71	4381-4383	жэ	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	жэ	g	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	nsubj	basic	41-70	
+41-72	4384-4386	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	41-73	
+41-73	4387-4390	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	41-71	
+41-74	4390-4391	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	41-75	
+41-75	4392-4402	умноженное	*	Perf	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Case=Nom\|Gender=Neut\|Number=Sing\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	PTCP\|VERB	VERB	умноженный\|умножить	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b49	*	_	*	acl	basic	41-71	
+41-76	4403-4405	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	_	_	_	_	_	_	_	case	basic	41-77	
+41-77	4406-4408	аш	Inan	*	Loc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	аш	h	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	obl	basic	41-75	
+41-78	4409-4411	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	41-79	
+41-79	4412-4415	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	41-77	
+41-80	4415-4416	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	41-81	
+41-81	4417-4429	равносильное	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	acl	basic	41-70	
+41-82	4430-4437	данному	*	*	Dat	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Dat\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	данному	_	_	_	_	_	_	_	iobj	basic	41-81	
+41-83	4438-4439	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	_	_	_	_	_	_	_	case	basic	41-85	
+41-84	4440-4443	его	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	DET	DET	он	_	_	_	_	_	_	_	det	basic	41-85	
+41-85	4444-4449	одэзэ	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	одэзэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c44	*	_	*	obl	basic	41-81	
+41-86	4449-4450	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	41-26	
+
+#Sentence.id=42
+#Text=Следствие теоремы четыре.
+42-1	4451-4460	Следствие	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	следствие	_	_	_	_	_	_	_	ROOT	basic	42-1	
+42-2	4461-4468	теоремы	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	теорема	_	_	_	_	_	_	_	nmod	basic	42-1	
+42-3	4469-4475	четыре	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	четыре	_	_	_	_	_	_	_	amod	basic	42-2	
+42-4	4475-4476	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	42-1	
+
+#Sentence.id=43
+#Text=Если обе части уравнения умножить или разделить на одно и то же отличное от нуля число, то получится уравнение, равносильное данному.
+43-1	4477-4481	Если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	_	_	_	_	_	_	_	mark	basic	43-5	
+43-2	4482-4485	обе	*	*	Nom	*	*	Fem	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Fem	*	*	NUM	NUM	оба	_	_	_	_	_	_	_	nummod:gov	basic	43-3	
+43-3	4486-4491	части	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	часть	_	_	_	_	_	_	_	nsubj	basic	43-5	
+43-4	4492-4501	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	43-3	
+43-5	4502-4510	умножить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	умножить	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b49	*	_	*	advcl	basic	43-19	
+43-6	4511-4514	или	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	или	_	_	_	_	_	_	_	cc	basic	43-7	
+43-7	4515-4524	разделить	*	Perf	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Aspect=Perf\|VerbForm=Inf\|Voice=Act	Inf	Act	VERB	VERB	разделить	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b50	*	_	*	conj	basic	43-5	
+43-8	4525-4527	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	_	_	_	_	_	_	_	case	basic	43-9	
+43-9	4528-4532	одно	Inan	*	Acc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	DET	DET	один	_	_	_	_	_	_	_	obl	basic	43-7	
+43-10	4533-4534	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	43-11	
+43-11	4535-4537	то	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	DET	DET	тот	_	_	_	_	_	_	_	det	basic	43-9	
+43-12	4538-4540	же	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	же	_	_	_	_	_	_	_	advmod	basic	43-11	
+43-13	4541-4549	отличное	*	Perf	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Case=Nom\|Gender=Neut\|Number=Sing\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	VERB	VERB	отличное	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b41	*	_	*	acl	basic	43-16	
+43-14	4550-4552	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	43-15	
+43-15	4553-4557	нуля	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	нуль	0	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obl	basic	43-13	
+43-16	4558-4563	число	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	число	_	_	_	_	_	_	_	obj	basic	43-5	
+43-17	4563-4564	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	43-5	
+43-18	4565-4567	то	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	то	_	_	_	_	_	_	_	mark	basic	43-19	
+43-19	4568-4577	получится	*	Perf	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Fut\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	получиться	_	_	_	_	_	_	_	ROOT	basic	43-19	
+43-20	4578-4587	уравнение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nsubj	basic	43-19	
+43-21	4587-4588	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	43-22	
+43-22	4589-4601	равносильное	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	acl	basic	43-20	
+43-23	4602-4609	данному	*	*	Dat	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Dat\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	данному	_	_	_	_	_	_	_	iobj	basic	43-22	
+43-24	4609-4610	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	43-19	
+
+#Sentence.id=44
+#Text=Теорема пять.
+44-1	4611-4618	Теорема	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	теорема	_	_	_	_	_	_	_	nsubj	basic	44-2	
+44-2	4619-4623	пять	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	пять	_	_	_	_	_	_	_	ROOT	basic	44-2	
+44-3	4623-4624	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	44-2	
+
+#Sentence.id=45
+#Text=Если обе части уравнения эф от икс равно жэ от икс неотрицательны в одзэ уравнения, то после возведения обеих его частей в одну и ту же чётную степень эн получится уравнение эф от икс в степени эн равняется жэ от икс в степени эн, равносильное данному а его одэзэ.
+45-1	4625-4629	Если	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	если	_	_	_	_	_	_	_	mark	basic	45-12	
+45-2	4630-4633	обе	*	*	Nom	*	*	Fem	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Fem	*	*	NUM	NUM	оба	_	_	_	_	_	_	_	nummod:gov	basic	45-3	
+45-3	4634-4639	части	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	часть	_	_	_	_	_	_	_	nsubj	basic	45-12	
+45-4	4640-4649	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	45-3	
+45-5	4650-4652	эф	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADV	ADV	эф	f	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	case	basic	45-3	
+45-6	4653-4655	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	45-7	
+45-7	4656-4659	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	obl	basic	45-5	
+45-8	4660-4665	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	fixed	basic	45-5	
+45-9	4666-4668	жэ	Anim	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Anim\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	жэ	g	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	advmod	basic	45-12	
+45-10	4669-4671	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	45-11	
+45-11	4672-4675	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	45-9	
+45-12	4676-4690	неотрицательны	*	*	*	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Degree=Pos\|Number=Plur\|StyleVariant=Short	*	*	ADJ	ADJ	неотрицательный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e41	*	_	*	advcl	basic	45-31	
+45-13	4691-4692	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	_	_	_	_	_	_	_	case	basic	45-14	
+45-14	4693-4697	одзэ	Inan	*	Loc	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	одзэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c44	*	_	*	obl	basic	45-12	
+45-15	4698-4707	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	45-14	
+45-16	4707-4708	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	45-12	
+45-17	4709-4711	то	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	то	_	_	_	_	_	_	_	mark	basic	45-31	
+45-18	4712-4717	после	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	после	_	_	_	_	_	_	_	case	basic	45-19	
+45-19	4718-4728	возведения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	возведение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b51	*	_	*	obl	basic	45-31	
+45-20	4729-4734	обеих	*	*	Gen	*	*	Fem	*	*	*	*	*	*	*	*	*	*	Case=Gen\|Gender=Fem	*	*	NUM	NUM	оба	_	_	_	_	_	_	_	nummod	basic	45-22	
+45-21	4735-4738	его	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	DET	DET	он	_	_	_	_	_	_	_	det	basic	45-22	
+45-22	4739-4745	частей	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	часть	_	_	_	_	_	_	_	nmod	basic	45-19	
+45-23	4746-4747	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b51	*	_	*	case	basic	45-29	
+45-24	4748-4752	одну	*	*	Acc	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Acc\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	DET	DET	один	_	_	_	_	_	_	_	amod	basic	45-29	
+45-25	4753-4754	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	45-26	
+45-26	4755-4757	ту	*	*	Acc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Acc\|Gender=Fem\|Number=Sing	*	*	DET	DET	тот	_	_	_	_	_	_	_	det	basic	45-24	
+45-27	4758-4760	же	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	же	_	_	_	_	_	_	_	advmod	basic	45-26	
+45-28	4761-4767	чётную	*	*	Acc	*	Pos	Fem	*	*	*	Sing	*	*	*	*	*	*	Case=Acc\|Degree=Pos\|Gender=Fem\|Number=Sing	*	*	ADJ	ADJ	чётный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172715	*	_	*	amod	basic	45-29	
+45-29	4768-4775	степень	Inan	*	Acc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	степень	_	_	_	_	_	_	_	nmod	basic	45-19	
+45-30	4776-4778	эн	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	эн	n	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	45-29	
+45-31	4779-4788	получится	*	Perf	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Fut\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	получиться	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	ROOT	basic	45-31	
+45-32	4789-4798	уравнение	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nsubj	basic	45-31	
+45-33	4799-4801	эф	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	эф	f	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	nmod	basic	45-32	
+45-34	4802-4804	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	45-35	
+45-35	4805-4808	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	45-32	
+45-36	4809-4810	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	*[13]	_[13]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b51[13]	*[13]	_[13]	*	case	basic	45-37	
+45-37	4811-4818	степени	Inan	*	Loc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	степень	*[13]	_[13]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b51[13]	*[13]	_[13]	*	obl	basic	45-39	
+45-38	4819-4821	эн	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	эн	n	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	45-37	
+45-39	4822-4831	равняется	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	равняться	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	conj	basic	45-31	
+45-40	4832-4834	жэ	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	жэ	g	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35	*	_	*	iobj	basic	45-39	
+45-41	4835-4837	от	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	от	_	_	_	_	_	_	_	case	basic	45-42	
+45-42	4838-4841	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	45-40	
+45-43	4842-4843	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	*[14]	_[14]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b51[14]	*[14]	_[14]	*	case	basic	45-44	
+45-44	4844-4851	степени	Inan	*	Loc	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	степень	*[14]	_[14]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b51[14]	*[14]	_[14]	*	obl	basic	45-39	
+45-45	4852-4854	эн	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	эн	n	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	45-44	
+45-46	4854-4855	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	45-47	
+45-47	4856-4868	равносильное	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	acl	basic	45-44	
+45-48	4869-4876	данному	*	*	Dat	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Dat\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	данному	_	_	_	_	_	_	_	amod	basic	45-51	
+45-49	4877-4878	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	_	_	_	_	_	_	_	cc	basic	45-51	
+45-50	4879-4882	его	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	DET	DET	он	_	_	_	_	_	_	_	det	basic	45-51	
+45-51	4883-4888	одэзэ	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	одэзэ	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c44	*	_	*	iobj	basic	45-47	
+45-52	4888-4889	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	45-31	
+
+#Sentence.id=46
+#Text=Рассмотрим пример.
+46-1	4890-4900	Рассмотрим	*	Perf	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Fut\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	рассмотреть	_	_	_	_	_	_	_	ROOT	basic	46-1	
+46-2	4901-4907	пример	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	пример	_	_	_	_	_	_	_	obj	basic	46-1	
+46-3	4907-4908	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	46-1	
+
+#Sentence.id=47
+#Text=Решим уравнение квадратный корень из икс равен икс минус два.
+47-1	4909-4914	Решим	*	Perf	Dat	*	*	*	*	*	*	Plur	*	*	*	*	Past	*	Aspect=Perf\|Case=Dat\|Number=Plur\|Tense=Past\|VerbForm=Part\|Voice=Act	Part	Act	PTCP\|VERB	VERB	решивший\|решить	_	_	_	_	_	_	_	xcomp	basic	47-7	
+47-2	4915-4924	уравнение	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	obj	basic	47-1	
+47-3	4925-4935	квадратный	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	квадратный	*[15]	_[15]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9271[15]	*[15]	_[15]	*	amod	basic	47-4	
+47-4	4936-4942	корень	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	корень	*[15]	_[15]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9271[15]	*[15]	_[15]	*	obj	basic	47-1	
+47-5	4943-4945	из	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	из	_	_	_	_	_	_	_	case	basic	47-6	
+47-6	4946-4949	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	47-4	
+47-7	4950-4955	равен	*	*	*	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Masc\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	ROOT	basic	47-7	
+47-8	4956-4959	икс	Inan	*	Dat	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Masc\|Number=Sing	*	*	PROPN	PROPN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	iobj	basic	47-7	
+47-9	4960-4965	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	case	basic	47-10	
+47-10	4966-4969	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nsubj	basic	47-7	
+47-11	4969-4970	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	47-7	
+
+#Sentence.id=48
+#Text=Возведём в квадрат обе части уравнения, получим икс равно квадрат выражения икс минус два, которое не будет равносильно исходному уравнению, потому что у этого уравнения два корня: икс один равно один, икс два равно четыре, а у первоначального уравнения только один корень: икс равно четыре.
+48-1	4971-4979	Возведём	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	возведём	*[16]	_[16]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b51[16]	*[16]	_[16]	*	ROOT	basic	48-1	
+48-2	4980-4981	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	*[16]	_[16]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b51[16]	*[16]	_[16]	*	case	basic	48-3	
+48-3	4982-4989	квадрат	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	квадрат	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#08daba7ec97f44f58065397fbcbf525353	*	_	*	nmod	basic	48-1	
+48-4	4990-4993	обе	Inan	*	Acc	*	*	Fem	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Fem	*	*	NUM	NUM	оба	_	_	_	_	_	_	_	nummod:gov	basic	48-5	
+48-5	4994-4999	части	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	часть	_	_	_	_	_	_	_	nsubj	basic	48-1	
+48-6	5000-5009	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	48-5	
+48-7	5009-5010	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	48-8	
+48-8	5011-5018	получим	*	Perf	*	*	*	*	Ind	*	*	Plur	First	*	*	*	Fut	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Person=First\|Tense=Fut\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	получить	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	acl	basic	48-5	
+48-9	5019-5022	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	obj	basic	48-8	
+48-10	5023-5028	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	advmod	basic	48-8	
+48-11	5029-5036	квадрат	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	квадрат	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#08daba7ec97f44f58065397fbcbf525353	*	_	*	obj	basic	48-8	
+48-12	5037-5046	выражения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	выражение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51654	*	_	*	nmod	basic	48-11	
+48-13	5047-5050	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	48-12	
+48-14	5051-5056	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	case	basic	48-15	
+48-15	5057-5060	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	48-1	
+48-16	5060-5061	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	48-20	
+48-17	5062-5069	которое	*	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Neut\|Number=Sing	*	*	PRON	PRON	которое	_	_	_	_	_	_	_	nsubj	basic	48-20	
+48-18	5070-5072	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	48-20	
+48-19	5073-5078	будет	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	AUX	AUX	быть	_	_	_	_	_	_	_	cop	basic	48-20	
+48-20	5079-5090	равносильно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	acl:relcl	basic	48-15	
+48-21	5091-5100	исходному	*	*	Dat	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Dat\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	исходный	_	_	_	_	_	_	_	amod	basic	48-22	
+48-22	5101-5110	уравнению	Inan	*	Dat	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Dat\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	iobj	basic	48-20	
+48-23	5110-5111	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	48-28	
+48-24	5112-5118	потому	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	потому	_	_	_	_	_	_	_	mark	basic	48-28	
+48-25	5119-5122	что	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	что	_	_	_	_	_	_	_	fixed	basic	48-24	
+48-26	5123-5124	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	_	_	_	_	_	_	_	case	basic	48-28	
+48-27	5125-5130	этого	*	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Gender=Neut\|Number=Sing	*	*	DET	DET	это	_	_	_	_	_	_	_	det	basic	48-28	
+48-28	5131-5140	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	advcl	basic	48-1	
+48-29	5141-5144	два	*	*	Nom	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Case=Nom\|Gender=Masc	*	*	NUM	NUM	два	_	_	_	_	_	_	_	nummod:gov	basic	48-30	
+48-30	5145-5150	корня	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	nsubj	basic	48-28	
+48-31	5150-5151	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	48-33	
+48-32	5152-5155	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x1[17]	_[17]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83[17]	*[17]	_[17]	*	nsubj	basic	48-33	
+48-33	5156-5160	один	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	один	x1[17]|1[18]	_[17]|_[18]	*|*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83[17]|http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9e7c5a4ce7a243ca8897ac2d59c6032743[18]	*[17]|*[18]	_[17]|_[18]	*|*	obl	basic	48-35	
+48-34	5161-5166	равно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	равно	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	fixed	basic	48-33	
+48-35	5167-5171	один	*	*	Nom	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	DET	DET	один	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod	basic	48-30	
+48-36	5171-5172	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	48-37	
+48-37	5173-5176	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x2[19]	_[19]	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83[19]	*[19]	_[19]	*	nsubj	basic	48-40	
+48-38	5177-5180	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	x2[19]|2[20]	_[19]|_[20]	*|*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83[19]|http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9e7c5a4ce7a243ca8897ac2d59c6032743[20]	*[19]|*[20]	_[19]|_[20]	*|*	nummod:gov	basic	48-40	
+48-39	5181-5186	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	fixed	basic	48-38	
+48-40	5187-5193	четыре	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	четыре	4	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	48-30	
+48-41	5193-5194	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	48-45	
+48-42	5195-5196	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	_	_	_	_	_	_	_	cc	basic	48-45	
+48-43	5197-5198	у	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	у	_	_	_	_	_	_	_	case	basic	48-45	
+48-44	5199-5214	первоначального	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	первоначальный	_	_	_	_	_	_	_	amod	basic	48-45	
+48-45	5215-5224	уравнения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	conj	basic	48-30	
+48-46	5225-5231	только	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	только	_	_	_	_	_	_	_	advmod	basic	48-47	
+48-47	5232-5236	один	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	один	_	_	_	_	_	_	_	nummod	basic	48-48	
+48-48	5237-5243	корень	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	корень	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	nsubj	basic	48-45	
+48-49	5243-5244	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	:	_	_	_	_	_	_	_	punct	basic	48-50	
+48-50	5245-5248	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nsubj	basic	48-52	
+48-51	5249-5254	равно	*	*	*	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Degree=Pos\|Gender=Neut\|Number=Sing\|StyleVariant=Short	*	*	ADJ	ADJ	равный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40	*	_	*	advmod	basic	48-52	
+48-52	5255-5261	четыре	*	*	Nom	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Nom	*	*	NUM	NUM	четыре	4	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	48-48	
+48-53	5261-5262	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	48-1	
+
+#Sentence.id=49
+#Text=Равносильность неравенств с неизвестным определяется аналогично.
+49-1	5263-5277	Равносильность	Inan	*	Nom	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	равносильность	_	_	_	_	_	_	_	nsubj:pass	basic	49-5	
+49-2	5278-5288	неравенств	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	неравенство	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51658	*	_	*	nmod	basic	49-1	
+49-3	5289-5290	с	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	с	_	_	_	_	_	_	_	case	basic	49-4	
+49-4	5291-5302	неизвестным	*	*	Ins	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Ins\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	неизвестный	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	49-2	
+49-5	5303-5315	определяется	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Pass	Fin	Pass	VERB	VERB	определяться	_	_	_	_	_	_	_	ROOT	basic	49-5	
+49-6	5316-5326	аналогично	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	аналогично	_	_	_	_	_	_	_	advmod	basic	49-5	
+49-7	5326-5327	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	49-5	
+
+#Sentence.id=50
+#Text=Неравенства, имеющие одно и то же множество решений, называют равносильными.
+50-1	5328-5339	Неравенства	Inan	*	Nom	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	неравенство	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51658	*	_	*	obj	basic	50-11	
+50-2	5339-5340	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	50-3	
+50-3	5341-5348	имеющие	*	Imp	Nom	*	*	*	*	*	*	Plur	*	*	*	*	Pres	*	Aspect=Imp\|Case=Nom\|Number=Plur\|Tense=Pres\|VerbForm=Part\|Voice=Act	Part	Act	PTCP\|VERB	VERB	имеющий\|иметь	_	_	_	_	_	_	_	acl	basic	50-1	
+50-4	5349-5353	одно	Inan	*	Acc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	DET	DET	один	_	_	_	_	_	_	_	amod	basic	50-8	
+50-5	5354-5355	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	50-6	
+50-6	5356-5358	то	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	DET	DET	тот	_	_	_	_	_	_	_	det	basic	50-4	
+50-7	5359-5361	же	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	же	_	_	_	_	_	_	_	advmod	basic	50-6	
+50-8	5362-5371	множество	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	множество	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e77	*	_	*	obj	basic	50-3	
+50-9	5372-5379	решений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	решение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	nmod	basic	50-8	
+50-10	5379-5380	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	50-3	
+50-11	5381-5389	называют	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	называть	_	_	_	_	_	_	_	ROOT	basic	50-11	
+50-12	5390-5403	равносильными	*	*	Ins	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Ins\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	xcomp	basic	50-11	
+50-13	5403-5404	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	50-11	
+
+#Sentence.id=51
+#Text=Неравенства, не имеющие решений, также являются равносильными.
+51-1	5405-5416	Неравенства	Inan	*	Nom	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	неравенство	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51658	*	_	*	nsubj	basic	51-8	
+51-2	5416-5417	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	51-4	
+51-3	5418-5420	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	51-4	
+51-4	5421-5428	имеющие	*	Imp	Nom	*	*	*	*	*	*	Plur	*	*	*	*	Pres	*	Aspect=Imp\|Case=Nom\|Number=Plur\|Tense=Pres\|VerbForm=Part\|Voice=Act	Part	Act	PTCP\|VERB	VERB	имеющий\|иметь	_	_	_	_	_	_	_	acl	basic	51-1	
+51-5	5429-5436	решений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	решение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	obj	basic	51-4	
+51-6	5436-5437	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	51-4	
+51-7	5438-5443	также	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	также	_	_	_	_	_	_	_	advmod	basic	51-8	
+51-8	5444-5452	являются	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	являться	_	_	_	_	_	_	_	ROOT	basic	51-8	
+51-9	5453-5466	равносильными	*	*	Ins	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Case=Ins\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	xcomp	basic	51-8	
+51-10	5466-5467	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	51-8	
+
+#Sentence.id=52
+#Text=Например, первое.
+52-1	5468-5476	Например	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	например	_	_	_	_	_	_	_	parataxis	basic	52-3	
+52-2	5476-5477	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	52-1	
+52-3	5478-5484	первое	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	первый	_	_	_	_	_	_	_	ROOT	basic	52-3	
+52-4	5484-5485	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	52-3	
+
+#Sentence.id=53
+#Text=Неравенства икс минус три, делённое на икс квадрат плюс один, меньше нуля и икс минус три меньше нуля равносильны, так как имеют одно и то же множество решений икс меньше трёх.
+53-1	5486-5497	Неравенства	Inan	*	Nom	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	неравенство	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51658	*	_	*	nsubj	basic	53-4	
+53-2	5498-5501	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	53-1	
+53-3	5502-5507	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	case	basic	53-4	
+53-4	5508-5511	три	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	три	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	53-9	
+53-5	5511-5512	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	53-6	
+53-6	5513-5521	делённое	*	Perf	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Case=Nom\|Gender=Neut\|Number=Sing\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	PTCP\|VERB	VERB	делённый\|делить	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b50	*	_	*	acl	basic	53-4	
+53-7	5522-5524	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	_	_	_	_	_	_	_	case	basic	53-8	
+53-8	5525-5528	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	obl	basic	53-6	
+53-9	5529-5536	квадрат	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	квадрат	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#08daba7ec97f44f58065397fbcbf525353	*	_	*	nsubj	basic	53-11	
+53-10	5537-5541	плюс	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	плюс	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57	*	_	*	case	basic	53-11	
+53-11	5542-5546	один	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	один	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nsubj	basic	53-21	
+53-12	5546-5547	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	53-13	
+53-13	5548-5554	меньше	*	*	*	*	Cmp	*	*	*	*	*	*	*	*	*	*	*	Degree=Cmp	*	*	NUM	NUM	меньше	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b43	*	_	*	conj	basic	53-11	
+53-14	5555-5559	нуля	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	нуль	0	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obl	basic	53-13	
+53-15	5560-5561	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	53-16	
+53-16	5562-5565	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	conj	basic	53-14	
+53-17	5566-5571	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	case	basic	53-20	
+53-18	5572-5575	три	Inan	*	Acc	*	*	*	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc	*	*	NUM	NUM	три	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	53-19	
+53-19	5576-5582	меньше	*	*	*	*	Cmp	*	*	*	*	*	*	*	*	*	*	*	Degree=Cmp	*	*	NUM	NUM	меньше	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b43	*	_	*	nummod:gov	basic	53-20	
+53-20	5583-5587	нуля	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	нуль	0	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	conj	basic	53-11	
+53-21	5588-5599	равносильны	*	*	*	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Degree=Pos\|Number=Plur\|StyleVariant=Short	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	ROOT	basic	53-21	
+53-22	5599-5600	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	53-25	
+53-23	5601-5604	так	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	так	_	_	_	_	_	_	_	mark	basic	53-25	
+53-24	5605-5608	как	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	как	_	_	_	_	_	_	_	fixed	basic	53-23	
+53-25	5609-5614	имеют	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	иметь	_	_	_	_	_	_	_	advcl	basic	53-21	
+53-26	5615-5619	одно	Inan	*	Acc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	DET	DET	один	_	_	_	_	_	_	_	amod	basic	53-30	
+53-27	5620-5621	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	53-28	
+53-28	5622-5624	то	Inan	*	Acc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Neut\|Number=Sing	*	*	DET	DET	тот	_	_	_	_	_	_	_	det	basic	53-26	
+53-29	5625-5627	же	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PART	PART	же	_	_	_	_	_	_	_	advmod	basic	53-28	
+53-30	5628-5637	множество	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	множество	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e77	*	_	*	obj	basic	53-25	
+53-31	5638-5645	решений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	решение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	nmod	basic	53-30	
+53-32	5646-5649	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	53-31	
+53-33	5650-5656	меньше	*	*	*	*	Cmp	*	*	*	*	*	*	*	*	*	*	*	Degree=Cmp	*	*	NUM	NUM	меньше	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b43	*	_	*	nummod:gov	basic	53-34	
+53-34	5657-5661	трёх	*	*	Gen	*	*	*	*	*	*	*	*	*	*	*	*	*	Case=Gen	*	*	NUM	NUM	три	3	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obj	basic	53-25	
+53-35	5661-5662	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	53-21	
+
+#Sentence.id=54
+#Text=Второе.
+54-1	5663-5669	Второе	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	второй	_	_	_	_	_	_	_	ROOT	basic	54-1	
+54-2	5669-5670	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	54-1	
+
+#Sentence.id=55
+#Text=Неравенства два икс, делённое на икс минус один, больше единицы и два икс больше икс минус один не равносильны, так как решениями первого являются числа икс меньше, чем минус один, и икс больше единицы, а решениями второго - числа икс больше минус единицы.
+55-1	5671-5682	Неравенства	Inan	*	Nom	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	неравенство	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51658	*	_	*	nsubj	basic	55-3	
+55-2	5683-5686	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	55-3	
+55-3	5687-5690	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nsubj	basic	55-21	
+55-4	5690-5691	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	55-5	
+55-5	5692-5700	делённое	*	Perf	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	Past	*	Aspect=Perf\|Case=Nom\|Gender=Neut\|Number=Sing\|Tense=Past\|VerbForm=Part\|Voice=Pass	Part	Pass	PTCP\|VERB	VERB	делённый\|делить	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b50	*	_	*	acl	basic	55-3	
+55-6	5701-5703	на	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	на	_	_	_	_	_	_	_	case	basic	55-7	
+55-7	5704-5707	икс	Inan	*	Acc	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	obl	basic	55-5	
+55-8	5708-5713	минус	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	advmod	basic	55-9	
+55-9	5714-5718	один	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	один	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod	basic	55-12	
+55-10	5718-5719	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	55-11	
+55-11	5720-5726	больше	*	*	*	*	Cmp	*	*	*	*	*	*	*	*	*	*	*	Degree=Cmp	*	*	NUM	NUM	больше	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b42	*	_	*	conj	basic	55-9	
+55-12	5727-5734	единицы	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	единица	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obj	basic	55-5	
+55-13	5735-5736	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	55-15	
+55-14	5737-5740	два	Inan	*	Acc	*	*	Masc	*	*	*	*	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc	*	*	NUM	NUM	два	2	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nummod:gov	basic	55-15	
+55-15	5741-5744	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	conj	basic	55-12	
+55-16	5745-5751	больше	*	*	*	*	Cmp	*	*	*	*	*	*	*	*	*	*	*	Degree=Cmp	*	*	NUM	NUM	больше	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b42	*	_	*	advmod	basic	55-21	
+55-17	5752-5755	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	obl	basic	55-16	
+55-18	5756-5761	минус	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48	*	_	*	nsubj	basic	55-21	
+55-19	5762-5766	один	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	один	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	fixed	basic	55-18	
+55-20	5767-5769	не	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	Polarity=Neg	*	*	PART	PART	не	_	_	_	_	_	_	_	advmod	basic	55-21	
+55-21	5770-5781	равносильны	*	*	*	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Degree=Pos\|Number=Plur\|StyleVariant=Short	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	ROOT	basic	55-21	
+55-22	5781-5782	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	55-27	
+55-23	5783-5786	так	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	так	_	_	_	_	_	_	_	mark	basic	55-27	
+55-24	5787-5790	как	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	как	_	_	_	_	_	_	_	fixed	basic	55-23	
+55-25	5791-5800	решениями	Inan	*	Ins	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	решение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	xcomp	basic	55-27	
+55-26	5801-5808	первого	*	*	Gen	*	Pos	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Masc\|Number=Sing	*	*	ADJ	ADJ	первый	_	_	_	_	_	_	_	nmod	basic	55-25	
+55-27	5809-5817	являются	*	Imp	*	*	*	*	Ind	*	*	Plur	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Plur\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	являться	_	_	_	_	_	_	_	advcl	basic	55-21	
+55-28	5818-5823	числа	Inan	*	Nom	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	число	_	_	_	_	_	_	_	nsubj	basic	55-27	
+55-29	5824-5827	икс	Inan	*	Gen	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	55-28	
+55-30	5828-5834	меньше	*	*	*	*	Cmp	*	*	*	*	*	*	*	*	*	*	*	Degree=Cmp	*	*	NUM	NUM	меньше	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b43	*	_	*	xcomp	basic	55-27	
+55-31	5834-5835	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	55-34	
+55-32	5836-5839	чем	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SCONJ	SCONJ	чем	_	_	_	_	_	_	_	mark	basic	55-34	
+55-33	5840-5845	минус	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#95b051b0cac145c2a619143bb347cb2d92	*	_	*	nsubj	basic	55-34	
+55-34	5846-5850	один	*	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Gender=Masc\|Number=Sing	*	*	NUM	NUM	один	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	advcl	basic	55-30	
+55-35	5850-5851	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	55-37	
+55-36	5852-5853	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	55-37	
+55-37	5854-5857	икс	Inan	*	Nom	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Masc\|Number=Sing	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	conj	basic	55-21	
+55-38	5858-5864	больше	*	*	*	*	Cmp	*	*	*	*	*	*	*	*	*	*	*	Degree=Cmp	*	*	NUM	NUM	больше	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b42	*	_	*	nummod:gov	basic	55-39	
+55-39	5865-5872	единицы	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	единица	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	nmod	basic	55-37	
+55-40	5872-5873	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	55-42	
+55-41	5874-5875	а	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	а	_	_	_	_	_	_	_	cc	basic	55-42	
+55-42	5876-5885	решениями	Inan	*	Ins	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Ins\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	решение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291	*	_	*	obl	basic	55-47	
+55-43	5886-5893	второго	*	*	Gen	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Gen\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	второй	_	_	_	_	_	_	_	nmod	basic	55-42	
+55-44	5894-5895	-	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	-	_	_	_	_	_	_	_	nmod	basic	55-42	
+55-45	5896-5901	числа	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	число	_	_	_	_	_	_	_	nmod	basic	55-42	
+55-46	5902-5905	икс	Inan	*	Gen	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Plur	*	*	NOUN	NOUN	икс	x	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83	*	_	*	nmod	basic	55-45	
+55-47	5906-5912	больше	*	*	*	*	Cmp	*	*	*	*	*	*	*	*	*	*	*	Degree=Cmp	*	*	ADV	ADV	больше	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b42	*	_	*	conj	basic	55-21	
+55-48	5913-5918	минус	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	минус	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#95b051b0cac145c2a619143bb347cb2d92	*	_	*	case	basic	55-49	
+55-49	5919-5926	единицы	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	единица	1	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478	*	_	*	obl	basic	55-47	
+55-50	5926-5927	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	55-21	
+
+#Sentence.id=56
+#Text=При решении неравенств обычно данное неравенство преобразуется в ему равносильное.
+56-1	5928-5931	При	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	При	_	_	_	_	_	_	_	case	basic	56-2	
+56-2	5932-5939	решении	Inan	*	Loc	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Loc\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	решение	_	_	_	_	_	_	_	obl	basic	56-7	
+56-3	5940-5950	неравенств	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	неравенство	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51658	*	_	*	nmod	basic	56-2	
+56-4	5951-5957	обычно	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	обычно	_	_	_	_	_	_	_	advmod	basic	56-7	
+56-5	5958-5964	данное	*	*	Nom	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Case=Nom\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	данное	_	_	_	_	_	_	_	amod	basic	56-6	
+56-6	5965-5976	неравенство	Inan	*	Nom	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Nom\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	неравенство	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51658	*	_	*	nsubj	basic	56-7	
+56-7	5977-5990	преобразуется	*	Imp	*	*	*	*	Ind	*	*	Sing	Third	*	*	*	Pres	*	Aspect=Imp\|Mood=Ind\|Number=Sing\|Person=Third\|Tense=Pres\|VerbForm=Fin\|Voice=Mid	Fin	Mid	VERB	VERB	преобразуется	_	_	_	_	_	_	_	ROOT	basic	56-7	
+56-8	5991-5992	в	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	в	_	_	_	_	_	_	_	case	basic	56-9	
+56-9	5993-5996	ему	*	*	Dat	*	*	Masc	*	*	*	Sing	Third	*	*	*	*	*	Case=Dat\|Gender=Masc\|Number=Sing\|Person=Third	*	*	PRON	PRON	ему	_	_	_	_	_	_	_	obl	basic	56-7	
+56-10	5997-6009	равносильное	Inan	*	Acc	*	Pos	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Gender=Neut\|Number=Sing	*	*	ADJ	ADJ	равносильный	_	_	_	_	_	_	_	xcomp	basic	56-7	
+56-11	6009-6010	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	56-7	
+
+#Sentence.id=57
+#Text=Итак, сегодня мы с вами рассмотрели основные теоремы равносильности для решения уравнений и неравенств.
+57-1	6011-6015	Итак	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	итак	_	_	_	_	_	_	_	parataxis	basic	57-7	
+57-2	6015-6016	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	,	_	_	_	_	_	_	_	punct	basic	57-1	
+57-3	6017-6024	сегодня	*	*	*	*	Pos	*	*	*	*	*	*	*	*	*	*	*	Degree=Pos	*	*	ADV	ADV	сегодня	_	_	_	_	_	_	_	advmod	basic	57-7	
+57-4	6025-6027	мы	*	*	Nom	*	*	*	*	*	*	Plur	First	*	*	*	*	*	Case=Nom\|Number=Plur\|Person=First	*	*	PRON	PRON	мы	_	_	_	_	_	_	_	nsubj	basic	57-7	
+57-5	6028-6029	с	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	с	_	_	_	_	_	_	_	case	basic	57-6	
+57-6	6030-6034	вами	*	*	Ins	*	*	*	*	*	*	Plur	Second	*	*	*	*	*	Case=Ins\|Number=Plur\|Person=Second	*	*	PRON	PRON	вами	_	_	_	_	_	_	_	nmod	basic	57-4	
+57-7	6035-6046	рассмотрели	*	Perf	*	*	*	*	Ind	*	*	Plur	*	*	*	*	Past	*	Aspect=Perf\|Mood=Ind\|Number=Plur\|Tense=Past\|VerbForm=Fin\|Voice=Act	Fin	Act	VERB	VERB	рассмотреть	_	_	_	_	_	_	_	ROOT	basic	57-7	
+57-8	6047-6055	основные	Inan	*	Acc	*	Pos	*	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Degree=Pos\|Number=Plur	*	*	ADJ	ADJ	основный	_	_	_	_	_	_	_	amod	basic	57-9	
+57-9	6056-6063	теоремы	Inan	*	Acc	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Acc\|Gender=Masc\|Number=Plur	*	*	NOUN	NOUN	теоремы	_	_	_	_	_	_	_	obj	basic	57-7	
+57-10	6064-6078	равносильности	Inan	*	Gen	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Fem\|Number=Sing	*	*	NOUN	NOUN	равносильность	_	_	_	_	_	_	_	nmod	basic	57-9	
+57-11	6079-6082	для	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	ADP	ADP	для	_	_	_	_	_	_	_	case	basic	57-12	
+57-12	6083-6090	решения	Inan	*	Gen	*	*	Neut	*	*	*	Sing	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Sing	*	*	NOUN	NOUN	решение	_	_	_	_	_	_	_	nmod	basic	57-10	
+57-13	6091-6100	уравнений	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	уравнение	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656	*	_	*	nmod	basic	57-12	
+57-14	6101-6102	и	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CCONJ	CCONJ	и	_	_	_	_	_	_	_	cc	basic	57-15	
+57-15	6103-6113	неравенств	Inan	*	Gen	*	*	Neut	*	*	*	Plur	*	*	*	*	*	*	Animacy=Inan\|Case=Gen\|Gender=Neut\|Number=Plur	*	*	NOUN	NOUN	неравенство	*	_	*	http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51658	*	_	*	conj	basic	57-13	
+57-16	6113-6114	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PUNCT	PUNCT	.	_	_	_	_	_	_	_	punct	basic	57-7	

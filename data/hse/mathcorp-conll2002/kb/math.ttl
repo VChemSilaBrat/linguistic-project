@@ -1,0 +1,1010 @@
+@prefix : <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+:subClassOf a rdf:Property;
+  :label "subClassOf"@ru, "subClassOf"@en .
+
+rdf:type a rdf:Property;
+  :label "type"@ru, "type"@en .
+
+:label a rdf:Property;
+  :label "label"@ru, "label"@en;
+  :range "http://www.w3.org/2001/XMLSchema#string" .
+
+:comment a rdf:Property;
+  :label "comment"@ru, "comment"@en;
+  :range "http://www.w3.org/2001/XMLSchema#string" .
+
+:subPropertyOf a rdf:Property;
+  :label "subPropertyOf"@ru, "subPropertyOf"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b36>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :label "Logical predicate"@en, "Логический предикат"@ru;
+  :comment "Returns truth value (0/1)"@en, "Возвращает значение истинности (0/1)"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b39>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :label "Function"@en, "Функция_класс"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b40>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac87>;
+  :label "Equal to"@en, "Равен"@ru, "="@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac87>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b36>;
+  :label "Comparison"@en, "Сравнение"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b41>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac87>;
+  :label "Inequal"@en, "Неравен"@ru, "≠"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b42>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac87>;
+  :label "Greater than"@en, "Больше"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b43>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac87>;
+  :label "Less than"@en, "Меньше"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b44>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac87>;
+  :label "Greater than or equal to"@en, "Больше или равно"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b45>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac87>;
+  :label "Less than or equal to"@en, "Меньше или равно"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b46>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :label "Operation"@en, "Операция"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b48>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b46>;
+  :label "Subtraction"@en, "Вычитание"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b49>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b46>;
+  :label "Multiplication"@en, "Умножение"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b50>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b46>;
+  :label "Division"@en, "Деление"@ru;
+  <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#72e0c286e3ae4def96cc5fc61d91b09853>
+    "/div(arg1, arg2)" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#72e0c286e3ae4def96cc5fc61d91b09853>
+  a rdf:Property;
+  :label "latex_formula"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b51>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b46>;
+  :label "Exponentation"@en, "Возведение в степень"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b52>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b46>;
+  :label "Root"@en, "Корень"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b57>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b46>;
+  :label "Addition"@en, "Сложение"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac35>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b39>;
+  :label "Defined Function"@en, "f(x)"@symbol, "Определённая функция"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac36>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :label "Term"@en, "Терм"@ru;
+  :comment "Не имеет аргументов, сам заполняет аргументные слоты"@ru, "Has no arguments, rather fills argument slots"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac66>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac36>;
+  :label "Переменная_класс"@ru, "Variable_class"@en;
+  :comment "When tagging, write the letter into the Name field"@en, "При разметке впишите название переменной латиницей в поле \"Name\". Пример: икс → x; игрек → y"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac67>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac36>;
+  :label "Constant"@en, "Константа"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac70>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac36>;
+  :label "Число_класс"@ru, "Number_class"@en;
+  :comment "When tagging, write the number in decimal in the Name field"@en, "При аннотации запишите числовое значение в поле Name"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac72>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b39>;
+  :label "Trigonometric"@en, "Тригонометрическая"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac73>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac72>;
+  :label "Sine"@en, "sin"@symbol, "Синус"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac74>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac72>;
+  :label "Cosine"@en, "cosin"@symbol, "Косинус"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac75>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac72>;
+  :label "Tangent"@en, "tan"@symbol, "Тангенс" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac76>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac72>;
+  :label "Cotangent"@en, "cotan"@symbol, "Котангенс" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac77>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac72>;
+  :label "Secant"@en, "sec"@symbol, "Секанс" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac78>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac72>;
+  :label "Cosecant"@en, "cosec"@symbol, "Косеканс" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac79>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b39>;
+  :label "Factorial"@en, "x!"@symbol, "Факториал"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac80>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b39>;
+  :label "Absolute value"@en, "|x|"@symbol, "Модуль"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac81>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b39>;
+  :label "Derivative"@en, "Производная"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac82>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac66>;
+  :label "Parameter"@en, "Параметр"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac83>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac66>;
+  :label "Неизвестная переменная"@ru, "Unknown variable"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac84>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b39>;
+  :label "Big-O"@en, "O(x)"@symbol, "О-большое"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac85>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b39>;
+  :label "Small-o"@en, "o(x)"@symbol, "о-малое"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac86>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b36>;
+  :label "Approaches"@en, "Стремится"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac91>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :label "Condition"@en, "Условие"@ru;
+  :comment "Используется для выражений \"если... то...\""@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172711>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b36>;
+  :label "Set Comparison"@en, "Сравнение множеств"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172712>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172711>;
+  :label "Subset"@en, "Подмножество"@ru, "⊂"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172713>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172711>;
+  :label "Superset"@en, "Надмножество"@ru, "⊃"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172714>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b36>;
+  :label "Divisibility"@en, "Делимость"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172715>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172714>;
+  :label "Even"@en, "Чётное"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172716>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172714>;
+  :label "Odd"@en, "Нечётное"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172717>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172714>;
+  :label "Divisible by"@en, "⫶"@symbol, "Делится на"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172718>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :label "Visual"@en, "Визуальное"@ru;
+  :comment "Описание нотации (скобки, запятые и т.д.)"@ru, "Notation description (brackets, commas etc.)"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172719>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172718>;
+  :label "Comma"@en, ","@symbol, "Запятая"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172720>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172718>;
+  :label "Brackets"@en, "Скобки"@ru, "( )"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172721>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :label "Преобразования"@ru, "Transformations"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172723>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172721>;
+  :label "Beginning of solution"@en, "Зачин решения"@ru;
+  :comment "Штуки типа \"Возьмём...\" \"Пусть\""@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172724>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172721>;
+  :label "Вынести"@ru, "Extract"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172725>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172721>;
+  :label "Cancel out"@en, "Сократить"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172729>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :label "Aggregating Function"@en, "Агреггирующая функция"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172731>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172729>;
+  :label "Average"@en, "Среднее"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172732>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172731>;
+  :label "Arithmetic mean"@en, "Среднее арифметическое"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172733>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172731>;
+  :label "Geometric mean"@en, "Среднее геометрическое"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172734>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172731>;
+  :label "Median"@en, "Медиана"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9e7c5a4ce7a243ca8897ac2d59c6032743>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172718>;
+  :label "Index"@en, "Индекс"@ru;
+  :comment "Written on the lower baseline"@en, "Пишется на нижней базовой линии"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#90ce4be02d494f78b24a4cf2290fd1f453>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b50>;
+  :label "Дробь"@ru, "Fraction"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#90ce4be02d494f78b24a4cf2290fd1f455>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac67>;
+  :label "Infinity"@en, "∞"@symbol, "Бесконечность"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#90ce4be02d494f78b24a4cf2290fd1f456>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac67>;
+  :label "Pi"@en, "π"@symbol, "Пи"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#90ce4be02d494f78b24a4cf2290fd1f457>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac67>;
+  :label "Euler's number"@en, "e"@symbol, "Число Эйлера"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#08daba7ec97f44f58065397fbcbf525353>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac70>;
+  :label "Квадрат (степень)"@ru;
+  :comment "Только для степени, \"квадрат\", \"квадратный\""@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#08daba7ec97f44f58065397fbcbf525357>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac70>;
+  :label "Куб (степень)"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#08daba7ec97f44f58065397fbcbf525358>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9275>;
+  :label "Числитель"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9275>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :label "Аргументы и результаты (лексика)"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#08daba7ec97f44f58065397fbcbf525359>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9275>;
+  :label "Знаменатель"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#544b587681ae40819705c75e0b080cdf53>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b46>;
+  :label "Предел"@ru, "Limit"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51653>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :label "Формулы"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51654>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51653>;
+  :label "Выражение"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51656>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51653>;
+  :label "Уравнение"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51657>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51653>;
+  :label "Равенство"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51658>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51657>;
+  :label "Неравенство"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51659>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#9c544f66497344d7bac85b4a6a1ad51653>;
+  :label "Многочлен"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#20d05471972f4ffa8b7a4e828cf0852653>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :label "Формула"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#20d05471972f4ffa8b7a4e828cf0852654>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :label "Преобразования"@ru, "Transformations"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#fdd7afcc821647cc8a0fcf6916f0155353>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172718>;
+  :label "Минус"@ru, "Minus sign"@en, "-"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#fdd7afcc821647cc8a0fcf6916f0155355>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172718>;
+  :label "Плюс"@ru, "Plus sign"@en, "+"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2471>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac70>;
+  :label "Число с дробью (рациональное)"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2472>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2471>;
+  :label "Число с простой дробью"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2473>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2471>;
+  :label "Число с десятичной дробью"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2478>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac70>;
+  :label "Целое число"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9271>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac70>;
+  :label "Квадрат (корень)"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9272>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac70>;
+  :label "Куб (корень)"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9273>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac70>;
+  :label "Квадрат (уравнение)"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9274>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac70>;
+  :label "Куб (уравнение)"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9276>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9275>;
+  :label "Множитель"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9277>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9275>;
+  :label "Произведение"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9279>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9275>;
+  :label "Слагаемое"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9280>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9275>;
+  :label "Сумма"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9281>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9275>;
+  :label "Уменьшаемое"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9284>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9275>;
+  :label "Вычитаемое"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9285>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9275>;
+  :label "Разность"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9287>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9275>;
+  :label "Делимое"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9288>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9275>;
+  :label "Делитель"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9289>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9275>;
+  :label "Частное"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9290>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac70>;
+  :label "Коэффициент"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9291>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9275>;
+  :label "Решение уравнения"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#95b051b0cac145c2a619143bb347cb2d92>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b46>;
+  :label "Унарный минус"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#95b051b0cac145c2a619143bb347cb2d97>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac70>;
+  :label "Иррациональное число"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c38>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b46>;
+  :label "Логарифм"@ru, "Logarithm"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c39>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9275>;
+  :label "Основание (логарифм)"@ru, "Base (logarithm)"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c41>
+  :label "Неопределённый интеграл"@ru, "Antiderivative"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c42>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b50>;
+  :label "Пополам"@ru, "Divide by two"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c43>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :label "Описание функции"@ru, "Function mapping"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c44>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c43>;
+  :label "Область определения функции"@ru, "Domain (function)"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c45>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c43>;
+  :label "Область значений функции"@ru, "Range (function)"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c55>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac87>;
+  :label "Примерно равно"@ru, "Approximately equal to"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c56>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b39>;
+  :label "Теория вероятностей"@ru, "Probability theory"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c57>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c56>;
+  :label "Дисперсия случайной величины"@ru, "Variance"@en;
+  :comment "Var(X)"@en, "D(X)"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c58>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c56>;
+  :label "Математическое ожидание"@ru, "Expected value"@en;
+  :comment "E(X)"@en, "M(X)"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c59>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c56>;
+  :label "Среднеквадратическое отклонение"@ru, "Standard deviation"@en;
+  :comment "σ"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c60>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b39>;
+  :label "Теория чисел"@ru, "Number theory"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c61>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c60>;
+  :label "Наибольший общий делитель"@ru, "Greatest common divisor"@en;
+  :comment "НОД(x, y)"@ru, "gcd(x, y)"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c62>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c60>;
+  :label "Наименьшее общее кратное"@ru, "Least common multiple"@en;
+  :comment "НОК(x, y)"@ru, "lcm(x, y)"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#6c504603dc60499cac70f1895698d65041>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c56>;
+  :label "Случайная величина"@ru, "Random variable"@en, "ξ"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e41>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b46>;
+  :label "Унарный плюс"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e42>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b39>;
+  :label "Последовательность"@ru, "Sequence"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e43>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172718>;
+  :label "Цифра"@ru, "Digit"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e44>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b39>;
+  :label "Antiderivative"@en, "Первообразная"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e46>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c56>;
+  :label "Распределение вероятностей"@ru, "Probability distribution"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e47>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e46>;
+  :label "Распределение Пуассона"@ru, "Poisson distribution"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e48>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e46>;
+  :label "Биномиальное распределение"@ru, "Binomial distribution"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e49>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e46>;
+  :label "Нормальное распределение"@ru, "Normal distribution"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e50>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac91>;
+  :label "Кванторы"@ru, "Quantifiers"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e51>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e50>;
+  :label "Квантор всеобщности"@ru, "Universal quantification"@en, "∀"@symbol;
+  :comment "Для любого, для каждого, для всех; каждый, любой, все..."@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e52>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e50>;
+  :label "Квантор существования"@ru, "Existential quantification"@en, "∃"@symbol;
+  :comment "Существует, найдётся..."@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e53>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e50>;
+  :label "Квантор единственности"@ru, "Uniqueness quantification"@en, "∃!"@symbol;
+  :comment "Существует единственный; является единственным..."@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e54>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac91>;
+  :label "Логические операции"@ru, "Logical connectives"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e55>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e54>;
+  :label "Конъюнкция"@ru, "Logical conjunction"@en, "∧"@symbol;
+  :comment "Логическое \"и\""@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e56>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e54>;
+  :label "Дизъюнкция"@ru, "Logical disjunction"@en, "∨"@symbol;
+  :comment "Логическое \"или\""@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e57>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e54>;
+  :label "Импликация"@ru, "Material implication"@en, "→"@symbol;
+  :comment "Если..., то; тогда..."@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e58>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e54>;
+  :label "Эквиваленция"@ru, "↔"@symbol, "Logical equality"@en;
+  :comment "Тогда и только тогда когда..."@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e59>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e54>;
+  :label "Отрицание"@ru, "Negation"@en, "¬"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e60>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9275>;
+  :label "Степень (выражение)"@ru;
+  :comment "Для референции к выражениям вроде (x+y)^n"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e61>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172714>;
+  :label "Not divisible by"@en, "Не делится на"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e62>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c43>;
+  :label "Монотонность"@ru, "Monotonicity"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e63>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e62>;
+  :label "Убывает"@ru, "Monotonically decreasing"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e64>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e62>;
+  :label "Возрастает"@ru, "Monotonically increasing"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e65>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c43>;
+  :label "Continuous function"@en, "Непрерывность (функция)"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e66>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c43>;
+  :label "Discontinuous function"@en, "С разрывами (функция)"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e67>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c43>;
+  :label "Разрыв"@ru, "Discontinuity"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e77>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac36>;
+  :label "Множество"@ru, "Set"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e78>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#544b587681ae40819705c75e0b080cdf53>;
+  :label "Левый предел"@ru, "Left limit"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e79>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#544b587681ae40819705c75e0b080cdf53>;
+  :label "Правый предел"@ru, "Right limit"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e80>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e77>;
+  :label "Множество рациональных чисел"@ru, "Field of rationals"@en, "Q"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e81>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e77>;
+  :label "Множество натуральных чисел"@ru, "Natural numbers"@en, "N"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e82>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e77>;
+  :label "Множество целых чисел"@ru, "Integers"@en, "Z"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e83>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e77>;
+  :label "Real numbers"@en, "R"@symbol, "Множество вещественных (действительных) чисел"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e84>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b39>;
+  :label "Комбинаторика"@ru, "Combinatorics"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e85>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e84>;
+  :label "Permutation"@en, "Перестановка (комбинаторика)"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e86>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e84>;
+  :label "Размещение (комбинаторика)"@ru, "Partial permutation"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e87>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e84>;
+  :label "Сочетание (комбинаторика)"@ru, "Combination"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e89>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#a7357b05d4f14e2cad12d6491fd6616b39>;
+  :label "Интеграл"@ru, "Integral"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#6c9df02ee6484c68966a7668f066c06e47>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac36>;
+  :label "Событие"@ru, "Event"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#6c9df02ee6484c68966a7668f066c06e48>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e89>;
+  :label "Определённый интеграл"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#6c9df02ee6484c68966a7668f066c06e49>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e89>;
+  :label "Неопределённый интеграл"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#398a1f8648ca4439b8c1a247496022c341>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172718>;
+  :label "="@symbol, "Знак равенства"@ru, "Equals sign"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dad7bb8231542c3941c25cbd0947c8941>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#20d05471972f4ffa8b7a4e828cf0852653>;
+  :label "Дискриминант"@ru, "Discriminant"@en, "D"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dad7bb8231542c3941c25cbd0947c8942>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172718>;
+  :label "≠"@symbol, "Знак неравенства"@ru, "Not equal to sign"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dad7bb8231542c3941c25cbd0947c8943>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172711>;
+  :label "Принадлежит"@ru, "Element of set"@en, "∈"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#b207780814dc44f6b140a79c69bef64f41>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9275>;
+  :label "Основание (степень)"@ru, "Base (exponentiation)"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#b207780814dc44f6b140a79c69bef64f42>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#c9cebc7d0ef346e8a18c41652d65bd9275>;
+  :label "Значение функции"@ru, "Value of function"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#21affaf0c2f241199cc96da93089df2c41>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c56>;
+  :label "Корреляция"@ru, "Correlation"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#21affaf0c2f241199cc96da93089df2c42>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#21affaf0c2f241199cc96da93089df2c41>;
+  :label "Ковариация"@ru, "Covariance"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#21affaf0c2f241199cc96da93089df2c43>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#21affaf0c2f241199cc96da93089df2c41>;
+  :label "R"@symbol, "Коэффициент корреляции Пирсона"@ru, "Pearson product-moment correlation coefficient"@en,
+    "r"@symbol, "ρ"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#21affaf0c2f241199cc96da93089df2c44>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c43>;
+  :label "Размерность функции"@ru, "Dimensionality of function"@en;
+  :comment <https://wikisocion.github.io/content/dimensionality.html> .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#21affaf0c2f241199cc96da93089df2c45>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#21affaf0c2f241199cc96da93089df2c44>;
+  :label "Двумерная (функция)"@ru, "2-dimensional"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#21affaf0c2f241199cc96da93089df2c46>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#21affaf0c2f241199cc96da93089df2c44>;
+  :label "Трёхмерная (функция)"@ru, "3-dimensional"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#21affaf0c2f241199cc96da93089df2c47>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c56>;
+  :label "Вероятность"@ru, "Probability"@en, "P"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#21affaf0c2f241199cc96da93089df2c48>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e60>;
+  :label "Квадрат (выражение)"@ru;
+  :comment "Для референции к выражениям вроде (x+y)^2" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#21affaf0c2f241199cc96da93089df2c49>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e60>;
+  :label "Куб (выражение)"@ru;
+  :comment "Для референции к выражениям вроде (x+y)^3" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#21affaf0c2f241199cc96da93089df2c50>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e77>;
+  :label "Множество иррациональных чисел"@ru, "Irrational numbers"@en, "I"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#21affaf0c2f241199cc96da93089df2c51>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#e9312d08980f4baa9400f1e1c0291a2471>;
+  :label "Периодическая дробь"@ru, "Repeating decimal"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#21affaf0c2f241199cc96da93089df2c52>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#f44c7bd899924c689bcc54588c4f274e77>;
+  :label "Множество комплексных чисел"@ru, "Complex numbers"@en, "C"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea541>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172711>;
+  :label "Промежутки"@ru, "Intervals"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea542>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea541>;
+  :label "Числовой отрезок"@ru, "Closed interval"@en, "[a,b]"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea543>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea541>;
+  :label "Интервал"@ru, "Open interval"@en, "(a,b)"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea544>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea541>;
+  :label "Полуинтервал"@ru, "Half-open interval"@en, "[a,b) (a,b]"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea545>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea544>;
+  :label "Луч"@ru, "Half-line"@en, """(-∞, a] 
+[a, +∞)
+(-∞, a)
+(a, +∞)"""@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea546>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea543>;
+  :label "Числовая прямая"@ru, "Number line"@en, "(-∞, +∞)"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea550>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#20d05471972f4ffa8b7a4e828cf0852654>;
+  :label "Operand transfer"@en, "Перенос_old"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea551>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c44>;
+  :label "Нуль функции"@ru, "Root of function"@en, "f(x)=0"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea552>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :label "Кривая"@ru, "Plane curve"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea553>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea552>;
+  :label "Парабола"@ru, "Parabola"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea554>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc31>;
+  :label "Ось"@ru, "Axis"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc31>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :label "График_класс"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea555>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea554>;
+  :label "Ось абсцисс (OX)"@ru, "X-axis"@en, "OX"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea556>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea554>;
+  :label "Ось ординат (OY)"@ru, "Y-axis"@en, "OY"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea557>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172721>;
+  :label "Operand transfer"@en, "Перенос"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea558>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#ddd660bf9e63419aa13536da3f09172721>;
+  :label "Приведение подобных"@ru, "Reduction"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#044ef4936fbf48bea51a875ab0e33ea559>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#8dee7ce5a3db457ea7f806cb5c19b04c56>;
+  :label "Случайный эксперимент"@ru, "Trial"@en, "(S, F, P)"@symbol .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc29>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac70>;
+  :label "Положительное число"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc30>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#d702d18d637a40d38957eefcefba86ac70>;
+  :label "Отрицательное число"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc32>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc31>;
+  :label "Виды графиков"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc33>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc32>;
+  :label "Парабола"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc34>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc32>;
+  :label "Гипербола"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc37>
+  :label "Возрастание"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc39>
+  :label "Убывание"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc40>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc31>;
+  :label "Точка"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc41>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc40>;
+  :label "Выколотая точка"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc42>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc40>;
+  :label "Невыколотая точка"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc43>
+  a <http://www.w3.org/2002/07/owl#Class>;
+  :subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc31>;
+  :label "Вершина графика"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc44>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc34>;
+  :label "Ветви вверх"@ru .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc45>
+  a <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#27ed2750726f4dfebb9ce3e5540057bc34>;
+  :label "Ветви вниз"@ru .
