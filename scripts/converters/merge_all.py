@@ -6,8 +6,10 @@ Splits:
   - val:         31 sentences from Gosha (remaining)
   - train_clean: 185 synthetic sentences
   - train_noisy: all Mathematicon sentences with at least one math span
+  - train_llm:   all Groq-generated sentences with at least one math span
 
-Input:  data/bio/bio_gosha.tsv, bio_synthetic.tsv, bio_mathematicon.tsv
+Input:  data/bio/bio_gosha.tsv, bio_synthetic.tsv, bio_mathematicon.tsv,
+        bio_llm_generated.tsv (optional — skipped with a warning if not yet generated)
 Output: data/bio/bio_merged.tsv (with 'split' column)
 """
 
@@ -51,6 +53,17 @@ def merge_all(bio_dir, output_path):
     synth_rows = load_tsv(bio_dir / 'bio_synthetic.tsv')
     math_rows = load_tsv(bio_dir / 'bio_mathematicon.tsv')
 
+    # LLM-generated data is produced incrementally (generate_groq.py + convert_llm_generated.py)
+    # and may not exist yet on a given machine, so it's loaded optionally rather than
+    # failing fast like the three sources above.
+    llm_path = bio_dir / 'bio_llm_generated.tsv'
+    if llm_path.exists():
+        llm_rows = load_tsv(llm_path)
+    else:
+        llm_rows = []
+        print(f"NOTE: {llm_path} not found, skipping train_llm split "
+              f"(run convert_llm_generated.py first if you have generated data).")
+
     # --- Assign splits ---
 
     # Gosha: 50 test + 31 val
@@ -73,6 +86,18 @@ def merge_all(bio_dir, output_path):
     print(f"Mathematicon: {len(math_noisy_sids)} train_noisy "
           f"(of {len(math_all_sids)} total)")
 
+    # LLM-generated: only sentences with math spans → train_llm
+    # (convert_llm_generated.py already requires >=1 [MATH] span per line, so this
+    # should normally keep everything, but we filter the same way as Mathematicon
+    # for robustness / consistency.)
+    llm_all_sids = get_sentence_ids(llm_rows)
+    llm_train_sids = set(
+        sid for sid in llm_all_sids if has_math_span(llm_rows, sid)
+    )
+    if llm_rows:
+        print(f"LLM-generated: {len(llm_train_sids)} train_llm "
+              f"(of {len(llm_all_sids)} total)")
+
     # --- Merge with split column ---
     merged = []
 
@@ -86,6 +111,10 @@ def merge_all(bio_dir, output_path):
     for r in math_rows:
         if r['sentence_id'] in math_noisy_sids:
             merged.append({**r, 'split': 'train_noisy'})
+
+    for r in llm_rows:
+        if r['sentence_id'] in llm_train_sids:
+            merged.append({**r, 'split': 'train_llm'})
 
     # Write output
     output_path = Path(output_path)
@@ -115,7 +144,7 @@ def merge_all(bio_dir, output_path):
 
     print(f"\n{'Split':<14} {'Sents':>6} {'Tokens':>7} {'Math':>6} {'Spans':>6}")
     print('-' * 45)
-    for split in ['test', 'val', 'train_clean', 'train_noisy']:
+    for split in ['test', 'val', 'train_clean', 'train_noisy', 'train_llm']:
         c = split_counts.get(split, {'sentences': set(), 'tokens': 0,
                                       'math_tokens': 0, 'b_math': 0})
         print(f"{split:<14} {len(c['sentences']):>6} {c['tokens']:>7} "

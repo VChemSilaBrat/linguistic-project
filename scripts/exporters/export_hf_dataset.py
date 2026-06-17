@@ -21,7 +21,7 @@ from collections import defaultdict
 
 LABEL_TO_ID = {"O": 0, "B-MATH": 1, "I-MATH": 2}
 ID_TO_LABEL = {v: k for k, v in LABEL_TO_ID.items()}
-EXPECTED_SPLITS = ["train_clean", "train_noisy", "val", "test"]
+EXPECTED_SPLITS = ["train_clean", "train_llm", "train_noisy", "val", "test"]
 
 
 def read_bio_tsv(path):
